@@ -1,5 +1,21 @@
+// API key security - - - - - -
 require('dotenv').config()
+const API_KEY = process.env.API_KEY;
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+    module.exports = {
+      entry: 'index.js',
+      plugins: [
+        new HtmlWebpackPlugin({
+          inject: false,
+          template: './template.html',
 
+         
+          apiUrl: `https://maps.googleapis.com/maps/api/js?key=${API_KEY}`,
+
+        });
+      ]
+    }
+// - - - - - - - - - - - - - - 
 requestAnimationFrame()
 async function initMap() {
   const mapData = await fetch("./BurlingtonParkingMap.geojson").then( res => res.json()).then( res => res)
