@@ -46,7 +46,14 @@
       <span id="place-address"></span>
     </div>
 
-    <script src='/index.js'
+    <script src='index.js'>
+      // This example requires the Places library. Include the libraries=places
+      // parameter when you first load the API. For example:
+      // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+      
+    </script>
+    <script src='https://maps.googleapis.com/maps/api/js?key=${process.env.API_KEY}&libraries=places&callback=initMap'
         async defer></script>
   </body>
 </html>
