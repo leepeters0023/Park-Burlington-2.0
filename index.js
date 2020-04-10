@@ -3,7 +3,61 @@ async function initMap() {
   const mapData = await fetch("./BurlingtonParkingMap.geojson").then( res => res.json()).then( res => res)
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 44.478081, lng: -73.215},
-    zoom: 15.3
+    zoom: 15.3,
+    styles: [
+      {
+        featureType: "administrative",
+        elementType: "geometry",
+        stylers: [
+          {
+            visibility: "off"
+          }
+        ]
+      },
+      {
+        featureType: "poi",
+        stylers: [
+          {
+            visibility: "off"
+          }
+        ]
+      },
+      {
+        featureType: "road",
+        elementType: "labels.icon",
+        stylers: [
+          {
+            visibility: "off"
+          }
+        ]
+      },
+      {
+        featureType: "road.arterial",
+        elementType: "geometry.fill",
+        stylers: [
+          {
+            visibility: "off"
+          }
+        ]
+      },
+      {
+        featureType: "transit",
+        stylers: [
+          {
+            visibility: "off"
+          }
+        ]
+      },
+      {
+        featureType: "transit.station.bus",
+        elementType: "labels.icon",
+        stylers: [
+          {
+            visibility: "on"
+          }
+        ]
+      }
+    ]
   });
 
   // Import parking map geojson file
