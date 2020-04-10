@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/leepeters0023/Park-Burlington-2.0/issues"
   },
-  "homepage": "https://github.com/leepeters0023/Park-Burlington-2.0#readme"
+  "homepage": "https://github.com/leepeters0023/Park-Burlington-2.0#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }

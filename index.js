@@ -1,6 +1,9 @@
+require('dotenv').config()
 
+requestAnimationFrame()
 async function initMap() {
   const mapData = await fetch("./BurlingtonParkingMap.geojson").then( res => res.json()).then( res => res)
+  src = https://maps.googleapis.com/maps/api/js?key=${process.env.API_KEY}&libraries=places&callback=initMap
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 44.478081, lng: -73.215},
     zoom: 15.3,
