@@ -1,4 +1,3 @@
-
 async function initMap() {
   //Fetch geojson
   const mapData = await fetch("./BurlingtonParkingMap.geojson").then( res => res.json()).then( res => res)
@@ -10,6 +9,7 @@ async function initMap() {
   const circle = new google.maps.Circle(
     {center: burlingtonCenter, radius: 2414.02});
 
+  //Define max lat lng view limits of the map
   const viewLimit = {
     north: 44.527929,
     south: 44.424518,
@@ -22,7 +22,6 @@ async function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
     zoom: 15.3,
-   
     fullscreenControl: false,
     mapTypeControl: false,
     restriction: {
@@ -84,7 +83,6 @@ async function initMap() {
       }
     ]
   });
-
   
   // Import parking map geojson file
   map.data.addGeoJson(mapData)
@@ -138,7 +136,6 @@ async function initMap() {
       // User entered the name of a Place that was not suggested and
       // pressed the Enter key, or the Place Details request failed.
     //   window.alert("No details available for input: '" + place.name + "'");
-        place = infowindowContent[0]
       return;
     }
 
