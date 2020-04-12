@@ -151,7 +151,7 @@ async function initMap() {
   let polyLayer = new google.maps.Data();
   let lineStringLayer = new google.maps.Data();
 
-  // Import parking map geojson files
+  // Create layers
   lineStringLayer.addGeoJson(linestringData);
   polyLayer.addGeoJson(polygonData);
 
