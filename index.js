@@ -159,7 +159,7 @@ async function initMap() {
   lineStringLayer.setMap(map);
   polyLayer.setMap(map);
 
-  // Set styles for data layers
+  // Set initial styles for data layers
   polyLayer.setStyle(function (feature) {
       let fillC = feature.getProperty('fill')
       let fillO = feature.getProperty('fill-opacity')
@@ -193,7 +193,7 @@ async function initMap() {
   });
 
 
-  
+// toggle fuctions turn data layers on and off  
   togglePolyLayer.addEventListener('click', function () {
       console.log(polyLayerOn)
       if (polyLayerOn === 'off') {
