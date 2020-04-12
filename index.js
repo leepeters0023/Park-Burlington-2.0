@@ -1,3 +1,56 @@
+//Firebase Configuration
+
+const config = {
+  apiKey: "AIzaSyCJ_q627N1dryTYbcSjE4d-4jfsJJg5VcY",
+  authDomain: "park-burlington.firebaseapp.com",
+  databaseURL: "https://park-burlington.firebaseio.com",
+  projectId: "park-burlington",
+  storageBucket: "park-burlington.appspot.com",
+  messagingSenderId: "474825299090",
+  appId: "1:474825299090:web:d06b7eb22ba0309571c24b",
+  measurementId: "G-HDKTL5YR29"
+};
+
+firebase.initializeApp(config)
+
+var database = firebase.database()
+var ref = database.ref()
+
+ref.on('value', gotData, errData)
+
+
+//Accesses the information from firebase
+//and lists it in key order by name, descrip and coords
+function gotData(data) {
+    // console.log(data.val())
+    let info = data.val()
+    let keys = Object.keys(info)
+    console.log(keys)
+    for (var i = 0; i < keys.length; i++) {
+        var k = keys[i]
+        var name = info[k].name
+        var coords = info[k].coordinates
+        var descrip = info[k].description
+    console.log(name, coords, descrip)
+            
+    // Below creates list of everything from database and print in html:
+        // var li = document.createElement('li')
+        // li.innerHTML = (k + ') ' + name + ': \n' +
+        //     descrip + '\n ' + '\n'+coords)
+        // document.body.appendChild(li)
+
+    }
+}
+//Error Message if you cant get in-------------------------
+function errData(data) {
+    console.log('Error!')
+    console.log(err)
+}
+
+
+
+//------------------------------------------------------------
+
 async function initMap() {
   //Fetch geojson
   const mapData = await fetch("./BurlingtonParkingMap.geojson").then( res => res.json()).then( res => res)
