@@ -82,8 +82,9 @@ async function initMap() {
         ]
       }
     ]
+    
   });
-  
+    
   // Import parking map geojson file
   map.data.addGeoJson(mapData)
 
@@ -94,15 +95,33 @@ async function initMap() {
     let strokeC = feature.getProperty('stroke')
     let strokeO = feature.getProperty('stroke-opacity')
     let strokeW = feature.getProperty('stroke-width')
+    let iconImg = feature.getProperty('icon')
     
     return {
       fillColor: fillC,
       fillOpacity:  fillO,
       strokeColor: strokeC,
       strokeOpacity: strokeO,
-      strokeWeight: strokeW,
+      strokeWeight: 3,
+      icon: iconImg,
     };
-});
+  });
+
+  //Create info window cards and add click listeners to each parking asset
+  var infowindow = new google.maps.InfoWindow({
+    content: ""
+  });
+  map.data.addListener('click', function(event) {
+    let name = event.feature.getProperty('name');
+    let description = event.feature.getProperty('description');
+    let html = '<strong>'+ name + '</strong>' + '<br><br>' + description;
+    infowindow.setContent(html); // show the html variable in the infowindow
+    infowindow.setPosition(event.latLng);
+    infowindow.setOptions({
+      pixelOffset: new google.maps.Size(0, 0)
+    }); // move the infowindow up slightly to the top of the marker icon
+    infowindow.open(map);
+  });
 
   //Get searchbox element and fix it to top left of screen
   var card = document.getElementById('pac-card');
