@@ -1,0 +1,192 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21622,
+                        44.481411,
+                        0
+                    ],
+                    [
+                        -73.217401,
+                        44.481382,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "Capacity 12",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216095,
+                        44.481415,
+                        0
+                    ],
+                    [
+                        -73.215285,
+                        44.481431,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "Capacity 13",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.209386,
+                        44.480476,
+                        0
+                    ],
+                    [
+                        -73.209268,
+                        44.479165,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "Capacity 19",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.217396,
+                        44.481345,
+                        0
+                    ],
+                    [
+                        -73.217325,
+                        44.480409,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "Capacity 14",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215271,
+                        44.474643,
+                        0
+                    ],
+                    [
+                        -73.214066,
+                        44.474694,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "Capacity 13",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216118,
+                        44.473622,
+                        0
+                    ],
+                    [
+                        -73.215506,
+                        44.473642,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "Capacity 4",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        }
+    ]
+}

@@ -1,0 +1,1219 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.2198921,
+                            44.4770191,
+                            0
+                        ],
+                        [
+                            -73.2203181,
+                            44.4777711,
+                            0
+                        ],
+                        [
+                            -73.2204581,
+                            44.4777391,
+                            0
+                        ],
+                        [
+                            -73.2204871,
+                            44.4777151,
+                            0
+                        ],
+                        [
+                            -73.2204451,
+                            44.4776291,
+                            0
+                        ],
+                        [
+                            -73.2205611,
+                            44.4775921,
+                            0
+                        ],
+                        [
+                            -73.2202451,
+                            44.4769841,
+                            0
+                        ],
+                        [
+                            -73.2198921,
+                            44.4770191,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PEASE LOT",
+                "styleUrl": "#poly-01579B-1000-110",
+                "styleHash": "-638aa7c8",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1000-110-normal",
+                    "highlight": "#poly-01579B-1000-110-highlight"
+                },
+                "description": "<img src=\"https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/a7d582503mejuoci1u6ps68ov0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALquLzIHhvXCDph4tnfxpwuwoQSUpDSaImmS8hV5eUutqLVOSWrlqFWk0hXOivHRYBmgC1-ip_iH8BQdaj20qRE2yIxbHQtIF951H-pfZr54mj1wwAiYqHOh578czKjLkC1FpV2A5dQRpfK_JPwLtGRLee9HPmM-9z7N7qA8FGNig6SlZG0xx8qdWXfXR8ds0PseD8XsyR1jOFfqTsT1T9V1vlMZZ4OQFLi4aeV0oODYFZfy8NfBVTe_KOv_3XyFYMaEk0B12HE9uSCln4sZJjmukZtwww?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity: 76 <br>Handicap spaces: 2<br>Address:\t14 College St<br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: Variable – $3/hr in summer, $2/hr in winter. <br>Enforced: 8 a.m.-8 p.m. Mon-Sat, 8 a.m.-6 p.m. Sun. <br>Managed by: Burlington Parks, Recreation & Waterfront. More info: https://enjoyburlington.com/resources/pricing-fees/<br><br><img src=\"https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tdaehb86d24nig35o0o0qo8oak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq2fXyxlptXcCIsPJE74Wc8lE4t4RJatt3RpT4vE8AFpiWYsV0GlXjnOQhk95TfeZ6nnbG1yc-E4nCcUhqXsbQUqg2PhRvCzRfes18SnJG0mNZQdzXeSa37ZOv3-E7hq6CbQnUZmf_UZ3YmUSxy_My2OhICUTy4RspBURN6hus5e9xQO5XaVEWnAzLrFmzmXBcU3n170ccjzsyhCb-pxMIrwChBVKZ8MusBmONNO9mpfUBeHTvh32AXQNKqhoIdrmCeMYa8nxwo7r3lQ9IgnKb-iv5H9A?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1,
+                "fill": "#01579b",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/a7d582503mejuoci1u6ps68ov0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALquLzIHhvXCDph4tnfxpwuwoQSUpDSaImmS8hV5eUutqLVOSWrlqFWk0hXOivHRYBmgC1-ip_iH8BQdaj20qRE2yIxbHQtIF951H-pfZr54mj1wwAiYqHOh578czKjLkC1FpV2A5dQRpfK_JPwLtGRLee9HPmM-9z7N7qA8FGNig6SlZG0xx8qdWXfXR8ds0PseD8XsyR1jOFfqTsT1T9V1vlMZZ4OQFLi4aeV0oODYFZfy8NfBVTe_KOv_3XyFYMaEk0B12HE9uSCln4sZJjmukZtwww?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tdaehb86d24nig35o0o0qo8oak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq2fXyxlptXcCIsPJE74Wc8lE4t4RJatt3RpT4vE8AFpiWYsV0GlXjnOQhk95TfeZ6nnbG1yc-E4nCcUhqXsbQUqg2PhRvCzRfes18SnJG0mNZQdzXeSa37ZOv3-E7hq6CbQnUZmf_UZ3YmUSxy_My2OhICUTy4RspBURN6hus5e9xQO5XaVEWnAzLrFmzmXBcU3n170ccjzsyhCb-pxMIrwChBVKZ8MusBmONNO9mpfUBeHTvh32AXQNKqhoIdrmCeMYa8nxwo7r3lQ9IgnKb-iv5H9A?session=0&fife"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216102,
+                        44.481415,
+                        0
+                    ],
+                    [
+                        -73.216213,
+                        44.481413,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.217012,
+                        44.477027,
+                        0
+                    ],
+                    [
+                        -73.217232,
+                        44.47702,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2142174,
+                        44.477085,
+                        0
+                    ],
+                    [
+                        -73.2143713,
+                        44.4770789,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215573,
+                        44.477611,
+                        0
+                    ],
+                    [
+                        -73.215563,
+                        44.477504,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215949,
+                        44.479285,
+                        0
+                    ],
+                    [
+                        -73.216168,
+                        44.479279,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216666,
+                        44.480382,
+                        0
+                    ],
+                    [
+                        -73.216421,
+                        44.480382,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.210088,
+                        44.480047,
+                        0
+                    ],
+                    [
+                        -73.21009,
+                        44.48013,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21275,
+                        44.4771583,
+                        0
+                    ],
+                    [
+                        -73.212863,
+                        44.477157,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212757,
+                        44.478123,
+                        0
+                    ],
+                    [
+                        -73.212905,
+                        44.478119,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.209983,
+                        44.478326,
+                        0
+                    ],
+                    [
+                        -73.209988,
+                        44.478437,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212349,
+                        44.478291,
+                        0
+                    ],
+                    [
+                        -73.212597,
+                        44.478286,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218838,
+                        44.475647,
+                        0
+                    ],
+                    [
+                        -73.21903,
+                        44.475646,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218358,
+                        44.475857,
+                        0
+                    ],
+                    [
+                        -73.218509,
+                        44.475848,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2187415,
+                        44.4747795,
+                        0
+                    ],
+                    [
+                        -73.218734,
+                        44.474932,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218498,
+                        44.475564,
+                        0
+                    ],
+                    [
+                        -73.218493,
+                        44.475422,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218469,
+                        44.474676,
+                        0
+                    ],
+                    [
+                        -73.218471,
+                        44.474769,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212322,
+                        44.475061,
+                        0
+                    ],
+                    [
+                        -73.212312,
+                        44.474856,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212451,
+                        44.473822,
+                        0
+                    ],
+                    [
+                        -73.212453,
+                        44.473904,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212253,
+                        44.475857,
+                        0
+                    ],
+                    [
+                        -73.212134,
+                        44.475859,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218689,
+                        44.473971,
+                        0
+                    ],
+                    [
+                        -73.218699,
+                        44.474085,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218445,
+                        44.474258,
+                        0
+                    ],
+                    [
+                        -73.218459,
+                        44.474333,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212848,
+                        44.476015,
+                        0
+                    ],
+                    [
+                        -73.212623,
+                        44.476023,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213684,
+                        44.480917,
+                        0
+                    ],
+                    [
+                        -73.213674,
+                        44.480791,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212824,
+                        44.475842,
+                        0
+                    ],
+                    [
+                        -73.212606,
+                        44.475853,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.211397,
+                        44.481649,
+                        0
+                    ],
+                    [
+                        -73.211391,
+                        44.481528,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213656,
+                        44.480538,
+                        0
+                    ],
+                    [
+                        -73.213656,
+                        44.480637,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2140041,
+                        44.4765669,
+                        0
+                    ],
+                    [
+                        -73.2140051,
+                        44.4766329,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2130968,
+                        44.4803638,
+                        0
+                    ],
+                    [
+                        -73.2132692,
+                        44.480363,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215522,
+                        44.476755,
+                        0
+                    ],
+                    [
+                        -73.21553,
+                        44.476889,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214176,
+                        44.476868,
+                        0
+                    ],
+                    [
+                        -73.214184,
+                        44.476946,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214027,
+                        44.479326,
+                        0
+                    ],
+                    [
+                        -73.2139227,
+                        44.479334,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2128585,
+                        44.4793771,
+                        0
+                    ],
+                    [
+                        -73.212932,
+                        44.479374,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2134928,
+                        44.4793378,
+                        0
+                    ],
+                    [
+                        -73.2134002,
+                        44.4793397,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213084,
+                        44.4737197,
+                        0
+                    ],
+                    [
+                        -73.2132396,
+                        44.4737082,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2115455,
+                        44.4771816,
+                        0
+                    ],
+                    [
+                        -73.211626,
+                        44.4771787,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2121617,
+                        44.477158,
+                        0
+                    ],
+                    [
+                        -73.2123468,
+                        44.4771556,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212697,
+                        44.477016,
+                        0
+                    ],
+                    [
+                        -73.212797,
+                        44.477013,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "TEMPORARILY UNAVAILABLE DUE TO CONSTRUCTION<br>Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        }
+    ]
+}

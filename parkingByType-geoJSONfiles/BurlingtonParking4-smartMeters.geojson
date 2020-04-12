@@ -1,0 +1,1126 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21308,
+                        44.478248,
+                        0
+                    ],
+                    [
+                        -73.2138996,
+                        44.4782267,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213235,
+                        44.478105,
+                        0
+                    ],
+                    [
+                        -73.212915,
+                        44.47812,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.211644,
+                        44.478162,
+                        0
+                    ],
+                    [
+                        -73.2123212,
+                        44.4781443,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.211206,
+                        44.478332,
+                        0
+                    ],
+                    [
+                        -73.212336,
+                        44.478295,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213356,
+                        44.4781,
+                        0
+                    ],
+                    [
+                        -73.213899,
+                        44.478081,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.211432,
+                        44.477359,
+                        0
+                    ],
+                    [
+                        -73.2114806,
+                        44.4780588,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 12<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212714,
+                        44.479243,
+                        0
+                    ],
+                    [
+                        -73.211876,
+                        44.479262,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 10<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213897,
+                        44.4793379,
+                        0
+                    ],
+                    [
+                        -73.212932,
+                        44.479374,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 8<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212363,
+                        44.47939,
+                        0
+                    ],
+                    [
+                        -73.211282,
+                        44.47942,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 10<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2135673,
+                        44.4792381,
+                        0
+                    ],
+                    [
+                        -73.212857,
+                        44.479262,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 8<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.211634,
+                        44.4771806,
+                        0
+                    ],
+                    [
+                        -73.2121402,
+                        44.4771552,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 10<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2123546,
+                        44.4770622,
+                        0
+                    ],
+                    [
+                        -73.2117252,
+                        44.4770832,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212854,
+                        44.477158,
+                        0
+                    ],
+                    [
+                        -73.213771,
+                        44.477128,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2139373,
+                        44.4769722,
+                        0
+                    ],
+                    [
+                        -73.2129838,
+                        44.4770072,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "TEMPORARILY UNAVAILABLE DUE TO CONSTRUCTION<br>Capacity: 10<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2113986,
+                        44.4771933,
+                        0
+                    ],
+                    [
+                        -73.2112495,
+                        44.4771965,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 2<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214589,
+                        44.47708,
+                        0
+                    ],
+                    [
+                        -73.215334,
+                        44.47705,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2143118,
+                        44.4769719,
+                        0
+                    ],
+                    [
+                        -73.2152515,
+                        44.4769433,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213095,
+                        44.476008,
+                        0
+                    ],
+                    [
+                        -73.213859,
+                        44.475978,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "TEMPORARILY UNAVAILABLE DUE TO CONSTRUCTION<br>Capacity: 5<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212837,
+                        44.475844,
+                        0
+                    ],
+                    [
+                        -73.213804,
+                        44.475808,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 9<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.211432,
+                        44.476094,
+                        0
+                    ],
+                    [
+                        -73.212056,
+                        44.476065,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 11<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2113497,
+                        44.4758914,
+                        0
+                    ],
+                    [
+                        -73.21198,
+                        44.475863,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 18<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214234,
+                        44.475999,
+                        0
+                    ],
+                    [
+                        -73.215382,
+                        44.475959,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 20<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214403,
+                        44.475779,
+                        0
+                    ],
+                    [
+                        -73.215407,
+                        44.475744,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 18<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215592,
+                        44.477751,
+                        0
+                    ],
+                    [
+                        -73.215608,
+                        44.477997,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 4<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21556,
+                        44.477493,
+                        0
+                    ],
+                    [
+                        -73.215545,
+                        44.4771,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 5<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215739,
+                        44.476851,
+                        0
+                    ],
+                    [
+                        -73.215686,
+                        44.476024,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 10<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21401,
+                        44.477116,
+                        0
+                    ],
+                    [
+                        -73.214072,
+                        44.478075,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 12<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215846,
+                        44.478014,
+                        0
+                    ],
+                    [
+                        -73.215829,
+                        44.47776,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 5<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214232,
+                        44.47755,
+                        0
+                    ],
+                    [
+                        -73.214267,
+                        44.478076,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214222,
+                        44.477456,
+                        0
+                    ],
+                    [
+                        -73.214201,
+                        44.477161,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 6<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215506,
+                        44.476624,
+                        0
+                    ],
+                    [
+                        -73.215486,
+                        44.476346,
+                        0
+                    ],
+                    [
+                        -73.215463,
+                        44.475997,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 11<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2139992,
+                        44.4764713,
+                        0
+                    ],
+                    [
+                        -73.2139682,
+                        44.4760953,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 12<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2140078,
+                        44.4766427,
+                        0
+                    ],
+                    [
+                        -73.2140408,
+                        44.4769357,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 11<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2141287,
+                        44.4767081,
+                        0
+                    ],
+                    [
+                        -73.2141357,
+                        44.4767801,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2141118,
+                        44.4764495,
+                        0
+                    ],
+                    [
+                        -73.2140988,
+                        44.4763055,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 2<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2113945,
+                        44.47711,
+                        0
+                    ],
+                    [
+                        -73.2111317,
+                        44.4771176,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Smart Meters",
+                "styleUrl": "#line-9C27B0-5263",
+                "styleHash": "66d4c45c",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-5263-normal",
+                    "highlight": "#line-9C27B0-5263-highlight"
+                },
+                "description": "Capacity: 3<br>Enforced: 9am-9pm <br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: $1.50/hr",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        }
+    ]
+}

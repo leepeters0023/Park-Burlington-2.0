@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Park Burlington</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <div id='header'>
-        <img id="logo" src="logo-secondary.png"></img>
-        <img id="logo-text" src="logo-text.png"></img>
-        <input type='checkbox' checked='true' id='togglePolygons')>Show Polygons</input>
-        <input type='checkbox' checked='true' id='toggleLineString'>Show LineString</input>
+
+<head>
+  <title>Park Burlington</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div id='header'>
+    <img id="logo" src="logo-secondary.png"></img>
+    <img id="logo-text" src="logo-text.png"></img>
+
+    <label>
+      <button id='handicapOnly'>Handicap Only</button>
+    </label>
+
+    <!-- Trigger/Open The Modal -->
+    <label>
+      <button id="myBtn">Filters</button>
+    </label>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <input type='checkbox' checked='true' id='toggleMunicipleGarages' )>Show Polygons</input>
+        <input type='checkbox' checked='true' id='togglePrivateGarages'>Show LineString</input>
+        <input type='checkbox' checked='true' id='toggleSmartMeters' )>Show SmartMeters</input>
+        <input type='checkbox' checked='true' id='toggleCoinOpMeters' )>Show CoinOpMeters</input>
+        <input type='checkbox' checked='true' id='togglePolygons' )>Show Polygons</input>
+        <input type='checkbox' checked='true' id='togglePolygons' )>Show Polygons</input>
+        <input type='checkbox' checked='true' id='togglePolygons' )>Show Polygons</input>
+        <input type='checkbox' checked='true' id='togglePolygons' )>Show Polygons</input>
+        <input type='checkbox' checked='true' id='togglePolygons' )>Show Polygons</input>
+      </div>
+
     </div>
-    <div class="pac-card" id="pac-card">
-        <input id="pac-input" type="text" placeholder="Destination">
-    </div>
-    <div id="map"></div>
-    <div id="infowindow-content">
-      <img src="" width="16" height="16" id="place-icon">
-      <span id="place-name"  class="title"></span><br>
-      <span id="place-address"></span>
-    </div>
-    <!-- The Firebase scripts MUST be before the src for index.js -->
-    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
-      
-    <script src='index.js'>
+  </div>
+  <div class="pac-card" id="pac-card">
+    <input id="pac-input" type="text" placeholder="Destination">
+  </div>
+  <div id="map"></div>
+  <div id="infowindow-content">
+    <img src="" width="16" height="16" id="place-icon">
+    <span id="place-name" class="title"></span><br>
+    <span id="place-address"></span>
+  </div>
+  <!-- The Firebase scripts MUST be before the src for index.js -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+  <script src='index.js'>
       // This example requires the Places library. Include the libraries=places
       // parameter when you first load the API. For example:
       // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
-      
-    </script>
-    <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBlmnXhTRjHHmY1SRjiqqZobWGLS1CfkLA&libraries=places&callback=initMap'
-        async defer></script>
-  </body>
+
+  </script>
+  <script
+    src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBlmnXhTRjHHmY1SRjiqqZobWGLS1CfkLA&libraries=places&callback=initMap'
+    async defer></script>
+</body>
+
 </html>

@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2171841,
+                        44.4768623,
+                        0
+                    ],
+                    [
+                        -73.2171519,
+                        44.4758441,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Bus Parking",
+                "styleUrl": "#line-AFB42B-5456",
+                "styleHash": "6d882494",
+                "styleMapHash": {
+                    "normal": "#line-AFB42B-5456-normal",
+                    "highlight": "#line-AFB42B-5456-highlight"
+                },
+                "description": "Capacity: 3 buses<br>Overnight parking permitted",
+                "stroke": "#afb42b",
+                "stroke-opacity": 1,
+                "stroke-width": 5.456
+            }
+        }
+    ]
+}

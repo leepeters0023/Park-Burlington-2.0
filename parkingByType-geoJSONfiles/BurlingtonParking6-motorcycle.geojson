@@ -1,0 +1,253 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2162459,
+                        44.4803911,
+                        0
+                    ],
+                    [
+                        -73.2161009,
+                        44.4803951,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-828282-4000",
+                "styleHash": "-725083a6",
+                "styleMapHash": {
+                    "normal": "#line-828282-4000-normal",
+                    "highlight": "#line-828282-4000-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#828282",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212127,
+                        44.475858,
+                        0
+                    ],
+                    [
+                        -73.211976,
+                        44.475865,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-828282-4000",
+                "styleHash": "-725083a6",
+                "styleMapHash": {
+                    "normal": "#line-828282-4000-normal",
+                    "highlight": "#line-828282-4000-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#828282",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218445,
+                        44.474247,
+                        0
+                    ],
+                    [
+                        -73.218438,
+                        44.474167,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-6F6F6F-4000",
+                "styleHash": "-6e57df8a",
+                "styleMapHash": {
+                    "normal": "#line-6F6F6F-4000-normal",
+                    "highlight": "#line-6F6F6F-4000-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#6f6f6f",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214394,
+                        44.475781,
+                        0
+                    ],
+                    [
+                        -73.214306,
+                        44.475787,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-828282-4000",
+                "styleHash": "-725083a6",
+                "styleMapHash": {
+                    "normal": "#line-828282-4000-normal",
+                    "highlight": "#line-828282-4000-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#828282",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216711,
+                        44.474596,
+                        0
+                    ],
+                    [
+                        -73.216874,
+                        44.474593,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-828282-4000",
+                "styleHash": "-725083a6",
+                "styleMapHash": {
+                    "normal": "#line-828282-4000-normal",
+                    "highlight": "#line-828282-4000-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#828282",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21552,
+                        44.476751,
+                        0
+                    ],
+                    [
+                        -73.215507,
+                        44.476623,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-6F6F6F-4000",
+                "styleHash": "-6e57df8a",
+                "styleMapHash": {
+                    "normal": "#line-6F6F6F-4000-normal",
+                    "highlight": "#line-6F6F6F-4000-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#6f6f6f",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2139644,
+                        44.4760175,
+                        0
+                    ],
+                    [
+                        -73.2139684,
+                        44.4760785,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-828282-6264",
+                "styleHash": "-6476e7a4",
+                "styleMapHash": {
+                    "normal": "#line-828282-6264-normal",
+                    "highlight": "#line-828282-6264-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#828282",
+                "stroke-opacity": 1,
+                "stroke-width": 6.264
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2121394,
+                        44.4804037,
+                        0
+                    ],
+                    [
+                        -73.2120053,
+                        44.4804037,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Motorcycle Parking",
+                "styleUrl": "#line-757575-4875",
+                "styleHash": "4af8e390",
+                "styleMapHash": {
+                    "normal": "#line-757575-4875-normal",
+                    "highlight": "#line-757575-4875-highlight"
+                },
+                "description": "Capacity: 1<br>Rate: Free",
+                "stroke": "#757575",
+                "stroke-opacity": 1,
+                "stroke-width": 4.875
+            }
+        }
+    ]
+}

@@ -1,0 +1,409 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+       
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215942,
+                        44.479147,
+                        0
+                    ],
+                    [
+                        -73.21659,
+                        44.479128,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only ",
+                "styleUrl": "#line-A52714-4000",
+                "styleHash": "628781de",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4000-normal",
+                    "highlight": "#line-A52714-4000-highlight"
+                },
+                "description": "Capacity: 1",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.219738,
+                        44.476966,
+                        0
+                    ],
+                    [
+                        -73.219792,
+                        44.477064,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-4000",
+                "styleHash": "628781de",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4000-normal",
+                    "highlight": "#line-A52714-4000-highlight"
+                },
+                "description": "Capacity: 1",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2093159,
+                        44.4773529,
+                        0
+                    ],
+                    [
+                        -73.2090953,
+                        44.477364,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-5456",
+                "styleHash": "-3ad06f36",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5456-normal",
+                    "highlight": "#line-A52714-5456-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.456
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2126063,
+                        44.479382,
+                        0
+                    ],
+                    [
+                        -73.2124602,
+                        44.4793868,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-5094",
+                "styleHash": "-43c3444a",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5094-normal",
+                    "highlight": "#line-A52714-5094-highlight"
+                },
+                "description": "Capacity: 1",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.094
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2090575,
+                        44.4763824,
+                        0
+                    ],
+                    [
+                        -73.2090414,
+                        44.4761719,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-4488",
+                "styleHash": "238a4fa8",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4488-normal",
+                    "highlight": "#line-A52714-4488-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4.488
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212409,
+                        44.4757395,
+                        0
+                    ],
+                    [
+                        -73.2124183,
+                        44.4758689,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-4875",
+                "styleHash": "-7c7fba94",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4875-normal",
+                    "highlight": "#line-A52714-4875-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4.875
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2200327,
+                        44.4775214,
+                        0
+                    ],
+                    [
+                        -73.2201148,
+                        44.4776524,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-5069",
+                "styleHash": "65399b06",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5069-normal",
+                    "highlight": "#line-A52714-5069-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.069
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2141046,
+                        44.4762881,
+                        0
+                    ],
+                    [
+                        -73.2141006,
+                        44.4762038,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-4875",
+                "styleHash": "-7c7fba94",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4875-normal",
+                    "highlight": "#line-A52714-4875-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4.875
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2113945,
+                        44.47711,
+                        0
+                    ],
+                    [
+                        -73.2115555,
+                        44.4771023,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-4681",
+                "styleHash": "633a029e",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4681-normal",
+                    "highlight": "#line-A52714-4681-highlight"
+                },
+                "description": "Capacity: 2<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4.681
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2114873,
+                        44.4780859,
+                        0
+                    ],
+                    [
+                        -73.2114927,
+                        44.4781778,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-4875",
+                "styleHash": "-7c7fba94",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4875-normal",
+                    "highlight": "#line-A52714-4875-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4.875
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2138996,
+                        44.4782267,
+                        0
+                    ],
+                    [
+                        -73.2141119,
+                        44.4782182,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2130968,
+                        44.4803638,
+                        0
+                    ],
+                    [
+                        -73.2128988,
+                        44.480377,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2129838,
+                        44.4770072,
+                        0
+                    ],
+                    [
+                        -73.212797,
+                        44.477013,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loading/Unloading Only",
+                "styleUrl": "#line-A52714-4875",
+                "styleHash": "-7c7fba94",
+                "styleMapHash": {
+                    "normal": "#line-A52714-4875-normal",
+                    "highlight": "#line-A52714-4875-highlight"
+                },
+                "description": "TEMPORARILY UNAVAILABLE DUE TO CONSTRUCTION<br>Capacity: 1<br>Enforced: 9am-6pm ",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 4.875
+            }
+        }
+    ]
+}
