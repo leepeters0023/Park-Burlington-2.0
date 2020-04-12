@@ -58,10 +58,10 @@ async function initMap() {
   let toggleLineStringLayer = document.getElementById('toggleLineString')
   let lineStringLayerOn = 'off'
 
-  const linestringData = await fetch("./BurlingtonParkingLineString.geojson")
+  const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingLineString.geojson")
       .then(res => res.json())
       .then(res => res)
-  const polygonData = await fetch("./BurlingtonParkingPolygon.geojson")
+  const polygonData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingPolygon.geojson")
       .then(res => res.json())
       .then(res => res)
       
