@@ -1,3 +1,5 @@
+let GeolocationMarker = require("geolocation-marker")
+
 async function initMap() {
   //Fetch geojson
   const mapData = await fetch("./BurlingtonParkingMap.geojson").then( res => res.json()).then( res => res)
@@ -84,6 +86,8 @@ async function initMap() {
     ]
     
   });
+
+  let GeoMarker = new GeolocationMarker(map)
     
   // Import parking map geojson file
   map.data.addGeoJson(mapData)
@@ -183,4 +187,33 @@ async function initMap() {
     addressinfowindow.open(map, marker);
   });
 
+  //Get browser location
+//   let infoWindow = new google.maps.InfoWindow;
+//   if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(function(position) {
+//       var pos = {
+//         lat: position.coords.latitude,
+//         lng: position.coords.longitude
+//       };
+
+//       infoWindow.setPosition(pos);
+//       infoWindow.setContent('Location found.');
+//       infoWindow.open(map);
+//       map.setCenter(pos);
+//     }, function() {
+//       handleLocationError(true, infoWindow, map.getCenter());
+//     });
+//   } else {
+//     // Browser doesn't support Geolocation
+//     handleLocationError(false, infoWindow, map.getCenter());
+//   }
+// }
+
+// function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+//   infoWindow.setPosition(pos);
+//   infoWindow.setContent(browserHasGeolocation ?
+//                         'Error: The Geolocation service failed.' :
+//                         'Error: Your browser doesn\'t support geolocation.');
+//   infoWindow.open(map);
+// 
 }
