@@ -53,15 +53,55 @@ function errData(data) {
 
 async function initMap() {
   //Fetch geojson
-  let togglePolyLayer = document.getElementById('togglePolygons')
-  let polyLayerOn = 'off'
-  let toggleLineStringLayer = document.getElementById('toggleLineString')
-  let lineStringLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleHandicap')
+  let handicapLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleMunicipleGarages')
+  let municipleGaragesLayerOn = 'off'
+  let toggleLineStringLayer = document.getElementById('togglePrivateGarages')
+  let privateGaragesLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleSmartMeters')
+  let smartMetersLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleCoinOpMeters')
+  let coinOpLayerOn = 'off'
+    let togglePolyLayer = document.getElementById('toggleEVCharge')
+  let eVChargeLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleMotorcycle')
+  let motorcycleLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleBusLargeVehicle')
+  let busLargeVehicleLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleResidential')
+  let residentialLayerOn = 'off'
+  let togglePolyLayer = document.getElementById('toggleLoadingUnloading')
+  let loadingUnloadingLayerOn = 'off'
 
-  const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingLineString.geojson")
+  const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking1-handicap.geojson")
       .then(res => res.json())
       .then(res => res)
-  const polygonData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingPolygon.geojson")
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking2-municipleGarages.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking3-privateOwnedGarages.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking4-smartMeters.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking5-coinOpMeters.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking7-eVCharge.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking6-motorcycle.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking8-busLargeVehicle.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking10-residential.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking9-loadingUnloading.geojson")
       .then(res => res.json())
       .then(res => res)
       

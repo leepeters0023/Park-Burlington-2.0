@@ -1,0 +1,843 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.217678,
+                            44.4781677,
+                            0
+                        ],
+                        [
+                            -73.2176509,
+                            44.477749,
+                            0
+                        ],
+                        [
+                            -73.2175826,
+                            44.4777498,
+                            0
+                        ],
+                        [
+                            -73.2175806,
+                            44.4777208,
+                            0
+                        ],
+                        [
+                            -73.2165826,
+                            44.4777508,
+                            0
+                        ],
+                        [
+                            -73.2166066,
+                            44.4782258,
+                            0
+                        ],
+                        [
+                            -73.2175976,
+                            44.4782028,
+                            0
+                        ],
+                        [
+                            -73.2176036,
+                            44.4781688,
+                            0
+                        ],
+                        [
+                            -73.217678,
+                            44.4781677,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COLLEGE STREET GARAGE",
+                "styleUrl": "#poly-7CB342-1701-105",
+                "styleHash": "-5335bebf",
+                "styleMapHash": {
+                    "normal": "#poly-7CB342-1701-105-normal",
+                    "highlight": "#poly-7CB342-1701-105-highlight"
+                },
+                "description": "<img src=\"https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/c9ven2kh1k5l9hqlpl63s1ifqo/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpVRJewyJwLf1gWm5xnNjnPT2cgugyL8ymzuk0Mdv6oLSjb0BgBDg6VfvKKromKrhNpMgqA3xCbSIUguax4eC88ykNRUXsvZDu7eTXYU2f-K29RB6k1UEgtfANKMEyr__L_XpSPO2JPXxl7PFCvIlmjK55f6TN-53QxLvdtft8Su29WF08-06flIMTZxTSE2P6wHY2hJ0KeNJORr9_SHiFG1MMx3XNT0IYX_YXnHV9QyepRx5nof4pHd4p4X4yuF3wG1SoYCFj9b1EBrx5r4E_jUm54OA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t460<br>Address:\t60 College St<br>Public Access:\t24/7 <br>0-2 HRs:\tFree<br>2-4 HRs:\t$2 to $5<br>4-7 HRs:\t$6 to $8<br>Daily Max:\t$8 <br>*FREE on Sundays and city-recognized holidays<br>Accepts: Credit Card, Cash<br><br><img src=\"https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ovktdplbnl32hdu0kgos7ehdnc/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqf4ARtQI3e0qXZtJ7T98Kdbll6Un1nphfcvjU5GIVPqe2CUxFS-zynQ0XyWUrxoetc8Fc_j8LbBFbeeQQ9Hy-QFBuGwoHn8rGtquXuOtyCdZcdomZLeKPDgH8E-U93sx1Xa-7pZzhdNBnUNqR40zrI8d6kpaqozASRE0qsA3bo7Ktv0B16s_5CtvxzMZ4AE2-M6FfLxGWcUM_JQRAxZLYCSqcqWkd592PKUgBV8tiZXX9tPeLuhrj_qIsAorxUtkFuivJFLjIMlsRwOcXTuyABc_0_Lg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/m09pmi3b1hpk0f6uifs20ao3js/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpv64mEOttLOtvRqizrqxVW-gabPZP43TMIt70vExfnmAtLDirP9EVolad8YKZwIJr73R1jyPovstWRKjnx4pgcYMEmU56r1HACMHaRUj61qxzWjswFR-JiqIPkFfMjup51Q2w-eBORvQuAshMr6DNGwcNupiibhaWFxo24-Yks3lJtDzz7JYWzUbN2tjS4M5ar4cfMIQUJrfzm9i0dpdGd_nKsiMTia_6CtXoP7olMDiY2SLc5EwSgpo9J4j2DO-urDqF9bCv_gSpYOdGmKztSCQurkQ?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#7cb342",
+                "stroke-opacity": 1,
+                "stroke-width": 1.701,
+                "fill": "#7cb342",
+                "fill-opacity": 0.4117647058823529,
+                "gx_media_links": "https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/c9ven2kh1k5l9hqlpl63s1ifqo/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpVRJewyJwLf1gWm5xnNjnPT2cgugyL8ymzuk0Mdv6oLSjb0BgBDg6VfvKKromKrhNpMgqA3xCbSIUguax4eC88ykNRUXsvZDu7eTXYU2f-K29RB6k1UEgtfANKMEyr__L_XpSPO2JPXxl7PFCvIlmjK55f6TN-53QxLvdtft8Su29WF08-06flIMTZxTSE2P6wHY2hJ0KeNJORr9_SHiFG1MMx3XNT0IYX_YXnHV9QyepRx5nof4pHd4p4X4yuF3wG1SoYCFj9b1EBrx5r4E_jUm54OA?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ovktdplbnl32hdu0kgos7ehdnc/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqf4ARtQI3e0qXZtJ7T98Kdbll6Un1nphfcvjU5GIVPqe2CUxFS-zynQ0XyWUrxoetc8Fc_j8LbBFbeeQQ9Hy-QFBuGwoHn8rGtquXuOtyCdZcdomZLeKPDgH8E-U93sx1Xa-7pZzhdNBnUNqR40zrI8d6kpaqozASRE0qsA3bo7Ktv0B16s_5CtvxzMZ4AE2-M6FfLxGWcUM_JQRAxZLYCSqcqWkd592PKUgBV8tiZXX9tPeLuhrj_qIsAorxUtkFuivJFLjIMlsRwOcXTuyABc_0_Lg?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/m09pmi3b1hpk0f6uifs20ao3js/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpv64mEOttLOtvRqizrqxVW-gabPZP43TMIt70vExfnmAtLDirP9EVolad8YKZwIJr73R1jyPovstWRKjnx4pgcYMEmU56r1HACMHaRUj61qxzWjswFR-JiqIPkFfMjup51Q2w-eBORvQuAshMr6DNGwcNupiibhaWFxo24-Yks3lJtDzz7JYWzUbN2tjS4M5ar4cfMIQUJrfzm9i0dpdGd_nKsiMTia_6CtXoP7olMDiY2SLc5EwSgpo9J4j2DO-urDqF9bCv_gSpYOdGmKztSCQurkQ?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.2170104,
+                            44.4782703,
+                            0
+                        ],
+                        [
+                            -73.2170414,
+                            44.4790907,
+                            0
+                        ],
+                        [
+                            -73.2177609,
+                            44.4790623,
+                            0
+                        ],
+                        [
+                            -73.2177124,
+                            44.4788763,
+                            0
+                        ],
+                        [
+                            -73.2177134,
+                            44.4782523,
+                            0
+                        ],
+                        [
+                            -73.2170104,
+                            44.4782703,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LAKEVIEW GARAGE",
+                "styleUrl": "#poly-7CB342-1501-110",
+                "styleHash": "8e7bf17",
+                "styleMapHash": {
+                    "normal": "#poly-7CB342-1501-110-normal",
+                    "highlight": "#poly-7CB342-1501-110-highlight"
+                },
+                "description": "<img src=\"https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/be6p22626lqlduvfe6niotk1g0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr2mc6g1Cw24D-_4RNcfQfedrkHOZjQ1xNz5LurX1yWqth4PdCyYe6s7XiLcAmMxcF2GKAkU48xXfQ-PVJhWkDpm3T5LaPLubC8xr0CuK96E66GBox8DnHl1gY4PGXHF6rAgg6tqNuH3eUMQ4hw5mO_mj7ksdPNV7uGxEA3sm-z_VRICAZbzvY5XAVmTvscYfdhQO3CQWmpI4S-2Z425XVBtqOaUZysblfJ75WdILLVHX4ze_MaRIcU80PmA7i6NomAS6NCZWcTlLzlIOk1qMPdgKh48Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t678<br>Address:\t41 Cherry St<br>Public Access:\t24/7, 365<br> 0-2hrs:\tFree<br> 2-4hrs:\t$2 to $5<br> 4-7hrs:\t$6 to $8<br> Daily Max:\t$8<br>*FREE on Sundays and city-recognized holidays<br>Accepts: Credit Card, Cash<br><br><img src=\"https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1tttfmpus3giggpsrs6v6go7n4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoFKTKYuLhRxkqSYi4uuhLa0LjfwUHb3C3E3Qt4IgPTtYPDPba_MTAX1F2BKquPbxpwV6-T7GJnVf62mvUcAXndzsTHZHq5zEKwc_WROS_eZZNXPlmTOQkCO1A0LOoWi8Lr0H3H1tzVCyeaaoQd7g_-UvUUG3UAc5NStSyj-3Q2EvXjUhmfhdB0AywF08l7aDS9VxXVjea-VoOIe7WWuQLd5C36c8RDzlKirmW1OCLXeeXERVA7dcbiyaBtMoP-3md6g-HGZajhJAZqOyOL-lQyFCpLlA?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#7cb342",
+                "stroke-opacity": 1,
+                "stroke-width": 1.501,
+                "fill": "#7cb342",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/be6p22626lqlduvfe6niotk1g0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr2mc6g1Cw24D-_4RNcfQfedrkHOZjQ1xNz5LurX1yWqth4PdCyYe6s7XiLcAmMxcF2GKAkU48xXfQ-PVJhWkDpm3T5LaPLubC8xr0CuK96E66GBox8DnHl1gY4PGXHF6rAgg6tqNuH3eUMQ4hw5mO_mj7ksdPNV7uGxEA3sm-z_VRICAZbzvY5XAVmTvscYfdhQO3CQWmpI4S-2Z425XVBtqOaUZysblfJ75WdILLVHX4ze_MaRIcU80PmA7i6NomAS6NCZWcTlLzlIOk1qMPdgKh48Q?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1tttfmpus3giggpsrs6v6go7n4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoFKTKYuLhRxkqSYi4uuhLa0LjfwUHb3C3E3Qt4IgPTtYPDPba_MTAX1F2BKquPbxpwV6-T7GJnVf62mvUcAXndzsTHZHq5zEKwc_WROS_eZZNXPlmTOQkCO1A0LOoWi8Lr0H3H1tzVCyeaaoQd7g_-UvUUG3UAc5NStSyj-3Q2EvXjUhmfhdB0AywF08l7aDS9VxXVjea-VoOIe7WWuQLd5C36c8RDzlKirmW1OCLXeeXERVA7dcbiyaBtMoP-3md6g-HGZajhJAZqOyOL-lQyFCpLlA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.212245,
+                            44.478632,
+                            0
+                        ],
+                        [
+                            -73.212229,
+                            44.478315,
+                            0
+                        ],
+                        [
+                            -73.21168,
+                            44.478334,
+                            0
+                        ],
+                        [
+                            -73.211702,
+                            44.478724,
+                            0
+                        ],
+                        [
+                            -73.211273,
+                            44.478743,
+                            0
+                        ],
+                        [
+                            -73.211287,
+                            44.479061,
+                            0
+                        ],
+                        [
+                            -73.211837,
+                            44.479041,
+                            0
+                        ],
+                        [
+                            -73.211813,
+                            44.478651,
+                            0
+                        ],
+                        [
+                            -73.212245,
+                            44.478632,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MARKETPLACE GARAGE",
+                "styleUrl": "#poly-7CB342-2101-105",
+                "styleHash": "66bf2b6d",
+                "styleMapHash": {
+                    "normal": "#poly-7CB342-2101-105-normal",
+                    "highlight": "#poly-7CB342-2101-105-highlight"
+                },
+                "description": "<img src=\"https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/34op07sc5gd2v5m7fglu2o0lak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo-0Jy-bNAy7P2cSvmI8xzAxtl3NatrjpNZVCSDMa7e9YY0gZMDDuAGH9a4VZ_WVTDlnXBoVdKpzFcmZVy-MJivcZ0GWoCmLsnV511Yz7T_yVHmKxzTXWJrk2WxPOcEHzOgJrR19O-ZWQI1UOs1HR23goStiFuUEqo7jTvU4RcjDnJHJAJfKjwCl8DLzrC1VGP5uFmBhBAGR-0OOwkjnJqqlBH0tI4SFLR7mxX4YMgm1lKteZz9g5e08nJemfGRdDr1D_JgnXUsaqYAalWP3VuFQSYHKQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t389<br>Address:\t147 Cherry St.<br>Public Access:\t24/7, 365<br> Rate:<br> 0-2hrs FREE<br> 2-2.5hrs $3.00<br> 2.5-3hrs $4.00<br> 3-3.5hrs $5.00<br> 3.5-4hrs $6.00<br> 4-5hrs $7.00<br> 5-6hrs $8.00<br> 6-7hrs $9.00<br> More than 7hrs $10.00<br>Accepts: Credit Card, Cash<br>*FREE on Sundays and city-recognized holidays<br><br><img src=\"https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/mmifkfmac6oc1f2tgagt0d9ml8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq6oK5zmVtgIXY72Xs1ATUlsBNfBW2Sp9uEux01ynuL-mvBNDkEJKMqilvV5NnreYuVTnSxy1RbCzgo-MhCGFWxu_9-67rfwyjYMrnYnnPFJEarAPNM31sTk0IJarYV_xt4Hi3hUOdPLqaFMRXCPgWtc0jRjDACJP-UODkARoYRPpLSY_MmTKapIOPBulFfALmbNOtpXbeY3OQVaqxONI5h6MWvSs9S-qplwUNFC2f06IlfuOiKNV8FcZGTB8OfTa9rO8C77A6S_yDTzJDLP5Os-Tqq8A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/jmedv0en6pke7sfg4k38ec1vlg/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpbvKMehffaUgeHGbCKhNhFla8tNoXiG1ByJReVJR2cSOPLcWMco-7Y3BRlFAinz6acMeFHXnYYuZeEW36xrT7FRLSiU-E9KPTfK8Y7q_Laur421U5dpRGxgUGEO7xxi7CnC-ING6w4miIdgMjh-I8fMkiitG0ySaGEvF4LCU4o8YqvTSkTfHOQw_F8Bmi-AzYpaESHkPMpOTuAQxMmIbzH-ntNLImVA2q-Gxelm8qd1TcvBa5JDgtoyHEkAbHJgV2W_KF7AXayV6QmtCVNnE2d5fJ_oA?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#7cb342",
+                "stroke-opacity": 1,
+                "stroke-width": 2.101,
+                "fill": "#7cb342",
+                "fill-opacity": 0.4117647058823529,
+                "gx_media_links": "https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/34op07sc5gd2v5m7fglu2o0lak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo-0Jy-bNAy7P2cSvmI8xzAxtl3NatrjpNZVCSDMa7e9YY0gZMDDuAGH9a4VZ_WVTDlnXBoVdKpzFcmZVy-MJivcZ0GWoCmLsnV511Yz7T_yVHmKxzTXWJrk2WxPOcEHzOgJrR19O-ZWQI1UOs1HR23goStiFuUEqo7jTvU4RcjDnJHJAJfKjwCl8DLzrC1VGP5uFmBhBAGR-0OOwkjnJqqlBH0tI4SFLR7mxX4YMgm1lKteZz9g5e08nJemfGRdDr1D_JgnXUsaqYAalWP3VuFQSYHKQ?session=0&fife https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/mmifkfmac6oc1f2tgagt0d9ml8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq6oK5zmVtgIXY72Xs1ATUlsBNfBW2Sp9uEux01ynuL-mvBNDkEJKMqilvV5NnreYuVTnSxy1RbCzgo-MhCGFWxu_9-67rfwyjYMrnYnnPFJEarAPNM31sTk0IJarYV_xt4Hi3hUOdPLqaFMRXCPgWtc0jRjDACJP-UODkARoYRPpLSY_MmTKapIOPBulFfALmbNOtpXbeY3OQVaqxONI5h6MWvSs9S-qplwUNFC2f06IlfuOiKNV8FcZGTB8OfTa9rO8C77A6S_yDTzJDLP5Os-Tqq8A?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/jmedv0en6pke7sfg4k38ec1vlg/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpbvKMehffaUgeHGbCKhNhFla8tNoXiG1ByJReVJR2cSOPLcWMco-7Y3BRlFAinz6acMeFHXnYYuZeEW36xrT7FRLSiU-E9KPTfK8Y7q_Laur421U5dpRGxgUGEO7xxi7CnC-ING6w4miIdgMjh-I8fMkiitG0ySaGEvF4LCU4o8YqvTSkTfHOQw_F8Bmi-AzYpaESHkPMpOTuAQxMmIbzH-ntNLImVA2q-Gxelm8qd1TcvBa5JDgtoyHEkAbHJgV2W_KF7AXayV6QmtCVNnE2d5fJ_oA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.213733,
+                            44.474684,
+                            0
+                        ],
+                        [
+                            -73.213712,
+                            44.474297,
+                            0
+                        ],
+                        [
+                            -73.213317,
+                            44.474307,
+                            0
+                        ],
+                        [
+                            -73.213355,
+                            44.474687,
+                            0
+                        ],
+                        [
+                            -73.213733,
+                            44.474684,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "194 SAINT PAUL NORTH GARAGE",
+                "styleUrl": "#poly-7CB342-1701-110",
+                "styleHash": "78622593",
+                "styleMapHash": {
+                    "normal": "#poly-7CB342-1701-110-normal",
+                    "highlight": "#poly-7CB342-1701-110-highlight"
+                },
+                "description": "<img src=\"https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/g7ijadq2oqe0mpk7tjgphe0se8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo1_1nswI2IGKQAR48gf4GGvvFsFwAk0UiEtasq5l7Y2dmugqdw_rPGPkulRMJ-Q4dxselj4w66PdiPOqFgr20t9gqcjXKf1MYOeaYe0ujOKVPF7UTJxpNVZhmjznnYq2DWSl8o2p4jDF6WzOQ7mzUP5Iid7p99dy3ll7RULpIS58JVE7WGT3ny3HlIerQghhnrr0l60RtG9zqh1TLVaFg_oAsSQ2rShzv3tPviynb1KJoUkfC06kRK77rv5CMragwSfTgJqUPwcU5YcWGR8CWyf3Mn-g?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t24<br>Address:\t194 Saint Paul St<br>Public Access:\t24/7, 365<br>Rate:\t$1/hr<br>Accepts: Credit Card, Cash, ParkMobile App ",
+                "stroke": "#7cb342",
+                "stroke-opacity": 1,
+                "stroke-width": 1.701,
+                "fill": "#7cb342",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/g7ijadq2oqe0mpk7tjgphe0se8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo1_1nswI2IGKQAR48gf4GGvvFsFwAk0UiEtasq5l7Y2dmugqdw_rPGPkulRMJ-Q4dxselj4w66PdiPOqFgr20t9gqcjXKf1MYOeaYe0ujOKVPF7UTJxpNVZhmjznnYq2DWSl8o2p4jDF6WzOQ7mzUP5Iid7p99dy3ll7RULpIS58JVE7WGT3ny3HlIerQghhnrr0l60RtG9zqh1TLVaFg_oAsSQ2rShzv3tPviynb1KJoUkfC06kRK77rv5CMragwSfTgJqUPwcU5YcWGR8CWyf3Mn-g?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.213692,
+                            44.474111,
+                            0
+                        ],
+                        [
+                            -73.213654,
+                            44.473761,
+                            0
+                        ],
+                        [
+                            -73.213094,
+                            44.47378,
+                            0
+                        ],
+                        [
+                            -73.213121,
+                            44.474133,
+                            0
+                        ],
+                        [
+                            -73.213692,
+                            44.474111,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "194 SAINT PAUL SOUTH GARAGE",
+                "styleUrl": "#poly-7CB342-1601-110",
+                "styleHash": "40a4f255",
+                "styleMapHash": {
+                    "normal": "#poly-7CB342-1601-110-normal",
+                    "highlight": "#poly-7CB342-1601-110-highlight"
+                },
+                "description": "<img src=\"https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/mf5eq2ti66gse07gc7u5iujeak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo8Fbgzc4KhJwbIx8IuGOkEQB8sa_NQBBG9b2bCKxVwFZUw5cawJ2ucSaC8K1Ly5T3_cdxFs0cZlYycs31pzbcTsgV1jWXteCKGyFBNo4sNdiKrwTV3UKAeHo1maTYpymwxPQwxZ1koB04Xhg1nH60HFy5dPiwHzBHbcvImfyeOwvgjgiZpJDSeICzzSgeUg3fJjMWa3qwS2Jb4X2A3EADg-NrhRJNMerbPiVV8uhRZK9yIYb1w95uCFxcA3f-JdBlk4gJD1IvLO4om_bZLDwGzmoICjQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t28<br>Address:\t194 Saint Paul St<br>Public Access:\t24/7, 365<br>Rate:\t$1/hr<br>Accepts: Credit Card, Cash, ParkMobile App<br>Enforced: 9am-9pm<br><br><img src=\"https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ola5tgm30k9gd881qu68ip87k4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALofhbjLWdOBx7Fw5UXqH51yEoTfRA7299l5J-4itvZ6h6u5IwskeXnodr6-X5eqfMRXrfdaJJWVNHOXidRp-OPBEW7cp_KBxf0w8_uqT_Esz20nbWIavwharJACe8eHhnUwMZqIrZIOjZPs5bmiB-S3_ZDdc97Ni3nMWlnKHNxxcD7bPLvbEkVb1fKONTLJCCm--m5PBB-HfG6Z-mW5o7iZBRRhG-rU1QeNYKleSGynq54c31Qf01LftPW4lKlIexJpjRlXAtvqqNSKqoB0EGtL5y0slg?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#7cb342",
+                "stroke-opacity": 1,
+                "stroke-width": 1.601,
+                "fill": "#7cb342",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/mf5eq2ti66gse07gc7u5iujeak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo8Fbgzc4KhJwbIx8IuGOkEQB8sa_NQBBG9b2bCKxVwFZUw5cawJ2ucSaC8K1Ly5T3_cdxFs0cZlYycs31pzbcTsgV1jWXteCKGyFBNo4sNdiKrwTV3UKAeHo1maTYpymwxPQwxZ1koB04Xhg1nH60HFy5dPiwHzBHbcvImfyeOwvgjgiZpJDSeICzzSgeUg3fJjMWa3qwS2Jb4X2A3EADg-NrhRJNMerbPiVV8uhRZK9yIYb1w95uCFxcA3f-JdBlk4gJD1IvLO4om_bZLDwGzmoICjQ?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ola5tgm30k9gd881qu68ip87k4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALofhbjLWdOBx7Fw5UXqH51yEoTfRA7299l5J-4itvZ6h6u5IwskeXnodr6-X5eqfMRXrfdaJJWVNHOXidRp-OPBEW7cp_KBxf0w8_uqT_Esz20nbWIavwharJACe8eHhnUwMZqIrZIOjZPs5bmiB-S3_ZDdc97Ni3nMWlnKHNxxcD7bPLvbEkVb1fKONTLJCCm--m5PBB-HfG6Z-mW5o7iZBRRhG-rU1QeNYKleSGynq54c31Qf01LftPW4lKlIexJpjRlXAtvqqNSKqoB0EGtL5y0slg?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.209713,
+                            44.478067,
+                            0
+                        ],
+                        [
+                            -73.209697,
+                            44.477977,
+                            0
+                        ],
+                        [
+                            -73.209677,
+                            44.477822,
+                            0
+                        ],
+                        [
+                            -73.2091723,
+                            44.4779354,
+                            0
+                        ],
+                        [
+                            -73.209173,
+                            44.477984,
+                            0
+                        ],
+                        [
+                            -73.209183,
+                            44.478035,
+                            0
+                        ],
+                        [
+                            -73.209195,
+                            44.478106,
+                            0
+                        ],
+                        [
+                            -73.209713,
+                            44.478067,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CITY MARKET LOT",
+                "styleUrl": "#poly-01579B-1000-107",
+                "styleHash": "-9ecd5f3",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1000-107-normal",
+                    "highlight": "#poly-01579B-1000-107-highlight"
+                },
+                "description": "<img src=\"https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/bah3j0618iar352u5ormdf07mg/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpTQs3mpmTHcp-WUOMHV-fcl0FfwGXYQiOhXeDpxiSQD2OsXQ1nVybGP1q9kk5K-xd6Do1YEa7-lE686IrX7hjsqQ9-AmbIVFujKNi5i84mZrFpA-IsPNTQ5wvGy5nlXyEDE2qAIOlmmDk5u3jZUE_CFLyfE7ql7bAnrSH4M3V5Z-L4rgdIp7ld05hdKdL89gbcrlHaD8TlQfdRCE7OrTdVvT6tgpNovznwUZIAV_OH--hj8VQwi4AZ8OPKfFdzHdTsUBQjN1aqOhEvw0EtFHYEf1WBUw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>**Metered Parking<br>Capacity:\t22<br>Address:\t105 S Union St<br>Public Access: 5am-2:30am<br>Rate:\t$1/hr, 3hr max<br>Accepts: Cash, ParkMobile App <br>Managed by: City of Burlington<br><br><img src=\"https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/lphfeqiht5lfe64i4aqaqcgj8o/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqV3oD82FFz_2PffMUMUVvFFlr5kLAdbeXBbMyhVE63ANqiCPrmHV22ubGn7Y7-Zai41gqWNSbuGbinV4RwMjsgxpZO1K6_b2MU-aCqrSemRMtc1s6qnnC28ghpQQiAvSJlcxGQSWDmyTOnUD7tuPADO2HCfyPcMztvC26iROPIM4GtzEA-1DI6jLAhp14lgcI9ipAMKop1gSrDHwnin_Iveb1nvpEyIVDHVpKkalfKk8T4iAAueYGkgqu7rg8xKe6ckaOXJsJv6zraTnWVUN04T1j0aw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/rk0gn7pgrcd4pvmd3598mpfcro/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpcQv_s7-TuTuJvJvxtPsIEGrwiTefePbSVp4gmXKG5pXONExCuJunNwICVV_r0RW4j37ULDADMGtpTSojCdGmMTu0hK9XZHNURHQTHGbkXZubh6nD0K-N2GScg2IuVsp1Afko_540maNCc-x1ybTyRu7xKZOZA23DSOiRczIJzwYVft6yCImxfW4IrVBK92gsQHNurBBh8eNE6let-c2fGnFFrZVk1WSA9xkUHrnsORrdUCJmoru1IFaZfrHdjI6b3XyxaVEMGGNL2-TFSLMloE1-K5A?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1,
+                "fill": "#01579b",
+                "fill-opacity": 0.4196078431372549,
+                "gx_media_links": "https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/bah3j0618iar352u5ormdf07mg/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpTQs3mpmTHcp-WUOMHV-fcl0FfwGXYQiOhXeDpxiSQD2OsXQ1nVybGP1q9kk5K-xd6Do1YEa7-lE686IrX7hjsqQ9-AmbIVFujKNi5i84mZrFpA-IsPNTQ5wvGy5nlXyEDE2qAIOlmmDk5u3jZUE_CFLyfE7ql7bAnrSH4M3V5Z-L4rgdIp7ld05hdKdL89gbcrlHaD8TlQfdRCE7OrTdVvT6tgpNovznwUZIAV_OH--hj8VQwi4AZ8OPKfFdzHdTsUBQjN1aqOhEvw0EtFHYEf1WBUw?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/lphfeqiht5lfe64i4aqaqcgj8o/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqV3oD82FFz_2PffMUMUVvFFlr5kLAdbeXBbMyhVE63ANqiCPrmHV22ubGn7Y7-Zai41gqWNSbuGbinV4RwMjsgxpZO1K6_b2MU-aCqrSemRMtc1s6qnnC28ghpQQiAvSJlcxGQSWDmyTOnUD7tuPADO2HCfyPcMztvC26iROPIM4GtzEA-1DI6jLAhp14lgcI9ipAMKop1gSrDHwnin_Iveb1nvpEyIVDHVpKkalfKk8T4iAAueYGkgqu7rg8xKe6ckaOXJsJv6zraTnWVUN04T1j0aw?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/rk0gn7pgrcd4pvmd3598mpfcro/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpcQv_s7-TuTuJvJvxtPsIEGrwiTefePbSVp4gmXKG5pXONExCuJunNwICVV_r0RW4j37ULDADMGtpTSojCdGmMTu0hK9XZHNURHQTHGbkXZubh6nD0K-N2GScg2IuVsp1Afko_540maNCc-x1ybTyRu7xKZOZA23DSOiRczIJzwYVft6yCImxfW4IrVBK92gsQHNurBBh8eNE6let-c2fGnFFrZVk1WSA9xkUHrnsORrdUCJmoru1IFaZfrHdjI6b3XyxaVEMGGNL2-TFSLMloE1-K5A?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.2145996,
+                            44.4820478,
+                            0
+                        ],
+                        [
+                            -73.2145688,
+                            44.4817349,
+                            0
+                        ],
+                        [
+                            -73.2137708,
+                            44.4817789,
+                            0
+                        ],
+                        [
+                            -73.2138124,
+                            44.4820756,
+                            0
+                        ],
+                        [
+                            -73.2145996,
+                            44.4820478,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "ELMWOOD LOT",
+                "styleUrl": "#poly-01579B-1200-110",
+                "styleHash": "4d9608b2",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1200-110-normal",
+                    "highlight": "#poly-01579B-1200-110-highlight"
+                },
+                "description": "<img src=\"https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/a928mlv10b5cddvbn9h00e3cd4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALradJZq4onMEXrXcewY3U3hzAKpZin8yDTZJLqiPurpyopzR1UdLDUP8sLpe4ukYAS1L1HY4mYbmwR0Xqv9Cuj9XmrWmdorrGSqIAYpCmlPe3aUxS0cyH0DDiVhr2-M9Ax2_CH08i49R533-7158qQNHbuPL6ifZ8a7s02voKqT-DUmrO-gf6QXIgkv_Fgh27nJn8YB0uIEMNV0J8skLYoLP9eA5M4PlPaMb-Z-PDKI9ZW23_wohwAK8UiT2C1UX5MQsMRLSmNK05X8UDIALYdh2EE2qA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity: 78<br>Address: Elmwood<br>Public Access: 5 p.m.-2 a.m.<br>Rate:\tFree<br>Note: Permit parking only outside the listed public parking times. <br><br><img src=\"https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/5m05u3divlol4a8hb9v4d0vqeg/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpqQTthQb4ZmWTnYcuQl9_84xTdqy6gkOnsqoW3a6mkMUEstScGIY7Isog9rNNLAWETdCS9k-Wr1n-7PPJKQtjOdmpnq0e_KMtZwedfTFWqOh-N_ZG3EPRIuVFCTr0q4-tY8SKnstNokJsZFwXILCdyzg53Y8LkIejuJfwb2MHtgx8BIlPxLaIlXoXFgI7T9drQqL9jLI0z2aUP4o59m2k2PLVxVK4AW88mYC0VHIaGSl4aQaT2UqnAhYs00mBjU9QgFsgaoiK4ki861coW7Yx8owon_A?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2,
+                "fill": "#01579b",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/a928mlv10b5cddvbn9h00e3cd4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALradJZq4onMEXrXcewY3U3hzAKpZin8yDTZJLqiPurpyopzR1UdLDUP8sLpe4ukYAS1L1HY4mYbmwR0Xqv9Cuj9XmrWmdorrGSqIAYpCmlPe3aUxS0cyH0DDiVhr2-M9Ax2_CH08i49R533-7158qQNHbuPL6ifZ8a7s02voKqT-DUmrO-gf6QXIgkv_Fgh27nJn8YB0uIEMNV0J8skLYoLP9eA5M4PlPaMb-Z-PDKI9ZW23_wohwAK8UiT2C1UX5MQsMRLSmNK05X8UDIALYdh2EE2qA?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/5m05u3divlol4a8hb9v4d0vqeg/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpqQTthQb4ZmWTnYcuQl9_84xTdqy6gkOnsqoW3a6mkMUEstScGIY7Isog9rNNLAWETdCS9k-Wr1n-7PPJKQtjOdmpnq0e_KMtZwedfTFWqOh-N_ZG3EPRIuVFCTr0q4-tY8SKnstNokJsZFwXILCdyzg53Y8LkIejuJfwb2MHtgx8BIlPxLaIlXoXFgI7T9drQqL9jLI0z2aUP4o59m2k2PLVxVK4AW88mYC0VHIaGSl4aQaT2UqnAhYs00mBjU9QgFsgaoiK4ki861coW7Yx8owon_A?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.222091,
+                            44.481364,
+                            0
+                        ],
+                        [
+                            -73.223599,
+                            44.48352,
+                            0
+                        ],
+                        [
+                            -73.22398,
+                            44.483403,
+                            0
+                        ],
+                        [
+                            -73.223074,
+                            44.482139,
+                            0
+                        ],
+                        [
+                            -73.222906,
+                            44.481393,
+                            0
+                        ],
+                        [
+                            -73.222538,
+                            44.481222,
+                            0
+                        ],
+                        [
+                            -73.222091,
+                            44.481364,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LAKE STREET EXTENSION LOT",
+                "styleUrl": "#poly-01579B-1000-105",
+                "styleHash": "-51440f1a",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1000-105-normal",
+                    "highlight": "#poly-01579B-1000-105-highlight"
+                },
+                "description": "<img src=\"https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ghbq494i8ejogkmjqen47su9do/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrh0iQ37egIVpq4ECIdAtJuqBr6-zuieUl7UO-ADglDAr1GG5Nxs1TyWLjmCX9u36NsBnx4Oi4Le_wRcqBgXQylatMuDAB2rQQZRsqhJVKD9kf9QXe67sqaiBx2-9PnZI3ZdutbgLlX9q8LikqEd2p3a-vG6gFnfNsGhyhrcX6TVZrRVjlOuzbcflOTUuN0x9OlRQ-AYBri52kz_3LJm-0ZaDWSKaCE05ziaErH6nurfFGKA49RMVzH4iWSR5oTAuOIUHbAjjnkEvVFSZvPjFEqnayCjQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t94<br>Address:\t601 Lake Street<br>Public Access:\t24/7, 365 <br>Rate:\t$1/hr<br>Accepts: Credit Card, Cash, ParkMobile App <br><br><img src=\"https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/0k1bjv0maju6v09cf5vmn3jm60/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqM-FbCmlxbSelJz5gThvNb6jCJDpX_GKIQG8RUte9kiiNMpmwbJEQ8iO_Zi5Se-cZxCbqM0o50d4acXXgv6K0nON4AIMZXvE6jgaPpop9gWihOwOg3djfejk0hSoWdPr54TpuhmMjvKGs8D0h--orUKvhECcs1QGRy0LOO4R-8NInCtQ8b672znTG4ro2Yijb8LXjNxA2OYaxIDJlX_x27SwcAD7Yk8jLQN5E9IsmPGmjnRO-g22QIbbRU5dFpMWTaNxfg_vYKmNGgdba3lzghUp_1xw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/8m0mv5oenpsgvfne02a121k6c4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpcNqMmbQMDXHHkUQ0oJOGZ7KNaQHIM7NWCWWLvM4OWOt5BMrm5-3MgZlZ1YNlkF4VtmTTPayZgR0yi2wR4aHnjyA8dTmnOnTbToTBamQGnnLnkoXE-I-P4ZneSE7Hh20WNJQhHkEel5OFfHkPALXR4O3kjUG8sp4SFK0eoSYLlezakK0Rq3uxzsgKzvJjNMHPOhkooqitEHDFbXpavoOp9GyMXvzRV8QN8KtjlH5bmddbpH-X72rRW5kiiQqKesQQHPHedD_Ul-05t5Ri53vnqY0YOMA?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1,
+                "fill": "#01579b",
+                "fill-opacity": 0.4117647058823529,
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ghbq494i8ejogkmjqen47su9do/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrh0iQ37egIVpq4ECIdAtJuqBr6-zuieUl7UO-ADglDAr1GG5Nxs1TyWLjmCX9u36NsBnx4Oi4Le_wRcqBgXQylatMuDAB2rQQZRsqhJVKD9kf9QXe67sqaiBx2-9PnZI3ZdutbgLlX9q8LikqEd2p3a-vG6gFnfNsGhyhrcX6TVZrRVjlOuzbcflOTUuN0x9OlRQ-AYBri52kz_3LJm-0ZaDWSKaCE05ziaErH6nurfFGKA49RMVzH4iWSR5oTAuOIUHbAjjnkEvVFSZvPjFEqnayCjQ?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/0k1bjv0maju6v09cf5vmn3jm60/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqM-FbCmlxbSelJz5gThvNb6jCJDpX_GKIQG8RUte9kiiNMpmwbJEQ8iO_Zi5Se-cZxCbqM0o50d4acXXgv6K0nON4AIMZXvE6jgaPpop9gWihOwOg3djfejk0hSoWdPr54TpuhmMjvKGs8D0h--orUKvhECcs1QGRy0LOO4R-8NInCtQ8b672znTG4ro2Yijb8LXjNxA2OYaxIDJlX_x27SwcAD7Yk8jLQN5E9IsmPGmjnRO-g22QIbbRU5dFpMWTaNxfg_vYKmNGgdba3lzghUp_1xw?session=0&fife https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/8m0mv5oenpsgvfne02a121k6c4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpcNqMmbQMDXHHkUQ0oJOGZ7KNaQHIM7NWCWWLvM4OWOt5BMrm5-3MgZlZ1YNlkF4VtmTTPayZgR0yi2wR4aHnjyA8dTmnOnTbToTBamQGnnLnkoXE-I-P4ZneSE7Hh20WNJQhHkEel5OFfHkPALXR4O3kjUG8sp4SFK0eoSYLlezakK0Rq3uxzsgKzvJjNMHPOhkooqitEHDFbXpavoOp9GyMXvzRV8QN8KtjlH5bmddbpH-X72rRW5kiiQqKesQQHPHedD_Ul-05t5Ri53vnqY0YOMA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.210465,
+                            44.476133,
+                            0
+                        ],
+                        [
+                            -73.210503,
+                            44.476395,
+                            0
+                        ],
+                        [
+                            -73.210677,
+                            44.47639,
+                            0
+                        ],
+                        [
+                            -73.210683,
+                            44.476481,
+                            0
+                        ],
+                        [
+                            -73.210903,
+                            44.476481,
+                            0
+                        ],
+                        [
+                            -73.210886,
+                            44.476134,
+                            0
+                        ],
+                        [
+                            -73.210572,
+                            44.476139,
+                            0
+                        ],
+                        [
+                            -73.210465,
+                            44.476133,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MAIN STREET LOT",
+                "styleUrl": "#poly-01579B-1000-105",
+                "styleHash": "-51440f1a",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1000-105-normal",
+                    "highlight": "#poly-01579B-1000-105-highlight"
+                },
+                "description": "<img src=\"https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7mnlofm4uhr58kh0vll4v8ks4k/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoacJeSdcPYrqc8GyKgLB9ztQeJlJ_Ax741WLqwUOzmKBkKTY6_NJyFUu-vboxVcrvRGnHAVk9SCaLeuYVbVZ2_fLNmSK-_FhcWvngUKJ1nTHH8vjZeQFtT2oe-3KxJMfiKOE8saPXHBk8OmUM4hzF4kpp9esFPXIVgLATvxYz2jIjThHBJfwSENT_pNX74JVLmP9ixuzrsjNeXhZebnXgCYAWWuz8g4nHtpa1Lwe3zcjlkwCR0r3VaINplsGHNTquDnb6ElISApruPaJZAaW7Q2UiWWw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t42<br>Address:\t220 Main St<br>Public Access: 6am-2:30am<br>Rate:\t$1.50/hr<br>Accepts: Credit Card, Cash, ParkMobile App<br>Enforced: 9am-9m Mon-Sat<br><br><img src=\"https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/dfivaq7du5brhqc87tacq7qar4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpxhgakCG1Pu7QPCSCO2B10qviQCCAuXsTHWw95wawLowSoQJsUXEuwssVVvC49gHKhvSlpdfR9ftW6wcWfvgtMyEhY2CzcGr5LIDJ42PvY_fdHsZki3QUusIHeF4dGooykXnJqaiJnPUusAZ8-wywm7I2Pv_-_sKakquearV33n5RfbxElWGRjmvSwSTsRetv46y9d8_dF3NwT60QlDsL-Ev-38hqOnfVYbPukABkQBORDPYVklE2nOOwwAGaQPc0gTztUrQyEdi6opAeWq9FyXrOJyQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/22nkp2sjjc6nm3d5jdimhd96m4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrsRJ5xxayKYulVVEYdSjQEMIUQcjwtBYnP5hh-pktdKIKhXhAhQapWIxArhRTFGkJEsgP9S_0ncDbVafktcE6iuSyZFoHWBT_J_cXfRQ9M6Uz9sedqy_y6O_WrSzye2-zc65_zOuiw8V2qiFH-LNre37atfbDijtiIS6nayo3pDes54h9n7LGf61lTPyKYTCApDPUwKRFZ0f7m3_00vTLZsYccu6W4dNroy3hqIXF7uyRpj9aPsSxrbp17nM5boaQvIZqSIP2BMd7QA0uZEEp7nqv_Gg?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1,
+                "fill": "#01579b",
+                "fill-opacity": 0.4117647058823529,
+                "gx_media_links": "https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7mnlofm4uhr58kh0vll4v8ks4k/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoacJeSdcPYrqc8GyKgLB9ztQeJlJ_Ax741WLqwUOzmKBkKTY6_NJyFUu-vboxVcrvRGnHAVk9SCaLeuYVbVZ2_fLNmSK-_FhcWvngUKJ1nTHH8vjZeQFtT2oe-3KxJMfiKOE8saPXHBk8OmUM4hzF4kpp9esFPXIVgLATvxYz2jIjThHBJfwSENT_pNX74JVLmP9ixuzrsjNeXhZebnXgCYAWWuz8g4nHtpa1Lwe3zcjlkwCR0r3VaINplsGHNTquDnb6ElISApruPaJZAaW7Q2UiWWw?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/dfivaq7du5brhqc87tacq7qar4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpxhgakCG1Pu7QPCSCO2B10qviQCCAuXsTHWw95wawLowSoQJsUXEuwssVVvC49gHKhvSlpdfR9ftW6wcWfvgtMyEhY2CzcGr5LIDJ42PvY_fdHsZki3QUusIHeF4dGooykXnJqaiJnPUusAZ8-wywm7I2Pv_-_sKakquearV33n5RfbxElWGRjmvSwSTsRetv46y9d8_dF3NwT60QlDsL-Ev-38hqOnfVYbPukABkQBORDPYVklE2nOOwwAGaQPc0gTztUrQyEdi6opAeWq9FyXrOJyQ?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/22nkp2sjjc6nm3d5jdimhd96m4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrsRJ5xxayKYulVVEYdSjQEMIUQcjwtBYnP5hh-pktdKIKhXhAhQapWIxArhRTFGkJEsgP9S_0ncDbVafktcE6iuSyZFoHWBT_J_cXfRQ9M6Uz9sedqy_y6O_WrSzye2-zc65_zOuiw8V2qiFH-LNre37atfbDijtiIS6nayo3pDes54h9n7LGf61lTPyKYTCApDPUwKRFZ0f7m3_00vTLZsYccu6W4dNroy3hqIXF7uyRpj9aPsSxrbp17nM5boaQvIZqSIP2BMd7QA0uZEEp7nqv_Gg?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.220229,
+                            44.47269,
+                            0
+                        ],
+                        [
+                            -73.219396,
+                            44.472691,
+                            0
+                        ],
+                        [
+                            -73.219193,
+                            44.472821,
+                            0
+                        ],
+                        [
+                            -73.219329,
+                            44.473406,
+                            0
+                        ],
+                        [
+                            -73.220076,
+                            44.473366,
+                            0
+                        ],
+                        [
+                            -73.220053,
+                            44.473183,
+                            0
+                        ],
+                        [
+                            -73.220287,
+                            44.473152,
+                            0
+                        ],
+                        [
+                            -73.220229,
+                            44.47269,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PERKINS PIER LOT",
+                "styleUrl": "#poly-01579B-1000-110",
+                "styleHash": "-638aa7c8",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1000-110-normal",
+                    "highlight": "#poly-01579B-1000-110-highlight"
+                },
+                "description": "<img src=\"https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/3kldd3ddbo1rs042cemdah58v8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqBR00lGbgM5qY6Df3s2wTO-Jen_H1wEI8j-BsC7gZFfgHfajsWYfWVS1Az-VMTiVWPu8utwe3is0BK3lA0XNruNx_tKAP_q_3dBYc_ti-uZpizRXv_WiA6mCHIyXIjOayCuU75UuKPt_lni8KVu_L8wkrzWNIbQXbq47KQk_dzaCNFxO4Gx_kjwKeH0TRbjsOuno5WuWB0Me2iOEEuvE4K_tR6JurmvCqqwhJ4Y3nXOSN5pYhrzsQhdXPC3PfEC0tQwgFU_K3vXP_dZiJ6CyYvZfdfnQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t150<br>Address:\t1 Lavalley Lane<br>Public Access:\t6 a.m.-11 p.m.<br>Vehicles arriving before 8 a.m. must pay upon exiting<br>Rate:\t$6/Day Resident, $8/Day Non Resident<br>Managed by: Burlington Parks, Recreation & Waterfront<br>Accepts: Cash or Card<br>More info: https://enjoyburlington.com/resources/pricing-fees/<br><br><img src=\"https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7djavfldfhl9fpfupvn7468ed0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrTvVbctcl5IiNi7hLdKjhtr5Gzu_b6ZWgstDHkFTIQa-ElSghRjIQaJ_Xs4NHwHM7g4fu10GhKH05RzVfLi1xF8Cd5xPAA7O0Aef2k0JUBJoFGcx3QwDWo64zzLbDxYFNZt8JYSVdofVoI0Z0PAbxeSqyrFA2ZVv2JNrmbp9MygxavaqtfxtSUvTq6V4okbqduabG8NPY718XKeiD5YVB9MxbZO2F84gGbyBB94p_NjPvPgDIhqTEMRUTYrjv3OeAibJeDzonz8n2uYsqBbPLMJFLW6A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tn1ge6uo5rcn51sbuana17lebs/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpk5iiiu1E8SxbHSqx2LpwEm_rALudR_QGCtZgA0zKlr2mxa2fmWcw-reyZwe2Bof-QdXOh7Zky1qKjhCTkrCtile68zpniXhTlVZYzD-ZOp5kS60Nkqu6NyUe9EnYjEZ_2xGS7YNFhWGue7ncFAaBb-yFlpj6D-0Rs34qiwt4sZxK2jkZh9k2r9ToalZBT643Im-5hU1QLKeI7SvAIuyiujwrJ47aGqJ-y_iYL597IZFSLNWdoWsUGX1bCR52Dkni3IgNl_NYZZCLubvFd77LQT3JxuQ?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1,
+                "fill": "#01579b",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/3kldd3ddbo1rs042cemdah58v8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqBR00lGbgM5qY6Df3s2wTO-Jen_H1wEI8j-BsC7gZFfgHfajsWYfWVS1Az-VMTiVWPu8utwe3is0BK3lA0XNruNx_tKAP_q_3dBYc_ti-uZpizRXv_WiA6mCHIyXIjOayCuU75UuKPt_lni8KVu_L8wkrzWNIbQXbq47KQk_dzaCNFxO4Gx_kjwKeH0TRbjsOuno5WuWB0Me2iOEEuvE4K_tR6JurmvCqqwhJ4Y3nXOSN5pYhrzsQhdXPC3PfEC0tQwgFU_K3vXP_dZiJ6CyYvZfdfnQ?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7djavfldfhl9fpfupvn7468ed0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrTvVbctcl5IiNi7hLdKjhtr5Gzu_b6ZWgstDHkFTIQa-ElSghRjIQaJ_Xs4NHwHM7g4fu10GhKH05RzVfLi1xF8Cd5xPAA7O0Aef2k0JUBJoFGcx3QwDWo64zzLbDxYFNZt8JYSVdofVoI0Z0PAbxeSqyrFA2ZVv2JNrmbp9MygxavaqtfxtSUvTq6V4okbqduabG8NPY718XKeiD5YVB9MxbZO2F84gGbyBB94p_NjPvPgDIhqTEMRUTYrjv3OeAibJeDzonz8n2uYsqBbPLMJFLW6A?session=0&fife https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tn1ge6uo5rcn51sbuana17lebs/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpk5iiiu1E8SxbHSqx2LpwEm_rALudR_QGCtZgA0zKlr2mxa2fmWcw-reyZwe2Bof-QdXOh7Zky1qKjhCTkrCtile68zpniXhTlVZYzD-ZOp5kS60Nkqu6NyUe9EnYjEZ_2xGS7YNFhWGue7ncFAaBb-yFlpj6D-0Rs34qiwt4sZxK2jkZh9k2r9ToalZBT643Im-5hU1QLKeI7SvAIuyiujwrJ47aGqJ-y_iYL597IZFSLNWdoWsUGX1bCR52Dkni3IgNl_NYZZCLubvFd77LQT3JxuQ?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.2198921,
+                            44.4770191,
+                            0
+                        ],
+                        [
+                            -73.2203181,
+                            44.4777711,
+                            0
+                        ],
+                        [
+                            -73.2204581,
+                            44.4777391,
+                            0
+                        ],
+                        [
+                            -73.2204871,
+                            44.4777151,
+                            0
+                        ],
+                        [
+                            -73.2204451,
+                            44.4776291,
+                            0
+                        ],
+                        [
+                            -73.2205611,
+                            44.4775921,
+                            0
+                        ],
+                        [
+                            -73.2202451,
+                            44.4769841,
+                            0
+                        ],
+                        [
+                            -73.2198921,
+                            44.4770191,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PEASE LOT",
+                "styleUrl": "#poly-01579B-1000-110",
+                "styleHash": "-638aa7c8",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1000-110-normal",
+                    "highlight": "#poly-01579B-1000-110-highlight"
+                },
+                "description": "<img src=\"https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/a7d582503mejuoci1u6ps68ov0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALquLzIHhvXCDph4tnfxpwuwoQSUpDSaImmS8hV5eUutqLVOSWrlqFWk0hXOivHRYBmgC1-ip_iH8BQdaj20qRE2yIxbHQtIF951H-pfZr54mj1wwAiYqHOh578czKjLkC1FpV2A5dQRpfK_JPwLtGRLee9HPmM-9z7N7qA8FGNig6SlZG0xx8qdWXfXR8ds0PseD8XsyR1jOFfqTsT1T9V1vlMZZ4OQFLi4aeV0oODYFZfy8NfBVTe_KOv_3XyFYMaEk0B12HE9uSCln4sZJjmukZtwww?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity: 76 <br>Handicap spaces: 2<br>Address:\t14 College St<br>Accepts: Credit Card, Cash, ParkMobile App <br>Rate: Variable – $3/hr in summer, $2/hr in winter. <br>Enforced: 8 a.m.-8 p.m. Mon-Sat, 8 a.m.-6 p.m. Sun. <br>Managed by: Burlington Parks, Recreation & Waterfront. More info: https://enjoyburlington.com/resources/pricing-fees/<br><br><img src=\"https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tdaehb86d24nig35o0o0qo8oak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq2fXyxlptXcCIsPJE74Wc8lE4t4RJatt3RpT4vE8AFpiWYsV0GlXjnOQhk95TfeZ6nnbG1yc-E4nCcUhqXsbQUqg2PhRvCzRfes18SnJG0mNZQdzXeSa37ZOv3-E7hq6CbQnUZmf_UZ3YmUSxy_My2OhICUTy4RspBURN6hus5e9xQO5XaVEWnAzLrFmzmXBcU3n170ccjzsyhCb-pxMIrwChBVKZ8MusBmONNO9mpfUBeHTvh32AXQNKqhoIdrmCeMYa8nxwo7r3lQ9IgnKb-iv5H9A?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1,
+                "fill": "#01579b",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/a7d582503mejuoci1u6ps68ov0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALquLzIHhvXCDph4tnfxpwuwoQSUpDSaImmS8hV5eUutqLVOSWrlqFWk0hXOivHRYBmgC1-ip_iH8BQdaj20qRE2yIxbHQtIF951H-pfZr54mj1wwAiYqHOh578czKjLkC1FpV2A5dQRpfK_JPwLtGRLee9HPmM-9z7N7qA8FGNig6SlZG0xx8qdWXfXR8ds0PseD8XsyR1jOFfqTsT1T9V1vlMZZ4OQFLi4aeV0oODYFZfy8NfBVTe_KOv_3XyFYMaEk0B12HE9uSCln4sZJjmukZtwww?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tdaehb86d24nig35o0o0qo8oak/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq2fXyxlptXcCIsPJE74Wc8lE4t4RJatt3RpT4vE8AFpiWYsV0GlXjnOQhk95TfeZ6nnbG1yc-E4nCcUhqXsbQUqg2PhRvCzRfes18SnJG0mNZQdzXeSa37ZOv3-E7hq6CbQnUZmf_UZ3YmUSxy_My2OhICUTy4RspBURN6hus5e9xQO5XaVEWnAzLrFmzmXBcU3n170ccjzsyhCb-pxMIrwChBVKZ8MusBmONNO9mpfUBeHTvh32AXQNKqhoIdrmCeMYa8nxwo7r3lQ9IgnKb-iv5H9A?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.2162253,
+                            44.4807171,
+                            0
+                        ],
+                        [
+                            -73.216126,
+                            44.4807113,
+                            0
+                        ],
+                        [
+                            -73.216126,
+                            44.4806156,
+                            0
+                        ],
+                        [
+                            -73.2155333,
+                            44.4806348,
+                            0
+                        ],
+                        [
+                            -73.2155306,
+                            44.4807974,
+                            0
+                        ],
+                        [
+                            -73.2157586,
+                            44.4807917,
+                            0
+                        ],
+                        [
+                            -73.2157613,
+                            44.4809792,
+                            0
+                        ],
+                        [
+                            -73.2162897,
+                            44.4809716,
+                            0
+                        ],
+                        [
+                            -73.2162762,
+                            44.4807496,
+                            0
+                        ],
+                        [
+                            -73.2162307,
+                            44.4807496,
+                            0
+                        ],
+                        [
+                            -73.2162253,
+                            44.4807171,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BOVE'S LOT",
+                "styleUrl": "#poly-01579B-1301-112",
+                "styleHash": "3143dc56",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1301-112-normal",
+                    "highlight": "#poly-01579B-1301-112-highlight"
+                },
+                "description": "<img src=\"https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/c5ileuvb5vo3e0t1do439b8org/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpkF1gvkvvil2LSgTqFUXdQRX1Q7i5SC9f_26O5KhzGVX-mF1XvEnzLO2OKnybHWINn2glcSaRLanGkmERKE2D4s8LA5_kmsAxhKY70y7dLcIFfbzu78Jz3nMkcxtJGH6NDtjETauO44GLSQ6ioLwWY7hbuLkYFwXSLKkGqddaZ7tP4iSkujBZ31Arviwx6_DMkBMSBVNdTpYDk3J41rss2F4yFyyv9Brjycnigk4qms-hrNicgYqFUTrZRmKEwZILf016Vo3geYIHeSkpaza4aFbdpdQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Capacity:\t36<br>Address:\tPearl Street<br>Public Access: 24/7 (excluding Dec. 1 - Mar. 15 2:30 a.m.-6 a.m.)<br>Rate: Brown Top Meters and Blue Top Meters ($0.40/hr and $1/hr, respectively)<br>Accepts: Coin, ParkMobile<br><br><img src=\"https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/i0js9k71f0evecckjo4th57498/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqE2a1w7vfoHEg-FTefKlW78FOg2wGrxE3FTvD0y9UP9xWPmyHqRkgr3QCWpiNZX-WxO4C2y5nj6TFTeWU4j9JFCxE0BooxdDdH1d_euvNVfD_yowSMqJS3cjKr-YKN0zWZHrEbJvCiSg6H8zlYqgzt-YLrVJF0z5FRAIZKG-g_WqdC7fOpV9lveDISbfFbUkAJgFy862Tn2Ej_M4LefjvzwbhFv_p3gpQCZgqJO9Ed9Iy-jjxpQHR8Ql_8cLJzbVSXr5-tFTck9-qfwv3pY7pW8JUXLg?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1.301,
+                "fill": "#01579b",
+                "fill-opacity": 0.4392156862745098,
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/c5ileuvb5vo3e0t1do439b8org/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpkF1gvkvvil2LSgTqFUXdQRX1Q7i5SC9f_26O5KhzGVX-mF1XvEnzLO2OKnybHWINn2glcSaRLanGkmERKE2D4s8LA5_kmsAxhKY70y7dLcIFfbzu78Jz3nMkcxtJGH6NDtjETauO44GLSQ6ioLwWY7hbuLkYFwXSLKkGqddaZ7tP4iSkujBZ31Arviwx6_DMkBMSBVNdTpYDk3J41rss2F4yFyyv9Brjycnigk4qms-hrNicgYqFUTrZRmKEwZILf016Vo3geYIHeSkpaza4aFbdpdQ?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/i0js9k71f0evecckjo4th57498/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqE2a1w7vfoHEg-FTefKlW78FOg2wGrxE3FTvD0y9UP9xWPmyHqRkgr3QCWpiNZX-WxO4C2y5nj6TFTeWU4j9JFCxE0BooxdDdH1d_euvNVfD_yowSMqJS3cjKr-YKN0zWZHrEbJvCiSg6H8zlYqgzt-YLrVJF0z5FRAIZKG-g_WqdC7fOpV9lveDISbfFbUkAJgFy862Tn2Ej_M4LefjvzwbhFv_p3gpQCZgqJO9Ed9Iy-jjxpQHR8Ql_8cLJzbVSXr5-tFTck9-qfwv3pY7pW8JUXLg?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.209283,
+                            44.476547,
+                            0
+                        ],
+                        [
+                            -73.209293,
+                            44.476699,
+                            0
+                        ],
+                        [
+                            -73.209666,
+                            44.476679,
+                            0
+                        ],
+                        [
+                            -73.209719,
+                            44.477124,
+                            0
+                        ],
+                        [
+                            -73.209936,
+                            44.477109,
+                            0
+                        ],
+                        [
+                            -73.209873,
+                            44.476636,
+                            0
+                        ],
+                        [
+                            -73.210016,
+                            44.47663,
+                            0
+                        ],
+                        [
+                            -73.209989,
+                            44.476399,
+                            0
+                        ],
+                        [
+                            -73.209793,
+                            44.47641,
+                            0
+                        ],
+                        [
+                            -73.209803,
+                            44.476528,
+                            0
+                        ],
+                        [
+                            -73.209283,
+                            44.476547,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "FLETCHER FREE LIBRARY LOT",
+                "styleUrl": "#poly-01579B-1000-110",
+                "styleHash": "-638aa7c8",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-1000-110-normal",
+                    "highlight": "#poly-01579B-1000-110-highlight"
+                },
+                "description": "<img src=\"https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/8n6cq5c7q9stgbgnlnao0u4m1c/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrBIaQwAVQS0Ggr5bpX8SG4VFOHV9mYRTqHM7yWUBsefFvggdYPeLeZ0RV84T-dKIh-jb3fclplj3rorO5l6t97oVtbQ3pDuqL3Urcs0g7aV1z_HGisqf2QB4wFIIKJp48VxSHZ5ijALDR6QUzh_5dOIgPGUcBSRpsyA6T5bCDPGSpiIPek-U9yR9iDHwMCqatw91FP8q8q619RXQmrUgEo0yPnVScFT24dYobHNp76gGXF3UECYzEwcghUpXJUsnwSgyyXlPQCh75FISVjwXWYa_IyTQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>**Metered parking<br>Capacity:\t43<br>Address:\t245 College St<br>Public Access: 24/7 (excluding Dec. 1 - Mar. 15 2:30 a.m.-6 a.m.)<br>Rate: Mix of Brown and Blue Top meters ($0.40/hr and $1/hr, respectively)<br>Accepts: Cash, ParkMobile App <br>Enforced: 9 a.m.-6 p.m.<br>Managed by: City of Burlington<br><br><img src=\"https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/h6j0td0qrb41mt3r3vi3sbnuhs/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqqU2eMPKpdYZaPUdZ4o-k_GPTC25pUFPjVDKjCc45zGPTb8S-V9tt1u8xwEHGREhOMr2ZRmldfnFmfICn87hKjZkD4cEvB91l8n4aCpIFuKDSwVmoELQStvVPr6ZtWChV8FhtIHgO-wk64TVJx8-AZSDBd1ynWXqP5pndy5XXK3jRp0J0OEfNMpuLVjsbsYgD6olku_KYEq8lVnIR5db6ganUNSg4ldh7Va27qIk9kb3BABv6yBEZ_VRmpxw6K7xFwiXlEKQtAlu4JeCBxxWoKu69RlQ?session=0&fife\" height=\"200\" width=\"auto\" />",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1,
+                "fill": "#01579b",
+                "fill-opacity": 0.43137254901960786,
+                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/8n6cq5c7q9stgbgnlnao0u4m1c/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrBIaQwAVQS0Ggr5bpX8SG4VFOHV9mYRTqHM7yWUBsefFvggdYPeLeZ0RV84T-dKIh-jb3fclplj3rorO5l6t97oVtbQ3pDuqL3Urcs0g7aV1z_HGisqf2QB4wFIIKJp48VxSHZ5ijALDR6QUzh_5dOIgPGUcBSRpsyA6T5bCDPGSpiIPek-U9yR9iDHwMCqatw91FP8q8q619RXQmrUgEo0yPnVScFT24dYobHNp76gGXF3UECYzEwcghUpXJUsnwSgyyXlPQCh75FISVjwXWYa_IyTQ?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/h6j0td0qrb41mt3r3vi3sbnuhs/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqqU2eMPKpdYZaPUdZ4o-k_GPTC25pUFPjVDKjCc45zGPTb8S-V9tt1u8xwEHGREhOMr2ZRmldfnFmfICn87hKjZkD4cEvB91l8n4aCpIFuKDSwVmoELQStvVPr6ZtWChV8FhtIHgO-wk64TVJx8-AZSDBd1ynWXqP5pndy5XXK3jRp0J0OEfNMpuLVjsbsYgD6olku_KYEq8lVnIR5db6ganUNSg4ldh7Va27qIk9kb3BABv6yBEZ_VRmpxw6K7xFwiXlEKQtAlu4JeCBxxWoKu69RlQ?session=0&fife"
+            }
+        }
+    ]
+}
