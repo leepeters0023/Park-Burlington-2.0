@@ -11,6 +11,7 @@ html, body {
   background-color: #20346a;
   display: flex;
   align-items: center;
+  color: #fff;
 }
 
 #logo {

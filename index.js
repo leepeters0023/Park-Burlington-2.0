@@ -53,7 +53,18 @@ function errData(data) {
 
 async function initMap() {
   //Fetch geojson
-  const mapData = await fetch("./BurlingtonParkingMap.geojson").then( res => res.json()).then( res => res)
+  let togglePolyLayer = document.getElementById('togglePolygons')
+  let polyLayerOn = 'off'
+  let toggleLineStringLayer = document.getElementById('toggleLineString')
+  let lineStringLayerOn = 'off'
+
+  const linestringData = await fetch("./BurlingtonParkingLineString.geojson")
+      .then(res => res.json())
+      .then(res => res)
+  const polygonData = await fetch("./BurlingtonParkingPolygon.geojson")
+      .then(res => res.json())
+      .then(res => res)
+      
 
   //Define lat lng location of the center of downtown Burlington
   const burlingtonCenter = {lat: 44.478081, lng: -73.215}
@@ -68,11 +79,10 @@ async function initMap() {
     south: 44.424518,
     west: -73.269027,
     east: -73.151240,
-
-  }
+ }
 
   //Initialize map with some controls disabled
-  var map = new google.maps.Map(document.getElementById('map'), {
+  const map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
     zoom: 15.3,
     fullscreenControl: false,
@@ -138,27 +148,102 @@ async function initMap() {
     
   });
     
-  // Import parking map geojson file
-  map.data.addGeoJson(mapData)
+  let polyLayer = new google.maps.Data();
+  let lineStringLayer = new google.maps.Data();
 
-  // Import line/polygon styles from mapData objects
-  map.data.setStyle(function(feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity')
-    let strokeC = feature.getProperty('stroke')
-    let strokeO = feature.getProperty('stroke-opacity')
-    let strokeW = feature.getProperty('stroke-width')
-    let iconImg = feature.getProperty('icon')
-    
-    return {
-      fillColor: fillC,
-      fillOpacity:  fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: 3,
-      icon: iconImg,
-    };
+  // Import parking map geojson files
+  lineStringLayer.addGeoJson(linestringData);
+  polyLayer.addGeoJson(polygonData);
+
+  // set layers on map
+  lineStringLayer.setMap(map);
+  polyLayer.setMap(map);
+
+  // Set styles for data layers
+  polyLayer.setStyle(function (feature) {
+      let fillC = feature.getProperty('fill')
+      let fillO = feature.getProperty('fill-opacity')
+      let strokeC = feature.getProperty('stroke')
+      let strokeO = feature.getProperty('stroke-opacity')
+      let strokeW = feature.getProperty('stroke-width')
+
+      return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+      }
+  })
+
+  lineStringLayer.setStyle(function (feature) {
+      let fillC = feature.getProperty('fill');
+      let fillO = feature.getProperty('fill-opacity')
+      let strokeC = feature.getProperty('stroke')
+      let strokeO = feature.getProperty('stroke-opacity')
+      let strokeW = feature.getProperty('stroke-width')
+
+      return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+      };
   });
+
+
+  
+  togglePolyLayer.addEventListener('click', function () {
+      console.log(polyLayerOn)
+      if (polyLayerOn === 'off') {
+          polyLayer.setStyle({ visible: false })
+          polyLayerOn = 'on'
+      } else if (polyLayerOn === 'on') {
+          polyLayer.setStyle(function (feature) {
+              let fillC = feature.getProperty('fill')
+              let fillO = feature.getProperty('fill-opacity')
+              let strokeC = feature.getProperty('stroke')
+              let strokeO = feature.getProperty('stroke-opacity')
+              let strokeW = feature.getProperty('stroke-width')
+      
+              return {
+                  fillColor: fillC,
+                  fillOpacity: fillO,
+                  strokeColor: strokeC,
+                  strokeOpacity: strokeO,
+                  strokeWeight: strokeW,
+              }
+          })
+          polyLayerOn = 'off'
+      }
+  });
+
+  toggleLineStringLayer.addEventListener('click', function () {
+      console.log(lineStringLayerOn)
+      if (lineStringLayerOn === 'off') {
+          lineStringLayer.setStyle({ visible: false })
+          lineStringLayerOn = 'on'
+      } else if (lineStringLayerOn === 'on') {
+          lineStringLayer.setStyle(function (feature) {
+              let fillC = feature.getProperty('fill')
+              let fillO = feature.getProperty('fill-opacity')
+              let strokeC = feature.getProperty('stroke')
+              let strokeO = feature.getProperty('stroke-opacity')
+              let strokeW = feature.getProperty('stroke-width')
+      
+              return {
+                  fillColor: fillC,
+                  fillOpacity: fillO,
+                  strokeColor: strokeC,
+                  strokeOpacity: strokeO,
+                  strokeWeight: strokeW,
+              }
+          })
+          lineStringLayerOn = 'off'
+      }
+  });
+
 
   //Create info window cards and add click listeners to each parking asset
   var infowindow = new google.maps.InfoWindow({
