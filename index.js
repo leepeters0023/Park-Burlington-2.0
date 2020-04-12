@@ -58,10 +58,10 @@ async function initMap() {
   let toggleLineStringLayer = document.getElementById('toggleLineString')
   let lineStringLayerOn = 'off'
 
-  const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingLineString.geojson")
+  const linestringData = await fetch("./BurlingtonParkingLineString.geojson")
       .then(res => res.json())
       .then(res => res)
-  const polygonData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingPolygon.geojson")
+  const polygonData = await fetch("./BurlingtonParkingPolygon.geojson")
       .then(res => res.json())
       .then(res => res)
       
@@ -161,6 +161,7 @@ async function initMap() {
 
   // Set initial styles for data layers
   polyLayer.setStyle(function (feature) {
+    
       let fillC = feature.getProperty('fill')
       let fillO = feature.getProperty('fill-opacity')
       let strokeC = feature.getProperty('stroke')
@@ -174,6 +175,7 @@ async function initMap() {
           strokeOpacity: strokeO,
           strokeWeight: strokeW,
       }
+     
   })
 
   lineStringLayer.setStyle(function (feature) {
@@ -252,6 +254,7 @@ async function initMap() {
   map.data.addListener('click', function(event) {
     let name = event.feature.getProperty('name');
     let description = event.feature.getProperty('description');
+    console.log(name)
     let html = '<strong>'+ name + '</strong>' + '<br><br>' + description;
     infowindow.setContent(html); // show the html variable in the infowindow
     infowindow.setPosition(event.latLng);
