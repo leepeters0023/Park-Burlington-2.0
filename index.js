@@ -139,9 +139,9 @@ async function initMap() {
   autocomplete.setFields(
       ['address_components', 'geometry', 'icon', 'name']);
 
-  var infowindow = new google.maps.InfoWindow();
+  var addressinfowindow = new google.maps.InfoWindow();
   var infowindowContent = document.getElementById('infowindow-content');
-  infowindow.setContent(infowindowContent);
+  addressinfowindow.setContent(infowindowContent);
   var marker = new google.maps.Marker({
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
@@ -180,7 +180,7 @@ async function initMap() {
     infowindowContent.children['place-icon'].src = place.icon;
     infowindowContent.children['place-name'].textContent = place.name;
     infowindowContent.children['place-address'].textContent = address;
-    infowindow.open(map, marker);
+    addressinfowindow.open(map, marker);
   });
 
 }
