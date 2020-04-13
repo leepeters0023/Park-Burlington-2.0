@@ -134,8 +134,10 @@ async function initMap() {
 
   });
 
+//******** create layers and toggle functions for layers********************************* */
 
   // set variables for layer controls
+  let toggleHandicapOnly = document.getElementById('toggleHandicapOnly')
   let toggleHandicapLayer = document.getElementById('toggleHandicap')
   let handicapLayerOn = 'off'
   let toggleMunicipleGaragesLayer = document.getElementById('toggleMunicipleGarages')
@@ -391,7 +393,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      handicapLayerOn = 'off'
     }
   });
 
@@ -415,7 +417,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      municipleGaragesLayerOn = 'off'
     }
   });
 
@@ -439,7 +441,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      privateGaragesLayerOn = 'off'
     }
   });
 
@@ -463,7 +465,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      smartMetersLayerOn = 'off'
     }
   });
 
@@ -487,7 +489,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      coinOpLayerOn = 'off'
     }
   });
 
@@ -511,7 +513,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      eVChargeLayerOn = 'off'
     }
   });
 
@@ -535,7 +537,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      motorcycleLayerOn = 'off'
     }
   });
 
@@ -559,7 +561,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      busLargeVehicleLayerOn = 'off'
     }
   });
 
@@ -583,7 +585,7 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      residentialLayerOn = 'off'
     }
   });
 
@@ -607,12 +609,14 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      polyLayerOn = 'off'
+      loadingUnloadingLayerOn = 'off'
     }
   });
 
- 
-
+  toggleHandicapOnly.addEventListener('click', function () {
+    alert('Handicap Only clicked')
+  });
+//******************************************************************************************* */
 
   //Create info window cards and add click listeners to each parking asset
   var infowindow = new google.maps.InfoWindow({
@@ -692,31 +696,31 @@ async function initMap() {
 
 }
 
-  //******************************************************************** */
-  // Get the modal
-  let modal = document.getElementById("myModal");
+//******* Modal window for Filters ************************************************************* */
+// Get the modal
+let modal = document.getElementById("myModal");
 
-  // Get the button that opens the modal
-  let btn = document.getElementById("myBtn");
+// Get the button that opens the modal
+let btn = document.getElementById("myBtn");
 
-  // Get the <span> element that closes the modal
-  let span = document.getElementsByClassName("close")[0];
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[0];
 
-  // When the user clicks on the button, open the modal
-  btn.onclick = function () {
-      modal.style.display = "block";
-  }
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+  modal.style.display = "block";
+}
 
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function () {
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
     modal.style.display = "none";
   }
-
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function (event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
-  // *********************************************************************
+}
+  // *************************************************************************************
 

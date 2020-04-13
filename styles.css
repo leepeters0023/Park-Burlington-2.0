@@ -95,6 +95,8 @@ html, body {
 
 /* Modal Content/Box */
 .modal-content {
+  display: flex;
+  flex-direction: column;
   color: black;
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
