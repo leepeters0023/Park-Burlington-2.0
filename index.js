@@ -173,7 +173,7 @@ async function initMap() {
           strokeColor: strokeC,
           strokeOpacity: strokeO,
           strokeWeight: strokeW,
-      }
+      }   
   })
 
   lineStringLayer.setStyle(function (feature) {
@@ -249,7 +249,7 @@ async function initMap() {
   var infowindow = new google.maps.InfoWindow({
     content: ""
   });
-  map.data.addListener('click', function(event) {
+  lineStringLayer.addListener('click', function(event) {      
     let name = event.feature.getProperty('name');
     let description = event.feature.getProperty('description');
     let html = '<strong>'+ name + '</strong>' + '<br><br>' + description;
