@@ -402,12 +402,23 @@ async function initMap() {
    
   });
 //******************************************************************************************* */
-
+  let layersList = [ handicapLayer,
+    municipleGaragesLayer,
+    privateGaragesLayer,
+    smartMetersLayer,
+    coinOpLayer,
+    eVChargeLayer,
+    motorcycleLayer,
+    busLargeVehicleLayer,
+    residentialLayer,
+    loadingUnloadingLayer,
+  ]
   //Create info window cards and add click listeners to each parking asset
   var infowindow = new google.maps.InfoWindow({
     content: ""
   });
-  map.data.addListener('click', function (event) {
+  for (layer of layersList){
+  layer.addListener('click', function (event) {
     let name = event.feature.getProperty('name');
     let description = event.feature.getProperty('description');
     let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
@@ -417,7 +428,7 @@ async function initMap() {
       pixelOffset: new google.maps.Size(0, 0)
     }); // move the infowindow up slightly to the top of the marker icon
     infowindow.open(map);
-  });
+  });}
 
   //Get searchbox element and fix it to top left of screen
   var card = document.getElementById('pac-card');
