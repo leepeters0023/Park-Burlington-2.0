@@ -22,44 +22,64 @@
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">&times;</span>
-        <input type='checkbox' checked='true' id='toggleHandicap' )>Handicap</input>
+        <label>
+          <input type='checkbox' checked='true' id='toggleHandicap' )>Handicap</input>
+        </label>
+        <label>
         <input type='checkbox' checked='true' id='toggleMunicipleGarages' )>Municiple Garages</input>
+      </label>
+      <label>
         <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages</input>
+      </label>
+      <label>
         <input type='checkbox' checked='true' id='toggleSmartMeters' )>Smart Meters</input>
+      </label>
+      <label>
         <input type='checkbox' checked='true' id='toggleCoinOpMeters' )>Coin Only Meters</input>
+      </label>
+      <label>
         <input type='checkbox' checked='true' id='toggleEVCharge' )>EV Charge Stations</input>
+      </label>
+      <label>
         <input type='checkbox' checked='true' id='toggleMotorcycle' )>Motorcycle</input>
+      </label>
+      <label>
         <input type='checkbox' checked='true' id='toggleBusLargeVehicle' )>Bus & Large Vehicle</input>
+      </label>
+      <label>
         <input type='checkbox' checked='true' id='toggleResidential' )>Residential</input>
+         </label>
+        <label>
         <input type='checkbox' checked='true' id='toggleLoadingUnloading' )>Loading/Unloading</input>
+      </label>
       </div>
 
     </div>
 
   </div>
 
-    <div class="pac-card" id="pac-card">
-      <input id="pac-input" type="text" placeholder="Destination">
-    </div>
-    <div id="map"></div>
-    <div id="infowindow-content">
-      <img src="" width="16" height="16" id="place-icon">
-      <span id="place-name" class="title"></span><br>
-      <span id="place-address"></span>
-    </div>
-    <!-- The Firebase scripts MUST be before the src for index.js -->
-    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+  <div class="pac-card" id="pac-card">
+    <input id="pac-input" type="text" placeholder="Destination">
+  </div>
+  <div id="map"></div>
+  <div id="infowindow-content">
+    <img src="" width="16" height="16" id="place-icon">
+    <span id="place-name" class="title"></span><br>
+    <span id="place-address"></span>
+  </div>
+  <!-- The Firebase scripts MUST be before the src for index.js -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
 
-    <script src='index.js'>
+  <script src='index.js'>
       // This example requires the Places library. Include the libraries=places
       // parameter when you first load the API. For example:
       // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
-    </script>
-    <script
-      src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBlmnXhTRjHHmY1SRjiqqZobWGLS1CfkLA&libraries=places&callback=initMap'
-      async defer></script>
+  </script>
+  <script
+    src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBlmnXhTRjHHmY1SRjiqqZobWGLS1CfkLA&libraries=places&callback=initMap'
+    async defer></script>
 </body>
 
 </html>

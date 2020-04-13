@@ -374,7 +374,7 @@ async function initMap() {
 
   // toggle fuctions turn data layers on and off  
   toggleHandicapLayer.addEventListener('click', function () {
-    console.log(handicapLayerOn)
+    console.log('handicapLayerOn =' + handicapLayerOn)
     if (handicapLayerOn === 'off') {
       handicapLayer.setStyle({ visible: false })
       handicapLayerOn = 'on'
@@ -398,7 +398,7 @@ async function initMap() {
   });
 
   toggleMunicipleGaragesLayer.addEventListener('click', function () {
-    console.log(municipleGaragesLayerOn)
+    console.log('municipleGaragesLayerOn=' + municipleGaragesLayerOn)
     if (municipleGaragesLayerOn === 'off') {
       municipleGaragesLayer.setStyle({ visible: false })
       municipleGaragesLayerOn = 'on'
@@ -422,7 +422,7 @@ async function initMap() {
   });
 
   togglePrivateGaragesLayer.addEventListener('click', function () {
-    console.log(privateGaragesLayerOn)
+    console.log('privateGaragesLayerOn= ' + privateGaragesLayerOn)
     if (privateGaragesLayerOn === 'off') {
       privateGaragesLayer.setStyle({ visible: false })
       privateGaragesLayerOn = 'on'
@@ -446,7 +446,7 @@ async function initMap() {
   });
 
   toggleSmartMetersLayer.addEventListener('click', function () {
-    console.log(smartMetersLayerOn)
+    console.log('smartMetersLayerOn= ' + smartMetersLayerOn)
     if (smartMetersLayerOn === 'off') {
       smartMetersLayer.setStyle({ visible: false })
       smartMetersLayerOn = 'on'
@@ -470,7 +470,7 @@ async function initMap() {
   });
 
   toggleCoinOpLayer.addEventListener('click', function () {
-    console.log(coinOpLayerOn)
+    console.log('coinOpLayerOn= ' + coinOpLayerOn)
     if (coinOpLayerOn === 'off') {
       coinOpLayer.setStyle({ visible: false })
       coinOpLayerOn = 'on'
@@ -494,7 +494,7 @@ async function initMap() {
   });
 
   toggleEVChargeLayer.addEventListener('click', function () {
-    console.log(eVChargeLayerOn)
+    console.log('eVChargeLayerOn= ' + eVChargeLayerOn)
     if (eVChargeLayerOn === 'off') {
       eVChargeLayer.setStyle({ visible: false })
       eVChargeLayerOn = 'on'
@@ -518,7 +518,7 @@ async function initMap() {
   });
 
   toggleMotorcycleLayer.addEventListener('click', function () {
-    console.log(motorcycleLayerOn)
+    console.log('motorcycleLayerOn= ' + motorcycleLayerOn)
     if (motorcycleLayerOn === 'off') {
       motorcycleLayer.setStyle({ visible: false })
       motorcycleLayerOn = 'on'
@@ -542,7 +542,7 @@ async function initMap() {
   });
 
   toggleBusLargeVehicleLayer.addEventListener('click', function () {
-    console.log(busLargeVehicleLayerOn)
+    console.log('busLargeVehicleLayerOn= ' + busLargeVehicleLayerOn)
     if (busLargeVehicleLayerOn === 'off') {
       busLargeVehicleLayer.setStyle({ visible: false })
       busLargeVehicleLayerOn = 'on'
@@ -566,7 +566,7 @@ async function initMap() {
   });
 
   toggleResidentialLayer.addEventListener('click', function () {
-    console.log(residentialLayerOn)
+    console.log('residentialLayerOn= ' + residentialLayerOn)
     if (residentialLayerOn === 'off') {
       residentialLayer.setStyle({ visible: false })
       residentialLayerOn = 'on'
@@ -590,7 +590,7 @@ async function initMap() {
   });
 
   toggleLoadingUnloadingLayer.addEventListener('click', function () {
-    console.log(loadingUnloadingLayerOn)
+    console.log('loadingUnloadingLayerOn= ' + loadingUnloadingLayerOn)
     if (loadingUnloadingLayerOn === 'off') {
       loadingUnloadingLayer.setStyle({ visible: false })
       loadingUnloadingLayerOn = 'on'
@@ -614,7 +614,37 @@ async function initMap() {
   });
 
   toggleHandicapOnly.addEventListener('click', function () {
-    alert('Handicap Only clicked')
+   if (handicapLayerOn === 'on') {
+    document.getElementById("toggleHandicap").click();
+   };
+   if (municipleGaragesLayerOn === 'off') {
+    document.getElementById("toggleMunicipleGarages").click();
+   };
+   if (privateGaragesLayerOn === 'off') {
+    document.getElementById("togglePrivateGarages").click();
+   };
+   if (smartMetersLayerOn === 'off') {
+    document.getElementById("toggleSmartMeters").click();
+   };
+   if (coinOpLayerOn === 'off') {
+    document.getElementById("toggleCoinOpMeters").click();
+   };
+   if (eVChargeLayerOn === 'off') {
+    document.getElementById("toggleEVCharge").click();
+   };
+   if (motorcycleLayerOn === 'off') {
+    document.getElementById("toggleMotorcycle").click();
+   };
+   if (busLargeVehicleLayerOn === 'off') {
+    document.getElementById("toggleBusLargeVehicle").click();
+   };
+   if (residentialLayerOn === 'off') {
+    document.getElementById("toggleResidential").click();
+   };
+   if (loadingUnloadingLayerOn === 'off') {
+    document.getElementById("toggleLoadingUnloading").click();
+   };
+   
   });
 //******************************************************************************************* */
 
