@@ -235,12 +235,14 @@ async function initMap() {
     let strokeC = feature.getProperty('stroke')
     let strokeO = feature.getProperty('stroke-opacity')
     let strokeW = feature.getProperty('stroke-width')
+    let iconImg = feature.getProperty('icon')
     return {
       fillColor: fillC,
       fillOpacity: fillO,
       strokeColor: strokeC,
       strokeOpacity: strokeO,
       strokeWeight: strokeW,
+      icon: iconImg,
     }
   }
    
@@ -403,7 +405,8 @@ async function initMap() {
    
   });
 //******************************************************************************************* */
-  let layersList = [ handicapLayer,
+  let layersList = [ 
+    handicapLayer,
     municipleGaragesLayer,
     privateGaragesLayer,
     smartMetersLayer,
