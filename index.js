@@ -144,7 +144,7 @@ async function initMap() {
   let privateGaragesLayerOn = 'off'
   let toggleSmartMetersLayer = document.getElementById('toggleSmartMeters')
   let smartMetersLayerOn = 'off'
-  let toggleCoinOpMetersLayer = document.getElementById('toggleCoinOpMeters')
+  let toggleCoinOpLayer = document.getElementById('toggleCoinOpMeters')
   let coinOpLayerOn = 'off'
   let toggleEVChargeLayer = document.getElementById('toggleEVCharge')
   let eVChargeLayerOn = 'off'
@@ -371,13 +371,13 @@ async function initMap() {
 
 
   // toggle fuctions turn data layers on and off  
-  togglePolyLayer.addEventListener('click', function () {
-    console.log(polyLayerOn)
-    if (polyLayerOn === 'off') {
-      polyLayer.setStyle({ visible: false })
-      polyLayerOn = 'on'
-    } else if (polyLayerOn === 'on') {
-      polyLayer.setStyle(function (feature) {
+  toggleHandicapLayer.addEventListener('click', function () {
+    console.log(handicapLayerOn)
+    if (handicapLayerOn === 'off') {
+      handicapLayer.setStyle({ visible: false })
+      handicapLayerOn = 'on'
+    } else if (handicapLayerOn === 'on') {
+      handicapLayer.setStyle(function (feature) {
         let fillC = feature.getProperty('fill')
         let fillO = feature.getProperty('fill-opacity')
         let strokeC = feature.getProperty('stroke')
@@ -395,19 +395,18 @@ async function initMap() {
     }
   });
 
-  toggleLineStringLayer.addEventListener('click', function () {
-    console.log(lineStringLayerOn)
-    if (lineStringLayerOn === 'off') {
-      lineStringLayer.setStyle({ visible: false })
-      lineStringLayerOn = 'on'
-    } else if (lineStringLayerOn === 'on') {
-      lineStringLayer.setStyle(function (feature) {
+  toggleMunicipleGaragesLayer.addEventListener('click', function () {
+    console.log(municipleGaragesLayerOn)
+    if (municipleGaragesLayerOn === 'off') {
+      municipleGaragesLayer.setStyle({ visible: false })
+      municipleGaragesLayerOn = 'on'
+    } else if (municipleGaragesLayerOn === 'on') {
+      municipleGaragesLayer.setStyle(function (feature) {
         let fillC = feature.getProperty('fill')
         let fillO = feature.getProperty('fill-opacity')
         let strokeC = feature.getProperty('stroke')
         let strokeO = feature.getProperty('stroke-opacity')
         let strokeW = feature.getProperty('stroke-width')
-
         return {
           fillColor: fillC,
           fillOpacity: fillO,
@@ -416,9 +415,203 @@ async function initMap() {
           strokeWeight: strokeW,
         }
       })
-      lineStringLayerOn = 'off'
+      polyLayerOn = 'off'
     }
   });
+
+  togglePrivateGaragesLayer.addEventListener('click', function () {
+    console.log(privateGaragesLayerOn)
+    if (privateGaragesLayerOn === 'off') {
+      privateGaragesLayer.setStyle({ visible: false })
+      privateGaragesLayerOn = 'on'
+    } else if (privateGaragesLayerOn === 'on') {
+      privateGaragesLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+  toggleSmartMetersLayer.addEventListener('click', function () {
+    console.log(smartMetersLayerOn)
+    if (smartMetersLayerOn === 'off') {
+      smartMetersLayer.setStyle({ visible: false })
+      smartMetersLayerOn = 'on'
+    } else if (smartMetersLayerOn === 'on') {
+      smartMetersLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+  toggleCoinOpLayer.addEventListener('click', function () {
+    console.log(coinOpLayerOn)
+    if (coinOpLayerOn === 'off') {
+      coinOpLayer.setStyle({ visible: false })
+      coinOpLayerOn = 'on'
+    } else if (coinOpLayerOn === 'on') {
+      coinOpLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+  toggleEVChargeLayer.addEventListener('click', function () {
+    console.log(eVChargeLayerOn)
+    if (eVChargeLayerOn === 'off') {
+      eVChargeLayer.setStyle({ visible: false })
+      eVChargeLayerOn = 'on'
+    } else if (eVChargeLayerOn === 'on') {
+      eVChargeLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+  toggleMotorcycleLayer.addEventListener('click', function () {
+    console.log(motorcycleLayerOn)
+    if (motorcycleLayerOn === 'off') {
+      motorcycleLayer.setStyle({ visible: false })
+      motorcycleLayerOn = 'on'
+    } else if (motorcycleLayerOn === 'on') {
+      motorcycleLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+  toggleBusLargeVehicleLayer.addEventListener('click', function () {
+    console.log(busLargeVehicleLayerOn)
+    if (busLargeVehicleLayerOn === 'off') {
+      busLargeVehicleLayer.setStyle({ visible: false })
+      busLargeVehicleLayerOn = 'on'
+    } else if (busLargeVehicleLayerOn === 'on') {
+      busLargeVehicleLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+  toggleResidentialLayer.addEventListener('click', function () {
+    console.log(residentialLayerOn)
+    if (residentialLayerOn === 'off') {
+      residentialLayer.setStyle({ visible: false })
+      residentialLayerOn = 'on'
+    } else if (residentialLayerOn === 'on') {
+      residentialLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+  toggleLoadingUnloadingLayer.addEventListener('click', function () {
+    console.log(loadingUnloadingLayerOn)
+    if (loadingUnloadingLayerOn === 'off') {
+      loadingUnloadingLayer.setStyle({ visible: false })
+      loadingUnloadingLayerOn = 'on'
+    } else if (loadingUnloadingLayerOn === 'on') {
+      loadingUnloadingLayer.setStyle(function (feature) {
+        let fillC = feature.getProperty('fill')
+        let fillO = feature.getProperty('fill-opacity')
+        let strokeC = feature.getProperty('stroke')
+        let strokeO = feature.getProperty('stroke-opacity')
+        let strokeW = feature.getProperty('stroke-width')
+        return {
+          fillColor: fillC,
+          fillOpacity: fillO,
+          strokeColor: strokeC,
+          strokeOpacity: strokeO,
+          strokeWeight: strokeW,
+        }
+      })
+      polyLayerOn = 'off'
+    }
+  });
+
+ 
 
 
   //Create info window cards and add click listeners to each parking asset
