@@ -52,7 +52,7 @@ function errData(data) {
 //------------------------------------------------------------
 
 async function initMap() {
- //Initialize map
+  //Initialize map
 
   //Define lat lng location of the center of downtown Burlington
   const burlingtonCenter = { lat: 44.478081, lng: -73.215 }
@@ -158,31 +158,31 @@ async function initMap() {
   let loadingUnloadingLayerOn = 'off'
 
   // set variables for geoJSON files
-  const  handicapData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking1-handicap.geojson")
+  const handicapData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking1-handicap.geojson")
     .then(res => res.json())
     .then(res => res)
   const municipleGaragesData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking2-municipleGarages.geojson")
     .then(res => res.json())
     .then(res => res)
-  const  privateGaragesData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking3-privateOwnedGarages.geojson")
+  const privateGaragesData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking3-privateOwnedGarages.geojson")
     .then(res => res.json())
     .then(res => res)
-  const  smartMetersData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking4-smartMeters.geojson")
+  const smartMetersData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking4-smartMeters.geojson")
     .then(res => res.json())
     .then(res => res)
-  const  coinOpData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking5-coinOpMeters.geojson")
+  const coinOpData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking5-coinOpMeters.geojson")
     .then(res => res.json())
     .then(res => res)
-  const  eVChargeData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking7-eVCharge.geojson")
+  const eVChargeData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking7-eVCharge.geojson")
     .then(res => res.json())
     .then(res => res)
-  const  motorcycleData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking6-motorcycle.geojson")
+  const motorcycleData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking6-motorcycle.geojson")
     .then(res => res.json())
     .then(res => res)
-  const  busLargeVehicleData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking8-busLargeVehicle.geojson")
+  const busLargeVehicleData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking8-busLargeVehicle.geojson")
     .then(res => res.json())
     .then(res => res)
-  const  residentialData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking10-residential.geojson")
+  const residentialData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking10-residential.geojson")
     .then(res => res.json())
     .then(res => res)
   const loadingUnloadingData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking9-loadingUnloading.geojson")
@@ -200,7 +200,7 @@ async function initMap() {
   let busLargeVehicleLayer = new google.maps.Data();
   let residentialLayer = new google.maps.Data();
   let loadingUnloadingLayer = new google.maps.Data();
- 
+
   // load geoJSON onto layers
   handicapLayer.addGeoJson(handicapData);
   municipleGaragesLayer.addGeoJson(municipleGaragesData);
@@ -213,7 +213,7 @@ async function initMap() {
   residentialLayer.addGeoJson(residentialData);
   loadingUnloadingLayer.addGeoJson(loadingUnloadingData);
 
-  
+
   // set layers on map
   handicapLayer.setMap(map);
   municipleGaragesLayer.setMap(map);
@@ -383,7 +383,6 @@ async function initMap() {
         let strokeC = feature.getProperty('stroke')
         let strokeO = feature.getProperty('stroke-opacity')
         let strokeW = feature.getProperty('stroke-width')
-
         return {
           fillColor: fillC,
           fillOpacity: fillO,
@@ -498,19 +497,21 @@ async function initMap() {
     addressinfowindow.open(map, marker);
   });
 
+}
+
   //******************************************************************** */
   // Get the modal
-  var modal = document.getElementById("myModal");
+  let modal = document.getElementById("myModal");
 
   // Get the button that opens the modal
-  var btn = document.getElementById("myBtn");
+  let btn = document.getElementById("myBtn");
 
   // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+  let span = document.getElementsByClassName("close")[0];
 
   // When the user clicks on the button, open the modal
   btn.onclick = function () {
-    modal.style.display = "block";
+      modal.style.display = "block";
   }
 
   // When the user clicks on <span> (x), close the modal
@@ -526,4 +527,3 @@ async function initMap() {
   }
   // *********************************************************************
 
-}
