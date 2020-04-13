@@ -228,7 +228,7 @@ async function initMap() {
   residentialLayer.setMap(map);
   loadingUnloadingLayer.setMap(map);
 
-  // 
+  // create function to set color styling
   function setFeatureStyles(feature) {
     let fillC = feature.getProperty('fill')
     let fillO = feature.getProperty('fill-opacity')
@@ -368,6 +368,7 @@ async function initMap() {
     }
   });
 
+  // set toggle function for Handicap Only button
   toggleHandicapOnly.addEventListener('click', function () {
    if (handicapLayerOn === 'on') {
     document.getElementById("toggleHandicap").click();
