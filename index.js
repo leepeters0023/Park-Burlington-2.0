@@ -228,150 +228,35 @@ async function initMap() {
   residentialLayer.setMap(map);
   loadingUnloadingLayer.setMap(map);
 
+  // 
+  function setFeatureStyles(feature) {
+    let fillC = feature.getProperty('fill')
+    let fillO = feature.getProperty('fill-opacity')
+    let strokeC = feature.getProperty('stroke')
+    let strokeO = feature.getProperty('stroke-opacity')
+    let strokeW = feature.getProperty('stroke-width')
+    return {
+      fillColor: fillC,
+      fillOpacity: fillO,
+      strokeColor: strokeC,
+      strokeOpacity: strokeO,
+      strokeWeight: strokeW,
+    }
+  }
+   
 
   // Set initial styles for data layers
-  handicapLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  municipleGaragesLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  privateGaragesLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  smartMetersLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  coinOpLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  eVChargeLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  motorcycleLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  busLargeVehicleLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  residentialLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-  loadingUnloadingLayer.setStyle(function (feature) {
-    let fillC = feature.getProperty('fill');
-    let fillO = feature.getProperty('fill-opacity');
-    let strokeC = feature.getProperty('stroke');
-    let strokeO = feature.getProperty('stroke-opacity');
-    let strokeW = feature.getProperty('stroke-width');
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-    };
-  });
-
-
+  handicapLayer.setStyle(setFeatureStyles);
+  municipleGaragesLayer.setStyle(setFeatureStyles);
+  privateGaragesLayer.setStyle(setFeatureStyles);
+  smartMetersLayer.setStyle(setFeatureStyles);
+  coinOpLayer.setStyle(setFeatureStyles);
+  eVChargeLayer.setStyle(setFeatureStyles);
+  motorcycleLayer.setStyle(setFeatureStyles);
+  busLargeVehicleLayer.setStyle(setFeatureStyles);
+  residentialLayer.setStyle(setFeatureStyles);
+  loadingUnloadingLayer.setStyle(setFeatureStyles);
+  
   // toggle fuctions turn data layers on and off  
   toggleHandicapLayer.addEventListener('click', function () {
     console.log('handicapLayerOn =' + handicapLayerOn)
@@ -379,20 +264,7 @@ async function initMap() {
       handicapLayer.setStyle({ visible: false })
       handicapLayerOn = 'on'
     } else if (handicapLayerOn === 'on') {
-      handicapLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      handicapLayer.setStyle(setFeatureStyles)
       handicapLayerOn = 'off'
     }
   });
@@ -403,20 +275,7 @@ async function initMap() {
       municipleGaragesLayer.setStyle({ visible: false })
       municipleGaragesLayerOn = 'on'
     } else if (municipleGaragesLayerOn === 'on') {
-      municipleGaragesLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      municipleGaragesLayer.setStyle(setFeatureStyles)
       municipleGaragesLayerOn = 'off'
     }
   });
@@ -427,20 +286,7 @@ async function initMap() {
       privateGaragesLayer.setStyle({ visible: false })
       privateGaragesLayerOn = 'on'
     } else if (privateGaragesLayerOn === 'on') {
-      privateGaragesLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      privateGaragesLayer.setStyle(setFeatureStyles)
       privateGaragesLayerOn = 'off'
     }
   });
@@ -451,20 +297,7 @@ async function initMap() {
       smartMetersLayer.setStyle({ visible: false })
       smartMetersLayerOn = 'on'
     } else if (smartMetersLayerOn === 'on') {
-      smartMetersLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      smartMetersLayer.setStyle(setFeatureStyles)
       smartMetersLayerOn = 'off'
     }
   });
@@ -475,20 +308,7 @@ async function initMap() {
       coinOpLayer.setStyle({ visible: false })
       coinOpLayerOn = 'on'
     } else if (coinOpLayerOn === 'on') {
-      coinOpLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      coinOpLayer.setStyle(setFeatureStyles)
       coinOpLayerOn = 'off'
     }
   });
@@ -499,20 +319,7 @@ async function initMap() {
       eVChargeLayer.setStyle({ visible: false })
       eVChargeLayerOn = 'on'
     } else if (eVChargeLayerOn === 'on') {
-      eVChargeLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      eVChargeLayer.setStyle(setFeatureStyles)
       eVChargeLayerOn = 'off'
     }
   });
@@ -523,20 +330,7 @@ async function initMap() {
       motorcycleLayer.setStyle({ visible: false })
       motorcycleLayerOn = 'on'
     } else if (motorcycleLayerOn === 'on') {
-      motorcycleLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      motorcycleLayer.setStyle(setFeatureStyles)
       motorcycleLayerOn = 'off'
     }
   });
@@ -547,20 +341,7 @@ async function initMap() {
       busLargeVehicleLayer.setStyle({ visible: false })
       busLargeVehicleLayerOn = 'on'
     } else if (busLargeVehicleLayerOn === 'on') {
-      busLargeVehicleLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      busLargeVehicleLayer.setStyle(setFeatureStyles)
       busLargeVehicleLayerOn = 'off'
     }
   });
@@ -571,20 +352,7 @@ async function initMap() {
       residentialLayer.setStyle({ visible: false })
       residentialLayerOn = 'on'
     } else if (residentialLayerOn === 'on') {
-      residentialLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      residentialLayer.setStyle(setFeatureStyles)
       residentialLayerOn = 'off'
     }
   });
@@ -595,20 +363,7 @@ async function initMap() {
       loadingUnloadingLayer.setStyle({ visible: false })
       loadingUnloadingLayerOn = 'on'
     } else if (loadingUnloadingLayerOn === 'on') {
-      loadingUnloadingLayer.setStyle(function (feature) {
-        let fillC = feature.getProperty('fill')
-        let fillO = feature.getProperty('fill-opacity')
-        let strokeC = feature.getProperty('stroke')
-        let strokeO = feature.getProperty('stroke-opacity')
-        let strokeW = feature.getProperty('stroke-width')
-        return {
-          fillColor: fillC,
-          fillOpacity: fillO,
-          strokeColor: strokeC,
-          strokeOpacity: strokeO,
-          strokeWeight: strokeW,
-        }
-      })
+      loadingUnloadingLayer.setStyle(setFeatureStyles)
       loadingUnloadingLayerOn = 'off'
     }
   });

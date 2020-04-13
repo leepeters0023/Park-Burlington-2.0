@@ -1,7 +1,8 @@
 {
     "type": "FeatureCollection",
     "features": [
-       {
+       
+        {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
@@ -13,9 +14,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -30,9 +32,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -47,9 +50,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -64,9 +68,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -81,9 +86,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -98,9 +104,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -115,9 +122,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -132,9 +140,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -149,9 +158,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -166,9 +176,10 @@
             },
             "properties": {
                 "name": "ChargePoint Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -183,9 +194,10 @@
             },
             "properties": {
                 "name": "Tesla Charging Station",
-                "styleUrl": "#icon-1660-E65100-labelson-nodesc",
-                "styleHash": "4b4c165b",
-                "icon": "electric_vehicle.png"
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
             }
         },
         {
@@ -194,25 +206,26 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.212268,
-                        44.476058,
+                        -73.212319,
+                        44.476037,
                         0
                     ],
                     [
-                        -73.212133,
-                        44.476061,
+                        -73.2121267,
+                        44.4760553,
                         0
                     ]
                 ]
             },
             "properties": {
                 "name": "Charging Station North EV",
-                "styleUrl": "#line-E65100-6069-nodesc",
-                "styleHash": "46f09f55",
+                "styleUrl": "#line-E65100-6069",
+                "styleHash": "-4d482bbc",
                 "styleMapHash": {
-                    "normal": "#line-E65100-6069-nodesc-normal",
-                    "highlight": "#line-E65100-6069-nodesc-highlight"
+                    "normal": "#line-E65100-6069-normal",
+                    "highlight": "#line-E65100-6069-highlight"
                 },
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev",
                 "stroke": "#e65100",
                 "stroke-opacity": 1,
                 "stroke-width": 6.069
@@ -224,25 +237,26 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2113386,
-                        44.4758906,
+                        -73.2113497,
+                        44.4758914,
                         0
                     ],
                     [
-                        -73.211125,
-                        44.475893,
+                        -73.2111411,
+                        44.4759045,
                         0
                     ]
                 ]
             },
             "properties": {
                 "name": "Charging Station",
-                "styleUrl": "#line-E65100-6069-nodesc",
-                "styleHash": "46f09f55",
+                "styleUrl": "#line-E65100-6069",
+                "styleHash": "-4d482bbc",
                 "styleMapHash": {
-                    "normal": "#line-E65100-6069-nodesc-normal",
-                    "highlight": "#line-E65100-6069-nodesc-highlight"
+                    "normal": "#line-E65100-6069-normal",
+                    "highlight": "#line-E65100-6069-highlight"
                 },
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev",
                 "stroke": "#e65100",
                 "stroke-opacity": 1,
                 "stroke-width": 6.069

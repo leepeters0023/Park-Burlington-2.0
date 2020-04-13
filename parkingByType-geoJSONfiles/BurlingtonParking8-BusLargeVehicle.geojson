@@ -1,20 +1,19 @@
 {
     "type": "FeatureCollection",
     "features": [
-        
         {
             "type": "Feature",
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2171841,
-                        44.4768623,
+                        -73.2172297,
+                        44.4767302,
                         0
                     ],
                     [
                         -73.2171519,
-                        44.4758441,
+                        44.4759226,
                         0
                     ]
                 ]
@@ -27,7 +26,7 @@
                     "normal": "#line-AFB42B-5456-normal",
                     "highlight": "#line-AFB42B-5456-highlight"
                 },
-                "description": "Capacity: 3 buses<br>Overnight parking permitted",
+                "description": "Overnight parking permitted<br>Capacity: 3 buses",
                 "stroke": "#afb42b",
                 "stroke-opacity": 1,
                 "stroke-width": 5.456

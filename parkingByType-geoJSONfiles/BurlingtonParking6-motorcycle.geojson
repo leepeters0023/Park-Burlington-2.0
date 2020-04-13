@@ -1,7 +1,8 @@
 {
     "type": "FeatureCollection",
     "features": [
-         {
+       
+        {
             "type": "Feature",
             "geometry": {
                 "type": "LineString",
@@ -20,14 +21,14 @@
             },
             "properties": {
                 "name": "Motorcycle Parking",
-                "styleUrl": "#line-828282-4000",
-                "styleHash": "-725083a6",
+                "styleUrl": "#line-F9A825-4000",
+                "styleHash": "2576e89c",
                 "styleMapHash": {
-                    "normal": "#line-828282-4000-normal",
-                    "highlight": "#line-828282-4000-highlight"
+                    "normal": "#line-F9A825-4000-normal",
+                    "highlight": "#line-F9A825-4000-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
-                "stroke": "#828282",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#f9a825",
                 "stroke-opacity": 1,
                 "stroke-width": 4
             }
@@ -43,8 +44,8 @@
                         0
                     ],
                     [
-                        -73.211976,
-                        44.475865,
+                        -73.21198,
+                        44.475863,
                         0
                     ]
                 ]
@@ -57,7 +58,7 @@
                     "normal": "#line-828282-4000-normal",
                     "highlight": "#line-828282-4000-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
                 "stroke": "#828282",
                 "stroke-opacity": 1,
                 "stroke-width": 4
@@ -88,7 +89,7 @@
                     "normal": "#line-6F6F6F-4000-normal",
                     "highlight": "#line-6F6F6F-4000-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
                 "stroke": "#6f6f6f",
                 "stroke-opacity": 1,
                 "stroke-width": 4
@@ -119,7 +120,7 @@
                     "normal": "#line-828282-4000-normal",
                     "highlight": "#line-828282-4000-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
                 "stroke": "#828282",
                 "stroke-opacity": 1,
                 "stroke-width": 4
@@ -150,7 +151,7 @@
                     "normal": "#line-828282-4000-normal",
                     "highlight": "#line-828282-4000-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
                 "stroke": "#828282",
                 "stroke-opacity": 1,
                 "stroke-width": 4
@@ -181,7 +182,7 @@
                     "normal": "#line-6F6F6F-4000-normal",
                     "highlight": "#line-6F6F6F-4000-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
                 "stroke": "#6f6f6f",
                 "stroke-opacity": 1,
                 "stroke-width": 4
@@ -212,7 +213,7 @@
                     "normal": "#line-828282-6264-normal",
                     "highlight": "#line-828282-6264-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
                 "stroke": "#828282",
                 "stroke-opacity": 1,
                 "stroke-width": 6.264
@@ -224,13 +225,18 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2121394,
-                        44.4804037,
+                        -73.2121448,
+                        44.4804228,
                         0
                     ],
                     [
-                        -73.2120053,
-                        44.4804037,
+                        -73.2120831,
+                        44.4804228,
+                        0
+                    ],
+                    [
+                        -73.2120107,
+                        44.4804228,
                         0
                     ]
                 ]
@@ -243,7 +249,7 @@
                     "normal": "#line-757575-4875-normal",
                     "highlight": "#line-757575-4875-highlight"
                 },
-                "description": "Capacity: 1<br>Rate: Free",
+                "description": "Rate: Free<br>Payment: N/A<br>Enforced: N/A <br>Max. Parking Time: N/A",
                 "stroke": "#757575",
                 "stroke-opacity": 1,
                 "stroke-width": 4.875

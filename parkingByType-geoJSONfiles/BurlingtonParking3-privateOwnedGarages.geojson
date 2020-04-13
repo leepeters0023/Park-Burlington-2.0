@@ -1,6 +1,7 @@
 {
     "type": "FeatureCollection",
     "features": [
+        
         {
             "type": "Feature",
             "geometry": {
@@ -63,14 +64,14 @@
                     "normal": "#poly-9C27B0-2101-36-normal",
                     "highlight": "#poly-9C27B0-2101-36-highlight"
                 },
-                "description": "Capacity:\t284\nAddress:\t179 S Winooski Ave\nPublic Access: 85 public spaces 24/7\nRate:\t$3/hr (daily max:\t$18)\nAccepts: Credit card ONLY\nManaged by: Unified Parking Partners (844-727-5877)\nNote: Monthly parking leases available.\n",
+                "description": "Rate:\t$3/hr, $18 daily max\nPayment: Credit card only\nPublic Access: 85 public spaces 24/7\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t284\nAddress:\t179 S Winooski Ave",
                 "stroke": "#9c27b0",
                 "stroke-opacity": 1,
                 "stroke-width": 2.101,
                 "fill": "#9c27b0",
                 "fill-opacity": 0.1411764705882353,
                 "Square Ft": "410",
-                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/6un31eu175qupso99i8qs5u11g/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq2lXQ0-tibzi_ZDRUuUgjwomBAhMqPe2hR89vHs9seR-Bytg1rT11-B_IxiSL1StRrB7zZxctSgHhTUyzxJbDFJLyqW_ondSuBBW3TNgEaDMMwlH8O_fYtxf840qLooGof3bdOvMFmEqBo1I1zpYruzOctzfnviQZl8szqBERqf9w8AmU-yPJjwIvz9ONCwVDc3swTaxXhatTCyp_Ir4THmDArSJgYAweotkS7YmGYRkUsYV1pL4bJYDLfGjQKPwrhmx6k1NVLH336ZOG99BgOTTqqhw?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/l34bka94a4lirp2of736kgeruc/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqq-hD8TvxMzw6AsTxyac5ymclx3FFk4T1MQFO8Dl42LSKSmLUFtNsEUas7mcLN6huOx2shcu9YUe1n9Eo_Lg_iavZGPkxmGD80j3q7IkBKjohKKO8G9WATHAqviUpRZLd7BjMT8AVGyC2yO9K5sX0GroONEu0P1Ih0_9o-QxhNVWH86zJZmJhMGhPBFhtwOKAu4zaS5dFBZDfv4PVOLBlHhl7tmqttCv6C_zCVS3oC20mSTkC2VWjs8km734jxhasrnMTbMKC1_5aaMEX-qf0VHD5y2A?session=0&fife"
+                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/pt10r10q84r708veo368gd0he4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqYmP_poUJCA_sps_yutMxbeErAkkr2-E6a9WA6FV6LGKmr4Gk_l3ilEb1jTQqrkn72XG3hvjigDUNQAl_ml1k_KneM2VDXer0UH0GbsJ6mUvrFtMvBMTTbD7zCCV77YOC3GoBe807s2rKAVqY2ujg1gCNQsFxkd7-cktcpebLsHTWLYs1g7Rq_RLAQprdvVMFwf_aGLnK-dL-Y4qVvFRmzq3_4omAIq9PvKgbJ5XGIjhG-7nuwdT6R5BWYr_a0teHPrqhyu7-hmRpeb2VsEpHP22wbyA?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/p788u2epgdnsk4agce0b8j60r0/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoGAv6dNQ-s9N_hPI9lydj0Olhh40Z9Foqj6U36uLpJGoBQvmdln-kjqwRWF5WKzvY9sQL4vOsNspde7HtUfUkjvg4du2QtmjiRthRqCKFBCM2VZWZ6W2zcESNPb0DXvtd1h8peFfKYgNJqqRtaWS_McuhaaQA3MhHdpOnGZguoG6Dg1Qjk_D6g2BXmrsrQSfEyFdunEaAqV84jucKxEl-pnKMvb2gr809qjK7wvFnYA-_mGcVEP67Sv_WnyjrsLDH8_TS4DafPlOU3zZIrxiRjCEJhxA?session=0&fife"
             }
         },
         {
@@ -135,14 +136,14 @@
                     "normal": "#poly-9C27B0-1901-66-normal",
                     "highlight": "#poly-9C27B0-1901-66-highlight"
                 },
-                "description": "Capacity:\t86\nAddress:\t1 Steele St\nPublic Access:\t24/7, 365\nRate:\t$2.50/hr (Daily Max:\t$20)\nAccepts: Card or Cash",
+                "description": "Rate:\t$2.50/hr (Daily Max:\t$20)\nPayment: Cash, Credit Card\nPublic Access:\t24/7, 365\n\nCapacity:\t86\nAddress:\t1 Steele St",
                 "stroke": "#9c27b0",
                 "stroke-opacity": 1,
                 "stroke-width": 1.901,
                 "fill": "#9c27b0",
                 "fill-opacity": 0.25882352941176473,
                 "Square Ft": "494",
-                "gx_media_links": "https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/04oiv0tkocra8bumt1va0d71p8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr_Is0paQOOtRDVqzmm_kfR4T_7-SDnAKniZp0SQrzDNBvsOW6npZJj8pNwrqmRtGKIrirBliPa-gbk8wl7Oj1QHi2SUlRjZNV82gemahyfqA2c4jslZoSDHj-vwu1jRuTGIFO0-lyRMwdk6XD1iSBGAGygUex3y_pEW1YyOQ37JQvPBAMrOiQKFlVIB3q6Jg-CvWjpIFBOQk6zzBUceReeKssPAck_lpamgPziIowYbWWZbPc-UUs2LkNS1DxaoexqKuORIGpiQfPTTdzpuj4IrsNktA?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/9okgqa8vnm0faajs3fk2o8pvvc/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoHtz0_gOxy0JDwzwMHTRVBSZd4jHakwa27cJJJYuAoGI4_kXT381_G4kps1U7Cm5xKjAc3PWt1PYPTGFZNLeT7-AOL-YStII-tIWMRZwZ1hvnDWX7hMJklQOFGXqKXY-yNNbYvJNYOEq2-1ajexNBxKW6lFaFP-eyxLK6SK0rdguya6jEBqWq2Euw4etJW2DtDu2sTyuwOp1xatjI2tWsCG-LI1Ameb6XByUxV2tiKOJes_r2ti1Ge0jlrIBYx9J6BGKQYZssz4jukj7IQi9trsqPc5A?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/lhqg2vmk83o8r8ejdbf5tfpvl8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqz-q9xjinfdJALxr2OcQgyz5bjMHZ_g0Fl8UiL4U2qf85DSPT5EuVbKCL_3Bfb-L8m9peOYDKqUJUwiwEMChmfqwrmsy14vHhKSACrMT7rBc2wtXiS1fIXm60xLvlwpj8_chGwCamEBC3nQGFvmZ_7KKPnVNfVx2AkBoz1RexpjRLzuzFLR_feKNmZ7ewfgtf4BAIWPvW9fXLeTbJY-VXcxnm91hKXIs2LH2vW_Bg8dVG-f6y3cWnHYXhOztxyicjMD6DGDHR-l0_tP5isyBx4pBwZGA?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/5tg29tg7h067qsem09aob4p860/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo1bZKb5eyhU0dlp1bKht2Vx7fNRw-5HQ6dJH4cKNXZzApt9abnR_1drVT1pMPevzO7-O_YXC5xz2H0NzTyGEiRnqpKhITJ80nAjtQkRdEduylfZLFSg35ZQZwZlrkp8zpNMiAD6RQA-oBC2dJLEqpqm4t5Uv0dP_4YjtNbN0oKmgH3vDUEw-MpUm2qoQffNlCVFQmxWyRRdc-vZesodj963n1w92LcCt0cUl4qkkaKwFxhraS5-6zKNQOX5xE69s6k_D5iXYFHYAqWh0GzmN6WnBmLug?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/n1vdaq4c7ao1ggbmvrlrtafbgk/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoE-SEXmzvz-CkN_qv10siKVNsYvbJVYnpPAHt8mZlUKayF6Hq37bEikWf5qgiLHJoI5dlfwVnb1K2dJm1heJweSfQezq9qGKNnVi_hZ5YoLOOuNZhorRIfrrJjaDz7riS7HFz3yYN6RMnoJNNZrMteB6oAYYc2gGYqZPCeSTo9YeXb9N8dAYXnKD2oxE7QwXg4CrABCpeOONX2FUeNRN6TqPaKZKCMH6cTK0tFGgy5aweK7FRCgpHeccqZVvGWS58BqXosYuBVq424Mv2Ut3_d92I3xQ?session=0&fife"
+                "gx_media_links": "https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/fpb248s3jnfr67gja8t2ta8d14/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpwcs5TKfcqJkYgugAZJ3fCjV9wFfww6250CZK3IiZQTHQSBNjX8oqw7b4Qid8HDo3gsCoi98zsbPYqMUThGbUWTsTbHYzf046zq4LgQ3BYpCpyNoDl8gy1qT63QbjvI3KuiouGffrASwD1TqFxPol_W03ioGTTjTZDr_WDy6H08J3nj7mxb7IIjda1_dfnEu9DpbL1L4gsYVaX8GXiCztBJZ2cS0Be0dOu2DgZEyIF04fbwlcqN72qc8_U-nu0EZumBClX6sVSJ-o5D19_hwQTBkccDw?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/d2ru70gtu3glvf4djj771amdsc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALojfkX857sVOsdYXLhLPnnQdWh0e0e1JeKQ5ex1liJFoCNUVJ-MY7rkXJl-s_7_lsQaNS8MC7hyNR6fL60fxLSsyvWXkMr59CO19oz_43szfPUBVlmMFH-NYHSi3fO5PCchY0YR9EOWupiU7DFbTuimniXO9iS-2penPoT9RlEFZZC-O3WfZQmNmbk1y6NdbHc6PBYMzOUtDdiOkDycm0a9Go0QZriTn7OTKuwzJPHHhLlACbxU8RWARwlKCZ2AEqDVSvw8Wj-dnQhduM3DR_6zW1IGhw?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/4ehueaa5suhatod3tp27tnv0a4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrlhNtl1eoYI3738n00BTNZHbBmQviMeksCgccacz2v-7zUq3E7Ma-1HnDCeanIVN-xZmFNb56nvpjmosM0ng0raJdc8QESUH4K9v3duy5u63yS4TMFq7OXO08lOr3uE10aw958lv2JgKDsB5PjcuBhZEdDahYlk0zx9qjwlir1vBC02JefiAoYOT8fTYjRdoMpIqkdqdB4SoXIIiznlEB9iWTvWocSCVbzi3cyTuQvK_6c8bK1BgBmarY7MHRGwIoK9fn39-xC8Q8v4U8y0rHllbpGaw?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/d5mpb3sejicnlkb3elg8f5rpa0/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr2TzbcnjgXrHBg4aMvl3Eoja6m6I0WexHQDtbZW8ZEPRtHmAsEqA1gkJ1hRp0KIjn9eiLQuk9gM8_oIPrz4hFMI6Xn9K28FGI5p6oKJ-6a6Qr_iXK4NSZbilm2thosSy77TskOXndNeA1wQ-jxTwfue2quNx3TyJL0v2QW6zsF699CLPFg_2vV2TdOT7_7DTIZnm342q6axwEBk7Ns79h8eMP2ubci1n_yhxQHqdN3oRa4cYeXONjTMDydv8MmfOeE9yYj3NtOp_eqHjTjpvUB_rEiiA?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/gjg3v4oascul6oufo9tql4tp54/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpJ13SNsz01sqA8uXdr95spxSxTY1hS6aXwIkkc2NsweQRO5gldwAVl6pUx1KQ9S2qMCMhrzlppXTx_BfiZvTYQaMYeA6nGa43SRlVqvKtnrA29GffTGSvg1EiJFymQVhnpye0fwX99GEE782Ln6sXifD0_cNuxthkWLMvLpREeNVf-LgOYqrzrPwOjUPVtX8Laq7VLRYNPlXDlWyF0c4yVeiMULzdzwmLYCWOgcVsMezJD6aEneyTICkJHsTsKrwBxOZ5p8RmL3ir-DY_K4rvm9zi-LA?session=0&fife"
             }
         },
         {
@@ -237,14 +238,14 @@
                     "normal": "#poly-9C27B0-1201-41-normal",
                     "highlight": "#poly-9C27B0-1201-41-highlight"
                 },
-                "description": "Capacity:\t354\nAddress:\t76 Saint Paul St\nPublic Access:\t24/7, 365\nRate:\t$2/Half Hour, $16 daily max, $5 after 6 p.m.\nAccepts: Credit card or cash",
+                "description": "Rate:\t$2/30 min, $16 daily max, $5 flat rate after 6 p.m.\nPayment: Cash, Credit Card\nPublic Access:\t24/7, 365\n\nCapacity:\t354\nAddress:\t76 Saint Paul St",
                 "stroke": "#9c27b0",
                 "stroke-opacity": 1,
                 "stroke-width": 1.201,
                 "fill": "#9c27b0",
                 "fill-opacity": 0.1607843137254902,
                 "Square Ft": "876",
-                "gx_media_links": "https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/76e3f6421i4pn0bvrbj2n8jiag/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpjSjt7_44bYeIDrTwqKHpfs0ZqbhFRSkNbwMN9MFo80kbVahsNDXZWRkLU5D01m2gJCPqqLlCLGN3ka8w4kOgxrd4m3gIQDckfQeWARgZO1wPQFypi4-LfN9zJH_s3IDmUhYyi_G8CPYzXOOuyKc4qT-TT6BowOMzBR_IvJ-LfduIBdT8SSmUQOL5U3Ue-h9I4GU58Bgpu-akJykeWz4xO6PF-aA77SstUti1k-x3t6lWBjgXJhr5NC_PpWuUAdQncZENMpLd06VBfQC8gRjk-yAY2hg?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/lt5ctqiukvule19rdgniq5klq0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoTNqZj4tIUa6YVEeEAx0y-NZDn4_OvgmVbT1oiySO-0hPggSAQ_O_eI-o9AVtMQ7yDtowF3QOyE-TpQp8zgPo4iR_zB9eUIHvaGe8bwPuV0XyonTS9T5iKmKRoBQgG9SxIubr6JOtOOo0zVRBjihH1j51dfgoScGIr4PHOFxjYGI7V9EWTxakNm5V-eqpbxygORlmtspIinHmKlYL_mU08q4gs4vYZPitocN5OlX7zCdIMDM2nU4k4mfehehYQkS1S098JOapS-YztaqHifgOEdlXP9A?session=0&fife"
+                "gx_media_links": "https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/6qf34j4lhlp34k0hhhuks4irno/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp6JibCxMrY8lhIONqeXcD3CEKzTYjpKjUcrgAR2Jrzd4DWDnTineUCOmpy-NBcjWYqeEah4Ro96Y4BvCqaoOcx3MTyZBxR-a85KSD3RxW8YyQEOkkhG8_uhSimU526OZaGWi1Xir8DFwPPKckRtCRnYD9NgQzQpJhpT6yo-2GvBSXNGXukQh4VKn9wI7NjW2eyJV6Tlb6g51DyJmu45Q99ROWGJwpP1HbxBqihmd6r7uTNSjQlCRzP6agEtQ0yjdaVUrPfI2qvLjVf9iJbsF9Utdyj3w?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/dkqioqrhrhqphjgbcrtu3tdt50/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoYrnXLbxKNaid432k4_K2x-dJVZVPgsuMYAPoX5ZgnbFFDMwyesyIFQi380CsbPk305OwZFfWVOKBwwj5Q2yJnOcgE4hzEsfxH3-FdTNfosFRhjVgNfTtVAZGHqIRbvr0XBkuibZDs5eTmeVyyfFw3Zp43WtlEBbD0zsigtJBNRB4AEvBeH3PPBEnKQcjKTSRVa644DGpFg0-05af3g_-JSE7BSm2CZNZ3eWAeTppcNjxpdT4_8eDo9L-gkXGew0QtLKHQg2VTD2fdMK3Qrp5ELCa1hA?session=0&fife"
             }
         },
         {
@@ -304,14 +305,14 @@
                     "normal": "#poly-9C27B0-1401-31-normal",
                     "highlight": "#poly-9C27B0-1401-31-highlight"
                 },
-                "description": "Capacity:\t90\nAddress:\t65 College St\nPublic Access:\t7am-12am Top Deck Only\nRate:\t$5/Day",
+                "description": "Rate:\t$5/day\nPayment: Cash, Credit Card\nPublic Access:\t7 a.m. – 12 a.m., Top Deck Only\n\nCapacity:\t90\nAddress:\t65 College St",
                 "stroke": "#9c27b0",
                 "stroke-opacity": 1,
                 "stroke-width": 1.401,
                 "fill": "#9c27b0",
                 "fill-opacity": 0.12156862745098039,
                 "Square Ft": "793",
-                "gx_media_links": "https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/20j2pmtr28lpgn2cmmf9qdrh80/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoTa8krseKUFOyXdYq6upnjsHEnqXwTt3uDoP247Yq2uG0jboez87Qhm5VOCBVwjUjMx_k6XXTikwI_hvbUaIpjltnXtn-iQCPJ5Ff9oqryOHEHtbV_IeJFRcJvLDfHD43XyOyY0FzamRLLFQ5dThonCa38Lv0Y3WR2pUr8f5HbcKjX6Tko3ZJqsvc-04NjSoZBI_ay0Faj8AYzzIPgmUPGPpAMkp55kzzL30uGOSMoa5nnxIYWhyYYgdf7qSkVsoJDSLvYLp_S_eDWoonN_a-mvzlXhw?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ma5l14vtk5qgo2075vrl08qkrs/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqiprKdbajCDlvf7PZDffahpbG5_5S-VYQDSp0qrNzZ1G3aDQx_T585PyYpIIO00qUhMIgd30Q5cnrvUgCyUh9keFipdI4aORT7k30Q-_QR5-cvuKIHSfK9G4VEfd6o2lcbVs3z3_2wS2icda5ffLON1Z60rAr2P_aox8uZS8eAZg8jvn2k4PenZ8m4VJU3SffQ0QZr5Fwt9nhHxcKY3s-iMKlpbiekEqaXXBfTsczuvJ8V_dwi60OVyIJfn5ZkW9eIoe5_4DOjXJ5r31zNHHaPA1_FNg?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/qmuuh4v46338tv8tlmrnvpaie0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALprr1fGy8oqBgDTW8Cs3lLEtriz6IhUiQmSuUMLPUPuqlJqVPRRQPYR3OpL7SGpCcd9j2r9JkAmBWAElKDwUXOAz42ZZ4eXiD5OWfvtG2iaUbA44kTN798B4Gyf8AbI0y3u4FQU3wm9StbwsO0vnjaysYRfGGrocz477gJRtlZ50B_pmaoOJkeMH57iBIRdUnOIn_NfS_hO84RjXTth90La5cJZcwtHlgzNccMaMfhU8nlcy_0w5m6NVuXaiHZWCJhNDF5IGXUh1y6j494sGDLWGCq18A?session=0&fife"
+                "gx_media_links": "https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/6lmcu1bctsvfjjfikqu5tbq9sc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr-JbPV3s_BDeO08Z9ik71-vL94XojkXuXTd7al1rltCIbRcZz5pbQA4hYrlSQRM4dZrTkgyHBNNH-XjPBTZN4hb4DjcbQ9egHCuJ356ZMIZ5GUHqtb2trTNfEcwi0GRodhQX0VErqoMPELxJ6Jt1gahxX-fduR8KqBmS_Lj4kKGkhpxPE_yl_VYpBnONSzuuiWhgl7BTtxwYOjaiGbWDf6_nnZ14omPPdrdBZTv6iu7mWdibICPuhfURcFXzwkjuQ8CAk6j5ZBR4tRGGYVnlCkfH4VFg?session=0&fife https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/4kft4p76a0tj98slvdmbln06j4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpXB0hhtCiFY9nedPUeLhfAg062QeVEKr5nVLU6SsDOscdr9XdDWRor_p_QfT5zEg2H5st7_QesEAI-ybU9xBfCHjSJ713wQnup0sEDWqOgw8ObIr1dW4qM35ms0tjZ2ljxGN6WszbFHv-KraFiklUvbYnMz9HOrKB0fjP9oKB_XaZPJfARuOLDhXhgPQOMPr5LNG-fFR8gNM4xRiAqBK9s4xn8LkhIfXhGEwjnHXu_EWLaMWjNB9kWDodL4ayt8kJXh6qaCF0Z593FEmqWqlHf2E_slQ?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/0vea010jddevh6kmct2rbkuq54/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo0cC8rDy_MqzIcijeu7nxZmKlIclGoMMZsC0kl2HektttYgumOEIiIeDDbIKsjTmnDyCfM0tdkwtVYA174quNzbxYeKfheJ8-8hH5Z8tCiXlVZgh55owjXH_r-I52lUeyxh0HFmT2fLTLefQ_aiW1am5Fnup_hfB9IMLIDrGitzT4dexbmcCvK2GUQ_f8yYJmbFu3aL5HSOOkLuuR8vJhK7HrXuhC0LmlwhKl3IFbKZAHBG41BveL3hYfWIrXOMGNmTkUrb3PWj9GpSArHkkbqhWKTOA?session=0&fife"
             }
         },
         {
@@ -411,14 +412,14 @@
                     "normal": "#poly-FFD600-2601-112-normal",
                     "highlight": "#poly-FFD600-2601-112-highlight"
                 },
-                "description": "Capacity:\t118\nAddress:\t3 Main St\nPublic Access:\tMon-Fri 1pm-12am, Sat-Sun 6am-12am\nRate: $10/day\nAccepts: Credit card ONLY\n\n",
+                "description": "Rate: $10/day\nPayment: Credit Card only\nPublic Access:\tMon-Fri, 1 p.m. –12 a.m.; Sat-Sun, 6 a.m. – 12 a.m.\n\nCapacity:\t118\nAddress:\t3 Main St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 2.601,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4392156862745098,
                 "Square Ft": "958",
-                "gx_media_links": "https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/h0mb4lur89hn92ebn8i6g9br8k/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpFZYOJhVVkl_PPdj1gYlI1-hK-BMrdQZo0GcPQRmOxNwG4SXek-H7XELVJT24A55dewj7k_iKGpmLZfmnE3lce7BrDAfwAqU_rjp94gjzG0dnPFhtOgXemWAR3_8enNdBhSNK5A-dRigEVX2yyOATUArfTHFGNgwv6uzVfY0mIcro1AGNgon-JgJwrwh7bSFT2OOtOWl9YkA4vwlCGR-9pQiZMl4dDShrMYvB7_QAfC2qZRc5k5dRp1zKni9OVVYTCEbtveXMRCi0mnoPN5vlaJHZeFQ?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/93kh6kg0jbpmjv5578u3rg18qs/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrQVI-Kv7_qgLmZqd7kwvdvXm9az6FEuTmyBuLWMOtWs-0eLHT7s75paBVg7y1PBLKG-4DTl03EBk8FXapTPCwZD_1Xn4o7Bpj8YZF9kjuQxZ2OoDP8Iaxw6dTGIKG6VH65MaceboEqQ_GuxnDS2Xgs-Y9zivSGTzMi3az-mMA62gTvDsYVG8aCAE1mJpio0urxfb4SJ0vg73wDtzRMEpSZL5hsfmzgDHIgEtQkxA5fmg5VmiirJ9D4BPi21RdXmNwNgH7OSIEmGkyVCAkY0817TiwtZw?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/khf8c9gfqn04nsg1sd2jb349og/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr3Jb4ptWnd6xnWPMfcKG5SPMQfgRjkx_KKdKKZAOU3Ta0cFljv4RDNTa_DUmL5JN6jCbXr4hJGP_D7pzD1du0Exa9p_NVTXxALm-j46NWLp06W932VOTi83CAaoBiLdXI9s16I0MsyILZ2TOOsQ4srjkUYTRKP38FkarYpzCp1Cc8ncX4M4QycvrkimsPSqQ8TFakmDNdCDTVKkMpwdpnxitg0w8MOUHH9SLCQw_BwARC3QuPw7C9tE-C4Ddr0XNc9bU67DYRyzjUBNyuvYcQ34z194w?session=0&fife"
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ji7gcpomhrcd7bm345r45jeokc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoAaRLvXXkty5j99s0PiIZlJ6v_24ZqVGjtQ6R32SiY5C7GhGckgLliLQ1JWKM62EVhu04HcA7lz7_CfDIplmRqMl-1ev11nO2mmofYsOI53TYhtksXQr4n7bbnFRV1f7B2p3IIVAJ2WoaOyWfKLu9gXEc827IOAGIVdPV8ifuw18M81MyWhI2OVe0AA_kM4rV-7MAOel9BzYKD9grwSx8zzynB5fK4LV2pkTbuV69SES0fLQ1cTpTYIO0bwrqP0fEAp6oQEtlFy9RpIC_neTGU33e1MA?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/bptchrkli4nnc5r8aigccgqjpk/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrd6apGJrE9EHSEByTp8b06VhWq1ab_irAQahWvQjoBYXqJ-qjTjUL0IzmuvbZUlW-X0Qjx1tTFNieAGrCKxQUhErb_58DThWu7c1wtraVXKYgHVJZnxFHExmtEUhe8QPvTmEpvcCrV2lrkGzAf_XUXwPI1OlFfC5i3ESy-0nUvtyah0myJpJVETRRfRf6avy7TINvtrK8hpBSQhb-KUaklBG5YO9c5TBTb0iCckE0KIwM5R2G3xq_o_PDUq83kecgcj--QtgR7zNOG2tSIv_wxDzT54Q?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tpg8i6oeqpi2n15b7rj7ac3064/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp8DFEfIzzioPIBjBXikA6Wg_A3TVIVFdmr_ReXmMpGcVDfw4dQCNvaXRxltHuaDN-byq0GNO9I19sK5RVxHZoZea8AVfG60VTMI20BtJSpZYkEOqhj3SPfKfz7c_boh9FuSgCcWVnBkaPgBvtWDqCpWov8W_rT-qB-5glCPOGL8iVeDbr-i8Ty4eqmA0a2HQ8l_wPj9bEHy3BuqjfkpbWk4kHhh6c5QuPxySByeHg_hhNdaSbzQglxX6Ot-GlzpUeFrNxs5Gv8anKGvxUS-qp_2iPlGA?session=0&fife"
             }
         },
         {
@@ -473,14 +474,14 @@
                     "normal": "#poly-FFD600-4501-112-normal",
                     "highlight": "#poly-FFD600-4501-112-highlight"
                 },
-                "description": "Capacity:\t26\nAddress:\t110 Main St\nPublic Access:\tMon-Fri 5pm-2am, Sat-Sun All Day\nRate:\t$4/hr\nAccepts: Credit card\nManaged by: Unified Parking Partners (207-618-2887)\n",
+                "description": "Rate:\t$4/hr\nPayment: Credit Card only\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t26\nAddress:\t110 Main St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.501,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4392156862745098,
                 "Square Ft": "497",
-                "gx_media_links": "https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/2v3mhi6irnco5rdo68es1l7l24/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALok7wSY1JQzNQxsQTFt83zQNsK0Rq6bdVVjAQunGNkfQmKA5ziC3mhX1U5vBvA5YTk6bXg-Xsa5VuMRjDCpWSZ7_61vrMiuxYxKXZv_Sz0nw8IqxcaQYFpDkNjjQ9KxPaorj8qQgDBRcmNN01PCgBM8zVcTMFN76ZmfdbgrgeWLpuWA-dhw4j5o2oiCfsTeJQrCTi95Tk8YMa33YottYDvIKKG9c2eurfN4iRlysjr2HMA5f5_YGubi-zLTNsJ8mc7eZYWPbCTuPt2rbq_iNM8Kxv52Fw?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/o4vhk8kjddmhl6eoajtni5t7ag/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrraxiP0dLYg0iF8H-rK17UckXMMgKx1NtXj9f12EDyjSqt5RheJb_JJlccBEAm-n2W5RV3KIKcoNjYybSdxQyrPeWJ0iwPbQlk-l0KAaaYgr4m3ClLtn5Zjb6TUL3ZY9o_UATTiAx71ifAjijSxfS2PuPHX20zonkcOBOgQx1wzq58nqCpetQHUG9_8wSsdJT29XuHAoB2ackXHSwJ6AeM-K3WYzAjZh_ujFTZ0xik7RHepfLB-aZd3liAb_StOzIPc5rjCjEPHtRPAgvOt8nPsacqGw?session=0&fife"
+                "gx_media_links": "https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/gqno5srmao8c6ro46f7jtui8ns/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrCBvat5NyRA2-0tBl3BVWcE7klGEPqaZ4N643nfIaUFD8JcpngPiMCnRyrm2rJCm_axJaIMVwEfsUXA1hLYKfdHaATpCYfSz4HSgfPVIXRiWJ7x-aY4dh4zfV8dmDTmhLWHnZSUIR8ICSMIsp2gZZRyisCZvU3Zh3RDyE9beTeu5FhnR3CRdeVfG86kbg6r3h9d7iUoxuRT5y-yk_2-dSTbQZW0inZBOL4mUgrFoE7af2ShhiH8UPY2cMPTZXMMPBL49lc5pGyOPPUWA-8bN3hN3qaZA?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7r9ai61a7joh5hv45htk8cf5dk/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALog9Mlq4MT_hKW39e1qWxCKf0XtpR6nMECJ123V797HtB47o-OeTIsEWeFMftcpOmzh0TJ09n2nledHaCtCSoVqAb4qIwf32V3I34uMHuckVbvcmWyH1qeez9SArm9uGYgJ6Xi8-E2IN4ZCFca_rNZqQzsUi1uWhmf4V_wc3MUGQArzJIiYeqjTpPj0Nee_iTpMEARhJs3pje0FHIi4b1DluOPUQ-7AmD7oQiPRGmUg6ywoAmdwPD6mNksjnPKBByJcfMZv5Z7q1axEWiZzU-y9b5RmPQ?session=0&fife"
             }
         },
         {
@@ -525,14 +526,14 @@
                     "normal": "#poly-FFD600-4301-107-normal",
                     "highlight": "#poly-FFD600-4301-107-highlight"
                 },
-                "description": "Capacity:\t36\nAddress:\t2 Cherry St\nPublic Access:\tMon-Sat 24 hours, No public parking on Sunday\nRate:\t$4/hr\nAccepts: Credit card or cash\nManaged by Unified Parking Partners \n(844-727-5877)\n",
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access:\tMon-Sat 24 hrs; No public parking on Sunday\n\nManaged by: Unified Parking Partners (207-618-2887)\n\n\nCapacity:\t36\nAddress:\t2 Cherry St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.301,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4196078431372549,
                 "Square Ft": "437",
-                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7qjs0p4n1ekgi49onoeg2m4e94/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo-8rBL95ORg4uqGRoN8ikX-GIv6u-q3eZ1JxZl2Rn-IojacbZlfGyi6P1_XVSC8R_C-HonVgoJQom2HNUUJ1PBu9Nbz6DVCfUo0Gnu_nrwLoG0VoClSklkGbU5-TzPiyji6q9z5Ywjj3_yP7vQoqM94UrfJk4mGbJCBMVdkFJ5lgmErBenbicuAft4nu5S3m6b-Do1p0j2B8t40kJfm5hJMYCErzoebbgCHHLlDvrbJprsRTMWWdwkUCdLur58mphbqwzIa0gua1z8xxFXCk1Lx7kAyw?session=0&fife https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/klt9v33of76pgi1lt9va5b0luk/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALodCKYBlxa_xkOskYaiRlkp4lFIjV0hcYKWOqJETVuEAc5vrPvL3WhUTozMPRmdsrGsgf0R4s2KvrQfXAQZueSAztBrL6uUU_Q7NvvL7sv_uA14XeSDNLcj80XL6ZYKYsc9EpFg4KB89GWCZLHc_scQ-9Udp4F-H6XwqW82cDQaxTZ0J91NdI6pT6GyUDKNiTCYe3WhJQ9FlcYYtm-YUWalBE0iOHsHUMnxs3JfH6Wo2dkbCXMD4cbQXQgGhRGCZoE-33fBIVr5g8GqhNJYzEQ1sQnRng?session=0&fife https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/9b40udqebi36dbb04ne3soh7bs/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo2dHFU3Rjy1i1QxZPaInHUjoSoPsoEMjM5bJpsTpyj2DcGBAunKF-4eOWrSI2ClqMRn-5_GAOTJ3DPNiVRJPEANyDfwKrkHwZZr8GqY2xGuTo6oGmk-aFb1WY73OVp6wUSo8L6_u5R5-7qBviLwahO15-sZ8J7TpPqtzLI2op-jHh2C1t2eIUIuC5GXVPG6RmDnO9Ad6EKa7dUPIK4p28AU6IH96mmgWR3ugPdDGZ_1RXdlIuwvLrxqK9Y_GKk2OxF9IACr00PwQvsgTeQeDKNo9cuIg?session=0&fife"
+                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1kj083suqdm7k1rbsto57lvvuk/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr8aOM4eJBNRQhcXN9GnsaENT3nrBjYzZ8k1Fjx8eovksBYbgvunPNVJD2EsPC2CMHOd_grdwyk0goc-RtjLotWx5zx0s6YNje_zr9Nt6BSffWtMvP-wUda3xA-AA_fjAWuqTOvMy9ypAhmnqTfO9p4O4uFS8TxO6vCb3z0VZI_9b6fNjjEroH1AWBFd6xzmPd8ZrAuE-4lpjoYVwjDtu-6OflHgUk6C33B2jdKV6ASQlw5rneN6bbvq7bDG5b47_19TvqehjycLaquUBaOIH_7YE9GRw?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/sartadru8v61ubsna9fpr628n4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrvvbb1vLaMuOvFY6aBI7v4Ek3J4IeQ9pgmYGgQ-cjGdFEvGmK-SmlYOys1HMzS6okPclG4ewuFm7Za31HvXKqsH2CCSWddgT8MThlruqK_trp6rNKStxve_1X9OUbfcWk1OBD9mJVyibFxZNPO7jwUTBEJKb0dyElxJxFMJdrZ6uFYhQBgBPIHMq0nNzvtjVA812-2aSSSYG43Vt3nGscKhZmQiJTXoHybK7QxO94kZ3RHuaqpSDApD8LqsyrG3nvqXoIo7q81WMLjOo2XY-2646kdOg?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/9njehintkjj8h7iiqmcc7t04io/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpUB8ZMFq-8K6JgqXrK7ER5tLFE51xsjUey_hvfVMvOIfqwOHrIi3GoJDGxn01kH48J21RYFbVqLXRxsAf3V8YyD3DM3l1vB_5lw8KiGuPuuZhcfKPS2Xb2JbIj0pOgt9ioMbj8UIBRRtrM_lpd2iT1Kau9JXkhDkJ5XlRa3cqDKIz9WcXF5EPB3ZrOipSR_MZy1Z9oDlPdfdSYaRJu8iYJY6yFhuvnGa6zlstiFv0-K_Z6MT-d8SXQdrjRiWYETbSZmI7BNbw0pLG3KYGYQRkRXoOjjw?session=0&fife"
             }
         },
         {
@@ -622,14 +623,14 @@
                     "normal": "#poly-FFD600-4501-110-normal",
                     "highlight": "#poly-FFD600-4501-110-highlight"
                 },
-                "description": "Capacity:\t35\nAddress:\t2 Center St\nPublic Access: Mon-Fri, 12 public spaces, 12 public spaces 5pm-2am, all spaces on Sat/Sun 24 hours.\nRate:\t$4/hr\nAccepts: Credit card or cash\nManaged by Unified Parking Partners: \n844-727-5877\n",
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access: Mon-Fri, 12 public spaces; 12 public spaces 5 p.m. – 2 a.m.; all spaces on Sat-Sun 24 hours.\n\nManaged by Unified Parking Partners (207-618-2887)\n\nCapacity:\t35\nAddress:\t2 Center St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.501,
                 "fill": "#ffd600",
                 "fill-opacity": 0.43137254901960786,
                 "Square Ft": "532",
-                "gx_media_links": "https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/06h9hc2tbg8s4audcvp9phnur8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrnkGRpBj549gUmj-Bg_Ht2nK8ePejqPbue7FM5M2FM8U2w4poL7cD5PhfcgiFHsbA9QRZdD5CypXEpbzeUeJOF3aOcAJwesfORD_rH10mxIHAHiG5n7Bd__VtnOw5_cS69qqESb9JAP92R7_YaygdEjwwKcqaLsCRVEoTZQG7vGV7i9PxgpFpmc7UZwpO3A6eskz0w2zxJlDmF7RExmq9SMAhS43eIj06k8jVwJvcfsg4Y7x7EpGSCCgNPDbYvpIipT4ipde0oPOkQ9MyKUhqdib4FPw?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/vdb5mjiscd8h2klaftnl9o4f4k/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo7ky0qruy5a6kxf0uPc4mLIPf8BP60wAcuYLzIx7DHuDOUnxxOWRart-iyWnfaxE_cJSZRSUQL_QWbpiKi6uVnc_Uq3zXKnnnoRoguky9oa5TXux8LJSOlBq0ekQrFX2x_4ZrJn2H2MvVdzuLZiVG-AX4X_1_CM4h0JqY4t0oO3GtKegzg1uQvj51cDGREe_C6UFpUqcog8zrS8DlQx8jkkntxtG8Bf9K7uZdH01GJULLEGLvM7PVLnZIjhJqKyAufTHJC3ZhHm2BgYuiZ95qiS08y4Q?session=0&fife https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/vq3tri7id9rsqhd0n0q7qtbv70/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr2WtgQ_6BJS7NZL00oRlT0xcwgE8EJKQXVJ1nLLRYvJno1szu1NLqE-6P_Ht-Tc7gc0FmHO9dFHetYLwKsdSaP3qmST1QxqpSoUWpgUVuPCxwWOfyz-R9z4UhAMItHXlbop9ftcxjuVWTLFoBF1X2tFDi8auRKKC1UIfrFUKq4LvpS0TsfrVmgf6MXl2YutyeWfmiF1b5GZ8RT40HWK2XLWOVnvTgynuuy1alyAyprxiOqyIk-mgXYpBHauEjlU5NJA_ri5vFVa1nHlrH6-cYKAwvzqQ?session=0&fife"
+                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tqqi78ltoe4ldkdk1292uip3f8/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqFZhDvz9kwK0ua5VfB-jbVIGmbZoN-kbmxo2qy04qm7dk-ftTLx9E405nAFPpZFkE0aZPFgmb-ZvsIOsgbwXPV-rqHMNifKBC5XkWFxXHzhnjVKXDUvlihhN0_iQVdKicBKFT5S_B20ntwTl8pmIPPSxyFgiLPDQ0nu60gqWB_qAh4jDi5P71PIwWtAPRX7AYSLrC2VvYUV13IGrMObkYdgHHMezKCWULlPZSQoPLine1vkOO_LNJhPeptO6Ns8FlY9PcoHDFGzQPfyvUX6ykV9UqsEw?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1tpicfh1peukrkjevv94cr8vso/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoQadLRmV6EEqb9eIw1UZ_eNLA_P_fg5gJD8iX4eHd5xu4EMSMOx_zTBx77GjbQoI3OhP3sZipyn5B7WszKzao90HqdtzbH0xo934meljEyr8oM6wc_-oRKpP4PrVp61uDBFu4Tn70gNTAX09KfJ8njxxVinftSH5K_FBu9EutdbOgtOS4-Xb7HAVPsL816gZ9dFWyUedizF-N1dps8AZwaOJ9-wi8od1ETaIK6bctcpOL2p7EK7zStOozL_vPkk0dO8kS529WTFj-80EUvj-3Id95Ykg?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/pbakkls4333gma04l73hqa5ets/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq2z6fzu_vBV1PUsp0ukOhiudnbqJod4s48002VU3JScnbSAyGiQm8h3MBQhCZ0DEeOFrMVKL9m5Ghb3tPNVFj_OpuDsClfrOpSm8y5XnrR2CLwwhx9qSnfTQ0AA3QlMFsu5qcBzn823psgrPh2IEUCwIAePFAp6-NaHxj52QjrMmFvnAyfpqsbEERVF2SBTTNluUvpenXRh5VG2SrOHwLqbx_-aHmU9zJXhfW_onEs7zVZkWOikczElL5GAjc_x_2X6I4Bp0GqZ5PJUMaCsO1oFE0OFQ?session=0&fife"
             }
         },
         {
@@ -674,14 +675,14 @@
                     "normal": "#poly-FFD600-4501-110-normal",
                     "highlight": "#poly-FFD600-4501-110-highlight"
                 },
-                "description": "Capacity:\t34\nAddress:\t174 Pearl St\nPublic Access:\tMon-Fri 5pm-2am, Sat-Sun 24/7\nRate:\t$4/hr\nAccepts: Credit card or cash\nEnforced: 24/7\nManaged by: Unified Parking Partners (207-618-2887)\n",
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nEnforced: 24/7\nPublic Access:\tMon-Fri 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t34\nAddress:\t174 Pearl St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.501,
                 "fill": "#ffd600",
                 "fill-opacity": 0.43137254901960786,
                 "Square Ft": "383",
-                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/nn1pu0bi4p8jk8ctsiuehdme6c/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo6OTLneQoSzRSnFA-0TBYM3-hKVBgvAlUm6glGta0MeD3qqKC_uu_mfkwvkX_oidpYb4nEz16macD8kqXVUAbLXNCr6QYNZnJsN_J_snk_YUWVs2BzNjXZor-LQGiL3X5EkugWT-Jsg9UXqvyQ7DXyhsqLnaW9hLFaKxQA4EGzIniNdO9jGJQXhM5aS_dPy34d07h6v5BlJIBA0E69YuvfJVrZohIPwPPS9WchHBWmze-j94XwQyKd6IhIrMNQUWX7oWgTWSPzlI9M71bhyM3KCG3CGg?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/6j97am9habktsku9pqn4pau56k/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALouvlamStXFbWe-17Ytyprgy_W8HkKn7uuT4wv6C6m07k7jYylczhL7NJsx9nYLm4Uyu1d3rjAKrF0sEqdAcVn1d4WZrwgavL8kt68PMiRCBaHmRYldBnVHJuMmQACIx3RbJiHTACa_tKa7micUi2XOIjbcKJLctiqZnMD8RA9jVkw6b1cuazKCWIXvCD_TGi2nzwysseWWGxkfZiucWaL6PWidCVNGp-2hl6i25W7YMv58BNRB2RKz2v7ERyybQnp1q27CSZhz8O2WszfuQwgeae1jBw?session=0&fife"
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7km4t9vfahhvahh0a7mghovdo8/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrVUkiyc2xN-AalehMm-xowYIRqrA6Wru9h_hjNpkA9Hg5m4k-SvgFaso2eBG48kcTPOLuHC1vT7_KH-a1byWZYHhTex9P9v8LFGKeSUMqYzWPP-6s235OGpngMOmzi3DOZWKshSoOCHZbwCI2k3Zfhzi1NDhovgeUlvBEEVFljprlce-OkXspHB7ka2EHbzjoEYZ7BtZK-t8_ER4lu_MSP-5eTyZx3_j8cY_TLJxJCq5mKngtYoWfR1OjTV_WcPI52DTBH0iATrUGCjkkswUpBYzl3hQ?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/niicdv1s5j3cvtgkjrv10n5h5k/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoDvj5SpeXLDGeCfs9j5rfLMBK_BwJZYULM2JYkJ7IBzXIzMsAiXKvJrjF5Rvv_SrF-LuBK5LO_M9PKxeTuBxaRIBP7gKa49j4UVTjQ33uC6VCPGHCW1WUtCT4fLgAqcd3PpdGpRHQWuSMmKcEaQhsj5w-zO-iISW9LIznMU00h1oWMJmJeVIkKGVk-8bAYMLPdQeCNPqhO2DmLZSeANJmV2MyxWnB0hImBcxTSzZsUzeLbrmjhk37gjds9P3HW_fRAJBDbJdDbfsPAoYll5_3MPW6faA?session=0&fife"
             }
         },
         {
@@ -726,14 +727,14 @@
                     "normal": "#poly-FFD600-4501-105-normal",
                     "highlight": "#poly-FFD600-4501-105-highlight"
                 },
-                "description": "Capacity:\t21\nAddress:\t2 Church St\nPublic Access:\tMon-Fri 5pm-2am, Sat-Sun 24/7\nRate:\t$4/hr\nPayment: Meter\nEnforced: 24/7\nManaged by: Unified Parking Partners (207-618-2887)\n",
+                "description": "Rate:\t$4/hr\nPayment: Meter\nPublic Access:\tMon-Fri 5 p.m. – 2 a.m.; Sat-Sun, All day\nEnforced: 24/7\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t21\nAddress:\t2 Church St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.501,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4117647058823529,
                 "Square Ft": "333",
-                "gx_media_links": "https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7e6hr70jqku7spbdsc08j7q7ds/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoFGfRthXUM2Y5_xwThoLBrbDKrJ7zTA_4NbTvdLVBJpKxI-gFNsS3BRpsDc5Q8U4Tnf7oDz7yTkXQCLUU_YlP92tVj-RFFYl0PS6F34qQkyJ3vaPanGhq7BGQEMYXWp9LPwYIWeughSG2u3iTJ9clTNJRFxUBOZloEtjLV-TQF5IsUMl_P-3eh1-nyAHOQucS4WtgQMbCO-DVK_SRdlnsKuK_PLuD8TWb9ud-u5G61_7-clW5NXTGcJFiXlY2r4k0Ydms9N3DOuH58cN_epu9RVoOAcg?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/gcvuuf7bip3de3l2v1mnc3ufl8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp2WD1Jz8UQmFd_xQcn5UqdufiVCE6oxdahs2ZMIGWezgZukyRJlKt4F96XdQDhWj_-uRrR5_EbrPtukynQDEyOfEbF9y6ZBnS6G0CwCSMrbC-WnemZaU2vea9dQHSTSVv_yAOiKYFgdrhAiAiMUpyZijI64iCqzqAh7sxPQ0RDFVEapl8zx2YjKuX9nuyNyuv-bCq7DbHFZKQ9OLWMRyVS4Aa6Z4ERFl1MDf8tHrE1G5HELe8ZI_KZuV7EpaZdCfuvUmsSjWAqf4KDpP1EJzUIDzO0wQ?session=0&fife"
+                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/3k6clba4geasb1s35mu5efmjko/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr3iXacIkjilRBq9-Hq-UVaK6ZQgrmd3WY3_jA6gwnY4t_7ri9bvfrMyXwaRclLmoLSvFGCHiINLcii6RaRGTAL6JlkYdmRNkMLBjcJdQMhCOezeWNX3DbOAgw_sTCVIpU8i5nsjpg_RXjn7KXe4bzo8st47vh40HBsjyFQ9csG4wnbuYOZB7KsW784iQ6hl_ppSoRUaknRU0QQzQsQvOpG0URDvnTQOGsYRI74izj9m3JdLf-ceL41Mk2vZrFscf6RxCs9cuFyrxsh38F4URFsarRfVQ?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/5bl6u3s701rom22ed37plbis80/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq-qwkrBgexr84eRFpvwYK-kzfFm7H8A1K2Zr7fOm5oaf7w4B7yx9ALgVPxlKaMYVhxTHHW1tF6qVP5Ekzvm5OhdlZsca0Qz4YGTakx5GIjwCOE6Z2Aq-p9jJ62MykltHE9YUAAsuOKhzGAPi1hyb5jKZV2E2asrOqlyTFwU8EnAXQVDTm6KO-p7JNvoRxrZ-ZAuTmgStTL4B0fx2WdM5g9HBLitfCx1rVO4fJDD8ADMrcV9pOVwepdTQNLWIahl16l4TdSUl774CwdwG_n3xvMlBLy5g?session=0&fife"
             }
         },
         {
@@ -798,14 +799,14 @@
                     "normal": "#poly-FFD600-4301-112-normal",
                     "highlight": "#poly-FFD600-4301-112-highlight"
                 },
-                "description": "Capacity:\t19\nAddress:\t86 Main St\nPublic Access:\tM-Fri 5pm-2am, Sat-Sun All Day\nRate:\t$4/hr\nAccepts: Credit card\nManaged by: Unified Parking Partners (207-618-2887)",
+                "description": "Rate:\t$4/hr\nPayment: Credit Card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t19\nAddress:\t86 Main St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.301,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4392156862745098,
                 "Square Ft": "427",
-                "gx_media_links": "https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/9nsmaqh57jll4f53e12ioi2v08/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrWTuYgz7W7Y70iqQFf2Ho8tHaf8E3Mxi4J2tV-x2trn6QYfdv7mwNI58ff6Cc1Bi0eAFYGsaZ0JKHxK3ELRW-QIb5ryn5QfxbmemGsmZGYl8jPn-UwQOvAD-XNCIM6Uv_2Omf_zOgll1kbo2iDtKr1qNGxUt8W4wqfL6MUwxi8VW1ixS6MzgTEF7NCvZggI41qitBA3FGN4soZJvDN2bszczv3iIP2VdqjuCcpnxmx0g0OSoR93cNd4mbGTrP1VyU-axMEoQ-BRFwr84Bjrt9_V0lmeg?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/o08gfer9oo1a8hos5o7fij7gi8/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqlMXgegiT6pnj0Uanpu08Tc1MJobQuF717auDFxR8iHF562pLs52VyjZVl2OSJiKmR5FRnvzTpbgPO3mHoOhN_aRHcA8nG3CU5he2HAlG6cKGWBgAGvrmp9x82T6OwNSI2NWQqmXZmdsRYUbuNn9a9qS46gMZa-PMW7S2gvDF3NEfRwz2XUm9KGtB04HVTbYIZt24N0FU2HdKW6O4YLDlEmAv9eYpfkk-lzy3crllXDDLAiSdGs581-fVaIBCzJY6FgxB9jg1uUsDaVL4JXkf7dUKyyg?session=0&fife"
+                "gx_media_links": "https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/5olemc8prsd4mikricugdk1suo/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq25g7aqzpCNeTPlk7V4aCv5Eo3Gycn6HUxAn9BhvDNTrJ7dibaXxlK2u4NiSKVcxFjU_UtQ0Rf8ptLvMXkvX-9TyjAiJf2GStK_cwOmXHO-MQCwQC_pnqzsqEo3ZIEDdKrSj_CuE_JNnN0PK9J1lKraBeeM4QLTa6Xs19NXcaHkktPDnQFHwfzsUoyUxaylaz1ylGdBDXuvWwJE8Hf2eUg4YVOrjUP80tuJZyzcKt-Y1PZc-saDd5JTx8WmSvMKxTuhvpIv32wud5yElGcB5yxIEwYow?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/km7216qbaec8qalf958rqdu2io/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrAHDrG8MyzgzakqSSCaPk6ghViROV7NhwV_e6hKnqnSgRW0T48TX3evsd3ESakrqWRjhSK6E0SO3SADvMQnQ320DpW9npUkkTXZBYPiIZa9AJTomgl63DqOoYr3611hhLPkDUckPJ9MtvI_6yEv4O9QBNy5jCALkmul5NM2rsbwzqrKRjZYIu7mRekmJx4S9uHnyZqqPYzQlkfXei4um48q_VZdtY0EDfqU2MYfLyO1DtGR_JFIdC0338y0mtlIKP6R0VSqVfTviDuW7orroxWoisldw?session=0&fife"
             }
         },
         {
@@ -870,14 +871,14 @@
                     "normal": "#poly-FFD600-4301-110-normal",
                     "highlight": "#poly-FFD600-4301-110-highlight"
                 },
-                "description": "Capacity:\t31\nAddress:\t4 King St\nPublic Access: Mon-Fri 5pm-2am, Sat/Sun 24 hours\nRate:\t$4/hr\nAccepts: Card or Cash\nManaged by Unified Parking Partners: \n844-727-5877\n",
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access: Mon-Fri, 5 p.m. – 2 a.m.; Sat/Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t31\nAddress:\t4 King St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.301,
                 "fill": "#ffd600",
                 "fill-opacity": 0.43137254901960786,
                 "Square Ft": "640",
-                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/fnvin2ktpk1i589b0ek6h7n7bg/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpZLCUkOEr0CNCmTo5UFp9rAYFyByX30DKranwCUvEmsSxFgfrSqgW7tpoUlUY-DQxGZLvWO9cyQ4JEepUug3fw8hrRCNZ2Z0blRVYy87DXi4NRygVnZmtAw-RfuVYWmsm2cS7GACL22CXbToy4cOjE_zzvNanGqFXvOAkXjAQV66l3hujQb5Lqf7GldDEq1_7FzjZcD1urMLVq_-z2ADuQYcKM_6sERmT7Ct8DOiT938RDFm0t4d2v9NEAG49lnDfuDW18z3QbowxaD8NqCFs2_6P2tg?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/vb8qiidis78vjgd61olglp6890/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp-tUWi9vW6GbMZ5jRBuaLLJAZRflHZf4qIdO0Stat94E47KviYotAC-rHSy__bu49e1iL9h0qS1fmbRLB6ZXkmClAYNnV6HFCRNZk2bgBryK6Z9zLnCRf6IuK3saijz-l3z8Won9uQvODJuHc-NA0w5CqVbWYj2MwJU5dHc4wcSqPNLnGzwnD3hsB7MLk3X62jCpZXwqgQiai4MbB8GbkIn-yzQDkJiw3IU866Q5BnFlQ4dddTPJOi1MKjOxOqqI9ezH9w22GRRVM0nMbBy175TGJR_g?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/8ti6254rparo1654qgrs3tjgl4/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoARx3dMWNuZjeyVjIsP43GplYHDfirNOj1F4469m7H73A1uYimWXoHUEKd5wDLSOAPIUi_AXhIlBjaYHNjgpqwq7qeewJLI7_O9fE_bQx1mhMdasTy7AY4P6ajaePSJCoBx0moOVDpyVjxIhpRy7huqqK9_ofQL8yxd4E4sDnctU8yOETpS9B7gcVB06kUu1rRLoVIvH3AZG_lE-INHVpovkWPiwd_5aaieNSrMiQgYe6LsVGGmteW3zWfd_o5vmCTs0fXcqDjmgsGpws6Ppk6-VE_kQ?session=0&fife"
+                "gx_media_links": "https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/abj65tsevtjb7dmksj2knudl3k/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo2YiLH5D-3hEKMVEqgjMeXktvdw86FK1sDJHvzJSAK_aFFvln2Rk9reL7S-G1RFqZch1Qwb5E1aSz9oHPy753ay89S9Xkmd6s8CLXXkWK-1-nWHIyyuUrNojSbrYVaWUi0RgARXKyvy-KhYGLTgPsPQ4wNU4mo_gfm5rBE35V8Y3cOozOOt48jOo72os2f9ad3z3sOZ-8Q9mWQyJ6ASI3KLoB7gwFwvgGM7dxdrpVZHn8ixMNHck78Zu2RsFP45vOhMRvd6wGD7bJ8Y4gN7pFT__ZNGQ?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/khnjft78i73icdk0vi1s8is0cs/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpDVIeowx9EMjiuaGAYbuoZNJfOUTaxrIVbKTnwowDOecByAEpVRxz6bZeQjqI-ri5aqwb2S2Zmq5J6ou_70LTHNQIFPwrMJsX4ODKRIjuuiazdT4x_SqNyJeUO4osLeKKQYq7Y-uLUXAKuUx3rRupG8IUwCBBX-2khslLUgWU43mBK2EyGYd__EEkOfaKg0h3u-VF_jWMtPKuyuYPKLnsjoUxUZN3Rgvvpis1qM6xSGzPZWUG0YeVpIsG7THOhqtURS9MbLTFPnQ_823vtVQrpw59Xxg?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1dc6p85j19ocqdrdvkdi92kpdc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqPEP2tFAIQzCbWKF09xYQ-E7tf_T1APQgxn9NhnZ5s6BTaI1cl2b3fYsLtQMUzSugpXqz6KFZpELvW4FdvZpIlCKuhPfitM4cygoIyMxHbMXc8VTXTQ3uV8dULacSXuEmn006uO4MY6o3Vor9EWkGZBGJwlavGcoFflAte8sNbv2mp8o6_Cg-AYc_RwT2P8Zg7FQbjtwvrGRlF4Ia2Thum_CLUPJaRtPCX4aD5ST10Y0Wko1mGDcyy9Uk3WYIYm3AKA1HaCMrapUlW551__dazgcZA8Q?session=0&fife"
             }
         },
         {
@@ -932,14 +933,14 @@
                     "normal": "#poly-FFD600-4501-107-normal",
                     "highlight": "#poly-FFD600-4501-107-highlight"
                 },
-                "description": "Capacity:\t107\nAddress:\t88 Saint Paul St\nPublic Access:\tMon-Fri after 5pm, Sat after 7am, Sun All Day\nAccepts: Credit card or cash\n\n",
+                "description": "Rate: $2 per 30 min, $16 max per 24 hours, $5 evening rate after 6pm\nPayment: Cash, Credit Card\nPublic Access:\tMon-Fri after 5 p.m.; Sat, after 7am, Sun, All day\n\nCapacity:\t107\nAddress:\t88 Saint Paul St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.501,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4196078431372549,
                 "Square Ft": "592",
-                "gx_media_links": "https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ns8645igqf72sn8mbl2e2rth7o/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrAhJNpf4vEd-7MU1wYIcX-kRWWJAECOjvAKMfATgJezbhOcbY1U7WXy3vDHZCeiQjzktPpNKYR4BZ24A9a_wBnymEhO3VcXKts0FSB079ZZhWyZLoJm9AizFLqpnZxDrcaUlbnhiBt3KIES_XGrfsw8uZjwESiPlMDsbsG3bHTo6Rs40B9l065ymERy0iwVRJB8v7T40uz5OEZ4sMYeCm3-duBLOPPTmg8TAw-ZEnM190x0NKbDKxAokVarpFfpBDMxe5btuNZVFlUEptmiJy8qYVdgQ?session=0&fife"
+                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/up1h7en8bs1jei8u1qo5bvnuv0/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALph6Whu-hkNMRla7bdkb-JQFQabqYORSQTIAA5d_nB3M7Ej1diUXU3gpv2oLIxE9LN8HIlf9WgjVi7AipmKzLyM1Lgal1lnBe97fXX3nnpN3qgXLOfSzNTG8vnY6_3OryQLNTLvAFOc7WH0bV9FLVfGZa6WrclpvqLRs4w9_G9q0O7mT8DOD6DI6-eSLcarasivdpr7cq4qDh9-iE7wU82ffHy_OzwxdfDjTxZWQH2LsxzuYgW9VX7T0fYOGj5B71ZCzzTiXyNERUtPMdQhfdobJnvseg?session=0&fife"
             }
         },
         {
@@ -984,14 +985,14 @@
                     "normal": "#poly-FFD600-4601-110-normal",
                     "highlight": "#poly-FFD600-4601-110-highlight"
                 },
-                "description": "Capacity:\t36\nAddress:\t20 Pine St\nPublic Access: 24/7\nRate:\t$4/hr\nAccepts: Credit card or cash\nManaged by Unified Parking Partners: \n844-727-5877\n",
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access: 24/7\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t36\nAddress:\t20 Pine St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.601,
                 "fill": "#ffd600",
                 "fill-opacity": 0.43137254901960786,
                 "Square Ft": "517",
-                "gx_media_links": "https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/g2hgivcmoo5ro43cl1ua52icbo/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALogFTNGd-fmQMncu98v4mdMVuVmh4E7v0wC9ZfrEoJgYYNsuswKW5eHeGqeJNcTcDBh7WbBWC74c9_HvjXSeCjq0YEUBpaliMnbqrTryrYLDtPmUnGw6lDYqJxBivytKYZhZK8J_N1ITo0B3xjISeK4sVAoCfXMLJr_IritdCqZQUSiCJvXDuF5VRDcL7ZnHfC-4uazb9aRtk_7T9dBkc34YSHGBhTxFmTJM9jpKj7XPZUKO7qv_UNPEakOJN_O--nFh2AmssWOxbROZXTGNyKcK2aMLQ?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/4pbeadro58g7k7igc0cplaebg0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrrjpq8fkBRnTo_3b5mAIAEWTg0CSpGgguv7ZMeohQ4JNKpVpTCprOlLHTwoTEt8ZgxuAY_Dfj-UOnVG3Mv-81wY0xVutKqGWX9Ku09hTohXP4kcKt_ju-R9liFiVwDvfTKmD4jbCmP7jn2pjYqzpBb5Gxy4laKVduQ5AFjUNm5rqATlu4lKKBFLUHaSIaJ7S46XMwZaN8ckTpK4SEky1hgRTdqEu81dlpK0-6ZCiHxkmKk8gtaR4mDFT4VvlBSAjQrE5AwNzMN6nUKghzHftRLNFddGw?session=0&fife"
+                "gx_media_links": "https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/2okb920oup8r6dbfutr8usme8c/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpKjSep7Q5x_J293Nd_gZd0afqxHdQwxSuahKSrwSLhDX5mdqlyDO3Y7_0Ipu-1eS9gaCjsCwxnaAN_CmnEaXwYrfYZAetHHIw-jvzULbjwTbUEmcz-A1xoaSdErL9jnHK3KTWypDQZNtmQOILcUeN5wYFf0AQb8lIOa5RhmITrIvzVMnumTdtQFdvjsBnGLXmEJFbCxh3VoPllCdPTU5LXKBfelX2hXz0WR5GdYYYlhJY6Wj79Ss7otNVXRDeH15zIiiNCwdXJ9ASwu54zvKxIyo0clA?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/0qjmo2h2irdb3v61dg0peo0bno/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp-EteiVw1Zou5YhJ_tcIpV7MZYpzIvpJKEiyFQMt6MgZLYL8KQopJa5lwxWh5hwxgbyX63C6D5DjHWCYTnMChmxE3AJFhTOXlJuHBBexd9q15F0TYkd69u2ofrAAMFjMmUs80ijjMeVW5nXn7_pHwL3_eaO_-v9T8cvv4ax-aAktsIMO9mhGdxQXY8x7ytFsLI-WcWwVt4zPQTnIBGVGA1nb9Qejox0ivY6dEDr3QzSEib2Tm2fq-TqC6PoLLf249Vl_I4W8DYYw0xqUSlYCS8d--OSg?session=0&fife"
             }
         },
         {
@@ -1036,7 +1037,7 @@
                     "normal": "#poly-FFD600-4501-110-normal",
                     "highlight": "#poly-FFD600-4501-110-highlight"
                 },
-                "description": "Capacity:\t36\nAddress:\t121 Pine St\nPublic Access:\tM-Fri 5pm-2am, Sat-Sun All Day\nRate:\t$4/hr\nAccepts: Credit card\nManaged by: Unified Parking Partners (207-618-2887)\n",
+                "description": "Rate:\t$4/hr\nPayment: Credit Card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t36\nAddress:\t121 Pine St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.501,
@@ -1087,7 +1088,7 @@
                     "normal": "#poly-FFD600-4301-105-normal",
                     "highlight": "#poly-FFD600-4301-105-highlight"
                 },
-                "description": "Capacity:\t25\nAddress:\t117 Saint Paul St\nPublic Access:\tM-Fri 5pm-2am, Sat-Sun All Day\nRate:\t$4/hr",
+                "description": "Rate:\t$4/hr\nPayment: Credit Card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nCapacity:\t25\nAddress:\t117 Saint Paul St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.301,
@@ -1138,14 +1139,14 @@
                     "normal": "#poly-FFD600-4401-107-normal",
                     "highlight": "#poly-FFD600-4401-107-highlight"
                 },
-                "description": "Capacity:\t35\nAddress:\t175 Main St\nPublic Access:\tMon-Fri 5pm-2am, Sat-Sun All Day\nRate:\t$4/hr\nAccepts: Credit card\nEnforced: 24/7\nManaged by: Unified Parking Partners (207-618-2887)",
+                "description": "Rate:\t$4/hr\nPayment: Credit card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t35\nAddress:\t175 Main St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.401,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4196078431372549,
                 "Square Ft": "484",
-                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/na70f2ga9pm8blvk8jo0qd9ous/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoGF8A1xb0yn2JYuHUG2uULiJTXzRa1mZFFRSE0rRuNfcAkspbkNN-WHSNrk7ipQgPaRK3CDS6owg4KVpSMbhkZIbnpQq4prhGS0WZdZJ2lw7PxarF09eplhJVnQgo2gkcR3bfeghIXo2Y5pI_prNR-suqSIyl4ODpEB2UmfsmhiVGMt-Yrw1ZS8uidOHRWwA-DXrqySqU6L4EYXBSU43Q3r0gOuoS2yHlIJmVcbruWfKPL7LWewusZwPI51PyshTKIe8spsfaLF5xh4Wv0slZbphj07A?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/v8ede95tuth32vh68rrj8kogk0/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqWrAW-Rc61ReCj8Z_byOQVN_lIubcLhGDCoVye1kfGsXzlirqFU_Ad1tpawtIa2umiDFmNeBEZWKFqdLY68Ku-pFgHqfA8OjZSed5sNdrY1dVI_FArsJZzOJXIU4tqMrmR3_1U6necJopa8DkCpUJPTd6YY5dbVsOXtlxyXbV-xJHR4nOakGaoBIxva3rVqsRECcvHMn0AchRiF58NqUc5YfBEB_fnFwtdRxSo1FBepzLwJUgnvUJQFaPWjLYSzxpQScV9NtON_dn9OXnYIFlsEzgJ1w?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/0s4ekl3dj0q8qaj61a0lj8kp68/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqQwToK-ByfUCO92-jxyy3wk0p46qPIkB-O6OxYl4BLtSjH4ZMedefgidBZ0LQ5BuxrHDqeGFn1m_g9l4ACW3FCBfMSLLM2KVSjdwOJIbcR-fJ6oRczCFavERh1P109WYwkWw3HFswZLCRbPNiCj6Phd38AyBjY6wuGxcC3a3jIG4c3ILAHKRi9mWp0Y6OwJNQbjUBYFvGFIdoFMkQWpEQYzGO4Zcqss3ZI3y7DvHULIkXjh8B2A8AxWEy_4HqiNRV384-xl0NIpz_lglzhuMed3psExw?session=0&fife"
+                "gx_media_links": "https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/krg0io0m6djkrnra3necpsc1hc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqTe4PVFQM5L2IUet5OD-3jWpg-HOkIHIFD1jFVfxnygvAIgEZiG6qoTSKPm7HUnUFcH4-2KkjT9sYgVGRHrQe3Prz_5Mw7nd4ftVcoZs3r7Uc2zMMwfRG6ibLMqNs9LbW0U5c5UEYJeXVK_gBUyVS3X1RSx3-w7oh-1aqCIFx0kNKD0rnAW65efomTFkITqpgRL7yAezj0HXoyMvavGapL0BUmhoQLe2jMRcotfzHB7tWbOnxo5TSgA4_1-qn7hz6WU8zZCvH5BpnvbaSRjiggNATgvg?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/mii2eopih3v2ckdpkviscqdkao/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpW5-7YPUPn65Bvv_ja0DsfYA_AHYbfK-mZ02SouETb_60BdbmYCxw0m6hC-SCVxCtsFKbLcOqEUGtkWVMV5uRD4QxzWybgWk1OnlQAyD4CDmzy1M1qJdSeLt8czK8eEaOd-Zdu11ftFP9aGVWVrDkgIQjw-9CF7diGC_VoZbqR3AlhSGssQe44HVIHPsq8EFPZSMUY6bK-xl78GCojOdj65p7yiNu6Pkwip9nxzMRbaKGHxAqwjpgx_HL0-skfkP1wEtWa-AhwZ7-0w_v44gC1kufDMw?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/otceghm3qavvmcu1f22rq76100/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpUe_2QdRH_OznfY65Ylu3GL_AU1_ltnU24T3IJHrNRl2ZJRKqZl458PZonYTXpKAaPtAPDG76cn9dRjrNc4RcjFWENES6HzFvmH1YFq0HaU9a11GUcxx7fKpInKR6rGeLu3Xhhg3W1pY3-Oe5GYmBME_dzld7QckWMmY_xfsafUwV8btRbYXjGo1yOYqEem8QNw0lLMrk5Ivs2YyT0YtJAIdGLO30oYlVbS5vJitgA5uxvir3G7NwpNgyt2_L-j7Jf3xeb1t-EoHqPi737i2S7SR3qUQ?session=0&fife"
             }
         },
         {
@@ -1200,14 +1201,14 @@
                     "normal": "#poly-FFD600-4501-110-normal",
                     "highlight": "#poly-FFD600-4501-110-highlight"
                 },
-                "description": "Capacity:\t74\nAddress:\t1 College St\nPublic Access:\t8am-11pm, Unless Private Event\nRate:\t$3/hr\nAccepts: Cash or Credit Card \nManaged by: ECHO",
+                "description": "Rate:\t$3/hr\nPayment: Cash, Credit Card \nPublic Access:\t8 a.m. –11 p.m., unless private event\n\nManaged by: ECHO\nSee website for more info: https://www.echovermont.org\n\nCapacity:\t74\nAddress:\t1 College St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.501,
                 "fill": "#ffd600",
                 "fill-opacity": 0.43137254901960786,
                 "Square Ft": "736",
-                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/s7jrn8c8mm4ee92d4flu8ttg2g/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr39Hx4Rg8WyzpQTQs0GxyvQyX2oGL-P5QvddElk41mXjN56YeJNpRKP76MaiXIw-1EmY83Qa-0KIMwJ1MmeMsBUixOMQR1W--r5qtK4s5CInP5dupQeuuvFyrOURImhoB2yiK9V4qaKlPwnZzsBGtuAWkkdO64qud9D_CfEDvXtr69vH78sj-NRHR25_5AX4gH6vCieoITwUmmHszF5wykFdlkpr0o6uu_HaeQzR4sews0tgECxrcnGC77C8ItFPmxAXl5li3QGgQZldqFaODFmUkg9A?session=0&fife https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/nfpe6jt0ljg8r1ig9mjge7qm10/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoOWhcr-GmpX-i6s-JqFE4CXl0ygwKoZsTdydenZIKkxLuvnkIOz7Ek_fp2xLg59DmaOlAsmMktN0tnqzmQj31XjD3BwGyRkTWOiAuygQyJcy_q8yj8aL1IPT_fxhqt4pXreq2Hv-kaNW59BIuc8OAmudCHobKb2fz5f5V1zjiT4wEL3MFTOK29jI_rDj5x_SKY2g0z3hNJxXTxbfxb6u2v8_-pkQvvHeZUcFQRl7_wxiAvgKpoVibTZmtOB-qiscEWPej9e4jGTn79YwPrcdcViMj74A?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/mbfcun43o0fmsqtq0pltkn1vhc/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoYvudyh5nTwWuma99bb_NDrixcx1KXuawD07ZQWBMh8CEYxc3c90kO01CFte-4cSp4Oas5aVrI7rLjutjxozxXJu1cJRCyk0HDqHQR6SPrWWRfDj6PjwdtbqXnw7mZT_oEdhxJEH4LulgaA-QZiXIbJJB54Dp1ALKMJTRkbRBYQq_xN_kNopJZns_nE2ryNkkqmpyJo7xGJBplEYU2Qufr5fQ3U-oJQGY2O6wr6OITQoB4-4rr-O2z9-V7kxdCZh6irEo1pGssqzJ2GWX0EnQJ8uoS3g?session=0&fife"
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7n69u84ebloa4hedudpn71nj60/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpkAUpsoW2ofIxrwD-oRfKsfThfpT7qxPYT_bk21POsTRn3CL4VJ0FbCjTVzobvdZDPBPzK8EEc49wPnVq7Y-9ll19vmD-MIH_ozetWT2JDayl2-kYpDzafIoIQ9zNIYaCgaoH08Bip1CJbKpxhBEd38qDXSrAGLtCVxC_dGC69DtAYHH2x1HUxmot7DJ4Kf_MD2v193OfY4y8YDHSyaE0Yl-WuSKdPDVNIVGbTA2Rkmr8Psv9sWuSCqde9kRih7w5UWilTj4EShTIp-NjZWYmoiU6pEw?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/pk711egd72juc842j83pdsg6is/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqgQkbs11gIfDZSMmIjr20N4zdW9TdZoxRM9mwL_SgrZipedGmDI2Ygdo3hxGV0X-XTdzVBV-7qORDx2owCFkz5eZxjPSBbbKyBFtH8Ib8yR3Nr3PeJ6JO9xIo_3akKqL7uG8hM5IVnejSyR_DFybaBi2cj5Ln4_jZnKJ78GEBoeP398MyFuy3izU0k7_FOmfXKQIVP1z2eayP-u24D5zIQnDyWVk0MseOGU2UO4ucIerG9rqDSkvb2vn8VqgOhtmnk5vswsC3cQcpzUJAkbZd1D1OuFw?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/el80upcsbnlur9b5n3evq0s4fc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpsNgytxsp_ojQdkImtV7ysRf6YXaO5Hg0qiZiacntBWAj65FsMbUDDwUFp3nfdEJUw1kWBrErPg8ahGo1b3Vy845eC0FAlZKVRo85U7gunczISX6mhuNtJiw6YKtvRnVWQ9yMOJFBjV5ekGHa4W2CM0BdxV5QNvrRXB5A0Kuv-LCdOILU8nPXsGDJLRZXznkDOe1vqU0TcJsz-HNNCBLnSPmpyl8SzDWoseRZPScLvxxi3rSa9cB5drP3jn6-oK5tuQM2RDs5-bg_rtJgYp7C9-B521g?session=0&fife"
             }
         },
         {
@@ -1262,7 +1263,7 @@
                     "normal": "#poly-FFD600-4401-112-normal",
                     "highlight": "#poly-FFD600-4401-112-highlight"
                 },
-                "description": "Capacity:\t16\nAddress:\t120 Pine St\nPublic Access:\tM-Fri 5pm-2am, Sat-Sun All Day\nAccepts: Credit card\nRate:\t$4/hr\n",
+                "description": "Rate:\t$4/hr\nPayment: Credit card\nPublic Access:\tMon-Fri 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nCapacity:\t16\nAddress:\t120 Pine St",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 4.401,
@@ -1313,14 +1314,14 @@
                     "normal": "#poly-FFD600-3301-117-normal",
                     "highlight": "#poly-FFD600-3301-117-highlight"
                 },
-                "description": "Capacity: 26\nAddress: 2 Burlington Square\nPublic Access: Mon-Fri 5pm-2am, Sat 12pm-2am, and Sun 24 hours. \nAccepts: Credit card or cash\nManaged by Unified Parking Partners: \n844-727-5877\n",
+                "description": "Rate: $4/hr\nPayment: Cash, Credit Card\nPublic Access: Mon-Fri, 5 p.m. – 2 a.m.; Sat, 12 p.m. – 2 a.m.; Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity: 26\nAddress: 2 Burlington Square",
                 "stroke": "#ffd600",
                 "stroke-opacity": 1,
                 "stroke-width": 3.301,
                 "fill": "#ffd600",
                 "fill-opacity": 0.4588235294117647,
                 "Square Ft": "",
-                "gx_media_links": "https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/02q9j4j8a06in9710au0strsho/1585854812750/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqydUM5DB1awPk1JHEouhWDEyI4TAhFWn8b5MDTkYxoAaQDmpe8xHtPGBYaDidTXW0hZepYkSPEwUjL0vC579PTWiZ8DQ2z8jIN7nFqKvnt6dE5GBXA04LWLh_gmWACAH-i0Epj7KZKZwz0B8qFu-lLyRq0KgNynCL8Li4oFbLm3wjmjg3srN1_LUSTGqdx96gSEhRIWN4FoFyuNZYr9T9JKgWJn2TwLCCIZ81UTXw--tOzbVHW3RQJYXjgyU2nsE0TiQKhP3vC61HH8wtatURSRsD8Ng?session=0&fife"
+                "gx_media_links": "https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tbakjksrldeusku4msnctu8dtg/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALodiSjoCfB2CxYicmjKQngB6mBRqiUlpbBAaunuTcFgnfpdgsHTspyxpdgQCabaYQxGudJqYM0q_6pi3tqjgilRgbxS3cItGUvCS3BkACDilFChg12BTkIcXxdjiZWGSLdzPpcvGenAUPbLmwupGc8D_V-5QW2fhoKbZKe-O-UPb4KT6fdFFZHFnX-yAfrKM9A_CLbaqeUU4jbsbaIJB_Un-eOHRQzOAcNXQyNn8Vn5cGX8DUYl9na0iafP9FXxnSDCSDdlA5mInzCj6VtSXXXzow11kQ?session=0&fife"
             }
         }
     ]

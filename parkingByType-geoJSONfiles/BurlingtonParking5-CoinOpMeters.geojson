@@ -27,7 +27,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 8<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -58,7 +58,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -89,7 +89,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -120,7 +120,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 6<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -132,13 +132,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.218734,
-                        44.474932,
+                        -73.2187072,
+                        44.4749483,
                         0
                     ],
                     [
-                        -73.218766,
-                        44.475652,
+                        -73.2187352,
+                        44.4754979,
                         0
                     ]
                 ]
@@ -151,7 +151,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 9<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -182,7 +182,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -213,7 +213,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 6<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -244,7 +244,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 11<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -275,7 +275,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 11<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -306,7 +306,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -318,23 +318,23 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.216168,
-                        44.479279,
+                        -73.2162109,
+                        44.479256,
                         0
                     ],
                     [
-                        -73.216775,
-                        44.479262,
+                        -73.2168179,
+                        44.479239,
                         0
                     ],
                     [
-                        -73.216824,
-                        44.479272,
+                        -73.2169688,
+                        44.4792299,
                         0
                     ],
                     [
-                        -73.217327,
-                        44.479255,
+                        -73.2173753,
+                        44.4792091,
                         0
                     ]
                 ]
@@ -347,7 +347,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 13<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -383,7 +383,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 16<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -414,7 +414,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -445,7 +445,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 3<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -457,13 +457,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.212284,
-                        44.482188,
+                        -73.2123457,
+                        44.482099,
                         0
                     ],
                     [
-                        -73.212201,
-                        44.480548,
+                        -73.2122278,
+                        44.4806045,
                         0
                     ]
                 ]
@@ -476,7 +476,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 16<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -512,7 +512,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -543,7 +543,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 9<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -574,7 +574,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 11<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -605,7 +605,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 14<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -636,7 +636,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 11<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -648,13 +648,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2135563,
-                        44.4819439,
+                        -73.2135871,
+                        44.4818013,
                         0
                     ],
                     [
-                        -73.2134643,
-                        44.4806039,
+                        -73.2135206,
+                        44.4807388,
                         0
                     ]
                 ]
@@ -667,7 +667,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 17<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -679,8 +679,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.213772,
-                        44.481948,
+                        -73.2137157,
+                        44.4817126,
                         0
                     ],
                     [
@@ -698,7 +698,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 6<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -710,13 +710,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.218291,
-                        44.474665,
+                        -73.218232,
+                        44.4746497,
                         0
                     ],
                     [
-                        -73.217772,
-                        44.474674,
+                        -73.2177707,
+                        44.4746683,
                         0
                     ]
                 ]
@@ -729,7 +729,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 4<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -746,8 +746,8 @@
                         0
                     ],
                     [
-                        -73.218465,
-                        44.474529,
+                        -73.2183456,
+                        44.4745405,
                         0
                     ]
                 ]
@@ -760,7 +760,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 4<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -791,7 +791,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 7<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -822,7 +822,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 13<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -834,13 +834,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.21913,
+                        -73.2190643,
                         44.475838,
                         0
                     ],
                     [
-                        -73.218761,
-                        44.475848,
+                        -73.2188388,
+                        44.4758413,
                         0
                     ]
                 ]
@@ -853,7 +853,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 3<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -904,7 +904,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 23<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -935,7 +935,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 8<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -966,7 +966,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -997,7 +997,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 12<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1028,7 +1028,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1059,7 +1059,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 3<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1090,7 +1090,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 3<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1121,7 +1121,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 7<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1133,13 +1133,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.211132,
-                        44.480709,
+                        -73.2111655,
+                        44.4807214,
                         0
                     ],
                     [
-                        -73.211173,
-                        44.481634,
+                        -73.2112079,
+                        44.4816005,
                         0
                     ]
                 ]
@@ -1152,7 +1152,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 8<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1164,13 +1164,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.213456,
-                        44.480493,
+                        -73.2133407,
+                        44.4804911,
                         0
                     ],
                     [
-                        -73.21236,
-                        44.480527,
+                        -73.2123962,
+                        44.4805203,
                         0
                     ]
                 ]
@@ -1183,7 +1183,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 8<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1195,13 +1195,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2134369,
-                        44.4803533,
+                        -73.2134476,
+                        44.4803629,
                         0
                     ],
                     [
-                        -73.2132692,
-                        44.480363,
+                        -73.2132799,
+                        44.4803726,
                         0
                     ]
                 ]
@@ -1214,7 +1214,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1245,38 +1245,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 4<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
-                "stroke": "#0288d1",
-                "stroke-opacity": 1,
-                "stroke-width": 5.263
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -73.211666,
-                        44.480399,
-                        0
-                    ],
-                    [
-                        -73.2119518,
-                        44.480396,
-                        0
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Blue Top Meters",
-                "styleUrl": "#line-0288D1-5263",
-                "styleHash": "1025de58",
-                "styleMapHash": {
-                    "normal": "#line-0288D1-5263-normal",
-                    "highlight": "#line-0288D1-5263-highlight"
-                },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1307,7 +1276,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1338,7 +1307,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 4<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1369,7 +1338,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 6<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1405,7 +1374,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 12<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1436,7 +1405,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 6<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1467,7 +1436,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1498,7 +1467,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1529,7 +1498,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 7<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1560,7 +1529,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 14<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1572,8 +1541,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2109172,
-                        44.4749844,
+                        -73.2108971,
+                        44.4749413,
                         0
                     ],
                     [
@@ -1591,7 +1560,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 8<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1622,7 +1591,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1634,13 +1603,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2187415,
-                        44.4747795,
+                        -73.2186946,
+                        44.4748168,
                         0
                     ],
                     [
-                        -73.2187315,
-                        44.4746329,
+                        -73.2186832,
+                        44.4747296,
                         0
                     ]
                 ]
@@ -1653,7 +1622,7 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1684,7 +1653,38 @@
                     "normal": "#line-0288D1-5263-normal",
                     "highlight": "#line-0288D1-5263-highlight"
                 },
-                "description": "Capacity: 5<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
+                "stroke": "#0288d1",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212403,
+                        44.4804141,
+                        0
+                    ],
+                    [
+                        -73.2122622,
+                        44.4804198,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Blue Top Meters",
+                "styleUrl": "#line-0288D1-5263",
+                "styleHash": "1025de58",
+                "styleMapHash": {
+                    "normal": "#line-0288D1-5263-normal",
+                    "highlight": "#line-0288D1-5263-highlight"
+                },
+                "description": "Rate: $1/hr<br>Payment: Coin, ParkMobile App <br>Enforced: 9 a.m. – 6 p.m.<br>Max. Parking Time: 3 hrs",
                 "stroke": "#0288d1",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -1715,7 +1715,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 11\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1748,7 +1748,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 8\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1781,7 +1781,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 8\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1814,7 +1814,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 9\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1833,8 +1833,8 @@
                         0
                     ],
                     [
-                        -73.21745,
-                        44.47456,
+                        -73.217437,
+                        44.474567,
                         0
                     ]
                 ]
@@ -1847,7 +1847,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 4\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1880,7 +1880,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 2\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1913,7 +1913,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 10\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1946,7 +1946,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 7\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1979,7 +1979,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 1\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -1993,13 +1993,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.211172,
-                        44.48165,
+                        -73.2112082,
+                        44.4816433,
                         0
                     ],
                     [
-                        -73.211216,
-                        44.482201,
+                        -73.2112388,
+                        44.4820556,
                         0
                     ]
                 ]
@@ -2012,7 +2012,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 7\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -2045,7 +2045,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 6\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -2059,8 +2059,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.217758,
-                        44.474673,
+                        -73.2177707,
+                        44.4746683,
                         0
                     ],
                     [
@@ -2078,7 +2078,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 3\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -2111,7 +2111,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 2\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -2144,7 +2144,7 @@
                     "normal": "#line-795548-5650-normal",
                     "highlight": "#line-795548-5650-highlight"
                 },
-                "description": "Capacity: 19\nEnforced: 9am-6pm \nAccepts: Cash, ParkMobile App \nRate: $0.40/hr",
+                "description": "Rate: $0.40/hr\nPayment: Coin, ParkMobile App\nEnforced: 9 a.m. – 6 p.m.\nMax. Parking Time: 10 hrs",
                 "stroke": "#795548",
                 "stroke-opacity": 1,
                 "stroke-width": 5.65,
@@ -2158,13 +2158,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.213349,
-                        44.478098,
+                        -73.2133463,
+                        44.4781191,
                         0
                     ],
                     [
-                        -73.213238,
-                        44.478105,
+                        -73.2132232,
+                        44.4781232,
                         0
                     ]
                 ]
@@ -2177,7 +2177,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1/hr , 30 min max",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2189,13 +2189,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.213068,
-                        44.478249,
+                        -73.2130492,
+                        44.47825,
                         0
                     ],
                     [
-                        -73.212848,
-                        44.478255,
+                        -73.212899,
+                        44.478254,
                         0
                     ]
                 ]
@@ -2208,7 +2208,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2220,13 +2220,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.213893,
-                        44.478081,
+                        -73.2139037,
+                        44.4781001,
                         0
                     ],
                     [
-                        -73.214012,
-                        44.478077,
+                        -73.2140227,
+                        44.4780961,
                         0
                     ]
                 ]
@@ -2239,7 +2239,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2270,7 +2270,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2301,7 +2301,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2332,7 +2332,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2363,7 +2363,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2394,7 +2394,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2411,8 +2411,8 @@
                         0
                     ],
                     [
-                        -73.217595,
-                        44.476834,
+                        -73.2176056,
+                        44.4768394,
                         0
                     ]
                 ]
@@ -2425,7 +2425,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2456,7 +2456,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2487,7 +2487,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2518,7 +2518,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2549,7 +2549,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2561,8 +2561,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.209447,
-                        44.47719,
+                        -73.20942,
+                        44.477194,
                         0
                     ],
                     [
@@ -2580,7 +2580,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 3<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2611,7 +2611,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2623,13 +2623,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.213453,
-                        44.480494,
+                        -73.2135107,
+                        44.4806433,
                         0
                     ],
                     [
-                        -73.213466,
-                        44.4807358,
+                        -73.2135183,
+                        44.4807348,
                         0
                     ]
                 ]
@@ -2642,7 +2642,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 4<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2673,7 +2673,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2704,7 +2704,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 3<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2716,13 +2716,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.218482,
-                        44.474661,
+                        -73.2183318,
+                        44.4746438,
                         0
                     ],
                     [
-                        -73.21827,
-                        44.474668,
+                        -73.2182445,
+                        44.4746489,
                         0
                     ]
                 ]
@@ -2735,7 +2735,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2747,13 +2747,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.217179,
-                        44.474697,
+                        -73.2171817,
+                        44.4746903,
                         0
                     ],
                     [
-                        -73.217376,
-                        44.47469,
+                        -73.2173787,
+                        44.4746833,
                         0
                     ]
                 ]
@@ -2766,7 +2766,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2797,7 +2797,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 3<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2814,8 +2814,8 @@
                         0
                     ],
                     [
-                        -73.214446,
-                        44.474786,
+                        -73.2144996,
+                        44.4747822,
                         0
                     ]
                 ]
@@ -2828,7 +2828,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2859,7 +2859,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 4<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2890,7 +2890,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2902,13 +2902,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.212128,
-                        44.476062,
+                        -73.2121267,
+                        44.4760553,
                         0
                     ],
                     [
-                        -73.212064,
-                        44.476065,
+                        -73.2120627,
+                        44.4760583,
                         0
                     ]
                 ]
@@ -2921,7 +2921,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2933,13 +2933,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2113,
-                        44.476102,
+                        -73.2112839,
+                        44.4760896,
                         0
                     ],
                     [
-                        -73.211394,
-                        44.476095,
+                        -73.2113886,
+                        44.4760883,
                         0
                     ]
                 ]
@@ -2952,7 +2952,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -2969,8 +2969,8 @@
                         0
                     ],
                     [
-                        -73.216407,
-                        44.480386,
+                        -73.2166108,
+                        44.4803822,
                         0
                     ]
                 ]
@@ -2983,7 +2983,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -3014,7 +3014,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -3045,7 +3045,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -3062,8 +3062,8 @@
                         0
                     ],
                     [
-                        -73.2110441,
-                        44.4758216,
+                        -73.2110495,
+                        44.4757996,
                         0
                     ]
                 ]
@@ -3076,7 +3076,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -3107,7 +3107,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -3138,38 +3138,7 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
-                "stroke": "#ffea00",
-                "stroke-opacity": 1,
-                "stroke-width": 5.263
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -73.211649,
-                        44.480403,
-                        0
-                    ],
-                    [
-                        -73.211345,
-                        44.480412,
-                        0
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Yellow Top Meters",
-                "styleUrl": "#line-FFEA00-5263",
-                "styleHash": "-50023e2",
-                "styleMapHash": {
-                    "normal": "#line-FFEA00-5263-normal",
-                    "highlight": "#line-FFEA00-5263-highlight"
-                },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -3200,7 +3169,38 @@
                     "normal": "#line-FFEA00-5263-normal",
                     "highlight": "#line-FFEA00-5263-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm <br>Accepts: Cash, ParkMobile App <br>Rate: $1.00/hr",
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
+                "stroke": "#ffea00",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2125465,
+                        44.4804103,
+                        0
+                    ],
+                    [
+                        -73.212403,
+                        44.4804141,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Yellow Top Meters",
+                "styleUrl": "#line-FFEA00-5263",
+                "styleHash": "-50023e2",
+                "styleMapHash": {
+                    "normal": "#line-FFEA00-5263-normal",
+                    "highlight": "#line-FFEA00-5263-highlight"
+                },
+                "description": "Rate: $1/hr <br>Payment: Coin, ParkMobile App<br>Enforced: 9 a.m. – 6 p.m. <br>Max. Parking Time: 30 min",
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263

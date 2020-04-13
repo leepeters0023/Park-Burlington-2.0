@@ -2,7 +2,7 @@
     "type": "FeatureCollection",
     "features": [
        
-        {
+         {
             "type": "Feature",
             "geometry": {
                 "type": "LineString",
@@ -20,14 +20,14 @@
                 ]
             },
             "properties": {
-                "name": "Loading/Unloading Only ",
+                "name": "Loading/Unloading Only ",
                 "styleUrl": "#line-A52714-4000",
                 "styleHash": "628781de",
                 "styleMapHash": {
                     "normal": "#line-A52714-4000-normal",
                     "highlight": "#line-A52714-4000-highlight"
                 },
-                "description": "Capacity: 1",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4
@@ -58,7 +58,7 @@
                     "normal": "#line-A52714-4000-normal",
                     "highlight": "#line-A52714-4000-highlight"
                 },
-                "description": "Capacity: 1",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4
@@ -89,7 +89,7 @@
                     "normal": "#line-A52714-5456-normal",
                     "highlight": "#line-A52714-5456-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 5.456
@@ -120,7 +120,7 @@
                     "normal": "#line-A52714-5094-normal",
                     "highlight": "#line-A52714-5094-highlight"
                 },
-                "description": "Capacity: 1",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 5.094
@@ -151,7 +151,7 @@
                     "normal": "#line-A52714-4488-normal",
                     "highlight": "#line-A52714-4488-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4.488
@@ -182,7 +182,7 @@
                     "normal": "#line-A52714-4875-normal",
                     "highlight": "#line-A52714-4875-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4.875
@@ -213,7 +213,7 @@
                     "normal": "#line-A52714-5069-normal",
                     "highlight": "#line-A52714-5069-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 5.069
@@ -244,7 +244,7 @@
                     "normal": "#line-A52714-4875-normal",
                     "highlight": "#line-A52714-4875-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4.875
@@ -275,7 +275,7 @@
                     "normal": "#line-A52714-4681-normal",
                     "highlight": "#line-A52714-4681-highlight"
                 },
-                "description": "Capacity: 2<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4.681
@@ -306,7 +306,7 @@
                     "normal": "#line-A52714-4875-normal",
                     "highlight": "#line-A52714-4875-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4.875
@@ -318,13 +318,13 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2138996,
-                        44.4782267,
+                        -73.2138902,
+                        44.4782171,
                         0
                     ],
                     [
                         -73.2141119,
-                        44.4782182,
+                        44.4781991,
                         0
                     ]
                 ]
@@ -337,7 +337,7 @@
                     "normal": "#line-A52714-5263-normal",
                     "highlight": "#line-A52714-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -349,8 +349,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -73.2130968,
-                        44.4803638,
+                        -73.2130914,
+                        44.4803753,
                         0
                     ],
                     [
@@ -368,7 +368,7 @@
                     "normal": "#line-A52714-5263-normal",
                     "highlight": "#line-A52714-5263-highlight"
                 },
-                "description": "Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
@@ -399,11 +399,12 @@
                     "normal": "#line-A52714-4875-normal",
                     "highlight": "#line-A52714-4875-highlight"
                 },
-                "description": "TEMPORARILY UNAVAILABLE DUE TO CONSTRUCTION<br>Capacity: 1<br>Enforced: 9am-6pm ",
+                "description": "Loading/Unloading Only<br>Rate: Free, No Permit Required<br>Payment: N/A<br>Enforced: Various<br>Max Parking Time: 30 minutes ",
                 "stroke": "#a52714",
                 "stroke-opacity": 1,
                 "stroke-width": 4.875
             }
         }
+       
     ]
 }
