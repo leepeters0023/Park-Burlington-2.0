@@ -260,6 +260,8 @@ async function initMap() {
   residentialLayer.setStyle(setFeatureStyles);
   loadingUnloadingLayer.setStyle(setFeatureStyles);
 
+
+
   // toggle fuctions turn data layers on and off  
   toggleHandicapLayer.addEventListener('click', function () {
     console.log('handicapLayerOn =' + handicapLayerOn)
@@ -370,6 +372,13 @@ async function initMap() {
       loadingUnloadingLayerOn = 'off'
     }
   });
+
+  //turn off residential and loading/unloading to start
+  function startCondition() {
+    document.getElementById("toggleResidential").click();
+    document.getElementById("toggleLoadingUnloading").click();
+  }
+  startCondition()
 
   // set toggle function for Handicap Only button
   toggleHandicapOnly.addEventListener('click', function () {
@@ -507,6 +516,7 @@ async function initMap() {
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
+      map.setZoom(18);
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
