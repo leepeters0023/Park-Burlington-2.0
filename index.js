@@ -12,40 +12,63 @@ const config = {
 };
 
 firebase.initializeApp(config)
+const database = firebase.database()
+const ref = database.ref()
 
-var database = firebase.database()
-var ref = database.ref()
+//ref.on('value', gotData, errData)
 
-ref.on('value', gotData, errData)
+async function makeQuery() {
+
+    let myVar = await ref.once('value')
+        .then(function (dataSnapshot) {
+            console.log(dataSnapshot.val())
+            let info = dataSnapshot.val()
+            let keys = Object.keys(info)
+            console.log(keys)
+            for (let i = 0; i < keys.length; i++) {
+                let k = keys[i]
+                let name = info[k].name
+                let coords = info[k].coordinates
+                let descrip = info[k].description
+                console.log(name, coords, descrip)
+            }
+            return dataSnapshot.val()
+        })
+    console.log({ myVar });
+
+    return myVar
+}
+
+//let myinfo = makeQuery
 
 
 //Accesses the information from firebase
 //and lists it in key order by name, descrip and coords
 function gotData(data) {
-     console.log(data.val())
+    console.log(data.val())
     let info = data.val()
     let keys = Object.keys(info)
-    // console.log(keys) 
-    for (var i = 0; i < keys.length; i++) {
-        var k = keys[i]
-        var name = info[k].name
-        var coords = info[k].coordinates
-        var descrip = info[k].description
-        var payment = info[k].payment
-        var enforced = info[k].enforced
-    console.log(name, descrip, coords, payment, enforced)     
-    // Below creates list of everything from database and print in html:
-        // var li = document.createElement('li')
-        // li.innerHTML = (k + ') ' + name + ': \n' +
-        //     descrip + '\n ' + '\n'+coords)
-        // document.body.appendChild(li)
-     }
+    console.log(keys)
+    for (let i = 0; i < keys.length; i++) {
+        let k = keys[i]
+        let name = info[k].name
+        let coords = info[k].coordinates
+        let descrip = info[k].description
+        let payment = info[k].payment
+        console.log(name, coords, descrip, payment)
+        
+    }
+
 }
-//Error Message if you cant get in-------------------------
+
+
+
 function errData(data) {
     console.log('Error!')
     console.log(err)
 }
+
+
 
 
 
@@ -60,12 +83,12 @@ async function initMap() {
   let toggleLineStringLayer = document.getElementById('toggleLineString')
   let lineStringLayerOn = 'off'
 
-  const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingLineString.geojson")
-      .then(res => res.json())
-      .then(res => res)
-  const polygonData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingPolygon.geojson")
-      .then(res => res.json())
-      .then(res => res)
+  // const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingLineString.geojson")
+  //     .then(res => res.json())
+  //     .then(res => res)
+  // const polygonData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingPolygon.geojson")
+  //     .then(res => res.json())
+  //     .then(res => res)
       
   
   //Define lat lng location of the center of downtown Burlington
@@ -75,6 +98,8 @@ async function initMap() {
   const circle = new google.maps.Circle(
     {center: burlingtonCenter, radius: 2414.02});
 
+
+
   //Define max lat lng view limits of the map
   const viewLimit = {
     north: 44.527929,
@@ -82,6 +107,11 @@ async function initMap() {
     west: -73.269027,
     east: -73.151240,
  }
+
+ //call database query and bring into initmap function
+
+ let myInfo = await makeQuery()
+ console.log({ myInfo });
 
   //Initialize map with some controls disabled
   const map = new google.maps.Map(document.getElementById('map'), {
@@ -149,7 +179,26 @@ async function initMap() {
     ]
     
   });
-  
+
+  myInfo.forEach((item) => {
+    let path = item.coordinates.split('0,')
+    let stroke = item.stroke
+    let fill = item.fill
+    let newPath = path.map((item) => {
+    let coordPair = item.split(',')
+    return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
+    })
+    let polygonLayer = new google.maps.Polygon({
+        paths: newPath,
+        strokeColor: stroke, // here we'll refer back to the object so item.whatever
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: fill,
+        fillOpacity: 0.35,
+        strokeWeight: 1
+    });
+    polygonLayer.setMap(map);
+})
 
   let polyLayer = new google.maps.Data();
   let lineStringLayer = new google.maps.Data();
