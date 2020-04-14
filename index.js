@@ -22,24 +22,24 @@ ref.on('value', gotData, errData)
 //Accesses the information from firebase
 //and lists it in key order by name, descrip and coords
 function gotData(data) {
-    // console.log(data.val())
+     console.log(data.val())
     let info = data.val()
     let keys = Object.keys(info)
-    console.log(keys)
+    // console.log(keys) 
     for (var i = 0; i < keys.length; i++) {
         var k = keys[i]
         var name = info[k].name
         var coords = info[k].coordinates
         var descrip = info[k].description
-    console.log(name, coords, descrip)
-            
+        var payment = info[k].payment
+        var enforced = info[k].enforced
+    console.log(name, descrip, coords, payment, enforced)     
     // Below creates list of everything from database and print in html:
         // var li = document.createElement('li')
         // li.innerHTML = (k + ') ' + name + ': \n' +
         //     descrip + '\n ' + '\n'+coords)
         // document.body.appendChild(li)
-
-    }
+     }
 }
 //Error Message if you cant get in-------------------------
 function errData(data) {
@@ -52,6 +52,8 @@ function errData(data) {
 //------------------------------------------------------------
 
 async function initMap() {
+
+  
   //Fetch geojson
   let togglePolyLayer = document.getElementById('togglePolygons')
   let polyLayerOn = 'off'
@@ -65,7 +67,7 @@ async function initMap() {
       .then(res => res.json())
       .then(res => res)
       
-
+  
   //Define lat lng location of the center of downtown Burlington
   const burlingtonCenter = {lat: 44.478081, lng: -73.215}
   
@@ -147,7 +149,8 @@ async function initMap() {
     ]
     
   });
-    
+  
+
   let polyLayer = new google.maps.Data();
   let lineStringLayer = new google.maps.Data();
 
