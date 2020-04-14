@@ -72,7 +72,7 @@ async function initMap() {
     center: burlingtonCenter,
     zoom: 15.3,
     fullscreenControl: false,
-    mapTypeControl: false,
+    // mapTypeControl: false,
     restriction: {
       latLngBounds: viewLimit,
       strictBounds: false,
