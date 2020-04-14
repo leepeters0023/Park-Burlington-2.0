@@ -21,20 +21,17 @@ async function makeQuery() {
 
     let myVar = await ref.once('value')
         .then(function (dataSnapshot) {
-            console.log(dataSnapshot.val())
             let info = dataSnapshot.val()
             let keys = Object.keys(info)
-            console.log(keys)
+  
             for (let i = 0; i < keys.length; i++) {
                 let k = keys[i]
                 let name = info[k].name
                 let coords = info[k].coordinates
                 let descrip = info[k].description
-                console.log(name, coords, descrip)
             }
             return dataSnapshot.val()
         })
-    console.log({ myVar });
 
     return myVar
 }
@@ -61,17 +58,10 @@ function gotData(data) {
 
 }
 
-
-
 function errData(data) {
     console.log('Error!')
     console.log(err)
 }
-
-
-
-
-
 //------------------------------------------------------------
 
 async function initMap() {
@@ -97,8 +87,6 @@ async function initMap() {
   //Define a 1.5 mile (2414.02) circle around downtown Burlington
   const circle = new google.maps.Circle(
     {center: burlingtonCenter, radius: 2414.02});
-
-
 
   //Define max lat lng view limits of the map
   const viewLimit = {
@@ -184,6 +172,8 @@ async function initMap() {
     let path = item.coordinates.split('0,')
     let stroke = item.stroke
     let fill = item.fill
+    let name = item.name
+    let description = item.description
     let newPath = path.map((item) => {
     let coordPair = item.split(',')
     return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
@@ -197,22 +187,38 @@ async function initMap() {
         fillOpacity: 0.35,
         strokeWeight: 1
     });
+    let infowindow = new google.maps.InfoWindow({
+      content: ""
+    });
+    polygonLayer.addListener('click', function(event) {      
+      infowindow.setContent(name)
+      infowindow.setContent(description)
+      console.log(description)
+      
+      //infowindow.setContent(html); // show the html variable in the infowindow
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+      {passive: true}
+    });
     polygonLayer.setMap(map);
 })
 
-  let polyLayer = new google.maps.Data();
-  let lineStringLayer = new google.maps.Data();
+  //let polyLayer = new google.maps.Data();
+  //let lineStringLayer = new google.maps.Data();
 
   // Create layers
-  lineStringLayer.addGeoJson(linestringData);
-  polyLayer.addGeoJson(polygonData);
+  //lineStringLayer.addGeoJson(linestringData);
+  //polyLayer.addGeoJson(polygonData);
 
   // set layers on map
-  lineStringLayer.setMap(map);
-  polyLayer.setMap(map);
+  //lineStringLayer.setMap(map);
+  //polyLayer.setMap(map);
 
   // Set initial styles for data layers
-  polyLayer.setStyle(function (feature) {
+  /*polyLayer.setStyle(function (feature) {
       let fillC = feature.getProperty('fill')
       let fillO = feature.getProperty('fill-opacity')
       let strokeC = feature.getProperty('stroke')
@@ -226,7 +232,7 @@ async function initMap() {
           strokeOpacity: strokeO,
           strokeWeight: strokeW,
       }   
-  })
+  }) 
 
   lineStringLayer.setStyle(function (feature) {
       let fillC = feature.getProperty('fill');
@@ -246,6 +252,7 @@ async function initMap() {
 
 
 // toggle fuctions turn data layers on and off  
+/*
   togglePolyLayer.addEventListener('click', function () {
       console.log(polyLayerOn)
       if (polyLayerOn === 'off') {
@@ -294,11 +301,11 @@ async function initMap() {
           })
           lineStringLayerOn = 'off'
       }
-  });
+  }); */
 
 
   //Create info window cards and add click listeners to each parking asset
-  var infowindow = new google.maps.InfoWindow({
+  /*var infowindow = new google.maps.InfoWindow({
     content: ""
   });
   lineStringLayer.addListener('click', function(event) {      
@@ -311,7 +318,7 @@ async function initMap() {
       pixelOffset: new google.maps.Size(0, 0)
     }); // move the infowindow up slightly to the top of the marker icon
     infowindow.open(map);
-  });
+  });*/
 
   //Get searchbox element and fix it to top left of screen
   var card = document.getElementById('pac-card');
