@@ -65,6 +65,8 @@ async function initMap() {
     south: 44.424518,
     west: -73.269027,
     east: -73.151240,
+
+
   }
 
   // some controls disabled
@@ -133,6 +135,19 @@ async function initMap() {
     ]
 
   });
+
+  
+  // add markers to map
+function setBusMarker() {
+  let busLocation = { lat: 44.4763264, lng: -73.2171908 };
+  let busMarker = new google.maps.Marker({
+    map: map
+  });
+  busMarker.setPosition(busLocation);
+  busMarker.setVisible(true);
+};
+setBusMarker()
+
 
   //******** create layers and toggle functions for layers********************************* */
 
@@ -205,6 +220,7 @@ async function initMap() {
   let residentialLayer = new google.maps.Data();
   let loadingUnloadingLayer = new google.maps.Data();
 
+
   // load geoJSON onto layers
   handicapLayer.addGeoJson(handicapData);
   municipleGaragesLayer.addGeoJson(municipleGaragesData);
@@ -218,6 +234,8 @@ async function initMap() {
   loadingUnloadingLayer.addGeoJson(loadingUnloadingData);
 
 
+
+
   // set layers on map
   handicapLayer.setMap(map);
   municipleGaragesLayer.setMap(map);
@@ -229,6 +247,7 @@ async function initMap() {
   busLargeVehicleLayer.setMap(map);
   residentialLayer.setMap(map);
   loadingUnloadingLayer.setMap(map);
+
 
   // create function to set color styling
   function setFeatureStyles(feature) {
@@ -451,8 +470,8 @@ async function initMap() {
     };
   });
 
-   // set toggle function for Show Loading/Unloading Only button
-   toggleLoadingUnloadingOnly.addEventListener('click', function () {
+  // set toggle function for Show Loading/Unloading Only button
+  toggleLoadingUnloadingOnly.addEventListener('click', function () {
     if (handicapLayerOn === 'off') {
       document.getElementById("toggleHandicap").click();
     };
@@ -556,13 +575,43 @@ async function initMap() {
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18);
+      
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
     }
     marker.setPosition(place.geometry.location);
+    
     marker.setVisible(true);
+//*********************************************************************************** */
 
+
+
+        var icons = {
+          parking: {
+            icon: './images/icons8-marker-32.png'
+          }
+        };
+
+        var features = 
+          {
+            position: new google.maps.LatLng(-73.2171908, 44.4763264),
+            type: 'parking'
+          }
+      
+
+        // Create markers.
+      
+          var marker = new google.maps.Marker({
+            position: features.position,
+            icon: icons.parking.icon,
+            map: map
+          });
+       
+      
+
+
+//************************************************************************************** */
     var address = '';
     if (place.address_components) {
       address = [
