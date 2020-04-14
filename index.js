@@ -139,6 +139,7 @@ async function initMap() {
   // set variables for layer controls
   let toggleHandicapOnly = document.getElementById('toggleHandicapOnly')
   let toggleShowAll = document.getElementById('toggleShowAll')
+  let toggleLoadingUnloadingOnly = document.getElementById('toggleLoadingUnloadingOnly')
   let toggleHandicapLayer = document.getElementById('toggleHandicap')
   let handicapLayerOn = 'off'
   let toggleMunicipleGaragesLayer = document.getElementById('toggleMunicipleGarages')
@@ -273,6 +274,8 @@ async function initMap() {
       handicapLayerOn = 'off'
     }
   });
+
+
 
   toggleMunicipleGaragesLayer.addEventListener('click', function () {
     console.log('municipleGaragesLayerOn=' + municipleGaragesLayerOn)
@@ -447,6 +450,42 @@ async function initMap() {
       document.getElementById("toggleLoadingUnloading").click();
     };
   });
+
+   // set toggle function for Show Loading/Unloading Only button
+   toggleLoadingUnloadingOnly.addEventListener('click', function () {
+    if (handicapLayerOn === 'off') {
+      document.getElementById("toggleHandicap").click();
+    };
+    if (municipleGaragesLayerOn === 'off') {
+      document.getElementById("toggleMunicipleGarages").click();
+    };
+    if (privateGaragesLayerOn === 'off') {
+      document.getElementById("togglePrivateGarages").click();
+    };
+    if (smartMetersLayerOn === 'off') {
+      document.getElementById("toggleSmartMeters").click();
+    };
+    if (coinOpLayerOn === 'off') {
+      document.getElementById("toggleCoinOpMeters").click();
+    };
+    if (eVChargeLayerOn === 'off') {
+      document.getElementById("toggleEVCharge").click();
+    };
+    if (motorcycleLayerOn === 'off') {
+      document.getElementById("toggleMotorcycle").click();
+    };
+    if (busLargeVehicleLayerOn === 'off') {
+      document.getElementById("toggleBusLargeVehicle").click();
+    };
+    if (residentialLayerOn === 'off') {
+      document.getElementById("toggleResidential").click();
+    };
+    if (loadingUnloadingLayerOn === 'on') {
+      document.getElementById("toggleLoadingUnloading").click();
+    };
+
+  });
+
   //******************************************************************************************* */
   let layersList = [
     handicapLayer,
