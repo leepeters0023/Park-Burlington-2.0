@@ -60,10 +60,10 @@ async function initMap() {
   let toggleLineStringLayer = document.getElementById('toggleLineString')
   let lineStringLayerOn = 'off'
 
-  const linestringData = await fetch("./BurlingtonParkingLineString.geojson")
+  const linestringData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingLineString.geojson")
       .then(res => res.json())
       .then(res => res)
-  const polygonData = await fetch("./BurlingtonParkingPolygon.geojson")
+  const polygonData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParkingPolygon.geojson")
       .then(res => res.json())
       .then(res => res)
       
@@ -176,7 +176,7 @@ async function initMap() {
           strokeColor: strokeC,
           strokeOpacity: strokeO,
           strokeWeight: strokeW,
-      }
+      }   
   })
 
   lineStringLayer.setStyle(function (feature) {
@@ -252,7 +252,7 @@ async function initMap() {
   var infowindow = new google.maps.InfoWindow({
     content: ""
   });
-  map.data.addListener('click', function(event) {
+  lineStringLayer.addListener('click', function(event) {      
     let name = event.feature.getProperty('name');
     let description = event.feature.getProperty('description');
     let html = '<strong>'+ name + '</strong>' + '<br><br>' + description;
