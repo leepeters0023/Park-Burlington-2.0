@@ -25,13 +25,13 @@ function gotData(data) {
     // console.log(data.val())
     let info = data.val()
     let keys = Object.keys(info)
-    console.log(keys)
+    //console.log(keys)
     for (var i = 0; i < keys.length; i++) {
         var k = keys[i]
         var name = info[k].name
         var coords = info[k].coordinates
         var descrip = info[k].description
-    console.log(name, coords, descrip)
+    //console.log(name, coords, descrip)
             
     // Below creates list of everything from database and print in html:
         // var li = document.createElement('li')
@@ -195,7 +195,7 @@ async function initMap() {
 
 // toggle fuctions turn data layers on and off  
   togglePolyLayer.addEventListener('click', function () {
-      console.log(polyLayerOn)
+      //console.log(polyLayerOn)
       if (polyLayerOn === 'off') {
           polyLayer.setStyle({ visible: false })
           polyLayerOn = 'on'
@@ -220,7 +220,7 @@ async function initMap() {
   });
 
   toggleLineStringLayer.addEventListener('click', function () {
-      console.log(lineStringLayerOn)
+      //.log(lineStringLayerOn)
       if (lineStringLayerOn === 'off') {
           lineStringLayer.setStyle({ visible: false })
           lineStringLayerOn = 'on'
