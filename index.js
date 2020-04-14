@@ -134,10 +134,11 @@ async function initMap() {
 
   });
 
-//******** create layers and toggle functions for layers********************************* */
+  //******** create layers and toggle functions for layers********************************* */
 
   // set variables for layer controls
   let toggleHandicapOnly = document.getElementById('toggleHandicapOnly')
+  let toggleShowAll = document.getElementById('toggleShowAll')
   let toggleHandicapLayer = document.getElementById('toggleHandicap')
   let handicapLayerOn = 'off'
   let toggleMunicipleGaragesLayer = document.getElementById('toggleMunicipleGarages')
@@ -245,7 +246,7 @@ async function initMap() {
       icon: iconImg,
     }
   }
-   
+
 
   // Set initial styles for data layers
   handicapLayer.setStyle(setFeatureStyles);
@@ -258,7 +259,9 @@ async function initMap() {
   busLargeVehicleLayer.setStyle(setFeatureStyles);
   residentialLayer.setStyle(setFeatureStyles);
   loadingUnloadingLayer.setStyle(setFeatureStyles);
-  
+
+
+
   // toggle fuctions turn data layers on and off  
   toggleHandicapLayer.addEventListener('click', function () {
     console.log('handicapLayerOn =' + handicapLayerOn)
@@ -370,42 +373,82 @@ async function initMap() {
     }
   });
 
+  //turn off residential and loading/unloading to start
+  function startCondition() {
+    document.getElementById("toggleResidential").click();
+    document.getElementById("toggleLoadingUnloading").click();
+  }
+  startCondition()
+
   // set toggle function for Handicap Only button
   toggleHandicapOnly.addEventListener('click', function () {
-   if (handicapLayerOn === 'on') {
-    document.getElementById("toggleHandicap").click();
-   };
-   if (municipleGaragesLayerOn === 'off') {
-    document.getElementById("toggleMunicipleGarages").click();
-   };
-   if (privateGaragesLayerOn === 'off') {
-    document.getElementById("togglePrivateGarages").click();
-   };
-   if (smartMetersLayerOn === 'off') {
-    document.getElementById("toggleSmartMeters").click();
-   };
-   if (coinOpLayerOn === 'off') {
-    document.getElementById("toggleCoinOpMeters").click();
-   };
-   if (eVChargeLayerOn === 'off') {
-    document.getElementById("toggleEVCharge").click();
-   };
-   if (motorcycleLayerOn === 'off') {
-    document.getElementById("toggleMotorcycle").click();
-   };
-   if (busLargeVehicleLayerOn === 'off') {
-    document.getElementById("toggleBusLargeVehicle").click();
-   };
-   if (residentialLayerOn === 'off') {
-    document.getElementById("toggleResidential").click();
-   };
-   if (loadingUnloadingLayerOn === 'off') {
-    document.getElementById("toggleLoadingUnloading").click();
-   };
-   
+    if (handicapLayerOn === 'on') {
+      document.getElementById("toggleHandicap").click();
+    };
+    if (municipleGaragesLayerOn === 'off') {
+      document.getElementById("toggleMunicipleGarages").click();
+    };
+    if (privateGaragesLayerOn === 'off') {
+      document.getElementById("togglePrivateGarages").click();
+    };
+    if (smartMetersLayerOn === 'off') {
+      document.getElementById("toggleSmartMeters").click();
+    };
+    if (coinOpLayerOn === 'off') {
+      document.getElementById("toggleCoinOpMeters").click();
+    };
+    if (eVChargeLayerOn === 'off') {
+      document.getElementById("toggleEVCharge").click();
+    };
+    if (motorcycleLayerOn === 'off') {
+      document.getElementById("toggleMotorcycle").click();
+    };
+    if (busLargeVehicleLayerOn === 'off') {
+      document.getElementById("toggleBusLargeVehicle").click();
+    };
+    if (residentialLayerOn === 'off') {
+      document.getElementById("toggleResidential").click();
+    };
+    if (loadingUnloadingLayerOn === 'off') {
+      document.getElementById("toggleLoadingUnloading").click();
+    };
+
   });
-//******************************************************************************************* */
-  let layersList = [ 
+
+  toggleShowAll.addEventListener('click', function () {
+    if (handicapLayerOn === 'on') {
+      document.getElementById("toggleHandicap").click();
+    };
+    if (municipleGaragesLayerOn === 'on') {
+      document.getElementById("toggleMunicipleGarages").click();
+    };
+    if (privateGaragesLayerOn === 'on') {
+      document.getElementById("togglePrivateGarages").click();
+    };
+    if (smartMetersLayerOn === 'on') {
+      document.getElementById("toggleSmartMeters").click();
+    };
+    if (coinOpLayerOn === 'on') {
+      document.getElementById("toggleCoinOpMeters").click();
+    };
+    if (eVChargeLayerOn === 'on') {
+      document.getElementById("toggleEVCharge").click();
+    };
+    if (motorcycleLayerOn === 'on') {
+      document.getElementById("toggleMotorcycle").click();
+    };
+    if (busLargeVehicleLayerOn === 'on') {
+      document.getElementById("toggleBusLargeVehicle").click();
+    };
+    if (residentialLayerOn === 'on') {
+      document.getElementById("toggleResidential").click();
+    };
+    if (loadingUnloadingLayerOn === 'on') {
+      document.getElementById("toggleLoadingUnloading").click();
+    };
+  });
+  //******************************************************************************************* */
+  let layersList = [
     handicapLayer,
     municipleGaragesLayer,
     privateGaragesLayer,
@@ -421,18 +464,19 @@ async function initMap() {
   var infowindow = new google.maps.InfoWindow({
     content: ""
   });
-  for (layer of layersList){
-  layer.addListener('click', function (event) {
-    let name = event.feature.getProperty('name');
-    let description = event.feature.getProperty('description');
-    let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
-    infowindow.setContent(html); // show the html variable in the infowindow
-    infowindow.setPosition(event.latLng);
-    infowindow.setOptions({
-      pixelOffset: new google.maps.Size(0, 0)
-    }); // move the infowindow up slightly to the top of the marker icon
-    infowindow.open(map);
-  });}
+  for (layer of layersList) {
+    layer.addListener('click', function (event) {
+      let name = event.feature.getProperty('name');
+      let description = event.feature.getProperty('description');
+      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+      infowindow.setContent(html); // show the html variable in the infowindow
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+    });
+  }
 
   //Get searchbox element and fix it to top left of screen
   var card = document.getElementById('pac-card');
@@ -472,6 +516,7 @@ async function initMap() {
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
+      map.setZoom(18);
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
