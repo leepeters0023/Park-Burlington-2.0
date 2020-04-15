@@ -61,10 +61,10 @@ async function initMap() {
     { center: burlingtonCenter, radius: 2414.02 });
   //Define max lat lng view limits of the map
   const viewLimit = {
-    north: 44.527929,
-    south: 44.424518,
-    west: -73.269027,
-    east: -73.151240,
+    north: 46.527929,
+    south: 42.424518,
+    west: -75.269027,
+    east: -71.151240,
 
 
   }
