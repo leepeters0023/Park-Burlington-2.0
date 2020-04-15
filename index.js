@@ -25,13 +25,13 @@ function gotData(data) {
   // console.log(data.val())
   let info = data.val()
   let keys = Object.keys(info)
-  console.log(keys)
+  // console.log(keys)
   for (var i = 0; i < keys.length; i++) {
     var k = keys[i]
     var name = info[k].name
     var coords = info[k].coordinates
     var descrip = info[k].description
-    console.log(name, coords, descrip)
+    // console.log(name, coords, descrip)
 
     // Below creates list of everything from database and print in html:
     // var li = document.createElement('li')
@@ -284,7 +284,6 @@ setBusMarker()
 
   // toggle fuctions turn data layers on and off  
   toggleHandicapLayer.addEventListener('click', function () {
-    console.log('handicapLayerOn =' + handicapLayerOn)
     if (handicapLayerOn === 'off') {
       handicapLayer.setStyle({ visible: false })
       handicapLayerOn = 'on'
@@ -297,7 +296,6 @@ setBusMarker()
 
 
   toggleMunicipleGaragesLayer.addEventListener('click', function () {
-    console.log('municipleGaragesLayerOn=' + municipleGaragesLayerOn)
     if (municipleGaragesLayerOn === 'off') {
       municipleGaragesLayer.setStyle({ visible: false })
       municipleGaragesLayerOn = 'on'
@@ -308,7 +306,6 @@ setBusMarker()
   });
 
   togglePrivateGaragesLayer.addEventListener('click', function () {
-    console.log('privateGaragesLayerOn= ' + privateGaragesLayerOn)
     if (privateGaragesLayerOn === 'off') {
       privateGaragesLayer.setStyle({ visible: false })
       privateGaragesLayerOn = 'on'
@@ -516,7 +513,7 @@ setBusMarker()
     motorcycleLayer,
     busLargeVehicleLayer,
     residentialLayer,
-    loadingUnloadingLayer,
+    loadingUnloadingLayer, 
   ]
   //Create info window cards and add click listeners to each parking asset
   var infowindow = new google.maps.InfoWindow({
@@ -534,7 +531,41 @@ setBusMarker()
       }); // move the infowindow up slightly to the top of the marker icon
       infowindow.open(map);
     });
+    
   }
+
+  let layerDataList = [
+    handicapData,
+    municipleGaragesData,
+    privateGaragesData,
+    smartMetersData,
+    coinOpData,
+    eVChargeData,
+    motorcycleData,
+    busLargeVehicleData,
+    residentialData,
+    loadingUnloadingData, 
+  ]
+
+  function addMarker(location, labelContent, map) {
+
+    var marker = new google.maps.Marker({
+      position: location,
+      label: labelContent,
+      map: map
+    });
+  }
+
+  for (layer of layerDataList){
+  
+  let layerFeatures = layer.features
+    
+    for (feature of layerFeatures){
+      let location = feature.properties.iconCoords
+      let labelContent = feature.properties.price
+      addMarker(location, labelContent, map)
+      }
+    }
 
   //Get searchbox element and fix it to top left of screen
   var card = document.getElementById('pac-card');
@@ -589,7 +620,7 @@ setBusMarker()
 
         var icons = {
           parking: {
-            icon: './images/icons8-marker-32.png'
+            icon: 'images/icons8-marker-32.png'
           }
         };
 
