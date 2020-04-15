@@ -99,7 +99,7 @@ async function initMap() {
   //call database query and bring into initmap function
 
   let myInfo = await makeQuery()
-  console.log({ myInfo });
+  //console.log({ myInfo });
 
   //Initialize map with some controls disabled
   const map = new google.maps.Map(document.getElementById('map'), {
@@ -180,13 +180,12 @@ async function initMap() {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
     })
-    let polygonLayer = new google.maps.Polygon({
+    let polygonLayer = new google.maps.Polygon({  // consider using .Data here instead of .Polygon
       paths: newPath,
       strokeColor: stroke, 
       strokeWeight: 2,
       fillColor: fill,
       fillOpacity: fillOpacity,
-      
     });
     let infowindow = new google.maps.InfoWindow({
       content: ""
