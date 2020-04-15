@@ -65,7 +65,7 @@
                 },
                 "price": {
                     "text": "Free 2hr",
-                    "color": "white",
+                    "color": "black",
                     "fontSize": "12px",
                     "fontWeight": "bold"
                   },

@@ -138,15 +138,15 @@ async function initMap() {
 
   
   // add markers to map
-function setBusMarker() {
-  let busLocation = { lat: 44.4763264, lng: -73.2171908 };
-  let busMarker = new google.maps.Marker({
-    map: map
-  });
-  busMarker.setPosition(busLocation);
-  busMarker.setVisible(true);
-};
-setBusMarker()
+// function setBusMarker() {
+//   let busLocation = { lat: 44.4763264, lng: -73.2171908 };
+//   let busMarker = new google.maps.Marker({
+//     map: map
+//   });
+//   busMarker.setPosition(busLocation);
+//   busMarker.setVisible(true);
+// };
+// setBusMarker()
 
 
   //******** create layers and toggle functions for layers********************************* */
@@ -631,13 +631,13 @@ setBusMarker()
           }
       
 
-        // Create markers.
+        // // Create markers.
       
-          var marker = new google.maps.Marker({
-            position: features.position,
-            icon: icons.parking.icon,
-            map: map
-          });
+        //   var marker = new google.maps.Marker({
+        //     position: features.position,
+        //     icon: icons.parking.icon,
+        //     map: map
+        //   });
        
       
 
