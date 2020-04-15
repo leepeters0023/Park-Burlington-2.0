@@ -12,16 +12,29 @@
   <div id='header'>
     <img id="logo" src="images/logo-secondary.png"></img>
     <img id="logo-text" src="images/logo-text.png"></img>
-    <label>
-      <button id='toggleHandicapOnly'>Handicap Only</button>
+    
+    
+  </div>
+
+  <div class="pac-card" id="pac-card">
+    <input id="pac-input" type="text" placeholder="Destination">
+  </div>
+  <div id="map-and-controls-container">
+  <div id="map">
+    
+  </div>
+  <div id = ui-container>
+  <div id="filter-ui">
+    <label class="filter-ui-label">
+      <button id='toggleHandicapOnly' class="filter-ui-button">Handicap Only</button>
     </label>
 
-    <label>
-      <button id="toggleShowAll">Show All</button>
+    <label class="filter-ui-label">
+      <button id="toggleShowAll" class="filter-ui-button">Show All</button>
     </label>
     <!-- Trigger/Open The Modal -->
-    <label>
-      <button id="myBtn">Filters</button>
+    <label class="filter-ui-label">
+      <button id="toggleFilters" class="filter-ui-button">Filters</button>
     </label>
 
 
@@ -65,16 +78,11 @@
         <label>
           <button id="toggleLoadingUnloadingOnly">Show Loading/Unloading Only</button>
         </label>
+        </div>
       </div>
-
+     </div>
     </div>
-
   </div>
-
-  <div class="pac-card" id="pac-card">
-    <input id="pac-input" type="text" placeholder="Destination">
-  </div>
-  <div id="map"></div>
   <div id="infowindow-content">
     <img src="" width="16" height="16" id="place-icon">
     <span id="place-name" class="title"></span><br>

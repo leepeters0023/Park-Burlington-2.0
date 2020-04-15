@@ -371,7 +371,6 @@ async function initMap() {
   });
 
   toggleResidentialLayer.addEventListener('click', function () {
-    console.log('residentialLayerOn= ' + residentialLayerOn)
     if (residentialLayerOn === 'off') {
       residentialLayer.setStyle({ visible: false })
       residentialLayerOn = 'on'
@@ -382,7 +381,6 @@ async function initMap() {
   });
 
   toggleLoadingUnloadingLayer.addEventListener('click', function () {
-    console.log('loadingUnloadingLayerOn= ' + loadingUnloadingLayerOn)
     if (loadingUnloadingLayerOn === 'off') {
       loadingUnloadingLayer.setStyle({ visible: false })
       loadingUnloadingLayerOn = 'on'
@@ -665,7 +663,7 @@ async function initMap() {
 let modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-let btn = document.getElementById("myBtn");
+let btn = document.getElementById("toggleFilters");
 
 // Get the <span> element that closes the modal
 let span = document.getElementsByClassName("close")[0];
