@@ -14,16 +14,13 @@ app.get('/', (req, res) => {
 
 // make callback asyc get rid of promise chaining set fetch awaited and set to a variable 
 // we'll then send the result of that fetch 
-// res.send returns 
-async getDatMap app.get('/mapApi', (req, res) => {
-  fetch(`https://maps.googleapis.com/maps/api/js?key=${process.env.API_KEY}&libraries=places&callback=initMap`)
-  .then((dataIn) => {
-    return dataIn.toString()
-  }).then((jsonData) => {
-    res.send(jsonData)
-    console.log(jsonData)
+async function doStuff() {
+app.get('/mapApi', (req, res) => {
+  let serverMap = await fetch(`https://maps.googleapis.com/maps/api/js?key=${process.env.API_KEY}&libraries=places&callback=initMap`)
+  res.send(serverMap)
   })
-})
+}
+doStuff()
 
 app.listen(port, () => {
   console.log('Listening on port:', port)
