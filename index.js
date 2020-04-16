@@ -12,62 +12,81 @@ const config = {
 };
 
 firebase.initializeApp(config)
+const database = firebase.database()
+const ref = database.ref()
 
-var database = firebase.database()
-var ref = database.ref()
+//ref.on('value', gotData, errData)
 
-ref.on('value', gotData, errData)
+async function makeQuery() {
+
+  let myVar = await ref.once('value')
+    .then(function (dataSnapshot) {
+      let info = dataSnapshot.val()
+      let keys = Object.keys(info)
+
+      for (let i = 0; i < keys.length; i++) {
+        let k = keys[i]
+        let name = info[k].name
+        let coords = info[k].coordinates
+        let descrip = info[k].description
+      }
+      return dataSnapshot.val()
+    })
+
+  return myVar
+}
+
+//let myinfo = makeQuery
 
 
 //Accesses the information from firebase
 //and lists it in key order by name, descrip and coords
 function gotData(data) {
-  // console.log(data.val())
+  console.log(data.val())
   let info = data.val()
   let keys = Object.keys(info)
-  // console.log(keys)
-  for (var i = 0; i < keys.length; i++) {
-    var k = keys[i]
-    var name = info[k].name
-    var coords = info[k].coordinates
-    var descrip = info[k].description
-    // console.log(name, coords, descrip)
-
-    // Below creates list of everything from database and print in html:
-    // var li = document.createElement('li')
-    // li.innerHTML = (k + ') ' + name + ': \n' +
-    //     descrip + '\n ' + '\n'+coords)
-    // document.body.appendChild(li)
+  console.log(keys)
+  for (let i = 0; i < keys.length; i++) {
+    let k = keys[i]
+    let name = info[k].name
+    let coords = info[k].coordinates
+    let descrip = info[k].description
+    let payment = info[k].payment
+    console.log(name, coords, descrip, payment)
 
   }
+
 }
-//Error Message if you cant get in-------------------------
+
 function errData(data) {
   console.log('Error!')
   console.log(err)
 }
-
-
-
 //------------------------------------------------------------
 
 async function initMap() {
-  //Initialize map
+
+
 
   //Define lat lng location of the center of downtown Burlington
   const burlingtonCenter = { lat: 44.478081, lng: -73.215 }
+
   //Define a 1.5 mile (2414.02) circle around downtown Burlington
   const circle = new google.maps.Circle(
     { center: burlingtonCenter, radius: 2414.02 });
+
   //Define max lat lng view limits of the map
   const viewLimit = {
-    north: 46.527929,
-    south: 42.424518,
-    west: -75.269027,
-    east: -71.151240,
-
-
+    north: 44.527929,
+    south: 44.424518,
+    west: -73.269027,
+    east: -73.151240,
   }
+
+  //call database query and bring into initmap function
+
+  let myInfo = await makeQuery()
+  console.log({ myInfo });
 
   // some controls disabled
   let map = new google.maps.Map(document.getElementById('map'), {
@@ -136,274 +155,233 @@ async function initMap() {
 
   });
 
-  
-  // add markers to map
-// function setBusMarker() {
-//   let busLocation = { lat: 44.4763264, lng: -73.2171908 };
-//   let busMarker = new google.maps.Marker({
-//     map: map
-//   });
-//   busMarker.setPosition(busLocation);
-//   busMarker.setVisible(true);
-// };
-// setBusMarker()
+  myInfo.forEach((item) => {
+
+    let path = item.coordinates.split('0,')
+    let stroke = item.stroke
+    //let strokeOpacity = item.stroke-opacity
+    let fill = item.fill
+    let fillOpacity = item.fillOpacity
+    let name = item.name
+    let description = item.description
+    let ownership = item.ownership
+    let geometry = item.geometry
+    let newPath = path.map((item) => {
+      let coordPair = item.split(',')
+      return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
+
+    })
 
 
-  //******** create layers and toggle functions for layers********************************* */
+    let polygonLayer = new google.maps.Polygon({
+      paths: newPath,
+      strokeColor: stroke,
+      strokeWeight: 2,
+      fillColor: fill,
+      fillOpacity: fillOpacity,
 
-  // set variables for layer controls
-  let toggleHandicapOnly = document.getElementById('toggleHandicapOnly')
-  let toggleShowAll = document.getElementById('toggleShowAll')
-  let toggleLoadingUnloadingOnly = document.getElementById('toggleLoadingUnloadingOnly')
-  let toggleHandicapLayer = document.getElementById('toggleHandicap')
-  let handicapLayerOn = 'off'
-  let toggleMunicipleGaragesLayer = document.getElementById('toggleMunicipleGarages')
-  let municipleGaragesLayerOn = 'off'
-  let togglePrivateGaragesLayer = document.getElementById('togglePrivateGarages')
-  let privateGaragesLayerOn = 'off'
-  let toggleSmartMetersLayer = document.getElementById('toggleSmartMeters')
-  let smartMetersLayerOn = 'off'
-  let toggleCoinOpLayer = document.getElementById('toggleCoinOpMeters')
-  let coinOpLayerOn = 'off'
-  let toggleEVChargeLayer = document.getElementById('toggleEVCharge')
-  let eVChargeLayerOn = 'off'
-  let toggleMotorcycleLayer = document.getElementById('toggleMotorcycle')
-  let motorcycleLayerOn = 'off'
-  let toggleBusLargeVehicleLayer = document.getElementById('toggleBusLargeVehicle')
-  let busLargeVehicleLayerOn = 'off'
-  let toggleResidentialLayer = document.getElementById('toggleResidential')
-  let residentialLayerOn = 'off'
-  let toggleLoadingUnloadingLayer = document.getElementById('toggleLoadingUnloading')
-  let loadingUnloadingLayerOn = 'off'
+    });
 
-  // set variables for geoJSON files
-  const handicapData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking1-handicap.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const municipleGaragesData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking2-municipleGarages.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const privateGaragesData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking3-privateOwnedGarages.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const smartMetersData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking4-smartMeters.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const coinOpData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking5-coinOpMeters.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const eVChargeData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking7-eVCharge.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const motorcycleData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking6-motorcycle.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const busLargeVehicleData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking8-busLargeVehicle.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const residentialData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking10-residential.geojson")
-    .then(res => res.json())
-    .then(res => res)
-  const loadingUnloadingData = await fetch("./parkingByType-geoJSONfiles/BurlingtonParking9-loadingUnloading.geojson")
-    .then(res => res.json())
-    .then(res => res)
+    polygonLayer.setMap(map);
 
-  // create Data Layers
-  let handicapLayer = new google.maps.Data();
-  let municipleGaragesLayer = new google.maps.Data();
-  let privateGaragesLayer = new google.maps.Data();
-  let smartMetersLayer = new google.maps.Data();
-  let coinOpLayer = new google.maps.Data();
-  let eVChargeLayer = new google.maps.Data();
-  let motorcycleLayer = new google.maps.Data();
-  let busLargeVehicleLayer = new google.maps.Data();
-  let residentialLayer = new google.maps.Data();
-  let loadingUnloadingLayer = new google.maps.Data();
+    let infowindow = new google.maps.InfoWindow({
+      content: ""
+    });
 
+    polygonLayer.addListener('click', function (event) {
+      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+      infowindow.setContent(html)
+      console.log(description)
 
-  // load geoJSON onto layers
-  handicapLayer.addGeoJson(handicapData);
-  municipleGaragesLayer.addGeoJson(municipleGaragesData);
-  privateGaragesLayer.addGeoJson(privateGaragesData);
-  smartMetersLayer.addGeoJson(smartMetersData);
-  coinOpLayer.addGeoJson(coinOpData);
-  eVChargeLayer.addGeoJson(eVChargeData);
-  motorcycleLayer.addGeoJson(motorcycleData);
-  busLargeVehicleLayer.addGeoJson(busLargeVehicleData);
-  residentialLayer.addGeoJson(residentialData);
-  loadingUnloadingLayer.addGeoJson(loadingUnloadingData);
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+      { passive: true }
+    });
 
 
 
 
-  // set layers on map
-  handicapLayer.setMap(map);
-  municipleGaragesLayer.setMap(map);
-  privateGaragesLayer.setMap(map);
-  smartMetersLayer.setMap(map);
-  coinOpLayer.setMap(map);
-  eVChargeLayer.setMap(map);
-  motorcycleLayer.setMap(map);
-  busLargeVehicleLayer.setMap(map);
-  residentialLayer.setMap(map);
-  loadingUnloadingLayer.setMap(map);
+    // ******controls and filters*****************************************************************************************************
 
+    // set variables for layer controls
+    let toggleHandicapOnly = document.getElementById('toggleHandicapOnly')
+    let toggleShowAll = document.getElementById('toggleShowAll')
+    let toggleLoadingUnloadingOnly = document.getElementById('toggleLoadingUnloadingOnly')
 
-  // create function to set color styling
-  function setFeatureStyles(feature) {
-    let fillC = feature.getProperty('fill')
-    let fillO = feature.getProperty('fill-opacity')
-    let strokeC = feature.getProperty('stroke')
-    let strokeO = feature.getProperty('stroke-opacity')
-    let strokeW = feature.getProperty('stroke-width')
-    let iconImg = feature.getProperty('icon')
-    return {
-      fillColor: fillC,
-      fillOpacity: fillO,
-      strokeColor: strokeC,
-      strokeOpacity: strokeO,
-      strokeWeight: strokeW,
-      icon: iconImg,
+    let toggleHandicapLayer = document.getElementById('toggleHandicap')
+    let toggleMunicipalGaragesLayer = document.getElementById('toggleMunicipalGarages')
+    let togglePrivateGaragesLayer = document.getElementById('togglePrivateGarages')
+    let toggleSmartMetersLayer = document.getElementById('toggleSmartMeters')
+    let toggleBlueTopMetersLayer = document.getElementById('toggleBlueTopMeters')
+    let toggleBrownTopMetersLayer = document.getElementById('toggleBrownTopMeters')
+    let toggleYellowTopMetersLayer = document.getElementById('toggleYellowTopMeters')
+    let toggleEVChargeLayer = document.getElementById('toggleEVCharge')
+    let toggleMotorcycleLayer = document.getElementById('toggleMotorcycle')
+    let toggleBusLargeVehicleLayer = document.getElementById('toggleBusLargeVehicle')
+    let toggleResidentialLayer = document.getElementById('toggleResidential')
+    let toggleLoadingUnloadingLayer = document.getElementById('toggleLoadingUnloading')
+
+    // ***** Toggle display of parking assets **********************************************************
+
+    // function to toggle specific types of parking asset on or off
+    function toggleLayer(theLayer) {
+      if (theLayer.checked === false) {
+        polygonLayer.setVisible(false)
+      } else if (theLayer.checked === true) {
+        polygonLayer.setVisible(true)
+      }
     }
-  }
 
-
-  // Set initial styles for data layers
-  handicapLayer.setStyle(setFeatureStyles);
-  municipleGaragesLayer.setStyle(setFeatureStyles);
-  privateGaragesLayer.setStyle(setFeatureStyles);
-  smartMetersLayer.setStyle(setFeatureStyles);
-  coinOpLayer.setStyle(setFeatureStyles);
-  eVChargeLayer.setStyle(setFeatureStyles);
-  motorcycleLayer.setStyle(setFeatureStyles);
-  busLargeVehicleLayer.setStyle(setFeatureStyles);
-  residentialLayer.setStyle(setFeatureStyles);
-  loadingUnloadingLayer.setStyle(setFeatureStyles);
-
-
-
-  // toggle fuctions turn data layers on and off  
-  toggleHandicapLayer.addEventListener('click', function () {
-    if (handicapLayerOn === 'off') {
-      handicapLayer.setStyle({ visible: false })
-      handicapLayerOn = 'on'
-    } else if (handicapLayerOn === 'on') {
-      handicapLayer.setStyle(setFeatureStyles)
-      handicapLayerOn = 'off'
+    //Toggle specific types of parking asset
+    function toggleHandicap() {
+      if (name === 'Handicapped' || name === 'Handicapped Parking') {
+        let theLayer = toggleHandicapLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-
-
-  toggleMunicipleGaragesLayer.addEventListener('click', function () {
-    if (municipleGaragesLayerOn === 'off') {
-      municipleGaragesLayer.setStyle({ visible: false })
-      municipleGaragesLayerOn = 'on'
-    } else if (municipleGaragesLayerOn === 'on') {
-      municipleGaragesLayer.setStyle(setFeatureStyles)
-      municipleGaragesLayerOn = 'off'
+    function toggleMunicipalGarages() {
+      if (ownership === 'municipal') {
+        let theLayer = toggleMunicipalGaragesLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  togglePrivateGaragesLayer.addEventListener('click', function () {
-    if (privateGaragesLayerOn === 'off') {
-      privateGaragesLayer.setStyle({ visible: false })
-      privateGaragesLayerOn = 'on'
-    } else if (privateGaragesLayerOn === 'on') {
-      privateGaragesLayer.setStyle(setFeatureStyles)
-      privateGaragesLayerOn = 'off'
+    function togglePrivateGarages() {
+      if (ownership === 'private') {
+        let theLayer = togglePrivateGaragesLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  toggleSmartMetersLayer.addEventListener('click', function () {
-    console.log('smartMetersLayerOn= ' + smartMetersLayerOn)
-    if (smartMetersLayerOn === 'off') {
-      smartMetersLayer.setStyle({ visible: false })
-      smartMetersLayerOn = 'on'
-    } else if (smartMetersLayerOn === 'on') {
-      smartMetersLayer.setStyle(setFeatureStyles)
-      smartMetersLayerOn = 'off'
+    function toggleSmartMeters() {
+      if (name === 'Smart Meters') {
+        let theLayer = toggleSmartMetersLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  toggleCoinOpLayer.addEventListener('click', function () {
-    console.log('coinOpLayerOn= ' + coinOpLayerOn)
-    if (coinOpLayerOn === 'off') {
-      coinOpLayer.setStyle({ visible: false })
-      coinOpLayerOn = 'on'
-    } else if (coinOpLayerOn === 'on') {
-      coinOpLayer.setStyle(setFeatureStyles)
-      coinOpLayerOn = 'off'
+    function toggleBlueTopMeters() {
+      if (name === 'Blue Top Meters') {
+        let theLayer = toggleBlueTopMetersLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  toggleEVChargeLayer.addEventListener('click', function () {
-    console.log('eVChargeLayerOn= ' + eVChargeLayerOn)
-    if (eVChargeLayerOn === 'off') {
-      eVChargeLayer.setStyle({ visible: false })
-      eVChargeLayerOn = 'on'
-    } else if (eVChargeLayerOn === 'on') {
-      eVChargeLayer.setStyle(setFeatureStyles)
-      eVChargeLayerOn = 'off'
+    function toggleBrownTopMeters() {
+      if (name === 'Brown Top Meters') {
+        let theLayer = toggleBrownTopMetersLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  toggleMotorcycleLayer.addEventListener('click', function () {
-    console.log('motorcycleLayerOn= ' + motorcycleLayerOn)
-    if (motorcycleLayerOn === 'off') {
-      motorcycleLayer.setStyle({ visible: false })
-      motorcycleLayerOn = 'on'
-    } else if (motorcycleLayerOn === 'on') {
-      motorcycleLayer.setStyle(setFeatureStyles)
-      motorcycleLayerOn = 'off'
+    function toggleYellowTopMeters() {
+      if (name === 'Yellow Top Meters') {
+        let theLayer = toggleYellowTopMetersLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  toggleBusLargeVehicleLayer.addEventListener('click', function () {
-    console.log('busLargeVehicleLayerOn= ' + busLargeVehicleLayerOn)
-    if (busLargeVehicleLayerOn === 'off') {
-      busLargeVehicleLayer.setStyle({ visible: false })
-      busLargeVehicleLayerOn = 'on'
-    } else if (busLargeVehicleLayerOn === 'on') {
-      busLargeVehicleLayer.setStyle(setFeatureStyles)
-      busLargeVehicleLayerOn = 'off'
+    function toggleEVCharge() {
+      if (name === 'Charging Station') {
+        let theLayer = toggleEVChargeLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  toggleResidentialLayer.addEventListener('click', function () {
-    if (residentialLayerOn === 'off') {
-      residentialLayer.setStyle({ visible: false })
-      residentialLayerOn = 'on'
-    } else if (residentialLayerOn === 'on') {
-      residentialLayer.setStyle(setFeatureStyles)
-      residentialLayerOn = 'off'
+    function toggleMotorcycle() {
+      if (name === 'Motorcycle Parking') {
+        let theLayer = toggleMotorcycleLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
-
-  toggleLoadingUnloadingLayer.addEventListener('click', function () {
-    if (loadingUnloadingLayerOn === 'off') {
-      loadingUnloadingLayer.setStyle({ visible: false })
-      loadingUnloadingLayerOn = 'on'
-    } else if (loadingUnloadingLayerOn === 'on') {
-      loadingUnloadingLayer.setStyle(setFeatureStyles)
-      loadingUnloadingLayerOn = 'off'
+    function toggleBusLargeVehicle() {
+      if (name === 'Bus Parking') {
+        let theLayer = toggleBusLargeVehicleLayer
+        toggleLayer(theLayer)
+      }
     }
-  });
+    function toggleResidential() {
+      if (name === 'Residential Parking') {
+        let theLayer = toggleResidentialLayer
+        toggleLayer(theLayer)
+      }
+    }
+    function toggleLoadingUnloading() {
+      if (name === 'Loading/Unloading Only') {
+        let theLayer = toggleLoadingUnloadingLayer
+        toggleLayer(theLayer)
+      }
+    }
+
+    // **************create toggle event on click triggers
+    toggleHandicapLayer.addEventListener('click', function () {
+      toggleHandicap()
+    });
+    toggleMunicipalGaragesLayer.addEventListener('click', function () {
+      toggleMunicipalGarages()
+      console.log(toggleMunicipalGaragesLayer)
+    });
+    togglePrivateGaragesLayer.addEventListener('click', function () {
+      togglePrivateGarages()
+      console.log(togglePrivateGaragesLayer)
+    });
+    togglePrivateGaragesLayer.addEventListener('click', function () {
+      togglePrivateGarages()
+      console.log(togglePrivateGaragesLayer)
+    });
+    toggleSmartMetersLayer.addEventListener('click', function () {
+      toggleSmartMeters()
+      console.log(toggleSmartMetersLayer)
+    });
+     toggleBlueTopMetersLayer.addEventListener('click', function () {
+      toggleBlueTopMeters()
+      console.log(toggleBlueTopMetersLayer)
+    });
+      toggleBrownTopMetersLayer.addEventListener('click', function () {
+      toggleBrownTopMeters()
+      console.log(toggleBrownTopMetersLayer)
+    });
+     toggleYellowTopMetersLayer.addEventListener('click', function () {
+      toggleYellowTopMeters()
+      console.log(toggleYellowTopMetersLayer)
+    }); 
+     toggleEVChargeLayer.addEventListener('click', function () {
+      toggleEVCharge()
+      console.log(toggleEVChargeLayerLayer)
+    });
+     toggleMotorcycleLayer.addEventListener('click', function () {
+      toggleMotorcycle()
+      console.log(toggleMotorcycleLayerLayer)
+    }); 
+     toggleBusLargeVehicleLayer.addEventListener('click', function () {
+      toggleBusLargeVehicle()
+      console.log(toggleBusLargeVehicleLayer)
+    });
+     toggleResidentialLayer.addEventListener('click', function () {
+      toggleResidential()
+      console.log(toggleResidentialLayer)
+    });
+     toggleLoadingUnloadingLayer.addEventListener('click', function () {
+      toggleLoadingUnloading()
+      console.log(toggleLoadingUnloadingLayer)
+    });
+
+
+
+
+  })
+
 
   //turn off residential and loading/unloading to start
   function startCondition() {
     document.getElementById("toggleResidential").click();
     document.getElementById("toggleLoadingUnloading").click();
   }
-  startCondition()
+  //startCondition()
 
   // set toggle function for Handicap Only button
   toggleHandicapOnly.addEventListener('click', function () {
     if (handicapLayerOn === 'off') {
       document.getElementById("toggleHandicap").click();
     };
-    if (municipleGaragesLayerOn === 'on') {
-      document.getElementById("toggleMunicipleGarages").click();
+    if (MunicipalGaragesLayerOn === 'on') {
+      document.getElementById("toggleMunicipalGarages").click();
     };
     if (privateGaragesLayerOn === 'on') {
       document.getElementById("togglePrivateGarages").click();
@@ -436,8 +414,8 @@ async function initMap() {
     if (handicapLayerOn === 'on') {
       document.getElementById("toggleHandicap").click();
     };
-    if (municipleGaragesLayerOn === 'on') {
-      document.getElementById("toggleMunicipleGarages").click();
+    if (MunicipalGaragesLayerOn === 'on') {
+      document.getElementById("toggleMunicipalGarages").click();
     };
     if (privateGaragesLayerOn === 'on') {
       document.getElementById("togglePrivateGarages").click();
@@ -470,8 +448,8 @@ async function initMap() {
     if (handicapLayerOn === 'off') {
       document.getElementById("toggleHandicap").click();
     };
-    if (municipleGaragesLayerOn === 'off') {
-      document.getElementById("toggleMunicipleGarages").click();
+    if (MunicipalGaragesLayerOn === 'off') {
+      document.getElementById("toggleMunicipalGarages").click();
     };
     if (privateGaragesLayerOn === 'off') {
       document.getElementById("togglePrivateGarages").click();
@@ -501,69 +479,21 @@ async function initMap() {
   });
 
   //******************************************************************************************* */
-  let layersList = [
-    handicapLayer,
-    municipleGaragesLayer,
-    privateGaragesLayer,
-    smartMetersLayer,
-    coinOpLayer,
-    eVChargeLayer,
-    motorcycleLayer,
-    busLargeVehicleLayer,
-    residentialLayer,
-    loadingUnloadingLayer, 
-  ]
   //Create info window cards and add click listeners to each parking asset
   var infowindow = new google.maps.InfoWindow({
     content: ""
   });
-  for (layer of layersList) {
-    layer.addListener('click', function (event) {
-      let name = event.feature.getProperty('name');
-      let description = event.feature.getProperty('description');
-      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
-      infowindow.setContent(html); // show the html variable in the infowindow
-      infowindow.setPosition(event.latLng);
-      infowindow.setOptions({
-        pixelOffset: new google.maps.Size(0, 0)
-      }); // move the infowindow up slightly to the top of the marker icon
-      infowindow.open(map);
-    });
-    
-  }
-
-  let layerDataList = [
-    handicapData,
-    municipleGaragesData,
-    privateGaragesData,
-    smartMetersData,
-    coinOpData,
-    eVChargeData,
-    motorcycleData,
-    busLargeVehicleData,
-    residentialData,
-    loadingUnloadingData, 
-  ]
-
-  function addMarker(location, labelContent, map) {
-
-    var marker = new google.maps.Marker({
-      position: location,
-      label: labelContent,
-      map: map
-    });
-  }
-
-  for (layer of layerDataList){
-  
-  let layerFeatures = layer.features
-    
-    for (feature of layerFeatures){
-      let location = feature.properties.iconCoords
-      let labelContent = feature.properties.price
-      addMarker(location, labelContent, map)
-      }
-    }
+  map.data.addListener('click', function (event) {
+    let name = event.feature.getProperty('name');
+    let description = event.feature.getProperty('description');
+    let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+    infowindow.setContent(html); // show the html variable in the infowindow
+    infowindow.setPosition(event.latLng);
+    infowindow.setOptions({
+      pixelOffset: new google.maps.Size(0, 0)
+    }); // move the infowindow up slightly to the top of the marker icon
+    infowindow.open(map);
+  });
 
   //Get searchbox element and fix it to top left of screen
   var card = document.getElementById('pac-card');
@@ -603,14 +533,11 @@ async function initMap() {
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
-      map.setZoom(18);
-      
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
     }
     marker.setPosition(place.geometry.location);
-    
     marker.setVisible(true);
 
     var address = '';
@@ -658,7 +585,40 @@ async function initMap() {
 //************************************************************************************** */
     
 
+  //Get browser location
+  let infoWindow = new google.maps.InfoWindow;
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+      var pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      infoWindow.setContent('Location found.');
+      infoWindow.open(map);
+      map.setCenter(pos);
+    }, function () {
+      handleLocationError(true, infoWindow, map.getCenter());
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleLocationError(false, infoWindow, map.getCenter());
+  }
 }
+
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+  infoWindow.setPosition(pos);
+  infoWindow.setContent(browserHasGeolocation ?
+    'Error: The Geolocation service failed.' :
+    'Error: Your browser doesn\'t support geolocation.');
+  infoWindow.open(map);
+
+}
+
+
+//************************************************************************************** */
+
 
 //******* Modal window for Filters ************************************************************* */
 // Get the modal

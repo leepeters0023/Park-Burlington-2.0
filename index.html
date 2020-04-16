@@ -35,9 +35,8 @@
     <input id="pac-input" type="text" placeholder="Destination">
   </div>
   <div id="map-and-controls-container">
-    <div id="map">
-
-    </div>
+    <div id="map"></div>
+    
     <div id=ui-container>
       <div id="filter-ui">
         <label class="filter-ui-label">
@@ -60,35 +59,53 @@
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close">&times;</span>
-            <label>
-              <input type='checkbox' checked='true' id='toggleHandicap'>Handicap</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleHandicap'>Handicap<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleMunicipleGarages'>Municiple Garages</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleMunicipalGarages'>Municipal Garages<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleCoinOpMeters'>Coin Only Meters</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleBlueTopMeters'>Blue Top Meters<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleEVCharge'>EV Charge Stations</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleBrownTopMeters'>Brown Top Meters<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleYellowTopMeters'>Yellow Top Meters<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleEVCharge'>EV Charge Stations<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleResidential'>Residential</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle<span
+                class="slider round"></span></input>
             </label>
-            <label>
-              <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading</input>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleResidential'>Residential<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading<span
+                class="slider round"></span></input>
             </label>
             <label>
               <button id="toggleLoadingUnloadingOnly">Show Loading/Unloading Only</button>
