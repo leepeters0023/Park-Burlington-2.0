@@ -157,7 +157,7 @@ async function initMap() {
   console.log({ myInfo });
   myInfo.forEach((item) => {
 
-    let path = item.coordinates.split('0,')
+    let path = item.coordinates.split(',0,')
     let stroke = item.stroke
     //let strokeOpacity = item.stroke-opacity
     let fill = item.fill
@@ -169,7 +169,7 @@ async function initMap() {
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
-
+      
     })
 
 
@@ -343,11 +343,11 @@ async function initMap() {
     }); 
      toggleEVChargeLayer.addEventListener('click', function () {
       toggleEVCharge()
-      console.log(toggleEVChargeLayerLayer)
+      console.log(toggleEVChargeLayer)
     });
      toggleMotorcycleLayer.addEventListener('click', function () {
       toggleMotorcycle()
-      console.log(toggleMotorcycleLayerLayer)
+      console.log(toggleMotorcycleLayer)
     }); 
      toggleBusLargeVehicleLayer.addEventListener('click', function () {
       toggleBusLargeVehicle()
