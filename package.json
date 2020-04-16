@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/leepeters0023/Park-Burlington-2.0#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "firebase": "^7.14.0"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.2.0"
