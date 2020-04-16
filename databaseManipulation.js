@@ -22,14 +22,12 @@ fetch("./BurlingtonParkingMap.geojson")
   .then((data) => {
     
 
-    for ( let i = 0; i<248; i++){
+    for ( let i = 33; i<248; i++){
       
       
-      // let usersRef =ref.child(32);
-      // usersRef.update({center: "NEED", address: "2 Burlington Square", 
-      // enforcedHours:"5pm-2am" , maxTime:"N/A", navigationURL: "NEED", 
-      // ownership: "private", paymentType: "Cash, Credit Card" ,
-      // rate: "$4/Hr", type: "Lot" }) 
+      // let usersRef =ref.child(i);
+      // usersRef.update({ 
+      // ownership: ""}) 
       
     }
 
