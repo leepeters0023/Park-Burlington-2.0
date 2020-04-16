@@ -1,38 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Park Burlington</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <div id='header'>
-        <img id="logo" src="logo-secondary.png"></img>
-        <img id="logo-text" src="logo-text.png"></img>
-        <input type='checkbox' checked='true' id='togglePolygons')>Show Polygons</input>
-        <input type='checkbox' checked='true' id='toggleLineString'>Show LineString</input>
+
+<head>
+  <title>Park Burlington</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div id='header'>
+    <img id="logo" src="images/logo-secondary.png"></img>
+    <img id="logo-text" src="images/logo-text.png"></img>
+
+
+  </div>
+  <div id="disclaimerModal" class="disclaimer">
+
+    <!-- Modal content -->
+    <div class="disclaimer-content">
+      <div class="disclaimer-header">
+        <span class="disclaimer-close">&times;</span>
+        <h2>Disclaimer</h2>
+      </div>
+      <div class="disclaimer-body">
+        <p>For reference purposes only. Please refer to signs at parking location for official City of Burlington ordinance or privately-owned lot policy.</p>
+      </div>
     </div>
-    <div class="pac-card" id="pac-card">
-        <input id="pac-input" type="text" placeholder="Destination">
+
+  </div>
+
+  <div class="pac-card" id="pac-card">
+    <input id="pac-input" type="text" placeholder="Destination">
+  </div>
+  <div id="map-and-controls-container">
+    <div id="map">
+
     </div>
-    <div id="map"></div>
-    <div id="infowindow-content">
-      <img src="" width="16" height="16" id="place-icon">
-      <span id="place-name"  class="title"></span><br>
-      <span id="place-address"></span>
+    <div id=ui-container>
+      <div id="filter-ui">
+        <label class="filter-ui-label">
+          <button id='toggleHandicapOnly' class="filter-ui-button">Off-Street Only</button>
+        </label>
+
+        <label class="filter-ui-label">
+          <button id="toggleShowAll" class="filter-ui-button">Show All</button>
+        </label>
+        <!-- Trigger/Open The Modal -->
+        <label class="filter-ui-label">
+          <button id="toggleFilters" class="filter-ui-button">Filters</button>
+        </label>
+
+
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <label>
+              <input type='checkbox' checked='true' id='toggleHandicap'>Handicap</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleMunicipleGarages'>Municiple Garages</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleCoinOpMeters'>Coin Only Meters</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleEVCharge'>EV Charge Stations</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleResidential'>Residential</input>
+            </label>
+            <label>
+              <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading</input>
+            </label>
+            <label>
+              <button id="toggleLoadingUnloadingOnly">Show Loading/Unloading Only</button>
+            </label>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- The Firebase scripts MUST be before the src for index.js -->
-    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
-      
-    <script src='index.js'>
-      // This example requires the Places library. Include the libraries=places
-      // parameter when you first load the API. For example:
-      // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
-      
-    </script>
-    <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBlmnXhTRjHHmY1SRjiqqZobWGLS1CfkLA&libraries=places&callback=initMap'
-        async defer></script>
-  </body>
+  </div>
+  <div id="infowindow-content">
+    <img src="" width="16" height="16" id="place-icon">
+    <span id="place-name" class="title"></span><br>
+    <span id="place-address"></span>
+  </div>
+  <!-- The Firebase scripts MUST be before the src for index.js -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+  <script src='index.js'></script>
+  <!-- // This example requires the Places library. Include the libraries=places
+  // parameter when you first load the API. For example: -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlmnXhTRjHHmY1SRjiqqZobWGLS1CfkLA&libraries=places&callback=initMap"
+  async defer>
+
+  </script>
+
+</body>
+
 </html>

@@ -1,0 +1,193 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2162213,
+                        44.4813976,
+                        0
+                    ],
+                    [
+                        -73.2172977,
+                        44.4813552,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "No Parking, Mon-Fri, 6 a.m. – 6 p.m. <br>Resident Permit Only <br>Varies by area. See signage.<br> <br>See Burlington Police Department website for the most up-to-date info: https://www.burlingtonvt.gov/Police/Residential-Parking",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216102,
+                        44.4814006,
+                        0
+                    ],
+                    [
+                        -73.2153909,
+                        44.4814195,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "No Parking, Mon-Fri, 6 a.m. – 6 p.m. <br>Resident Permit Only <br>Varies by area. See signage.<br> <br>See Burlington Police Department website for the most up-to-date info: https://www.burlingtonvt.gov/Police/Residential-Parking",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.209386,
+                        44.480476,
+                        0
+                    ],
+                    [
+                        -73.209268,
+                        44.479165,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "No Parking, Mon-Fri, 6 a.m. – 6 p.m. <br>Resident Permit Only <br>Varies by area. See signage.<br> <br>See Burlington Police Department website for the most up-to-date info: https://www.burlingtonvt.gov/Police/Residential-Parking",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2174242,
+                        44.4812503,
+                        0
+                    ],
+                    [
+                        -73.2173733,
+                        44.4804989,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "No Parking, Mon-Fri, 6 a.m. – 6 p.m. <br>Resident Permit Only <br>Varies by area. See signage.<br> <br>See Burlington Police Department website for the most up-to-date info: https://www.burlingtonvt.gov/Police/Residential-Parking",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215271,
+                        44.474643,
+                        0
+                    ],
+                    [
+                        -73.214066,
+                        44.474694,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "No Parking, Mon-Fri, 6 a.m. – 6 p.m. <br>Resident Permit Only <br>Varies by area. See signage.<br> <br>See Burlington Police Department website for the most up-to-date info: https://www.burlingtonvt.gov/Police/Residential-Parking",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216118,
+                        44.473622,
+                        0
+                    ],
+                    [
+                        -73.215506,
+                        44.473642,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Residential Parking",
+                "styleUrl": "#line-FFAA00-4000",
+                "styleHash": "-2f922c0a",
+                "styleMapHash": {
+                    "normal": "#line-FFAA00-4000-normal",
+                    "highlight": "#line-FFAA00-4000-highlight"
+                },
+                "description": "No Parking, Mon-Fri, 6 a.m. – 6 p.m. <br>Resident Permit Only <br>Varies by area. See signage.<br> <br>See Burlington Police Department website for the most up-to-date info: https://www.burlingtonvt.gov/Police/Residential-Parking",
+                "stroke": "#ffaa00",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        }
+       
+    ]
+}

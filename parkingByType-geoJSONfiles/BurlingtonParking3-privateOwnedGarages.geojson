@@ -1,0 +1,1328 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.211546,
+                            44.475352,
+                            0
+                        ],
+                        [
+                            -73.211537,
+                            44.475198,
+                            0
+                        ],
+                        [
+                            -73.211459,
+                            44.4752,
+                            0
+                        ],
+                        [
+                            -73.211459,
+                            44.475145,
+                            0
+                        ],
+                        [
+                            -73.211073,
+                            44.475158,
+                            0
+                        ],
+                        [
+                            -73.21109,
+                            44.47539,
+                            0
+                        ],
+                        [
+                            -73.211472,
+                            44.47538,
+                            0
+                        ],
+                        [
+                            -73.21147,
+                            44.475357,
+                            0
+                        ],
+                        [
+                            -73.211546,
+                            44.475352,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COURTHOUSE PLAZA GARAGE",
+                "styleUrl": "#poly-9C27B0-2101-36",
+                "styleHash": "-254317b1",
+                "styleMapHash": {
+                    "normal": "#poly-9C27B0-2101-36-normal",
+                    "highlight": "#poly-9C27B0-2101-36-highlight"
+                },
+                "description": "Rate:\t$3/hr, $18 daily max\nPayment: Credit card only\nPublic Access: 85 public spaces 24/7\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t284\nAddress:\t179 S Winooski Ave",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 2.101,
+                "fill": "#9c27b0",
+                "fill-opacity": 0.1411764705882353,
+                "Square Ft": "410",
+                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/pt10r10q84r708veo368gd0he4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqYmP_poUJCA_sps_yutMxbeErAkkr2-E6a9WA6FV6LGKmr4Gk_l3ilEb1jTQqrkn72XG3hvjigDUNQAl_ml1k_KneM2VDXer0UH0GbsJ6mUvrFtMvBMTTbD7zCCV77YOC3GoBe807s2rKAVqY2ujg1gCNQsFxkd7-cktcpebLsHTWLYs1g7Rq_RLAQprdvVMFwf_aGLnK-dL-Y4qVvFRmzq3_4omAIq9PvKgbJ5XGIjhG-7nuwdT6R5BWYr_a0teHPrqhyu7-hmRpeb2VsEpHP22wbyA?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/p788u2epgdnsk4agce0b8j60r0/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoGAv6dNQ-s9N_hPI9lydj0Olhh40Z9Foqj6U36uLpJGoBQvmdln-kjqwRWF5WKzvY9sQL4vOsNspde7HtUfUkjvg4du2QtmjiRthRqCKFBCM2VZWZ6W2zcESNPb0DXvtd1h8peFfKYgNJqqRtaWS_McuhaaQA3MhHdpOnGZguoG6Dg1Qjk_D6g2BXmrsrQSfEyFdunEaAqV84jucKxEl-pnKMvb2gr809qjK7wvFnYA-_mGcVEP67Sv_WnyjrsLDH8_TS4DafPlOU3zZIrxiRjCEJhxA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.218884,
+                            44.475271,
+                            0
+                        ],
+                        [
+                            -73.218896,
+                            44.4755,
+                            0
+                        ],
+                        [
+                            -73.218905,
+                            44.475558,
+                            0
+                        ],
+                        [
+                            -73.21895,
+                            44.475572,
+                            0
+                        ],
+                        [
+                            -73.219497,
+                            44.475439,
+                            0
+                        ],
+                        [
+                            -73.219519,
+                            44.475297,
+                            0
+                        ],
+                        [
+                            -73.219502,
+                            44.47527,
+                            0
+                        ],
+                        [
+                            -73.219459,
+                            44.475254,
+                            0
+                        ],
+                        [
+                            -73.218884,
+                            44.475271,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CORNERSTONE BUILDING GARAGE",
+                "styleUrl": "#poly-9C27B0-1901-66",
+                "styleHash": "7eec2050",
+                "styleMapHash": {
+                    "normal": "#poly-9C27B0-1901-66-normal",
+                    "highlight": "#poly-9C27B0-1901-66-highlight"
+                },
+                "description": "Rate:\t$2.50/hr (Daily Max:\t$20)\nPayment: Cash, Credit Card\nPublic Access:\t24/7, 365\n\nCapacity:\t86\nAddress:\t1 Steele St",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 1.901,
+                "fill": "#9c27b0",
+                "fill-opacity": 0.25882352941176473,
+                "Square Ft": "494",
+                "gx_media_links": "https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/fpb248s3jnfr67gja8t2ta8d14/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpwcs5TKfcqJkYgugAZJ3fCjV9wFfww6250CZK3IiZQTHQSBNjX8oqw7b4Qid8HDo3gsCoi98zsbPYqMUThGbUWTsTbHYzf046zq4LgQ3BYpCpyNoDl8gy1qT63QbjvI3KuiouGffrASwD1TqFxPol_W03ioGTTjTZDr_WDy6H08J3nj7mxb7IIjda1_dfnEu9DpbL1L4gsYVaX8GXiCztBJZ2cS0Be0dOu2DgZEyIF04fbwlcqN72qc8_U-nu0EZumBClX6sVSJ-o5D19_hwQTBkccDw?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/d2ru70gtu3glvf4djj771amdsc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALojfkX857sVOsdYXLhLPnnQdWh0e0e1JeKQ5ex1liJFoCNUVJ-MY7rkXJl-s_7_lsQaNS8MC7hyNR6fL60fxLSsyvWXkMr59CO19oz_43szfPUBVlmMFH-NYHSi3fO5PCchY0YR9EOWupiU7DFbTuimniXO9iS-2penPoT9RlEFZZC-O3WfZQmNmbk1y6NdbHc6PBYMzOUtDdiOkDycm0a9Go0QZriTn7OTKuwzJPHHhLlACbxU8RWARwlKCZ2AEqDVSvw8Wj-dnQhduM3DR_6zW1IGhw?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/4ehueaa5suhatod3tp27tnv0a4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrlhNtl1eoYI3738n00BTNZHbBmQviMeksCgccacz2v-7zUq3E7Ma-1HnDCeanIVN-xZmFNb56nvpjmosM0ng0raJdc8QESUH4K9v3duy5u63yS4TMFq7OXO08lOr3uE10aw958lv2JgKDsB5PjcuBhZEdDahYlk0zx9qjwlir1vBC02JefiAoYOT8fTYjRdoMpIqkdqdB4SoXIIiznlEB9iWTvWocSCVbzi3cyTuQvK_6c8bK1BgBmarY7MHRGwIoK9fn39-xC8Q8v4U8y0rHllbpGaw?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/d5mpb3sejicnlkb3elg8f5rpa0/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr2TzbcnjgXrHBg4aMvl3Eoja6m6I0WexHQDtbZW8ZEPRtHmAsEqA1gkJ1hRp0KIjn9eiLQuk9gM8_oIPrz4hFMI6Xn9K28FGI5p6oKJ-6a6Qr_iXK4NSZbilm2thosSy77TskOXndNeA1wQ-jxTwfue2quNx3TyJL0v2QW6zsF699CLPFg_2vV2TdOT7_7DTIZnm342q6axwEBk7Ns79h8eMP2ubci1n_yhxQHqdN3oRa4cYeXONjTMDydv8MmfOeE9yYj3NtOp_eqHjTjpvUB_rEiiA?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/gjg3v4oascul6oufo9tql4tp54/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpJ13SNsz01sqA8uXdr95spxSxTY1hS6aXwIkkc2NsweQRO5gldwAVl6pUx1KQ9S2qMCMhrzlppXTx_BfiZvTYQaMYeA6nGa43SRlVqvKtnrA29GffTGSvg1EiJFymQVhnpye0fwX99GEE782Ln6sXifD0_cNuxthkWLMvLpREeNVf-LgOYqrzrPwOjUPVtX8Laq7VLRYNPlXDlWyF0c4yVeiMULzdzwmLYCWOgcVsMezJD6aEneyTICkJHsTsKrwBxOZ5p8RmL3ir-DY_K4rvm9zi-LA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.212973,
+                            44.477205,
+                            0
+                        ],
+                        [
+                            -73.21299,
+                            44.477493,
+                            0
+                        ],
+                        [
+                            -73.213082,
+                            44.477493,
+                            0
+                        ],
+                        [
+                            -73.213094,
+                            44.477737,
+                            0
+                        ],
+                        [
+                            -73.213133,
+                            44.477741,
+                            0
+                        ],
+                        [
+                            -73.213133,
+                            44.477761,
+                            0
+                        ],
+                        [
+                            -73.213415,
+                            44.477752,
+                            0
+                        ],
+                        [
+                            -73.213418,
+                            44.477803,
+                            0
+                        ],
+                        [
+                            -73.213804,
+                            44.477792,
+                            0
+                        ],
+                        [
+                            -73.213798,
+                            44.477718,
+                            0
+                        ],
+                        [
+                            -73.21384,
+                            44.477716,
+                            0
+                        ],
+                        [
+                            -73.213822,
+                            44.477476,
+                            0
+                        ],
+                        [
+                            -73.213237,
+                            44.477489,
+                            0
+                        ],
+                        [
+                            -73.213213,
+                            44.477199,
+                            0
+                        ],
+                        [
+                            -73.212973,
+                            44.477205,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CORPORATE PLAZA GARAGE",
+                "styleUrl": "#poly-9C27B0-1201-41",
+                "styleHash": "4db8bc5c",
+                "styleMapHash": {
+                    "normal": "#poly-9C27B0-1201-41-normal",
+                    "highlight": "#poly-9C27B0-1201-41-highlight"
+                },
+                "description": "Rate:\t$2/30 min, $16 daily max, $5 flat rate after 6 p.m.\nPayment: Cash, Credit Card\nPublic Access:\t24/7, 365\n\nCapacity:\t354\nAddress:\t76 Saint Paul St",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 1.201,
+                "fill": "#9c27b0",
+                "fill-opacity": 0.1607843137254902,
+                "Square Ft": "876",
+                "gx_media_links": "https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/6qf34j4lhlp34k0hhhuks4irno/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp6JibCxMrY8lhIONqeXcD3CEKzTYjpKjUcrgAR2Jrzd4DWDnTineUCOmpy-NBcjWYqeEah4Ro96Y4BvCqaoOcx3MTyZBxR-a85KSD3RxW8YyQEOkkhG8_uhSimU526OZaGWi1Xir8DFwPPKckRtCRnYD9NgQzQpJhpT6yo-2GvBSXNGXukQh4VKn9wI7NjW2eyJV6Tlb6g51DyJmu45Q99ROWGJwpP1HbxBqihmd6r7uTNSjQlCRzP6agEtQ0yjdaVUrPfI2qvLjVf9iJbsF9Utdyj3w?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/dkqioqrhrhqphjgbcrtu3tdt50/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoYrnXLbxKNaid432k4_K2x-dJVZVPgsuMYAPoX5ZgnbFFDMwyesyIFQi380CsbPk305OwZFfWVOKBwwj5Q2yJnOcgE4hzEsfxH3-FdTNfosFRhjVgNfTtVAZGHqIRbvr0XBkuibZDs5eTmeVyyfFw3Zp43WtlEBbD0zsigtJBNRB4AEvBeH3PPBEnKQcjKTSRVa644DGpFg0-05af3g_-JSE7BSm2CZNZ3eWAeTppcNjxpdT4_8eDo9L-gkXGew0QtLKHQg2VTD2fdMK3Qrp5ELCa1hA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.218509,
+                            44.476567,
+                            0
+                        ],
+                        [
+                            -73.218495,
+                            44.476402,
+                            0
+                        ],
+                        [
+                            -73.218203,
+                            44.476409,
+                            0
+                        ],
+                        [
+                            -73.218175,
+                            44.476016,
+                            0
+                        ],
+                        [
+                            -73.217742,
+                            44.476025,
+                            0
+                        ],
+                        [
+                            -73.217772,
+                            44.476594,
+                            0
+                        ],
+                        [
+                            -73.21814,
+                            44.476583,
+                            0
+                        ],
+                        [
+                            -73.218509,
+                            44.476567,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "GATEWAY CENTER GARAGE",
+                "styleUrl": "#poly-9C27B0-1401-31",
+                "styleHash": "-3219b197",
+                "styleMapHash": {
+                    "normal": "#poly-9C27B0-1401-31-normal",
+                    "highlight": "#poly-9C27B0-1401-31-highlight"
+                },
+                "description": "Rate:\t$5/day\nPayment: Cash, Credit Card\nPublic Access:\t7 a.m. – 12 a.m., Top Deck Only\n\nCapacity:\t90\nAddress:\t65 College St",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 1.401,
+                "fill": "#9c27b0",
+                "fill-opacity": 0.12156862745098039,
+                "Square Ft": "793",
+                "gx_media_links": "https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/6lmcu1bctsvfjjfikqu5tbq9sc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr-JbPV3s_BDeO08Z9ik71-vL94XojkXuXTd7al1rltCIbRcZz5pbQA4hYrlSQRM4dZrTkgyHBNNH-XjPBTZN4hb4DjcbQ9egHCuJ356ZMIZ5GUHqtb2trTNfEcwi0GRodhQX0VErqoMPELxJ6Jt1gahxX-fduR8KqBmS_Lj4kKGkhpxPE_yl_VYpBnONSzuuiWhgl7BTtxwYOjaiGbWDf6_nnZ14omPPdrdBZTv6iu7mWdibICPuhfURcFXzwkjuQ8CAk6j5ZBR4tRGGYVnlCkfH4VFg?session=0&fife https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/4kft4p76a0tj98slvdmbln06j4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpXB0hhtCiFY9nedPUeLhfAg062QeVEKr5nVLU6SsDOscdr9XdDWRor_p_QfT5zEg2H5st7_QesEAI-ybU9xBfCHjSJ713wQnup0sEDWqOgw8ObIr1dW4qM35ms0tjZ2ljxGN6WszbFHv-KraFiklUvbYnMz9HOrKB0fjP9oKB_XaZPJfARuOLDhXhgPQOMPr5LNG-fFR8gNM4xRiAqBK9s4xn8LkhIfXhGEwjnHXu_EWLaMWjNB9kWDodL4ayt8kJXh6qaCF0Z593FEmqWqlHf2E_slQ?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/0vea010jddevh6kmct2rbkuq54/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo0cC8rDy_MqzIcijeu7nxZmKlIclGoMMZsC0kl2HektttYgumOEIiIeDDbIKsjTmnDyCfM0tdkwtVYA174quNzbxYeKfheJ8-8hH5Z8tCiXlVZgh55owjXH_r-I52lUeyxh0HFmT2fLTLefQ_aiW1am5Fnup_hfB9IMLIDrGitzT4dexbmcCvK2GUQ_f8yYJmbFu3aL5HSOOkLuuR8vJhK7HrXuhC0LmlwhKl3IFbKZAHBG41BveL3hYfWIrXOMGNmTkUrb3PWj9GpSArHkkbqhWKTOA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.220409,
+                            44.476717,
+                            0
+                        ],
+                        [
+                            -73.220237,
+                            44.476341,
+                            0
+                        ],
+                        [
+                            -73.21996,
+                            44.475746,
+                            0
+                        ],
+                        [
+                            -73.219865,
+                            44.475769,
+                            0
+                        ],
+                        [
+                            -73.219856,
+                            44.475795,
+                            0
+                        ],
+                        [
+                            -73.219833,
+                            44.475845,
+                            0
+                        ],
+                        [
+                            -73.219794,
+                            44.475915,
+                            0
+                        ],
+                        [
+                            -73.219752,
+                            44.475966,
+                            0
+                        ],
+                        [
+                            -73.219714,
+                            44.476002,
+                            0
+                        ],
+                        [
+                            -73.219672,
+                            44.476026,
+                            0
+                        ],
+                        [
+                            -73.219604,
+                            44.476038,
+                            0
+                        ],
+                        [
+                            -73.219538,
+                            44.476047,
+                            0
+                        ],
+                        [
+                            -73.219806,
+                            44.476619,
+                            0
+                        ],
+                        [
+                            -73.219865,
+                            44.476611,
+                            0
+                        ],
+                        [
+                            -73.219904,
+                            44.476736,
+                            0
+                        ],
+                        [
+                            -73.220409,
+                            44.476717,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MAIN ST LANDING LOT",
+                "styleUrl": "#poly-FFD600-2601-112",
+                "styleHash": "33a983e2",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-2601-112-normal",
+                    "highlight": "#poly-FFD600-2601-112-highlight"
+                },
+                "description": "Rate: $10/day\nPayment: Credit Card only\nPublic Access:\tMon-Fri, 1 p.m. –12 a.m.; Sat-Sun, 6 a.m. – 12 a.m.\n\nCapacity:\t118\nAddress:\t3 Main St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 2.601,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4392156862745098,
+                "Square Ft": "958",
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/ji7gcpomhrcd7bm345r45jeokc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoAaRLvXXkty5j99s0PiIZlJ6v_24ZqVGjtQ6R32SiY5C7GhGckgLliLQ1JWKM62EVhu04HcA7lz7_CfDIplmRqMl-1ev11nO2mmofYsOI53TYhtksXQr4n7bbnFRV1f7B2p3IIVAJ2WoaOyWfKLu9gXEc827IOAGIVdPV8ifuw18M81MyWhI2OVe0AA_kM4rV-7MAOel9BzYKD9grwSx8zzynB5fK4LV2pkTbuV69SES0fLQ1cTpTYIO0bwrqP0fEAp6oQEtlFy9RpIC_neTGU33e1MA?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/bptchrkli4nnc5r8aigccgqjpk/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrd6apGJrE9EHSEByTp8b06VhWq1ab_irAQahWvQjoBYXqJ-qjTjUL0IzmuvbZUlW-X0Qjx1tTFNieAGrCKxQUhErb_58DThWu7c1wtraVXKYgHVJZnxFHExmtEUhe8QPvTmEpvcCrV2lrkGzAf_XUXwPI1OlFfC5i3ESy-0nUvtyah0myJpJVETRRfRf6avy7TINvtrK8hpBSQhb-KUaklBG5YO9c5TBTb0iCckE0KIwM5R2G3xq_o_PDUq83kecgcj--QtgR7zNOG2tSIv_wxDzT54Q?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tpg8i6oeqpi2n15b7rj7ac3064/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp8DFEfIzzioPIBjBXikA6Wg_A3TVIVFdmr_ReXmMpGcVDfw4dQCNvaXRxltHuaDN-byq0GNO9I19sK5RVxHZoZea8AVfG60VTMI20BtJSpZYkEOqhj3SPfKfz7c_boh9FuSgCcWVnBkaPgBvtWDqCpWov8W_rT-qB-5glCPOGL8iVeDbr-i8Ty4eqmA0a2HQ8l_wPj9bEHy3BuqjfkpbWk4kHhh6c5QuPxySByeHg_hhNdaSbzQglxX6Ot-GlzpUeFrNxs5Gv8anKGvxUS-qp_2iPlGA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.214535,
+                            44.476013,
+                            0
+                        ],
+                        [
+                            -73.214557,
+                            44.476377,
+                            0
+                        ],
+                        [
+                            -73.214601,
+                            44.476377,
+                            0
+                        ],
+                        [
+                            -73.214612,
+                            44.476496,
+                            0
+                        ],
+                        [
+                            -73.214842,
+                            44.476489,
+                            0
+                        ],
+                        [
+                            -73.214808,
+                            44.476003,
+                            0
+                        ],
+                        [
+                            -73.214535,
+                            44.476013,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "110 MAIN LOT",
+                "styleUrl": "#poly-FFD600-4501-112",
+                "styleHash": "cb48be4",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4501-112-normal",
+                    "highlight": "#poly-FFD600-4501-112-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Credit Card only\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t26\nAddress:\t110 Main St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.501,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4392156862745098,
+                "Square Ft": "497",
+                "gx_media_links": "https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/gqno5srmao8c6ro46f7jtui8ns/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrCBvat5NyRA2-0tBl3BVWcE7klGEPqaZ4N643nfIaUFD8JcpngPiMCnRyrm2rJCm_axJaIMVwEfsUXA1hLYKfdHaATpCYfSz4HSgfPVIXRiWJ7x-aY4dh4zfV8dmDTmhLWHnZSUIR8ICSMIsp2gZZRyisCZvU3Zh3RDyE9beTeu5FhnR3CRdeVfG86kbg6r3h9d7iUoxuRT5y-yk_2-dSTbQZW0inZBOL4mUgrFoE7af2ShhiH8UPY2cMPTZXMMPBL49lc5pGyOPPUWA-8bN3hN3qaZA?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7r9ai61a7joh5hv45htk8cf5dk/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALog9Mlq4MT_hKW39e1qWxCKf0XtpR6nMECJ123V797HtB47o-OeTIsEWeFMftcpOmzh0TJ09n2nledHaCtCSoVqAb4qIwf32V3I34uMHuckVbvcmWyH1qeez9SArm9uGYgJ6Xi8-E2IN4ZCFca_rNZqQzsUi1uWhmf4V_wc3MUGQArzJIiYeqjTpPj0Nee_iTpMEARhJs3pje0FHIi4b1DluOPUQ-7AmD7oQiPRGmUg6ywoAmdwPD6mNksjnPKBByJcfMZv5Z7q1axEWiZzU-y9b5RmPQ?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.218696,
+                            44.479274,
+                            0
+                        ],
+                        [
+                            -73.21827,
+                            44.479277,
+                            0
+                        ],
+                        [
+                            -73.21831,
+                            44.479572,
+                            0
+                        ],
+                        [
+                            -73.218727,
+                            44.479571,
+                            0
+                        ],
+                        [
+                            -73.218696,
+                            44.479274,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "2 CHERRY ST LOT",
+                "styleUrl": "#poly-FFD600-4301-107",
+                "styleHash": "6175f995",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4301-107-normal",
+                    "highlight": "#poly-FFD600-4301-107-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access:\tMon-Sat 24 hrs; No public parking on Sunday\n\nManaged by: Unified Parking Partners (207-618-2887)\n\n\nCapacity:\t36\nAddress:\t2 Cherry St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.301,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4196078431372549,
+                "Square Ft": "437",
+                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1kj083suqdm7k1rbsto57lvvuk/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr8aOM4eJBNRQhcXN9GnsaENT3nrBjYzZ8k1Fjx8eovksBYbgvunPNVJD2EsPC2CMHOd_grdwyk0goc-RtjLotWx5zx0s6YNje_zr9Nt6BSffWtMvP-wUda3xA-AA_fjAWuqTOvMy9ypAhmnqTfO9p4O4uFS8TxO6vCb3z0VZI_9b6fNjjEroH1AWBFd6xzmPd8ZrAuE-4lpjoYVwjDtu-6OflHgUk6C33B2jdKV6ASQlw5rneN6bbvq7bDG5b47_19TvqehjycLaquUBaOIH_7YE9GRw?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/sartadru8v61ubsna9fpr628n4/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrvvbb1vLaMuOvFY6aBI7v4Ek3J4IeQ9pgmYGgQ-cjGdFEvGmK-SmlYOys1HMzS6okPclG4ewuFm7Za31HvXKqsH2CCSWddgT8MThlruqK_trp6rNKStxve_1X9OUbfcWk1OBD9mJVyibFxZNPO7jwUTBEJKb0dyElxJxFMJdrZ6uFYhQBgBPIHMq0nNzvtjVA812-2aSSSYG43Vt3nGscKhZmQiJTXoHybK7QxO94kZ3RHuaqpSDApD8LqsyrG3nvqXoIo7q81WMLjOo2XY-2646kdOg?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/9njehintkjj8h7iiqmcc7t04io/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpUB8ZMFq-8K6JgqXrK7ER5tLFE51xsjUey_hvfVMvOIfqwOHrIi3GoJDGxn01kH48J21RYFbVqLXRxsAf3V8YyD3DM3l1vB_5lw8KiGuPuuZhcfKPS2Xb2JbIj0pOgt9ioMbj8UIBRRtrM_lpd2iT1Kau9JXkhDkJ5XlRa3cqDKIz9WcXF5EPB3ZrOipSR_MZy1Z9oDlPdfdSYaRJu8iYJY6yFhuvnGa6zlstiFv0-K_Z6MT-d8SXQdrjRiWYETbSZmI7BNbw0pLG3KYGYQRkRXoOjjw?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.211948,
+                            44.477628,
+                            0
+                        ],
+                        [
+                            -73.212013,
+                            44.477628,
+                            0
+                        ],
+                        [
+                            -73.212189,
+                            44.4776213,
+                            0
+                        ],
+                        [
+                            -73.2121938,
+                            44.4774056,
+                            0
+                        ],
+                        [
+                            -73.2119515,
+                            44.4774128,
+                            0
+                        ],
+                        [
+                            -73.211942,
+                            44.477481,
+                            0
+                        ],
+                        [
+                            -73.211859,
+                            44.477481,
+                            0
+                        ],
+                        [
+                            -73.2117792,
+                            44.4774792,
+                            0
+                        ],
+                        [
+                            -73.2117877,
+                            44.4772192,
+                            0
+                        ],
+                        [
+                            -73.211586,
+                            44.477236,
+                            0
+                        ],
+                        [
+                            -73.211614,
+                            44.477641,
+                            0
+                        ],
+                        [
+                            -73.211712,
+                            44.477645,
+                            0
+                        ],
+                        [
+                            -73.211827,
+                            44.477639,
+                            0
+                        ],
+                        [
+                            -73.211948,
+                            44.477628,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "2 CENTER STREET LOT",
+                "styleUrl": "#poly-FFD600-4501-110",
+                "styleHash": "-6d1b25c4",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4501-110-normal",
+                    "highlight": "#poly-FFD600-4501-110-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access: Mon-Fri, 12 public spaces; 12 public spaces 5 p.m. – 2 a.m.; all spaces on Sat-Sun 24 hours.\n\nManaged by Unified Parking Partners (207-618-2887)\n\nCapacity:\t35\nAddress:\t2 Center St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.501,
+                "fill": "#ffd600",
+                "fill-opacity": 0.43137254901960786,
+                "Square Ft": "532",
+                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tqqi78ltoe4ldkdk1292uip3f8/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqFZhDvz9kwK0ua5VfB-jbVIGmbZoN-kbmxo2qy04qm7dk-ftTLx9E405nAFPpZFkE0aZPFgmb-ZvsIOsgbwXPV-rqHMNifKBC5XkWFxXHzhnjVKXDUvlihhN0_iQVdKicBKFT5S_B20ntwTl8pmIPPSxyFgiLPDQ0nu60gqWB_qAh4jDi5P71PIwWtAPRX7AYSLrC2VvYUV13IGrMObkYdgHHMezKCWULlPZSQoPLine1vkOO_LNJhPeptO6Ns8FlY9PcoHDFGzQPfyvUX6ykV9UqsEw?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1tpicfh1peukrkjevv94cr8vso/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoQadLRmV6EEqb9eIw1UZ_eNLA_P_fg5gJD8iX4eHd5xu4EMSMOx_zTBx77GjbQoI3OhP3sZipyn5B7WszKzao90HqdtzbH0xo934meljEyr8oM6wc_-oRKpP4PrVp61uDBFu4Tn70gNTAX09KfJ8njxxVinftSH5K_FBu9EutdbOgtOS4-Xb7HAVPsL816gZ9dFWyUedizF-N1dps8AZwaOJ9-wi8od1ETaIK6bctcpOL2p7EK7zStOozL_vPkk0dO8kS529WTFj-80EUvj-3Id95Ykg?session=0&fife https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/pbakkls4333gma04l73hqa5ets/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq2z6fzu_vBV1PUsp0ukOhiudnbqJod4s48002VU3JScnbSAyGiQm8h3MBQhCZ0DEeOFrMVKL9m5Ghb3tPNVFj_OpuDsClfrOpSm8y5XnrR2CLwwhx9qSnfTQ0AA3QlMFsu5qcBzn823psgrPh2IEUCwIAePFAp6-NaHxj52QjrMmFvnAyfpqsbEERVF2SBTTNluUvpenXRh5VG2SrOHwLqbx_-aHmU9zJXhfW_onEs7zVZkWOikczElL5GAjc_x_2X6I4Bp0GqZ5PJUMaCsO1oFE0OFQ?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.212189,
+                            44.480556,
+                            0
+                        ],
+                        [
+                            -73.211829,
+                            44.480564,
+                            0
+                        ],
+                        [
+                            -73.211842,
+                            44.480831,
+                            0
+                        ],
+                        [
+                            -73.212205,
+                            44.48082,
+                            0
+                        ],
+                        [
+                            -73.212189,
+                            44.480556,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "174 PEARL ST LOT",
+                "styleUrl": "#poly-FFD600-4501-110",
+                "styleHash": "-6d1b25c4",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4501-110-normal",
+                    "highlight": "#poly-FFD600-4501-110-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nEnforced: 24/7\nPublic Access:\tMon-Fri 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t34\nAddress:\t174 Pearl St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.501,
+                "fill": "#ffd600",
+                "fill-opacity": 0.43137254901960786,
+                "Square Ft": "383",
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7km4t9vfahhvahh0a7mghovdo8/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrVUkiyc2xN-AalehMm-xowYIRqrA6Wru9h_hjNpkA9Hg5m4k-SvgFaso2eBG48kcTPOLuHC1vT7_KH-a1byWZYHhTex9P9v8LFGKeSUMqYzWPP-6s235OGpngMOmzi3DOZWKshSoOCHZbwCI2k3Zfhzi1NDhovgeUlvBEEVFljprlce-OkXspHB7ka2EHbzjoEYZ7BtZK-t8_ER4lu_MSP-5eTyZx3_j8cY_TLJxJCq5mKngtYoWfR1OjTV_WcPI52DTBH0iATrUGCjkkswUpBYzl3hQ?session=0&fife https://doc-10-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/niicdv1s5j3cvtgkjrv10n5h5k/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALoDvj5SpeXLDGeCfs9j5rfLMBK_BwJZYULM2JYkJ7IBzXIzMsAiXKvJrjF5Rvv_SrF-LuBK5LO_M9PKxeTuBxaRIBP7gKa49j4UVTjQ33uC6VCPGHCW1WUtCT4fLgAqcd3PpdGpRHQWuSMmKcEaQhsj5w-zO-iISW9LIznMU00h1oWMJmJeVIkKGVk-8bAYMLPdQeCNPqhO2DmLZSeANJmV2MyxWnB0hImBcxTSzZsUzeLbrmjhk37gjds9P3HW_fRAJBDbJdDbfsPAoYll5_3MPW6faA?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.212314,
+                            44.480359,
+                            0
+                        ],
+                        [
+                            -73.212303,
+                            44.480097,
+                            0
+                        ],
+                        [
+                            -73.212028,
+                            44.480105,
+                            0
+                        ],
+                        [
+                            -73.212042,
+                            44.480365,
+                            0
+                        ],
+                        [
+                            -73.212314,
+                            44.480359,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "2 CHURCH ST LOT",
+                "styleUrl": "#poly-FFD600-4501-105",
+                "styleHash": "-38b30a16",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4501-105-normal",
+                    "highlight": "#poly-FFD600-4501-105-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Meter\nPublic Access:\tMon-Fri 5 p.m. – 2 a.m.; Sat-Sun, All day\nEnforced: 24/7\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t21\nAddress:\t2 Church St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.501,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4117647058823529,
+                "Square Ft": "333",
+                "gx_media_links": "https://doc-0c-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/3k6clba4geasb1s35mu5efmjko/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALr3iXacIkjilRBq9-Hq-UVaK6ZQgrmd3WY3_jA6gwnY4t_7ri9bvfrMyXwaRclLmoLSvFGCHiINLcii6RaRGTAL6JlkYdmRNkMLBjcJdQMhCOezeWNX3DbOAgw_sTCVIpU8i5nsjpg_RXjn7KXe4bzo8st47vh40HBsjyFQ9csG4wnbuYOZB7KsW784iQ6hl_ppSoRUaknRU0QQzQsQvOpG0URDvnTQOGsYRI74izj9m3JdLf-ceL41Mk2vZrFscf6RxCs9cuFyrxsh38F4URFsarRfVQ?session=0&fife https://doc-0g-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/5bl6u3s701rom22ed37plbis80/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq-qwkrBgexr84eRFpvwYK-kzfFm7H8A1K2Zr7fOm5oaf7w4B7yx9ALgVPxlKaMYVhxTHHW1tF6qVP5Ekzvm5OhdlZsca0Qz4YGTakx5GIjwCOE6Z2Aq-p9jJ62MykltHE9YUAAsuOKhzGAPi1hyb5jKZV2E2asrOqlyTFwU8EnAXQVDTm6KO-p7JNvoRxrZ-ZAuTmgStTL4B0fx2WdM5g9HBLitfCx1rVO4fJDD8ADMrcV9pOVwepdTQNLWIahl16l4TdSUl774CwdwG_n3xvMlBLy5g?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.216085,
+                            44.476187,
+                            0
+                        ],
+                        [
+                            -73.215935,
+                            44.476174,
+                            0
+                        ],
+                        [
+                            -73.215946,
+                            44.476058,
+                            0
+                        ],
+                        [
+                            -73.215877,
+                            44.47605,
+                            0
+                        ],
+                        [
+                            -73.215882,
+                            44.475958,
+                            0
+                        ],
+                        [
+                            -73.215679,
+                            44.475959,
+                            0
+                        ],
+                        [
+                            -73.215699,
+                            44.476259,
+                            0
+                        ],
+                        [
+                            -73.216102,
+                            44.476257,
+                            0
+                        ],
+                        [
+                            -73.216085,
+                            44.476187,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "86 MAIN ST LOT",
+                "styleUrl": "#poly-FFD600-4301-112",
+                "styleHash": "-62c5da98",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4301-112-normal",
+                    "highlight": "#poly-FFD600-4301-112-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Credit Card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t19\nAddress:\t86 Main St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.301,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4392156862745098,
+                "Square Ft": "427",
+                "gx_media_links": "https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/5olemc8prsd4mikricugdk1suo/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALq25g7aqzpCNeTPlk7V4aCv5Eo3Gycn6HUxAn9BhvDNTrJ7dibaXxlK2u4NiSKVcxFjU_UtQ0Rf8ptLvMXkvX-9TyjAiJf2GStK_cwOmXHO-MQCwQC_pnqzsqEo3ZIEDdKrSj_CuE_JNnN0PK9J1lKraBeeM4QLTa6Xs19NXcaHkktPDnQFHwfzsUoyUxaylaz1ylGdBDXuvWwJE8Hf2eUg4YVOrjUP80tuJZyzcKt-Y1PZc-saDd5JTx8WmSvMKxTuhvpIv32wud5yElGcB5yxIEwYow?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/km7216qbaec8qalf958rqdu2io/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALrAHDrG8MyzgzakqSSCaPk6ghViROV7NhwV_e6hKnqnSgRW0T48TX3evsd3ESakrqWRjhSK6E0SO3SADvMQnQ320DpW9npUkkTXZBYPiIZa9AJTomgl63DqOoYr3611hhLPkDUckPJ9MtvI_6yEv4O9QBNy5jCALkmul5NM2rsbwzqrKRjZYIu7mRekmJx4S9uHnyZqqPYzQlkfXei4um48q_VZdtY0EDfqU2MYfLyO1DtGR_JFIdC0338y0mtlIKP6R0VSqVfTviDuW7orroxWoisldw?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.219342,
+                            44.475189,
+                            0
+                        ],
+                        [
+                            -73.21932,
+                            44.475085,
+                            0
+                        ],
+                        [
+                            -73.219245,
+                            44.474945,
+                            0
+                        ],
+                        [
+                            -73.219228,
+                            44.474643,
+                            0
+                        ],
+                        [
+                            -73.21905,
+                            44.474646,
+                            0
+                        ],
+                        [
+                            -73.219071,
+                            44.474974,
+                            0
+                        ],
+                        [
+                            -73.21884,
+                            44.47498,
+                            0
+                        ],
+                        [
+                            -73.218857,
+                            44.475209,
+                            0
+                        ],
+                        [
+                            -73.219342,
+                            44.475189,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "4 KING ST LOT",
+                "styleUrl": "#poly-FFD600-4301-110",
+                "styleHash": "236a73c0",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4301-110-normal",
+                    "highlight": "#poly-FFD600-4301-110-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access: Mon-Fri, 5 p.m. – 2 a.m.; Sat/Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t31\nAddress:\t4 King St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.301,
+                "fill": "#ffd600",
+                "fill-opacity": 0.43137254901960786,
+                "Square Ft": "640",
+                "gx_media_links": "https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/abj65tsevtjb7dmksj2knudl3k/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALo2YiLH5D-3hEKMVEqgjMeXktvdw86FK1sDJHvzJSAK_aFFvln2Rk9reL7S-G1RFqZch1Qwb5E1aSz9oHPy753ay89S9Xkmd6s8CLXXkWK-1-nWHIyyuUrNojSbrYVaWUi0RgARXKyvy-KhYGLTgPsPQ4wNU4mo_gfm5rBE35V8Y3cOozOOt48jOo72os2f9ad3z3sOZ-8Q9mWQyJ6ASI3KLoB7gwFwvgGM7dxdrpVZHn8ixMNHck78Zu2RsFP45vOhMRvd6wGD7bJ8Y4gN7pFT__ZNGQ?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/khnjft78i73icdk0vi1s8is0cs/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpDVIeowx9EMjiuaGAYbuoZNJfOUTaxrIVbKTnwowDOecByAEpVRxz6bZeQjqI-ri5aqwb2S2Zmq5J6ou_70LTHNQIFPwrMJsX4ODKRIjuuiazdT4x_SqNyJeUO4osLeKKQYq7Y-uLUXAKuUx3rRupG8IUwCBBX-2khslLUgWU43mBK2EyGYd__EEkOfaKg0h3u-VF_jWMtPKuyuYPKLnsjoUxUZN3Rgvvpis1qM6xSGzPZWUG0YeVpIsG7THOhqtURS9MbLTFPnQ_823vtVQrpw59Xxg?session=0&fife https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/1dc6p85j19ocqdrdvkdi92kpdc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqPEP2tFAIQzCbWKF09xYQ-E7tf_T1APQgxn9NhnZ5s6BTaI1cl2b3fYsLtQMUzSugpXqz6KFZpELvW4FdvZpIlCKuhPfitM4cygoIyMxHbMXc8VTXTQ3uV8dULacSXuEmn006uO4MY6o3Vor9EWkGZBGJwlavGcoFflAte8sNbv2mp8o6_Cg-AYc_RwT2P8Zg7FQbjtwvrGRlF4Ia2Thum_CLUPJaRtPCX4aD5ST10Y0Wko1mGDcyy9Uk3WYIYm3AKA1HaCMrapUlW551__dazgcZA8Q?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.215162,
+                            44.477574,
+                            0
+                        ],
+                        [
+                            -73.215159,
+                            44.477435,
+                            0
+                        ],
+                        [
+                            -73.215328,
+                            44.477431,
+                            0
+                        ],
+                        [
+                            -73.215319,
+                            44.477315,
+                            0
+                        ],
+                        [
+                            -73.214544,
+                            44.477336,
+                            0
+                        ],
+                        [
+                            -73.214558,
+                            44.477595,
+                            0
+                        ],
+                        [
+                            -73.215162,
+                            44.477574,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "PARK PLAZA/ICF LOT",
+                "styleUrl": "#poly-FFD600-4501-107",
+                "styleHash": "-2f0f9fef",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4501-107-normal",
+                    "highlight": "#poly-FFD600-4501-107-highlight"
+                },
+                "description": "Rate: $2 per 30 min, $16 max per 24 hours, $5 evening rate after 6pm\nPayment: Cash, Credit Card\nPublic Access:\tMon-Fri after 5 p.m.; Sat, after 7am, Sun, All day\n\nCapacity:\t107\nAddress:\t88 Saint Paul St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.501,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4196078431372549,
+                "Square Ft": "592",
+                "gx_media_links": "https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/up1h7en8bs1jei8u1qo5bvnuv0/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALph6Whu-hkNMRla7bdkb-JQFQabqYORSQTIAA5d_nB3M7Ej1diUXU3gpv2oLIxE9LN8HIlf9WgjVi7AipmKzLyM1Lgal1lnBe97fXX3nnpN3qgXLOfSzNTG8vnY6_3OryQLNTLvAFOc7WH0bV9FLVfGZa6WrclpvqLRs4w9_G9q0O7mT8DOD6DI6-eSLcarasivdpr7cq4qDh9-iE7wU82ffHy_OzwxdfDjTxZWQH2LsxzuYgW9VX7T0fYOGj5B71ZCzzTiXyNERUtPMdQhfdobJnvseg?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.215691,
+                            44.479588,
+                            0
+                        ],
+                        [
+                            -73.215228,
+                            44.47961,
+                            0
+                        ],
+                        [
+                            -73.215253,
+                            44.479983,
+                            0
+                        ],
+                        [
+                            -73.215721,
+                            44.479965,
+                            0
+                        ],
+                        [
+                            -73.215691,
+                            44.479588,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "20 PINE ST LOT",
+                "styleUrl": "#poly-FFD600-4601-110",
+                "styleHash": "-355df286",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4601-110-normal",
+                    "highlight": "#poly-FFD600-4601-110-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Cash, Credit Card\nPublic Access: 24/7\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t36\nAddress:\t20 Pine St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.601,
+                "fill": "#ffd600",
+                "fill-opacity": 0.43137254901960786,
+                "Square Ft": "517",
+                "gx_media_links": "https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/2okb920oup8r6dbfutr8usme8c/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpKjSep7Q5x_J293Nd_gZd0afqxHdQwxSuahKSrwSLhDX5mdqlyDO3Y7_0Ipu-1eS9gaCjsCwxnaAN_CmnEaXwYrfYZAetHHIw-jvzULbjwTbUEmcz-A1xoaSdErL9jnHK3KTWypDQZNtmQOILcUeN5wYFf0AQb8lIOa5RhmITrIvzVMnumTdtQFdvjsBnGLXmEJFbCxh3VoPllCdPTU5LXKBfelX2hXz0WR5GdYYYlhJY6Wj79Ss7otNVXRDeH15zIiiNCwdXJ9ASwu54zvKxIyo0clA?session=0&fife https://doc-0s-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/0qjmo2h2irdb3v61dg0peo0bno/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALp-EteiVw1Zou5YhJ_tcIpV7MZYpzIvpJKEiyFQMt6MgZLYL8KQopJa5lwxWh5hwxgbyX63C6D5DjHWCYTnMChmxE3AJFhTOXlJuHBBexd9q15F0TYkd69u2ofrAAMFjMmUs80ijjMeVW5nXn7_pHwL3_eaO_-v9T8cvv4ax-aAktsIMO9mhGdxQXY8x7ytFsLI-WcWwVt4zPQTnIBGVGA1nb9Qejox0ivY6dEDr3QzSEib2Tm2fq-TqC6PoLLf249Vl_I4W8DYYw0xqUSlYCS8d--OSg?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.216091,
+                            44.476257,
+                            0
+                        ],
+                        [
+                            -73.215705,
+                            44.476254,
+                            0
+                        ],
+                        [
+                            -73.215715,
+                            44.476466,
+                            0
+                        ],
+                        [
+                            -73.216121,
+                            44.476456,
+                            0
+                        ],
+                        [
+                            -73.216091,
+                            44.476257,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "121 PINE ST LOT",
+                "styleUrl": "#poly-FFD600-4501-110",
+                "styleHash": "-6d1b25c4",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4501-110-normal",
+                    "highlight": "#poly-FFD600-4501-110-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Credit Card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t36\nAddress:\t121 Pine St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.501,
+                "fill": "#ffd600",
+                "fill-opacity": 0.43137254901960786,
+                "Square Ft": "357"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.214557,
+                            44.476745,
+                            0
+                        ],
+                        [
+                            -73.214201,
+                            44.476737,
+                            0
+                        ],
+                        [
+                            -73.214226,
+                            44.476926,
+                            0
+                        ],
+                        [
+                            -73.214561,
+                            44.476934,
+                            0
+                        ],
+                        [
+                            -73.214557,
+                            44.476745,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LAWSON LOT",
+                "styleUrl": "#poly-FFD600-4301-105",
+                "styleHash": "57d28f6e",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4301-105-normal",
+                    "highlight": "#poly-FFD600-4301-105-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Credit Card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nCapacity:\t25\nAddress:\t117 Saint Paul St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.301,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4117647058823529,
+                "Square Ft": "319"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.212328,
+                            44.475198,
+                            0
+                        ],
+                        [
+                            -73.21166,
+                            44.475231,
+                            0
+                        ],
+                        [
+                            -73.211678,
+                            44.475422,
+                            0
+                        ],
+                        [
+                            -73.212338,
+                            44.475381,
+                            0
+                        ],
+                        [
+                            -73.212328,
+                            44.475198,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "175 MAIN ST LOT",
+                "styleUrl": "#poly-FFD600-4401-107",
+                "styleHash": "-66ccd32d",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4401-107-normal",
+                    "highlight": "#poly-FFD600-4401-107-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Credit card\nPublic Access:\tMon-Fri, 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity:\t35\nAddress:\t175 Main St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.401,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4196078431372549,
+                "Square Ft": "484",
+                "gx_media_links": "https://doc-0k-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/krg0io0m6djkrnra3necpsc1hc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqTe4PVFQM5L2IUet5OD-3jWpg-HOkIHIFD1jFVfxnygvAIgEZiG6qoTSKPm7HUnUFcH4-2KkjT9sYgVGRHrQe3Prz_5Mw7nd4ftVcoZs3r7Uc2zMMwfRG6ibLMqNs9LbW0U5c5UEYJeXVK_gBUyVS3X1RSx3-w7oh-1aqCIFx0kNKD0rnAW65efomTFkITqpgRL7yAezj0HXoyMvavGapL0BUmhoQLe2jMRcotfzHB7tWbOnxo5TSgA4_1-qn7hz6WU8zZCvH5BpnvbaSRjiggNATgvg?session=0&fife https://doc-00-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/mii2eopih3v2ckdpkviscqdkao/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpW5-7YPUPn65Bvv_ja0DsfYA_AHYbfK-mZ02SouETb_60BdbmYCxw0m6hC-SCVxCtsFKbLcOqEUGtkWVMV5uRD4QxzWybgWk1OnlQAyD4CDmzy1M1qJdSeLt8czK8eEaOd-Zdu11ftFP9aGVWVrDkgIQjw-9CF7diGC_VoZbqR3AlhSGssQe44HVIHPsq8EFPZSMUY6bK-xl78GCojOdj65p7yiNu6Pkwip9nxzMRbaKGHxAqwjpgx_HL0-skfkP1wEtWa-AhwZ7-0w_v44gC1kufDMw?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/otceghm3qavvmcu1f22rq76100/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpUe_2QdRH_OznfY65Ylu3GL_AU1_ltnU24T3IJHrNRl2ZJRKqZl458PZonYTXpKAaPtAPDG76cn9dRjrNc4RcjFWENES6HzFvmH1YFq0HaU9a11GUcxx7fKpInKR6rGeLu3Xhhg3W1pY3-Oe5GYmBME_dzld7QckWMmY_xfsafUwV8btRbYXjGo1yOYqEem8QNw0lLMrk5Ivs2YyT0YtJAIdGLO30oYlVbS5vJitgA5uxvir3G7NwpNgyt2_L-j7Jf3xeb1t-EoHqPi737i2S7SR3qUQ?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.220535,
+                            44.47632,
+                            0
+                        ],
+                        [
+                            -73.220898,
+                            44.476314,
+                            0
+                        ],
+                        [
+                            -73.22087,
+                            44.476107,
+                            0
+                        ],
+                        [
+                            -73.221063,
+                            44.476089,
+                            0
+                        ],
+                        [
+                            -73.22103,
+                            44.475765,
+                            0
+                        ],
+                        [
+                            -73.220294,
+                            44.475788,
+                            0
+                        ],
+                        [
+                            -73.220535,
+                            44.47632,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "ECHO LOT",
+                "styleUrl": "#poly-FFD600-4501-110",
+                "styleHash": "-6d1b25c4",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4501-110-normal",
+                    "highlight": "#poly-FFD600-4501-110-highlight"
+                },
+                "description": "Rate:\t$3/hr\nPayment: Cash, Credit Card \nPublic Access:\t8 a.m. –11 p.m., unless private event\n\nManaged by: ECHO\nSee website for more info: https://www.echovermont.org\n\nCapacity:\t74\nAddress:\t1 College St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.501,
+                "fill": "#ffd600",
+                "fill-opacity": 0.43137254901960786,
+                "Square Ft": "736",
+                "gx_media_links": "https://doc-08-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/7n69u84ebloa4hedudpn71nj60/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpkAUpsoW2ofIxrwD-oRfKsfThfpT7qxPYT_bk21POsTRn3CL4VJ0FbCjTVzobvdZDPBPzK8EEc49wPnVq7Y-9ll19vmD-MIH_ozetWT2JDayl2-kYpDzafIoIQ9zNIYaCgaoH08Bip1CJbKpxhBEd38qDXSrAGLtCVxC_dGC69DtAYHH2x1HUxmot7DJ4Kf_MD2v193OfY4y8YDHSyaE0Yl-WuSKdPDVNIVGbTA2Rkmr8Psv9sWuSCqde9kRih7w5UWilTj4EShTIp-NjZWYmoiU6pEw?session=0&fife https://doc-14-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/pk711egd72juc842j83pdsg6is/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALqgQkbs11gIfDZSMmIjr20N4zdW9TdZoxRM9mwL_SgrZipedGmDI2Ygdo3hxGV0X-XTdzVBV-7qORDx2owCFkz5eZxjPSBbbKyBFtH8Ib8yR3Nr3PeJ6JO9xIo_3akKqL7uG8hM5IVnejSyR_DFybaBi2cj5Ln4_jZnKJ78GEBoeP398MyFuy3izU0k7_FOmfXKQIVP1z2eayP-u24D5zIQnDyWVk0MseOGU2UO4ucIerG9rqDSkvb2vn8VqgOhtmnk5vswsC3cQcpzUJAkbZd1D1OuFw?session=0&fife https://doc-0o-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/el80upcsbnlur9b5n3evq0s4fc/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALpsNgytxsp_ojQdkImtV7ysRf6YXaO5Hg0qiZiacntBWAj65FsMbUDDwUFp3nfdEJUw1kWBrErPg8ahGo1b3Vy845eC0FAlZKVRo85U7gunczISX6mhuNtJiw6YKtvRnVWQ9yMOJFBjV5ekGHa4W2CM0BdxV5QNvrRXB5A0Kuv-LCdOILU8nPXsGDJLRZXznkDOe1vqU0TcJsz-HNNCBLnSPmpyl8SzDWoseRZPScLvxxi3rSa9cB5drP3jn6-oK5tuQM2RDs5-bg_rtJgYp7C9-B521g?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.215474,
+                            44.476435,
+                            0
+                        ],
+                        [
+                            -73.215463,
+                            44.476288,
+                            0
+                        ],
+                        [
+                            -73.215257,
+                            44.476295,
+                            0
+                        ],
+                        [
+                            -73.215262,
+                            44.476357,
+                            0
+                        ],
+                        [
+                            -73.215235,
+                            44.476358,
+                            0
+                        ],
+                        [
+                            -73.215239,
+                            44.476441,
+                            0
+                        ],
+                        [
+                            -73.215474,
+                            44.476435,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "120 PINE ST LOT",
+                "styleUrl": "#poly-FFD600-4401-112",
+                "styleHash": "-2b08a75a",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-4401-112-normal",
+                    "highlight": "#poly-FFD600-4401-112-highlight"
+                },
+                "description": "Rate:\t$4/hr\nPayment: Credit card\nPublic Access:\tMon-Fri 5 p.m. – 2 a.m.; Sat-Sun, All day\n\nCapacity:\t16\nAddress:\t120 Pine St",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 4.401,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4392156862745098,
+                "Square Ft": "229"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.2168956,
+                            44.4776421,
+                            0
+                        ],
+                        [
+                            -73.2168795,
+                            44.4770527,
+                            0
+                        ],
+                        [
+                            -73.2165791,
+                            44.4770641,
+                            0
+                        ],
+                        [
+                            -73.2165952,
+                            44.4776574,
+                            0
+                        ],
+                        [
+                            -73.2168956,
+                            44.4776421,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "2 Burlington Square",
+                "styleUrl": "#poly-FFD600-3301-117",
+                "styleHash": "79025528",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-3301-117-normal",
+                    "highlight": "#poly-FFD600-3301-117-highlight"
+                },
+                "description": "Rate: $4/hr\nPayment: Cash, Credit Card\nPublic Access: Mon-Fri, 5 p.m. – 2 a.m.; Sat, 12 p.m. – 2 a.m.; Sun, All day\n\nManaged by: Unified Parking Partners (207-618-2887)\n\nCapacity: 26\nAddress: 2 Burlington Square",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 3.301,
+                "fill": "#ffd600",
+                "fill-opacity": 0.4588235294117647,
+                "Square Ft": "",
+                "gx_media_links": "https://doc-04-70-mymaps.googleusercontent.com/untrusted/hostedimage/64padndq3ckemoundc2hnmg8bk/tbakjksrldeusku4msnctu8dtg/1586783955250/H0BVQAznzd_gtLT8fWrgzmrWFyg5p0Hd/04021124565245099751/5AF2TALodiSjoCfB2CxYicmjKQngB6mBRqiUlpbBAaunuTcFgnfpdgsHTspyxpdgQCabaYQxGudJqYM0q_6pi3tqjgilRgbxS3cItGUvCS3BkACDilFChg12BTkIcXxdjiZWGSLdzPpcvGenAUPbLmwupGc8D_V-5QW2fhoKbZKe-O-UPb4KT6fdFFZHFnX-yAfrKM9A_CLbaqeUU4jbsbaIJB_Un-eOHRQzOAcNXQyNn8Vn5cGX8DUYl9na0iafP9FXxnSDCSDdlA5mInzCj6VtSXXXzow11kQ?session=0&fife"
+            }
+        }
+    ]
+}

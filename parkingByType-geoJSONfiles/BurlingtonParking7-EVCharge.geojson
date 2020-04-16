@@ -1,0 +1,266 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+       
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2175227,
+                    44.4622145,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2162005,
+                    44.4606202,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2118839,
+                    44.475595,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.1981256,
+                    44.4767738,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.1928968,
+                    44.4822963,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.1949454,
+                    44.4757304,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2165058,
+                    44.4790468,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2029178,
+                    44.4731812,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2122402,
+                    44.4758355,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.2117309,
+                    44.4785097,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "ChargePoint Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.21744,
+                    44.479075,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tesla Charging Station",
+                "styleUrl": "#icon-1660-E65100-labelson",
+                "styleHash": "-4c4eb374",
+                "icon": "images/electric_vehicle.png",
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212319,
+                        44.476037,
+                        0
+                    ],
+                    [
+                        -73.2121267,
+                        44.4760553,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Charging Station North EV",
+                "styleUrl": "#line-E65100-6069",
+                "styleHash": "-4d482bbc",
+                "styleMapHash": {
+                    "normal": "#line-E65100-6069-normal",
+                    "highlight": "#line-E65100-6069-highlight"
+                },
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev",
+                "stroke": "#e65100",
+                "stroke-opacity": 1,
+                "stroke-width": 6.069
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2113497,
+                        44.4758914,
+                        0
+                    ],
+                    [
+                        -73.2111411,
+                        44.4759045,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Charging Station",
+                "styleUrl": "#line-E65100-6069",
+                "styleHash": "-4d482bbc",
+                "styleMapHash": {
+                    "normal": "#line-E65100-6069-normal",
+                    "highlight": "#line-E65100-6069-highlight"
+                },
+                "description": "See Burlington Electric Deptartment's website on electric vehicles for more info: https://burlingtonelectric.com/ev",
+                "stroke": "#e65100",
+                "stroke-opacity": 1,
+                "stroke-width": 6.069
+            }
+        }
+    ]
+}

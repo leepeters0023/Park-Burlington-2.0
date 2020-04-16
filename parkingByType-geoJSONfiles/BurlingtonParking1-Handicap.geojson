@@ -1,0 +1,1121 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+       {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.216102,
+                        44.4814006,
+                        0
+                    ],
+                    [
+                        -73.216213,
+                        44.4813986,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.217012,
+                        44.477027,
+                        0
+                    ],
+                    [
+                        -73.217232,
+                        44.47702,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2142174,
+                        44.477085,
+                        0
+                    ],
+                    [
+                        -73.2143713,
+                        44.4770789,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215573,
+                        44.477611,
+                        0
+                    ],
+                    [
+                        -73.215563,
+                        44.477504,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2159597,
+                        44.4792659,
+                        0
+                    ],
+                    [
+                        -73.2161787,
+                        44.4792599,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.210088,
+                        44.480047,
+                        0
+                    ],
+                    [
+                        -73.21009,
+                        44.48013,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.21275,
+                        44.4771583,
+                        0
+                    ],
+                    [
+                        -73.212863,
+                        44.477157,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212757,
+                        44.478123,
+                        0
+                    ],
+                    [
+                        -73.212911,
+                        44.4781344,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.209983,
+                        44.478326,
+                        0
+                    ],
+                    [
+                        -73.209988,
+                        44.478437,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218838,
+                        44.475647,
+                        0
+                    ],
+                    [
+                        -73.21903,
+                        44.475646,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218348,
+                        44.475855,
+                        0
+                    ],
+                    [
+                        -73.218509,
+                        44.475848,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2186946,
+                        44.4748168,
+                        0
+                    ],
+                    [
+                        -73.2187072,
+                        44.4749483,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218498,
+                        44.475564,
+                        0
+                    ],
+                    [
+                        -73.218493,
+                        44.475422,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218469,
+                        44.474676,
+                        0
+                    ],
+                    [
+                        -73.218471,
+                        44.474769,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2123649,
+                        44.4750304,
+                        0
+                    ],
+                    [
+                        -73.2123549,
+                        44.4748254,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212451,
+                        44.473822,
+                        0
+                    ],
+                    [
+                        -73.212453,
+                        44.473904,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212253,
+                        44.475857,
+                        0
+                    ],
+                    [
+                        -73.212134,
+                        44.475859,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218691,
+                        44.47397,
+                        0
+                    ],
+                    [
+                        -73.218699,
+                        44.474085,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.218445,
+                        44.474258,
+                        0
+                    ],
+                    [
+                        -73.218459,
+                        44.474333,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212848,
+                        44.476015,
+                        0
+                    ],
+                    [
+                        -73.212623,
+                        44.476023,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213684,
+                        44.480917,
+                        0
+                    ],
+                    [
+                        -73.213674,
+                        44.480791,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212773,
+                        44.4758458,
+                        0
+                    ],
+                    [
+                        -73.212606,
+                        44.475853,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.211397,
+                        44.481649,
+                        0
+                    ],
+                    [
+                        -73.211391,
+                        44.481528,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213656,
+                        44.480538,
+                        0
+                    ],
+                    [
+                        -73.213656,
+                        44.480637,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2140041,
+                        44.4765669,
+                        0
+                    ],
+                    [
+                        -73.2140051,
+                        44.4766329,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2130914,
+                        44.4803753,
+                        0
+                    ],
+                    [
+                        -73.2132692,
+                        44.4803716,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.215522,
+                        44.476755,
+                        0
+                    ],
+                    [
+                        -73.21553,
+                        44.476889,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214176,
+                        44.476868,
+                        0
+                    ],
+                    [
+                        -73.214184,
+                        44.476946,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.214027,
+                        44.479326,
+                        0
+                    ],
+                    [
+                        -73.2139227,
+                        44.479334,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2128585,
+                        44.4793771,
+                        0
+                    ],
+                    [
+                        -73.212932,
+                        44.479374,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2134928,
+                        44.4793378,
+                        0
+                    ],
+                    [
+                        -73.2134002,
+                        44.4793397,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.213084,
+                        44.4737197,
+                        0
+                    ],
+                    [
+                        -73.2132396,
+                        44.4737082,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2115455,
+                        44.4771816,
+                        0
+                    ],
+                    [
+                        -73.211626,
+                        44.4771787,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.212697,
+                        44.477016,
+                        0
+                    ],
+                    [
+                        -73.212797,
+                        44.477013,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2121617,
+                        44.477158,
+                        0
+                    ],
+                    [
+                        -73.2123468,
+                        44.4771556,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -73.2123061,
+                        44.478157,
+                        0
+                    ],
+                    [
+                        -73.2123851,
+                        44.4781549,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Handicapped Parking",
+                "styleUrl": "#line-A52714-5263",
+                "styleHash": "-3feb0602",
+                "styleMapHash": {
+                    "normal": "#line-A52714-5263-normal",
+                    "highlight": "#line-A52714-5263-highlight"
+                },
+                "description": "Rate: Free with valid handicap placard or plate<br>Payment: N/A <br>Max. Parking Time: N/A",
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 5.263
+            }
+        }
+    ]
+}
