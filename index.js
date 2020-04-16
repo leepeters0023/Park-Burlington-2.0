@@ -399,13 +399,13 @@ async function initMap() {
 
   // set toggle function for Handicap Only button
   toggleHandicapOnly.addEventListener('click', function () {
-    if (handicapLayerOn === 'on') {
+    if (handicapLayerOn === 'off') {
       document.getElementById("toggleHandicap").click();
     };
-    if (municipleGaragesLayerOn === 'off') {
+    if (municipleGaragesLayerOn === 'on') {
       document.getElementById("toggleMunicipleGarages").click();
     };
-    if (privateGaragesLayerOn === 'off') {
+    if (privateGaragesLayerOn === 'on') {
       document.getElementById("togglePrivateGarages").click();
     };
     if (smartMetersLayerOn === 'off') {
