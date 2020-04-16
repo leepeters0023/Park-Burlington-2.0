@@ -215,16 +215,17 @@ async function initMap() {
     let toggleMunicipalGaragesLayer = document.getElementById('toggleMunicipalGarages')
     let togglePrivateGaragesLayer = document.getElementById('togglePrivateGarages')
     let toggleSmartMetersLayer = document.getElementById('toggleSmartMeters')
-    let toggleBlueTopLayer = document.getElementById('toggleBlueTopMeters')
-    let toggleBrownTopLayer = document.getElementById('toggleBrownTopMeters')
-    let toggleYellowTopLayer = document.getElementById('toggleYellowTopMeters')
+    let toggleBlueTopMetersLayer = document.getElementById('toggleBlueTopMeters')
+    let toggleBrownTopMetersLayer = document.getElementById('toggleBrownTopMeters')
+    let toggleYellowTopMetersLayer = document.getElementById('toggleYellowTopMeters')
     let toggleEVChargeLayer = document.getElementById('toggleEVCharge')
     let toggleMotorcycleLayer = document.getElementById('toggleMotorcycle')
     let toggleBusLargeVehicleLayer = document.getElementById('toggleBusLargeVehicle')
     let toggleResidentialLayer = document.getElementById('toggleResidential')
     let toggleLoadingUnloadingLayer = document.getElementById('toggleLoadingUnloading')
 
-    // *****create on off functions **********************************************************
+    // ***** Toggle display of parking assets **********************************************************
+
     // function to toggle specific types of parking asset on or off
     function toggleLayer(theLayer) {
       if (theLayer.checked === false) {
@@ -233,8 +234,10 @@ async function initMap() {
         polygonLayer.setVisible(true)
       }
     }
+
+    //Toggle specific types of parking asset
     function toggleHandicap() {
-      if (name === 'Handicapped') {
+      if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
       }
@@ -326,15 +329,15 @@ async function initMap() {
       toggleSmartMeters()
       console.log(toggleSmartMetersLayer)
     });
-     toggleBlueTopLayer.addEventListener('click', function () {
+     toggleBlueTopMetersLayer.addEventListener('click', function () {
       toggleBlueTopMeters()
       console.log(toggleBlueTopMetersLayer)
     });
-      toggleBrownTopLayer.addEventListener('click', function () {
+      toggleBrownTopMetersLayer.addEventListener('click', function () {
       toggleBrownTopMeters()
       console.log(toggleBrownTopMetersLayer)
     });
-     toggleYellowTopLayer.addEventListener('click', function () {
+     toggleYellowTopMetersLayer.addEventListener('click', function () {
       toggleYellowTopMeters()
       console.log(toggleYellowTopMetersLayer)
     }); 
