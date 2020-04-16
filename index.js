@@ -70,7 +70,7 @@ async function initMap() {
   }
 
   // some controls disabled
-  const map = new google.maps.Map(document.getElementById('map'), {
+  let map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
     zoom: 15.3,
     fullscreenControl: false,
@@ -590,7 +590,7 @@ async function initMap() {
   });
 
   autocomplete.addListener('place_changed', function () {
-    infowindow.close();
+    addressinfowindow.close();
     marker.setVisible(false);
     var place = autocomplete.getPlace();
     if (!place.geometry) {
@@ -687,4 +687,25 @@ window.onclick = function (event) {
   }
 }
   // *************************************************************************************
+// Get the modal
+var disclaimerModal = document.getElementById("disclaimerModal");
 
+
+// Get the <span> element that closes the modal
+var disclaimerSpan = document.getElementsByClassName("disclaimer-close")[0];
+
+// When the user clicks the button, open the modal 
+
+  disclaimerModal.style.display = "block";
+
+// When the user clicks on <span> (x), close the modal
+disclaimerSpan.onclick = function() {
+  disclaimerModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == disclaimerModal) {
+    disclaimerModal.style.display = "none";
+  }
+}
