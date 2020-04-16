@@ -315,51 +315,51 @@ async function initMap() {
     });
     toggleMunicipalGaragesLayer.addEventListener('click', function () {
       toggleMunicipalGarages()
-      console.log(toggleMunicipalGaragesLayer)
+      
     });
     togglePrivateGaragesLayer.addEventListener('click', function () {
       togglePrivateGarages()
-      console.log(togglePrivateGaragesLayer)
+      
     });
     togglePrivateGaragesLayer.addEventListener('click', function () {
       togglePrivateGarages()
-      console.log(togglePrivateGaragesLayer)
+     
     });
     toggleSmartMetersLayer.addEventListener('click', function () {
       toggleSmartMeters()
-      console.log(toggleSmartMetersLayer)
+     
     });
      toggleBlueTopMetersLayer.addEventListener('click', function () {
       toggleBlueTopMeters()
-      console.log(toggleBlueTopMetersLayer)
+     
     });
       toggleBrownTopMetersLayer.addEventListener('click', function () {
       toggleBrownTopMeters()
-      console.log(toggleBrownTopMetersLayer)
+      
     });
      toggleYellowTopMetersLayer.addEventListener('click', function () {
       toggleYellowTopMeters()
-      console.log(toggleYellowTopMetersLayer)
+      
     }); 
      toggleEVChargeLayer.addEventListener('click', function () {
       toggleEVCharge()
-      console.log(toggleEVChargeLayer)
+      
     });
      toggleMotorcycleLayer.addEventListener('click', function () {
       toggleMotorcycle()
-      console.log(toggleMotorcycleLayer)
+      
     }); 
      toggleBusLargeVehicleLayer.addEventListener('click', function () {
       toggleBusLargeVehicle()
-      console.log(toggleBusLargeVehicleLayer)
+    
     });
      toggleResidentialLayer.addEventListener('click', function () {
       toggleResidential()
-      console.log(toggleResidentialLayer)
+     
     });
      toggleLoadingUnloadingLayer.addEventListener('click', function () {
       toggleLoadingUnloading()
-      console.log(toggleLoadingUnloadingLayer)
+     
     });
 
 
