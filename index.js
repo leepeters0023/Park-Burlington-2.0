@@ -66,27 +66,26 @@ function errData(data) {
 
 async function initMap() {
 
-
+  
 
   //Define lat lng location of the center of downtown Burlington
   const burlingtonCenter = { lat: 44.478081, lng: -73.215 }
-
+  
   //Define a 1.5 mile (2414.02 meter) circle around downtown Burlington
   const circle = new google.maps.Circle(
     { center: burlingtonCenter, radius: 2414.02 });
 
   //Define max lat lng view limits of the map
   const viewLimit = {
-    north: 44.527929,
-    south: 44.424518,
-    west: -73.269027,
-    east: -73.151240,
+    north: 47,
+    south: 41,
+    west: -77.269027,
+    east: -69.151240,
   }
 
   //call database query and bring into initmap function
 
-  let myInfo = await makeQuery()
-  console.log({ myInfo });
+  
 
   // some controls disabled
   let map = new google.maps.Map(document.getElementById('map'), {
@@ -154,7 +153,8 @@ async function initMap() {
     ]
 
   });
-
+  let myInfo = await makeQuery()
+  console.log({ myInfo });
   myInfo.forEach((item) => {
 
     let path = item.coordinates.split('0,')
@@ -554,6 +554,7 @@ async function initMap() {
     infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
   });
+  
 }
 
 //******* Modal window for Filters ************************************************************* */
