@@ -725,25 +725,16 @@ window.onclick = function (event) {
   }
 }
   // *************************************************************************************
+// Disclaimer modal
+
 // Get the modal
 var disclaimerModal = document.getElementById("disclaimerModal");
 
 
 // Get the <span> element that closes the modal
-var disclaimerSpan = document.getElementsByClassName("disclaimer-close")[0];
-
-// When the user clicks the button, open the modal 
-
-  disclaimerModal.style.display = "block";
+var disclaimerSpan = document.getElementsByClassName("disclaimer-accept")[0];
 
 // When the user clicks on <span> (x), close the modal
 disclaimerSpan.onclick = function() {
   disclaimerModal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == disclaimerModal) {
-    disclaimerModal.style.display = "none";
-  }
 }
