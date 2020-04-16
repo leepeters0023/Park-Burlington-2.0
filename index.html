@@ -12,75 +12,92 @@
   <div id='header'>
     <img id="logo" src="images/logo-secondary.png"></img>
     <img id="logo-text" src="images/logo-text.png"></img>
-    
-    
+
+
   </div>
 
   <div class="pac-card" id="pac-card">
     <input id="pac-input" type="text" placeholder="Destination">
   </div>
   <div id="map-and-controls-container">
-  <div id="map">
+    <div id="map"></div>
     
-  </div>
-  <div id = ui-container>
-  <div id="filter-ui">
-    <label class="filter-ui-label">
-      <button id='toggleHandicapOnly' class="filter-ui-button">Off-Street Only</button>
-    </label>
+    <div id=ui-container>
+      <div id="filter-ui">
+        <label class="filter-ui-label">
+          <button id='toggleHandicapOnly' class="filter-ui-button">Off-Street Only</button>
+        </label>
 
-    <label class="filter-ui-label">
-      <button id="toggleShowAll" class="filter-ui-button">Show All</button>
-    </label>
-    <!-- Trigger/Open The Modal -->
-    <label class="filter-ui-label">
-      <button id="toggleFilters" class="filter-ui-button">Filters</button>
-    </label>
-
+        <label class="filter-ui-label">
+          <button id="toggleShowAll" class="filter-ui-button">Show All</button>
+        </label>
+        <!-- Trigger/Open The Modal -->
+        <label class="filter-ui-label">
+          <button id="toggleFilters" class="filter-ui-button">Filters</button>
+        </label>
 
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
 
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <label>
-          <input type='checkbox' checked='true' id='toggleHandicap'>Handicap</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleMunicipleGarages'>Municiple Garages</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleCoinOpMeters'>Coin Only Meters</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleEVCharge'>EV Charge Stations</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleResidential'>Residential</input>
-        </label>
-        <label>
-          <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading</input>
-        </label>
-        <label>
-          <button id="toggleLoadingUnloadingOnly">Show Loading/Unloading Only</button>
-        </label>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleHandicap'>Handicap<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleMunicipalGarages'>Municipal Garages<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleBlueTopMeters'>Blue Top Meters<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleBrownTopMeters'>Brown Top Meters<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleYellowTopMeters'>Yellow Top Meters<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleEVCharge'>EV Charge Stations<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleResidential'>Residential<span
+                class="slider round"></span></input>
+            </label>
+            <label class="switch">
+              <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading<span
+                class="slider round"></span></input>
+            </label>
+            <label>
+              <button id="toggleLoadingUnloadingOnly">Show Loading/Unloading Only</button>
+            </label>
+          </div>
         </div>
       </div>
-     </div>
     </div>
   </div>
   <div id="infowindow-content">
