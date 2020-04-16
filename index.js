@@ -612,35 +612,7 @@ async function initMap() {
     marker.setPosition(place.geometry.location);
     
     marker.setVisible(true);
-//*********************************************************************************** */
 
-
-
-        var icons = {
-          parking: {
-            icon: 'images/icons8-marker-32.png'
-          }
-        };
-
-        var features = 
-          {
-            position: new google.maps.LatLng(-73.2171908, 44.4763264),
-            type: 'parking'
-          }
-      
-
-        // // Create markers.
-      
-        //   var marker = new google.maps.Marker({
-        //     position: features.position,
-        //     icon: icons.parking.icon,
-        //     map: map
-        //   });
-       
-      
-
-
-//************************************************************************************** */
     var address = '';
     if (place.address_components) {
       address = [
@@ -655,6 +627,36 @@ async function initMap() {
     infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
   });
+//*********************************************************************************** */
+
+
+
+        // var icons = {
+        //   parking: {
+        //     icon: 'images/icons8-marker-32.png'
+        //   }
+        // };
+
+        // var features = 
+        //   {
+        //     position: new google.maps.LatLng(-73.2171908, 44.4763264),
+        //     type: 'parking'
+        //   }
+      
+
+        // // Create markers.
+      
+        //   var marker = new google.maps.Marker({
+        //     position: features.position,
+        //     icon: icons.parking.icon,
+        //     map: map
+        //   });
+       
+      
+
+
+//************************************************************************************** */
+    
 
 }
 
