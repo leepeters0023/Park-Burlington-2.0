@@ -71,7 +71,7 @@ async function initMap() {
   //Define lat lng location of the center of downtown Burlington
   const burlingtonCenter = { lat: 44.478081, lng: -73.215 }
 
-  //Define a 1.5 mile (2414.02) circle around downtown Burlington
+  //Define a 1.5 mile (2414.02 meter) circle around downtown Burlington
   const circle = new google.maps.Circle(
     { center: burlingtonCenter, radius: 2414.02 });
 
@@ -554,71 +554,7 @@ async function initMap() {
     infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
   });
-//*********************************************************************************** */
-
-
-
-        // var icons = {
-        //   parking: {
-        //     icon: 'images/icons8-marker-32.png'
-        //   }
-        // };
-
-        // var features = 
-        //   {
-        //     position: new google.maps.LatLng(-73.2171908, 44.4763264),
-        //     type: 'parking'
-        //   }
-      
-
-        // // Create markers.
-      
-        //   var marker = new google.maps.Marker({
-        //     position: features.position,
-        //     icon: icons.parking.icon,
-        //     map: map
-        //   });
-       
-      
-
-
-//************************************************************************************** */
-    
-
-  //Get browser location
-  let infoWindow = new google.maps.InfoWindow;
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function (position) {
-      var pos = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-      };
-
-      infoWindow.setPosition(pos);
-      infoWindow.setContent('Location found.');
-      infoWindow.open(map);
-      map.setCenter(pos);
-    }, function () {
-      handleLocationError(true, infoWindow, map.getCenter());
-    });
-  } else {
-    // Browser doesn't support Geolocation
-    handleLocationError(false, infoWindow, map.getCenter());
-  }
 }
-
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-  infoWindow.setPosition(pos);
-  infoWindow.setContent(browserHasGeolocation ?
-    'Error: The Geolocation service failed.' :
-    'Error: Your browser doesn\'t support geolocation.');
-  infoWindow.open(map);
-
-}
-
-
-//************************************************************************************** */
-
 
 //******* Modal window for Filters ************************************************************* */
 // Get the modal
