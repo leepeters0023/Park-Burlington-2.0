@@ -23,15 +23,31 @@ fetch("./BurlingtonParkingMap.geojson")
     
 
     for ( let i = 0; i<248; i++){
-      let usersRef =ref.child(7);
-      usersRef.update({center: "NEED", address: "601 Lake Street", 
-      enforcedHours:"24/7" , maxTime:"9", navigationURL: "NEED", 
-      ownership: "municipal", paymentType: "Cash, Credit Card, ParkMobile App" ,
-      rate: "$1/Hr", type: "Lot" })
       
-      process.exit()
+      
+      // let usersRef =ref.child(32);
+      // usersRef.update({center: "NEED", address: "2 Burlington Square", 
+      // enforcedHours:"5pm-2am" , maxTime:"N/A", navigationURL: "NEED", 
+      // ownership: "private", paymentType: "Cash, Credit Card" ,
+      // rate: "$4/Hr", type: "Lot" }) 
       
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // for (let i = 5; i < 248 ; i++) {
     //   let desc = data.features[i].properties.description
     //   let firstChar = desc.charAt(0)
