@@ -23,7 +23,7 @@ fetch("./BurlingtonParkingMap.geojson")
     
 
     for ( let i = 0; i<248; i++){
-      let usersRef =ref.child(7);
+      // let usersRef =ref.child(7);
       usersRef.update({center: "NEED", address: "601 Lake Street", 
       enforcedHours:"24/7" , maxTime:"9", navigationURL: "NEED", 
       ownership: "municipal", paymentType: "Cash, Credit Card, ParkMobile App" ,
