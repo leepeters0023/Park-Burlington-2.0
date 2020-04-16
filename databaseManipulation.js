@@ -22,13 +22,63 @@ fetch("./BurlingtonParkingMap.geojson")
   .then((data) => {
     
 
-    for ( let i = 33; i<248; i++){
+    for ( let i = 0; i<=12; i++){
       
       
-      // let usersRef =ref.child(i);
+       //let usersRef =ref.child(2);
       // usersRef.update({ 
-      // ownership: ""}) 
-      
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Parking%2C%20147%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(3);
+      // usersRef.update({ 
+      // navigationURL: " https://www.google.com/maps/dir/?api=1&destination=44.474686%2C%20-73.213503"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(4);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=City%20Park%20Burlington%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(5);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=44.477999%2C%20-73.209363"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(6);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Lakeview%20Garage%20(Cherry%20St)%2C%2045%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(7);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Lakeview%20Garage%20(Cherry%20St)%2C%2045%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(8);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Lakeview%20Garage%20(Cherry%20St)%2C%2045%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(9);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Lakeview%20Garage%20(Cherry%20St)%2C%2045%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(10);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Lakeview%20Garage%20(Cherry%20St)%2C%2045%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(2);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Lakeview%20Garage%20(Cherry%20St)%2C%2045%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
+
+       //let usersRef =ref.child(2);
+      // usersRef.update({ 
+      // navigationURL: "https://www.google.com/maps/dir/?api=1&destination=Lakeview%20Garage%20(Cherry%20St)%2C%2045%20Cherry%20St%2C%20Burlington%2C%20VT%2005401"}) 
+      // console.log('added' )
     }
 
 
