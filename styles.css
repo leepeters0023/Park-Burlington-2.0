@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #20346a;
+  background-color: #20346a
 }
 
 /* Header styles */
@@ -211,15 +211,19 @@ width: 90vw;
 }
 
 /* The Close Button */
-.disclaimer-close {
-  color: white;
-  float: right;
-  font-size: 28px;
+.disclaimer-accept {
+  width: 100px;
+  padding:5px 0;
+  background-color: #20346a25;
+  font-size: 20px;
   font-weight: bold;
+  z-index: 2;
+  border-radius: 3px;
+  border: solid 1px gray;
 }
 
-.disclaimer-close:hover,
-.disclaimer-close:focus {
+.disclaimer-accept:hover,
+.disclaimer-accept:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -240,5 +244,9 @@ width: 90vw;
   line-height: 2.2rem;
   letter-spacing: .03rem;
   border-radius: 0 0 5px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
