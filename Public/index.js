@@ -64,7 +64,7 @@ async function initMap() {
     east: -69.151240,
   }
 
-  
+
   // some controls disabled
   let map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
@@ -135,13 +135,14 @@ async function initMap() {
   // call database query and bring into initmap function
   let myInfo = await makeQuery()
   console.log({ myInfo });
-  
+
   myInfo.forEach((item) => {
     let path = item.coordinates.split(',0,')
     let stroke = item.stroke
     let strokeOpacity = item.strokeopacity
     let fill = item.fill
     let fillOpacity = item.fillOpacity
+    let icon = item.icon
     let name = item.name
     let latitude = item.latitude
     let longitude = item.longitude
@@ -152,15 +153,14 @@ async function initMap() {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
     })
-  
+
     //Adds charging station icons
     let image = './images/electric_vehicle.png'
-    let marker = new google.maps.Marker({
+    let markerLayer = new google.maps.Marker({
       position: { lat: latitude, lng: longitude },
       icon: image,
-      map: map
     });
-    
+
     let polygonLayer = new google.maps.Polygon({
       paths: newPath,
       strokeColor: stroke,
@@ -170,7 +170,7 @@ async function initMap() {
     });
 
     polygonLayer.setMap(map);
-
+    markerLayer.setMap(map);
 
 
     let infowindow = new google.maps.InfoWindow({
@@ -268,9 +268,12 @@ async function initMap() {
       }
     }
     function toggleEVCharge() {
-      if (name === 'Charging Station') {
-        let theLayer = toggleEVChargeLayer
-        toggleLayer(theLayer)
+      if (geometry === 'Point') {
+        if (toggleEVChargeLayer.checked === false) {
+          markerLayer.setMap()
+        } else if (toggleEVChargeLayer.checked === true) {
+          markerLayer.setMap(map)
+        }
       }
     }
     function toggleMotorcycle() {
@@ -304,57 +307,36 @@ async function initMap() {
     });
     toggleMunicipalGaragesLayer.addEventListener('click', function () {
       toggleMunicipalGarages()
-      
     });
     togglePrivateGaragesLayer.addEventListener('click', function () {
       togglePrivateGarages()
-      
-    });
-    togglePrivateGaragesLayer.addEventListener('click', function () {
-      togglePrivateGarages()
-     
     });
     toggleSmartMetersLayer.addEventListener('click', function () {
       toggleSmartMeters()
-     
     });
     toggleBlueTopMetersLayer.addEventListener('click', function () {
       toggleBlueTopMeters()
-     
     });
     toggleBrownTopMetersLayer.addEventListener('click', function () {
       toggleBrownTopMeters()
-      
     });
     toggleYellowTopMetersLayer.addEventListener('click', function () {
       toggleYellowTopMeters()
-      console.log(toggleYellowTopMetersLayer)
     });
     toggleEVChargeLayer.addEventListener('click', function () {
-      
-    }); 
-     toggleEVChargeLayer.addEventListener('click', function () {
       toggleEVCharge()
-      
     });
     toggleMotorcycleLayer.addEventListener('click', function () {
       toggleMotorcycle()
-      console.log(toggleMotorcycleLayer)
     });
     toggleBusLargeVehicleLayer.addEventListener('click', function () {
-      
-    }); 
-     toggleBusLargeVehicleLayer.addEventListener('click', function () {
       toggleBusLargeVehicle()
-    
     });
     toggleResidentialLayer.addEventListener('click', function () {
       toggleResidential()
-     
     });
     toggleLoadingUnloadingLayer.addEventListener('click', function () {
       toggleLoadingUnloading()
-     
     });
 
 
