@@ -190,6 +190,18 @@ async function initMap() {
       { passive: true }
     });
 
+    markerLayer.addListener('click', function (event) {
+      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+      infowindow.setContent(html)
+      console.log(description)
+
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+      { passive: true }
+    });
 
 
 
