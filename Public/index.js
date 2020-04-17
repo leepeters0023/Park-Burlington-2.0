@@ -64,10 +64,7 @@ async function initMap() {
     east: -69.151240,
   }
 
-  //call database query and bring into initmap function
-
-
-
+  
   // some controls disabled
   let map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
@@ -134,8 +131,11 @@ async function initMap() {
     ]
 
   });
+
+  // call database query and bring into initmap function
   let myInfo = await makeQuery()
   console.log({ myInfo });
+  
   myInfo.forEach((item) => {
     let path = item.coordinates.split(',0,')
     let stroke = item.stroke
