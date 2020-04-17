@@ -15,7 +15,6 @@ firebase.initializeApp(config)
 const database = firebase.database()
 const ref = database.ref()
 
-//ref.on('value', gotData, errData)
 
 async function makeQuery() {
 
@@ -36,41 +35,23 @@ async function makeQuery() {
   return myVar
 }
 
-//let myinfo = makeQuery
 
-
-//Accesses the information from firebase
-//and lists it in key order by name, descrip and coords
-function gotData(data) {
-  console.log(data.val())
-  let info = data.val()
-  let keys = Object.keys(info)
-  console.log(keys)
-  for (let i = 0; i < keys.length; i++) {
-    let k = keys[i]
-    let name = info[k].name
-    let coords = info[k].coordinates
-    let descrip = info[k].description
-    let payment = info[k].payment
-    console.log(name, coords, descrip, payment)
-
-  }
-
-}
+//Error Handling Function-----
 
 function errData(data) {
   console.log('Error!')
   console.log(err)
 }
+
 //------------------------------------------------------------
 
 async function initMap() {
 
-  
+
 
   //Define lat lng location of the center of downtown Burlington
   const burlingtonCenter = { lat: 44.478081, lng: -73.215 }
-  
+
   //Define a 1.5 mile (2414.02 meter) circle around downtown Burlington
   const circle = new google.maps.Circle(
     { center: burlingtonCenter, radius: 2414.02 });
@@ -83,9 +64,6 @@ async function initMap() {
     east: -69.151240,
   }
 
-  //call database query and bring into initmap function
-
-  
 
   // some controls disabled
   let map = new google.maps.Map(document.getElementById('map'), {
@@ -153,26 +131,36 @@ async function initMap() {
     ]
 
   });
+
+  // call database query and bring into initmap function
   let myInfo = await makeQuery()
   let activeWindow = null
   console.log({ myInfo });
-  myInfo.forEach((item) => {
 
+  myInfo.forEach((item) => {
     let path = item.coordinates.split(',0,')
     let stroke = item.stroke
-    //let strokeOpacity = item.stroke-opacity
+    let strokeOpacity = item.strokeopacity
     let fill = item.fill
     let fillOpacity = item.fillOpacity
+    let icon = item.icon
     let name = item.name
+    let latitude = item.latitude
+    let longitude = item.longitude
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
-      
     })
 
+    //Adds charging station icons
+    let image = './images/electric_vehicle.png'
+    let markerLayer = new google.maps.Marker({
+      position: { lat: latitude, lng: longitude },
+      icon: image,
+    });
 
     let polygonLayer = new google.maps.Polygon({
       paths: newPath,
@@ -180,10 +168,11 @@ async function initMap() {
       strokeWeight: 2,
       fillColor: fill,
       fillOpacity: fillOpacity,
-
     });
 
     polygonLayer.setMap(map);
+    markerLayer.setMap(map);
+
 
     let infowindow = new google.maps.InfoWindow({
       content: ""
@@ -210,7 +199,22 @@ async function initMap() {
     
    
 
-    
+    markerLayer.addListener('click', function (event) {
+      if(activeWindow != null){
+        activeWindow.close()}
+      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+      infowindow.setContent(html)
+      console.log(description)
+
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+      { passive: true }
+      activeWindow = infowindow;
+    });
+
 
 
     // ******controls and filters*****************************************************************************************************
@@ -288,9 +292,12 @@ async function initMap() {
       }
     }
     function toggleEVCharge() {
-      if (name === 'Charging Station') {
-        let theLayer = toggleEVChargeLayer
-        toggleLayer(theLayer)
+      if (geometry === 'Point') {
+        if (toggleEVChargeLayer.checked === false) {
+          markerLayer.setMap()
+        } else if (toggleEVChargeLayer.checked === true) {
+          markerLayer.setMap(map)
+        }
       }
     }
     function toggleMotorcycle() {
@@ -324,51 +331,36 @@ async function initMap() {
     });
     toggleMunicipalGaragesLayer.addEventListener('click', function () {
       toggleMunicipalGarages()
-      
     });
     togglePrivateGaragesLayer.addEventListener('click', function () {
       togglePrivateGarages()
-      
-    });
-    togglePrivateGaragesLayer.addEventListener('click', function () {
-      togglePrivateGarages()
-     
     });
     toggleSmartMetersLayer.addEventListener('click', function () {
       toggleSmartMeters()
-     
     });
-     toggleBlueTopMetersLayer.addEventListener('click', function () {
+    toggleBlueTopMetersLayer.addEventListener('click', function () {
       toggleBlueTopMeters()
-     
     });
-      toggleBrownTopMetersLayer.addEventListener('click', function () {
+    toggleBrownTopMetersLayer.addEventListener('click', function () {
       toggleBrownTopMeters()
-      
     });
-     toggleYellowTopMetersLayer.addEventListener('click', function () {
+    toggleYellowTopMetersLayer.addEventListener('click', function () {
       toggleYellowTopMeters()
-      
-    }); 
-     toggleEVChargeLayer.addEventListener('click', function () {
+    });
+    toggleEVChargeLayer.addEventListener('click', function () {
       toggleEVCharge()
-      
     });
-     toggleMotorcycleLayer.addEventListener('click', function () {
+    toggleMotorcycleLayer.addEventListener('click', function () {
       toggleMotorcycle()
-      
-    }); 
-     toggleBusLargeVehicleLayer.addEventListener('click', function () {
+    });
+    toggleBusLargeVehicleLayer.addEventListener('click', function () {
       toggleBusLargeVehicle()
-    
     });
-     toggleResidentialLayer.addEventListener('click', function () {
+    toggleResidentialLayer.addEventListener('click', function () {
       toggleResidential()
-     
     });
-     toggleLoadingUnloadingLayer.addEventListener('click', function () {
+    toggleLoadingUnloadingLayer.addEventListener('click', function () {
       toggleLoadingUnloading()
-     
     });
 
 
@@ -563,7 +555,7 @@ async function initMap() {
     infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
   });
-  
+
 }
 
 //******* Modal window for Filters ************************************************************* */
@@ -592,7 +584,7 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 }
-  // *************************************************************************************
+// *************************************************************************************
 // Disclaimer modal
 
 // Get the modal
@@ -603,6 +595,6 @@ var disclaimerModal = document.getElementById("disclaimerModal");
 var disclaimerSpan = document.getElementsByClassName("disclaimer-accept")[0];
 
 // When the user clicks on <span> (x), close the modal
-disclaimerSpan.onclick = function() {
+disclaimerSpan.onclick = function () {
   disclaimerModal.style.display = "none";
 }
