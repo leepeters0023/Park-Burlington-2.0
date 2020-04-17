@@ -367,7 +367,6 @@ async function initMap() {
 
 
 
-
   })
 
 
@@ -388,112 +387,139 @@ async function initMap() {
   }
   startCondition()
 
-
-
-
-
-  
-
-  // set toggle function for Handicap Only button
-  toggleHandicapOnly.addEventListener('click', function () {
-    if (handicapLayerOn === 'off') {
-      document.getElementById("toggleHandicap").click();
-    };
-    if (MunicipalGaragesLayerOn === 'on') {
-      document.getElementById("toggleMunicipalGarages").click();
-    };
-    if (privateGaragesLayerOn === 'on') {
-      document.getElementById("togglePrivateGarages").click();
-    };
-    if (smartMetersLayerOn === 'off') {
-      document.getElementById("toggleSmartMeters").click();
-    };
-    if (coinOpLayerOn === 'off') {
-      document.getElementById("toggleCoinOpMeters").click();
-    };
-    if (eVChargeLayerOn === 'off') {
-      document.getElementById("toggleEVCharge").click();
-    };
-    if (motorcycleLayerOn === 'off') {
-      document.getElementById("toggleMotorcycle").click();
-    };
-    if (busLargeVehicleLayerOn === 'off') {
-      document.getElementById("toggleBusLargeVehicle").click();
-    };
-    if (residentialLayerOn === 'off') {
-      document.getElementById("toggleResidential").click();
-    };
-    if (loadingUnloadingLayerOn === 'off') {
-      document.getElementById("toggleLoadingUnloading").click();
-    };
-
-  });
-
   toggleShowAll.addEventListener('click', function () {
-    if (handicapLayerOn === 'on') {
-      document.getElementById("toggleHandicap").click();
-    };
-    if (MunicipalGaragesLayerOn === 'on') {
-      document.getElementById("toggleMunicipalGarages").click();
-    };
-    if (privateGaragesLayerOn === 'on') {
-      document.getElementById("togglePrivateGarages").click();
-    };
-    if (smartMetersLayerOn === 'on') {
-      document.getElementById("toggleSmartMeters").click();
-    };
-    if (coinOpLayerOn === 'on') {
-      document.getElementById("toggleCoinOpMeters").click();
-    };
-    if (eVChargeLayerOn === 'on') {
-      document.getElementById("toggleEVCharge").click();
-    };
-    if (motorcycleLayerOn === 'on') {
-      document.getElementById("toggleMotorcycle").click();
-    };
-    if (busLargeVehicleLayerOn === 'on') {
-      document.getElementById("toggleBusLargeVehicle").click();
-    };
-    if (residentialLayerOn === 'on') {
-      document.getElementById("toggleResidential").click();
-    };
-    if (loadingUnloadingLayerOn === 'on') {
-      document.getElementById("toggleLoadingUnloading").click();
-    };
+    if ((document.getElementById('toggleHandicap').checked) === false) {
+      document.getElementById('toggleHandicap').click();
+    }
+    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
+      document.getElementById('toggleMunicipalGarages').click();
+      console.log('it is true')
+    }
+    if ((document.getElementById('togglePrivateGarages').checked) === false) {
+      document.getElementById('togglePrivateGarages').click();
+    }
+    if ((document.getElementById('toggleSmartMeters').checked) === false) {
+      document.getElementById('toggleSmartMeters').click();
+    }
+    if ((document.getElementById('toggleBlueTopMeters').checked) === false) {
+      document.getElementById('toggleBlueTopMeters').click();
+    }
+    if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
+      document.getElementById('toggleBrownTopMeters').click();
+    }
+    if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
+      document.getElementById('toggleYellowTopMeters').click();
+    }
+    if ((document.getElementById('toggleEVCharge').checked) === false) {
+      document.getElementById('toggleEVCharge').click();
+    }
+    if ((document.getElementById('toggleMotorcycle').checked) === false) {
+      document.getElementById('toggleMotorcycle').click();
+    }
+    if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
+      document.getElementById('toggleBusLargeVehicle').click();
+    }
+    if ((document.getElementById('toggleResidential').checked) === false) {
+      document.getElementById('toggleResidential').click();
+    }
+    if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
+      document.getElementById('toggleLoadingUnloading').click();
+    }
   });
+
+  toggleOffStreetOnly.addEventListener('click', function () {
+    if ((document.getElementById('toggleHandicap').checked) === true) {
+      document.getElementById('toggleHandicap').click();
+    }
+    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
+      document.getElementById('toggleMunicipalGarages').click();
+      console.log('it is true')
+    }
+    if ((document.getElementById('togglePrivateGarages').checked) === false) {
+      document.getElementById('togglePrivateGarages').click();
+    }
+    if ((document.getElementById('toggleSmartMeters').checked) === true) {
+      document.getElementById('toggleSmartMeters').click();
+    }
+    if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
+      document.getElementById('toggleBlueTopMeters').click();
+    }
+    if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
+      document.getElementById('toggleBrownTopMeters').click();
+    }
+    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
+      document.getElementById('toggleYellowTopMeters').click();
+    }
+    if ((document.getElementById('toggleEVCharge').checked) === true) {
+      document.getElementById('toggleEVCharge').click();
+    }
+    if ((document.getElementById('toggleMotorcycle').checked) === true) {
+      document.getElementById('toggleMotorcycle').click();
+    }
+    if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
+      document.getElementById('toggleBusLargeVehicle').click();
+    }
+    if ((document.getElementById('toggleResidential').checked) === true) {
+      document.getElementById('toggleResidential').click();
+    }
+    if ((document.getElementById('toggleLoadingUnloading').checked) === true) {
+      document.getElementById('toggleLoadingUnloading').click();
+    }
+  });
+  // document.getElementById('toggleHandicap').click();
+  // document.getElementById('toggleMunicipalGarages').click();
+  // document.getElementById('togglePrivateGarages').click();
+  // document.getElementById('toggleSmartMeters').click();
+  // document.getElementById('toggleBlueTopMeters').click();
+  // document.getElementById('toggleBrownTopMeters').click();
+  // document.getElementById('toggleYellowTopMeters').click();
+  // document.getElementById('toggleEVCharge').click();
+  // document.getElementById('toggleMotorcycle').click();
+  // document.getElementById('toggleBusLargeVehicle').click();
+  // document.getElementById('toggleResidential').click();
+  // document.getElementById('toggleLoadingUnloading').click();
+
+
 
   // set toggle function for Show Loading/Unloading Only button
   toggleLoadingUnloadingOnly.addEventListener('click', function () {
-    if (handicapLayerOn === 'off') {
-      document.getElementById("toggleHandicap").click();
-    };
-    if (MunicipalGaragesLayerOn === 'off') {
-      document.getElementById("toggleMunicipalGarages").click();
-    };
-    if (privateGaragesLayerOn === 'off') {
-      document.getElementById("togglePrivateGarages").click();
-    };
-    if (smartMetersLayerOn === 'off') {
-      document.getElementById("toggleSmartMeters").click();
-    };
-    if (coinOpLayerOn === 'off') {
-      document.getElementById("toggleCoinOpMeters").click();
-    };
-    if (eVChargeLayerOn === 'off') {
-      document.getElementById("toggleEVCharge").click();
-    };
-    if (motorcycleLayerOn === 'off') {
-      document.getElementById("toggleMotorcycle").click();
-    };
-    if (busLargeVehicleLayerOn === 'off') {
-      document.getElementById("toggleBusLargeVehicle").click();
-    };
-    if (residentialLayerOn === 'off') {
-      document.getElementById("toggleResidential").click();
-    };
-    if (loadingUnloadingLayerOn === 'on') {
-      document.getElementById("toggleLoadingUnloading").click();
-    };
+    if ((document.getElementById('toggleHandicap').checked) === true) {
+      document.getElementById('toggleHandicap').click();
+    }
+    if ((document.getElementById('toggleMunicipalGarages').checked) === true) {
+      document.getElementById('toggleMunicipalGarages').click();
+      console.log('it is true')
+    }
+    if ((document.getElementById('togglePrivateGarages').checked) === true) {
+      document.getElementById('togglePrivateGarages').click();
+    }
+    if ((document.getElementById('toggleSmartMeters').checked) === true) {
+      document.getElementById('toggleSmartMeters').click();
+    }
+    if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
+      document.getElementById('toggleBlueTopMeters').click();
+    }
+    if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
+      document.getElementById('toggleBrownTopMeters').click();
+    }
+    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
+      document.getElementById('toggleYellowTopMeters').click();
+    }
+    if ((document.getElementById('toggleEVCharge').checked) === true) {
+      document.getElementById('toggleEVCharge').click();
+    }
+    if ((document.getElementById('toggleMotorcycle').checked) === true) {
+      document.getElementById('toggleMotorcycle').click();
+    }
+    if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
+      document.getElementById('toggleBusLargeVehicle').click();
+    }
+    if ((document.getElementById('toggleResidential').checked) === true) {
+      document.getElementById('toggleResidential').click();
+    }
+    if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
+      document.getElementById('toggleLoadingUnloading').click();
+    }
 
   });
 
