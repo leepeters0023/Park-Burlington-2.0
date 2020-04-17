@@ -178,11 +178,12 @@ async function initMap() {
       content: ""
     });
 
-    
+
 
     polygonLayer.addListener('click', function (event) {
-      if(activeWindow != null){
-        activeWindow.close()}
+      if (activeWindow != null) {
+        activeWindow.close()
+      }
       let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
       infowindow.setContent(html)
 
@@ -194,14 +195,15 @@ async function initMap() {
       { passive: true }
       activeWindow = infowindow;
     });
-    
-    
-    
-   
+
+
+
+
 
     markerLayer.addListener('click', function (event) {
-      if(activeWindow != null){
-        activeWindow.close()}
+      if (activeWindow != null) {
+        activeWindow.close()
+      }
       let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
       infowindow.setContent(html)
       console.log(description)
@@ -371,10 +373,26 @@ async function initMap() {
 
   //turn off residential and loading/unloading to start
   function startCondition() {
-    document.getElementById("toggleResidential").click();
-    document.getElementById("toggleLoadingUnloading").click();
+    document.getElementById('toggleHandicap').click();
+    // document.getElementById('toggleMunicipalGarages').click();
+    // document.getElementById('togglePrivateGarages').click();
+    document.getElementById('toggleSmartMeters').click();
+    document.getElementById('toggleBlueTopMeters').click();
+    document.getElementById('toggleBrownTopMeters').click();
+    document.getElementById('toggleYellowTopMeters').click();
+    document.getElementById('toggleEVCharge').click();
+    document.getElementById('toggleMotorcycle').click();
+    document.getElementById('toggleBusLargeVehicle').click();
+    document.getElementById('toggleResidential').click();
+    document.getElementById('toggleLoadingUnloading').click();
   }
-  //startCondition()
+  startCondition()
+
+
+
+
+
+  
 
   // set toggle function for Handicap Only button
   toggleHandicapOnly.addEventListener('click', function () {
