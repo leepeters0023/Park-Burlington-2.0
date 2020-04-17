@@ -466,20 +466,6 @@ async function initMap() {
       document.getElementById('toggleLoadingUnloading').click();
     }
   });
-  // document.getElementById('toggleHandicap').click();
-  // document.getElementById('toggleMunicipalGarages').click();
-  // document.getElementById('togglePrivateGarages').click();
-  // document.getElementById('toggleSmartMeters').click();
-  // document.getElementById('toggleBlueTopMeters').click();
-  // document.getElementById('toggleBrownTopMeters').click();
-  // document.getElementById('toggleYellowTopMeters').click();
-  // document.getElementById('toggleEVCharge').click();
-  // document.getElementById('toggleMotorcycle').click();
-  // document.getElementById('toggleBusLargeVehicle').click();
-  // document.getElementById('toggleResidential').click();
-  // document.getElementById('toggleLoadingUnloading').click();
-
-
 
   // set toggle function for Show Loading/Unloading Only button
   toggleLoadingUnloadingOnly.addEventListener('click', function () {
