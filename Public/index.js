@@ -526,34 +526,37 @@ async function initMap() {
     infowindow.open(map);
   });
 
+
+  // *************************************************************************************
   //Get searchbox element and fix it to top left of screen
-  var card = document.getElementById('pac-card');
-  var input = document.getElementById('pac-input');
+  let card = document.getElementById('pac-card');
+  let input = document.getElementById('pac-input');
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
   //Initialize autocomplete function in the searchbar
-  var autocomplete = new google.maps.places.Autocomplete(input);
+  let autocomplete = new google.maps.places.Autocomplete(input);
 
   // Limit autocomplete results to within a 2 mile (3218.688 meter) circle of downtown Burlington.
   autocomplete.setBounds(circle.getBounds());
   autocomplete.setOptions({ strictBounds: true });
-
+  
   // Set the data fields to return when the user selects a place.
   autocomplete.setFields(
     ['address_components', 'geometry', 'icon', 'name']);
-
-  var addressinfowindow = new google.maps.InfoWindow();
-  var infowindowContent = document.getElementById('infowindow-content');
+  let addressinfowindow = new google.maps.InfoWindow();
+  let infowindowContent = document.getElementById('infowindow-content');
   addressinfowindow.setContent(infowindowContent);
-  var marker = new google.maps.Marker({
+  let marker = new google.maps.Marker({
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
+    
+
   });
 
   autocomplete.addListener('place_changed', function () {
     addressinfowindow.close();
     marker.setVisible(false);
-    var place = autocomplete.getPlace();
+    let place = autocomplete.getPlace();
     if (!place.geometry) {
       // User entered the name of a Place that was not suggested and
       // pressed the Enter key, or the Place Details request failed.
@@ -564,14 +567,19 @@ async function initMap() {
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
+      map.setZoom(18);  //about 1 block
+      console.log(place.geometry.viewport)
+      console.log('set zoom 18')
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
+      console.log('set zoom 17')
     }
+    
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
 
-    var address = '';
+    let address = '';
     if (place.address_components) {
       address = [
         (place.address_components[0] && place.address_components[0].short_name || ''),
