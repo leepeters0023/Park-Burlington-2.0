@@ -154,6 +154,7 @@ async function initMap() {
 
   });
   let myInfo = await makeQuery()
+  let activeWindow = null
   console.log({ myInfo });
   myInfo.forEach((item) => {
 
@@ -188,10 +189,13 @@ async function initMap() {
       content: ""
     });
 
+    
+
     polygonLayer.addListener('click', function (event) {
+      if(activeWindow != null){
+        activeWindow.close()}
       let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
       infowindow.setContent(html)
-      console.log(description)
 
       infowindow.setPosition(event.latLng);
       infowindow.setOptions({
@@ -199,9 +203,14 @@ async function initMap() {
       }); // move the infowindow up slightly to the top of the marker icon
       infowindow.open(map);
       { passive: true }
+      activeWindow = infowindow;
     });
+    
+    
+    
+   
 
-
+    
 
 
     // ******controls and filters*****************************************************************************************************

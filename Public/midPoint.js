@@ -1,4 +1,4 @@
-var midPoint = function({latitude1, longitude1}, {latitude2, longitude2}) {
+function midPoint({latitude1, longitude1}, {latitude2, longitude2}) {
     var DEG_TO_RAD = Math.PI / 180;     // To convert degrees to radians.
   
     // Convert latitude and longitudes to radians:
@@ -17,3 +17,5 @@ var midPoint = function({latitude1, longitude1}, {latitude2, longitude2}) {
   
     return new google.maps.LatLng(lat / DEG_TO_RAD, lng / DEG_TO_RAD);
   };
+
+  
