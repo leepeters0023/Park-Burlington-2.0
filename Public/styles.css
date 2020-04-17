@@ -3,12 +3,13 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #20346a
+  background-color: #20346a;
+  font-family: Roboto, sans-serif;
 }
 
 /* Header styles */
 #header {
-  height: 8vh;
+  height: 60px;
   background-color: #20346a;
   display: flex;
   align-items: center;
@@ -26,7 +27,7 @@ html, body {
 
 /* Map container */
 #map {
-  height: 84vh;
+  height: calc(92vh - 60px);
 }
 
 /* Info window */
@@ -184,7 +185,7 @@ width: 90vw;
 /* Modal Content */
 .disclaimer-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #20346a;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -212,10 +213,10 @@ width: 90vw;
 
 /* The Close Button */
 .disclaimer-accept {
-  width: 100px;
+  width: 80px;
   padding:5px 0;
   background-color: #20346a25;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   z-index: 2;
   border-radius: 3px;
@@ -237,6 +238,10 @@ width: 90vw;
   text-align: center;
 }
 
+h2 {
+  margin: 10px 0;
+}
+
 .disclaimer-body {
   padding: 1% 10% 5% 10%;
   font-size: .8rem;
@@ -247,7 +252,7 @@ width: 90vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  background-color: #fefefe;
 }
 
 
