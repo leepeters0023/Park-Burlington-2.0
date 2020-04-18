@@ -367,13 +367,13 @@ async function initMap() {
       toggleLoadingUnloading()
     });
 
-    let centerArray = center.split(",")
-    let iconAnchor = {lat: Number(centerArray[0]), lng: Number(centerArray[1])}
-    console.log(iconAnchor)
-    if(iconAnchor.lat){
+    
+    
+   
+    if(center.lat){
     let priceIcon = new google.maps.InfoWindow({
       content: rate,
-      position: iconAnchor,
+      position: center,
 
     })
     priceIcon.open(map)}
