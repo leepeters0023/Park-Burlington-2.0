@@ -157,6 +157,14 @@ async function initMap() {
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
     })
 
+    if(center.lat){
+      let priceIcon = new google.maps.InfoWindow({
+        content: rate,
+        position: center,
+        zIndex: -10000,
+      })
+      priceIcon.open(map)}
+  
     //Adds charging station icons
     let image = './images/electric_vehicle.png'
     let markerLayer = new google.maps.Marker({
@@ -370,15 +378,7 @@ async function initMap() {
     
     
    
-    if(center.lat){
-    let priceIcon = new google.maps.InfoWindow({
-      content: rate,
-      position: center,
-
-    })
-    priceIcon.open(map)}
-
-
+  
   })
 
 
