@@ -184,6 +184,11 @@ async function initMap() {
     let priceIcon = new google.maps.InfoWindow({
       content: rate,
       position: center,
+      strokeColor: '#20346a',
+      strokeOpacity: 0.0,
+      strokeWeight: 0,
+      fillOpacity: 0.0,
+      
     })
 
     polygonLayer.addListener('click', function (event) {
@@ -264,7 +269,7 @@ async function initMap() {
       }
     }
 
-    //Toggle specific types of parking asset plus 
+    //Toggle specific types of parking asset plus small icons 
     function toggleHandicap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
@@ -618,7 +623,7 @@ autocomplete.addListener('place_changed', function () {
   // If the place has a geometry, then present it on a map.
   if (place.geometry.viewport) {
     map.fitBounds(place.geometry.viewport);
-    map.setZoom(18.2);  //about 1 block
+    map.setZoom(18.0);  //about 1 block
     toggleZoomFeaturesOn()
     let walkCircle = new google.maps.Circle({
       strokeColor: '#20346a',
@@ -627,7 +632,7 @@ autocomplete.addListener('place_changed', function () {
       fillOpacity: 0.0,
       map: map,
       center: map.center,
-      radius: 83
+      radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
     })
   } else {
     map.setCenter(place.geometry.location);
