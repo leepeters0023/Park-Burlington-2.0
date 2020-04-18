@@ -246,7 +246,7 @@ async function initMap() {
     let toggleLoadingUnloadingLayer = document.getElementById('toggleLoadingUnloading')
 
     // ***** Toggle display of parking assets **********************************************************
-
+    // toggle small icons on or off
     function showSmallIcons(theLayer) {
       if (theLayer.checked === false) {
         priceIcon.open()
@@ -254,7 +254,6 @@ async function initMap() {
         priceIcon.open(map)
       }
     }
-
 
     // function to toggle specific types of parking asset on or off
     function toggleLayer(theLayer) {
@@ -265,7 +264,7 @@ async function initMap() {
       }
     }
 
-    //Toggle specific types of parking asset
+    //Toggle specific types of parking asset plus 
     function toggleHandicap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
@@ -273,6 +272,7 @@ async function initMap() {
         if (map.zoom > 17.9) {
           showSmallIcons(theLayer)
         }
+        if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleMunicipalGarages() {
@@ -282,6 +282,7 @@ async function initMap() {
         if (map.zoom > 17.9) {
           showSmallIcons(theLayer)
         }
+        if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function togglePrivateGarages() {
@@ -291,6 +292,7 @@ async function initMap() {
         if (map.zoom > 17.9) {
           showSmallIcons(theLayer)
         }
+        if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleSmartMeters() {
@@ -300,6 +302,7 @@ async function initMap() {
         if (map.zoom > 17.9) {
           showSmallIcons(theLayer)
         }
+        if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleBlueTopMeters() {
@@ -309,6 +312,7 @@ async function initMap() {
         if (map.zoom > 17.9) {
           showSmallIcons(theLayer)
         }
+        if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleBrownTopMeters() {
@@ -318,6 +322,7 @@ async function initMap() {
         if (map.zoom > 17.9) {
           showSmallIcons(theLayer)
         }
+        if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleYellowTopMeters() {
@@ -327,6 +332,7 @@ async function initMap() {
         if (map.zoom > 17.9) {
           showSmallIcons(theLayer)
         }
+        if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleEVCharge() {
@@ -336,42 +342,47 @@ async function initMap() {
         } else if (toggleEVChargeLayer.checked === true) {
           markerLayer.setMap(map)
         }
+        // if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleMotorcycle() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17.9) {
-          showSmallIcons(theLayer)
-        }
+        // if (map.zoom > 17.9) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17.9) {
-          showSmallIcons(theLayer)
-        }
+        // if (map.zoom > 17.9) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleResidential() {
       if (name === 'Residential Parking') {
         let theLayer = toggleResidentialLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17.9) {
-          showSmallIcons(theLayer)
-        }
+        // if (map.zoom > 17.9) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
     function toggleLoadingUnloading() {
       if (name === 'Loading/Unloading Only') {
         let theLayer = toggleLoadingUnloadingLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17.9) {
-          showSmallIcons(theLayer)
-        }
+        // if (map.zoom > 17.5) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.open() }
       }
     }
 
@@ -413,232 +424,234 @@ async function initMap() {
       toggleLoadingUnloading()
     });
 
+    map.addListener('zoom_changed', function () {
+      if (map.zoom <= 18) { priceIcon.open() }
+     });
+
+ 
+
+
+})
+//  **************end of forEach Loop ***********************************************end of forEach Loop*****************
 
 
 
-
-  })
-  //  **************end of forEach Loop ****************************************************************
-
-  //turn off residential and loading/unloading to start
-  function startCondition() {
-    if ((document.getElementById('toggleHandicap').checked) === true) {
-      document.getElementById('toggleHandicap').click();
-    }
-    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
-      document.getElementById('toggleMunicipalGarages').click();
-      console.log('it is true')
-    }
-    if ((document.getElementById('togglePrivateGarages').checked) === false) {
-      document.getElementById('togglePrivateGarages').click();
-    }
-    if ((document.getElementById('toggleSmartMeters').checked) === true) {
-      document.getElementById('toggleSmartMeters').click();
-    }
-    if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
-      document.getElementById('toggleBlueTopMeters').click();
-    }
-    if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
-      document.getElementById('toggleBrownTopMeters').click();
-    }
-    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
-      document.getElementById('toggleYellowTopMeters').click();
-    }
-    if ((document.getElementById('toggleEVCharge').checked) === true) {
-      document.getElementById('toggleEVCharge').click();
-    }
-    if ((document.getElementById('toggleMotorcycle').checked) === true) {
-      document.getElementById('toggleMotorcycle').click();
-    }
-    if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
-      document.getElementById('toggleBusLargeVehicle').click();
-    }
-    if ((document.getElementById('toggleResidential').checked) === true) {
-      document.getElementById('toggleResidential').click();
-    }
-    if ((document.getElementById('toggleLoadingUnloading').checked) === true) {
-      document.getElementById('toggleLoadingUnloading').click();
-    }
+//turn off residential and loading/unloading to start
+function startCondition() {
+  if ((document.getElementById('toggleHandicap').checked) === true) {
+    document.getElementById('toggleHandicap').click();
   }
+  if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
+    document.getElementById('toggleMunicipalGarages').click();
+    console.log('it is true')
+  }
+  if ((document.getElementById('togglePrivateGarages').checked) === false) {
+    document.getElementById('togglePrivateGarages').click();
+  }
+  if ((document.getElementById('toggleSmartMeters').checked) === true) {
+    document.getElementById('toggleSmartMeters').click();
+  }
+  if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
+    document.getElementById('toggleBlueTopMeters').click();
+  }
+  if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
+    document.getElementById('toggleBrownTopMeters').click();
+  }
+  if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
+    document.getElementById('toggleYellowTopMeters').click();
+  }
+  if ((document.getElementById('toggleEVCharge').checked) === true) {
+    document.getElementById('toggleEVCharge').click();
+  }
+  if ((document.getElementById('toggleMotorcycle').checked) === true) {
+    document.getElementById('toggleMotorcycle').click();
+  }
+  if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
+    document.getElementById('toggleBusLargeVehicle').click();
+  }
+  if ((document.getElementById('toggleResidential').checked) === true) {
+    document.getElementById('toggleResidential').click();
+  }
+  if ((document.getElementById('toggleLoadingUnloading').checked) === true) {
+    document.getElementById('toggleLoadingUnloading').click();
+  }
+}
+startCondition()
+
+toggleShowAll.addEventListener('click', function () {
+  if ((document.getElementById('toggleHandicap').checked) === false) {
+    document.getElementById('toggleHandicap').click();
+  }
+  if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
+    document.getElementById('toggleMunicipalGarages').click();
+    console.log('it is true')
+  }
+  if ((document.getElementById('togglePrivateGarages').checked) === false) {
+    document.getElementById('togglePrivateGarages').click();
+  }
+  if ((document.getElementById('toggleSmartMeters').checked) === false) {
+    document.getElementById('toggleSmartMeters').click();
+  }
+  if ((document.getElementById('toggleBlueTopMeters').checked) === false) {
+    document.getElementById('toggleBlueTopMeters').click();
+  }
+  if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
+    document.getElementById('toggleBrownTopMeters').click();
+  }
+  if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
+    document.getElementById('toggleYellowTopMeters').click();
+  }
+  if ((document.getElementById('toggleEVCharge').checked) === false) {
+    document.getElementById('toggleEVCharge').click();
+  }
+  if ((document.getElementById('toggleMotorcycle').checked) === false) {
+    document.getElementById('toggleMotorcycle').click();
+  }
+  if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
+    document.getElementById('toggleBusLargeVehicle').click();
+  }
+  if ((document.getElementById('toggleResidential').checked) === false) {
+    document.getElementById('toggleResidential').click();
+  }
+  if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
+    document.getElementById('toggleLoadingUnloading').click();
+  }
+});
+
+toggleOffStreetOnly.addEventListener('click', function () {
   startCondition()
+});
 
-  toggleShowAll.addEventListener('click', function () {
-    if ((document.getElementById('toggleHandicap').checked) === false) {
-      document.getElementById('toggleHandicap').click();
-    }
-    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
-      document.getElementById('toggleMunicipalGarages').click();
-      console.log('it is true')
-    }
-    if ((document.getElementById('togglePrivateGarages').checked) === false) {
-      document.getElementById('togglePrivateGarages').click();
-    }
-    if ((document.getElementById('toggleSmartMeters').checked) === false) {
-      document.getElementById('toggleSmartMeters').click();
-    }
-    if ((document.getElementById('toggleBlueTopMeters').checked) === false) {
-      document.getElementById('toggleBlueTopMeters').click();
-    }
-    if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
-      document.getElementById('toggleBrownTopMeters').click();
-    }
-    if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
-      document.getElementById('toggleYellowTopMeters').click();
-    }
-    if ((document.getElementById('toggleEVCharge').checked) === false) {
-      document.getElementById('toggleEVCharge').click();
-    }
-    if ((document.getElementById('toggleMotorcycle').checked) === false) {
-      document.getElementById('toggleMotorcycle').click();
-    }
-    if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
-      document.getElementById('toggleBusLargeVehicle').click();
-    }
-    if ((document.getElementById('toggleResidential').checked) === false) {
-      document.getElementById('toggleResidential').click();
-    }
-    if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
-      document.getElementById('toggleLoadingUnloading').click();
-    }
-  });
+// show all parking when zoomed in from search bar
+function toggleOnZoom() {
+  if ((document.getElementById('toggleHandicap').checked) === false) {
+    document.getElementById('toggleHandicap').click();
+  }
+  if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
+    document.getElementById('toggleMunicipalGarages').click();
+  }
+  if ((document.getElementById('togglePrivateGarages').checked) === false) {
+    document.getElementById('togglePrivateGarages').click();
+  }
+  if ((document.getElementById('toggleSmartMeters').checked) === false) {
+    document.getElementById('toggleSmartMeters').click();
+  }
+  if ((document.getElementById('toggleBlueTopMeters').checked) === false) {
+    document.getElementById('toggleBlueTopMeters').click();
+  }
+  if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
+    document.getElementById('toggleBrownTopMeters').click();
+  }
+  if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
+    document.getElementById('toggleYellowTopMeters').click();
+  }
+  if ((document.getElementById('toggleEVCharge').checked) === false) {
+    document.getElementById('toggleEVCharge').click();
+  }
+  if ((document.getElementById('toggleMotorcycle').checked) === false) {
+    document.getElementById('toggleMotorcycle').click();
+  }
+  if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
+    document.getElementById('toggleBusLargeVehicle').click();
+  }
+  if ((document.getElementById('toggleResidential').checked) === false) {
+    document.getElementById('toggleResidential').click();
+  }
+  if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
+    document.getElementById('toggleLoadingUnloading').click();
+  }
 
-  toggleOffStreetOnly.addEventListener('click', function () {
-    startCondition()
-  });
+};
 
-  // set toggle function for zoom display
-  function toggleOnZoom() {
-    if ((document.getElementById('toggleHandicap').checked) === false) {
-      document.getElementById('toggleHandicap').click();
-    }
-    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
-      document.getElementById('toggleMunicipalGarages').click();
-    }
-    if ((document.getElementById('togglePrivateGarages').checked) === false) {
-      document.getElementById('togglePrivateGarages').click();
-    }
-    if ((document.getElementById('toggleSmartMeters').checked) === false) {
-      document.getElementById('toggleSmartMeters').click();
-    }
-    if ((document.getElementById('toggleBlueTopMeters').checked) === false) {
-      document.getElementById('toggleBlueTopMeters').click();
-    }
-    if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
-      document.getElementById('toggleBrownTopMeters').click();
-    }
-    if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
-      document.getElementById('toggleYellowTopMeters').click();
-    }
-    if ((document.getElementById('toggleEVCharge').checked) === false) {
-      document.getElementById('toggleEVCharge').click();
-    }
-    if ((document.getElementById('toggleMotorcycle').checked) === false) {
-      document.getElementById('toggleMotorcycle').click();
-    }
-    if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
-      document.getElementById('toggleBusLargeVehicle').click();
-    }
-    if ((document.getElementById('toggleResidential').checked) === false) {
-      document.getElementById('toggleResidential').click();
-    }
-    if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
-      document.getElementById('toggleLoadingUnloading').click();
-    }
+// ********Zoom functions******************************************************************
+function toggleZoomFeaturesOn() {
+  if (map.zoom >= 17.1) {
+    toggleOnZoom()
+  }
+}
 
-  };
 
-  // ********Zoom functions******************************************************************
-  function toggleZoomFeaturesOn() {
-    if (map.zoom >= 17.1) {
-      toggleOnZoom()
-      // showSmallIcons()
+//******************************************************************************************* */
 
-      console.log('zoom In')
-    }
+
+// *************************************************************************************
+//Get searchbox element and fix it to top left of screen
+let card = document.getElementById('pac-card');
+let input = document.getElementById('pac-input');
+map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
+
+//Initialize autocomplete function in the searchbar
+let autocomplete = new google.maps.places.Autocomplete(input);
+
+// Limit autocomplete results to within a 2 mile (3218.688 meter) circle of downtown Burlington.
+autocomplete.setBounds(circle.getBounds());
+autocomplete.setOptions({ strictBounds: true });
+
+// Set the data fields to return when the user selects a place.
+autocomplete.setFields(
+  ['address_components', 'geometry', 'icon', 'name']);
+let addressinfowindow = new google.maps.InfoWindow();
+let infowindowContent = document.getElementById('infowindow-content');
+addressinfowindow.setContent(infowindowContent);
+let marker = new google.maps.Marker({
+  map: map,
+  anchorPoint: new google.maps.Point(0, -29)
+
+
+
+});
+
+autocomplete.addListener('place_changed', function () {
+  addressinfowindow.close();
+  marker.setVisible(false);
+  let place = autocomplete.getPlace();
+  if (!place.geometry) {
+    // User entered the name of a Place that was not suggested and
+    // pressed the Enter key, or the Place Details request failed.
+    //   window.alert("No details available for input: '" + place.name + "'");
+    return;
   }
 
 
-  //******************************************************************************************* */
 
 
-  // *************************************************************************************
-  //Get searchbox element and fix it to top left of screen
-  let card = document.getElementById('pac-card');
-  let input = document.getElementById('pac-input');
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
+  // If the place has a geometry, then present it on a map.
+  if (place.geometry.viewport) {
+    map.fitBounds(place.geometry.viewport);
+    map.setZoom(18.2);  //about 1 block
+    toggleZoomFeaturesOn()
+    let walkCircle = new google.maps.Circle({
+      strokeColor: '#20346a',
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      fillOpacity: 0.0,
+      map: map,
+      center: map.center,
+      radius: 83
+    })
+  } else {
+    map.setCenter(place.geometry.location);
+    map.setZoom(17);  // Why 17? Because it looks good.
+    console.log('set zoom 17')
+  }
 
-  //Initialize autocomplete function in the searchbar
-  let autocomplete = new google.maps.places.Autocomplete(input);
+  marker.setPosition(place.geometry.location);
+  marker.setVisible(true);
 
-  // Limit autocomplete results to within a 2 mile (3218.688 meter) circle of downtown Burlington.
-  autocomplete.setBounds(circle.getBounds());
-  autocomplete.setOptions({ strictBounds: true });
+  let address = '';
+  if (place.address_components) {
+    address = [
+      (place.address_components[0] && place.address_components[0].short_name || ''),
+      (place.address_components[1] && place.address_components[1].short_name || ''),
+      (place.address_components[2] && place.address_components[2].short_name || '')
+    ].join(' ');
+  }
 
-  // Set the data fields to return when the user selects a place.
-  autocomplete.setFields(
-    ['address_components', 'geometry', 'icon', 'name']);
-  let addressinfowindow = new google.maps.InfoWindow();
-  let infowindowContent = document.getElementById('infowindow-content');
-  addressinfowindow.setContent(infowindowContent);
-  let marker = new google.maps.Marker({
-    map: map,
-    anchorPoint: new google.maps.Point(0, -29)
-
-
-
-  });
-
-  autocomplete.addListener('place_changed', function () {
-    addressinfowindow.close();
-    marker.setVisible(false);
-    let place = autocomplete.getPlace();
-    if (!place.geometry) {
-      // User entered the name of a Place that was not suggested and
-      // pressed the Enter key, or the Place Details request failed.
-      //   window.alert("No details available for input: '" + place.name + "'");
-      return;
-    }
-
-
-
-
-    // If the place has a geometry, then present it on a map.
-    if (place.geometry.viewport) {
-      map.fitBounds(place.geometry.viewport);
-      map.setZoom(18);  //about 1 block
-      toggleZoomFeaturesOn()
-      let walkCircle = new google.maps.Circle({
-        strokeColor: '#20346a',
-        strokeOpacity: 0.8,
-        strokeWeight: 3,
-        fillOpacity: 0.0,
-        map: map,
-        center: map.center,
-        radius: 93
-      })
-    } else {
-      map.setCenter(place.geometry.location);
-      map.setZoom(17);  // Why 17? Because it looks good.
-      console.log('set zoom 17')
-    }
-
-    marker.setPosition(place.geometry.location);
-    marker.setVisible(true);
-
-    let address = '';
-    if (place.address_components) {
-      address = [
-        (place.address_components[0] && place.address_components[0].short_name || ''),
-        (place.address_components[1] && place.address_components[1].short_name || ''),
-        (place.address_components[2] && place.address_components[2].short_name || '')
-      ].join(' ');
-    }
-
-    infowindowContent.children['place-icon'].src = place.icon;
-    infowindowContent.children['place-name'].textContent = place.name;
-    infowindowContent.children['place-address'].textContent = address;
-    addressinfowindow.open(map, marker);
-  });
+  infowindowContent.children['place-icon'].src = place.icon;
+  infowindowContent.children['place-name'].textContent = place.name;
+  infowindowContent.children['place-address'].textContent = address;
+  addressinfowindow.open(map, marker);
+});
 
 }
 
