@@ -26,9 +26,12 @@ fetch("./BurlingtonParkingMap.geojson")
       let coordsSpliced = coords[0].splice(0, 2)
       let coordsRev = coordsSpliced.reverse()
       let coordsSpliced2 = coords[1].splice(0, 2)
-      let coordsRev2 = coordsSpliced.reverse()
+      let coordsRev2 = coordsSpliced2.reverse()
+      let coord1 = {lat: coordsRev[0], lng: coordsRev[1]}
+      let coord2 = {lat: coordsRev2[0], lng: coordsRev2[1]}
       let usersRef = ref.child(i);
       usersRef.update({center: midPoint(coordsRev, coordsRev2)})
+      
       }
       }
     }
@@ -51,9 +54,8 @@ fetch("./BurlingtonParkingMap.geojson")
     var lng = lng1 + Math.atan2(by, Math.cos(lat1) + bx);
     let latOutput = lat / DEG_TO_RAD
     let lngOutput = lng / DEG_TO_RAD
-    let midPointArray = lngOutput.toString() + ',' +  latOutput.toString() 
-    return (midPointArray);
-
+    let midPointObject = {lat: latOutput, lng: lngOutput}
+    return midPointObject
   };
 
 for ( let i = 246; i<248; i++){
