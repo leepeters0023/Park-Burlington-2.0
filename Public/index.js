@@ -368,16 +368,17 @@ async function initMap() {
       toggleLoadingUnloading()
     });
 
-    
-    
-   
-    if(center.lat){
-    let priceIcon = new google.maps.InfoWindow({
-      content: rate,
-      position: center,
 
-    })
-    priceIcon.open(map)}
+
+
+    if (center.lat) {
+      let priceIcon = new google.maps.InfoWindow({
+        content: rate,
+        position: center,
+      
+      })
+      priceIcon.open(map)
+    }
 
 
   })
@@ -526,7 +527,7 @@ async function initMap() {
     if (map.zoom >= 17.1) {
       toggleOnZoom()
       console.log('zoom In')
-    } 
+    }
   }
 
 
@@ -555,7 +556,7 @@ async function initMap() {
   let marker = new google.maps.Marker({
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
-    
+
 
 
   });
@@ -577,17 +578,16 @@ async function initMap() {
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
-      map.setZoom(17.7);  //about 1 block
+      map.setZoom(18);  //about 1 block
       toggleZoomFeaturesOn()
       let walkCircle = new google.maps.Circle({
-      strokeColor: '#FF0000',
-      strokeOpacity: 0.8,
-      strokeWeight: 2,
-    
-      fillOpacity: 0.0,
-      map: map,
-      center: map.center,
-      radius: 95
+        strokeColor: '#20346a',
+        strokeOpacity: 0.8,
+        strokeWeight: 3,
+        fillOpacity: 0.0,
+        map: map,
+        center: map.center,
+        radius: 93
       })
     } else {
       map.setCenter(place.geometry.location);
