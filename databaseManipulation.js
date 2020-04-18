@@ -40,34 +40,59 @@ async function makeQuery() {
 async function initMap() {
 
   let myInfo = await makeQuery()
-  console.log({ myInfo });
-
-  console.log(typeof(myInfo))
- 
   myInfo.forEach((item) => {
     let keys = Object.keys(myInfo)
-    console.log(keys)  
-    
-
-    for(let i=13; i<33; i++){
+    // console.log(keys)
+    for(let i=136; i<170; i++){
     let k = keys[i]
-      console.log(k)
-    let center = myInfo[k].center
-    let lat = center.lat
-    let lng = center.lng
-   
+    // let center = myInfo[k].center
+    let name = myInfo[k].name
     
-    if (center !== 'NEED') {
-  
-     let nav = encodeURI(`https://www.google.com/maps/dir/?api=1&destination=(${lat}),(${lng})`)
+    let rate = myInfo[k].rate
+   
+    if (name === "Yellow Top Meters") {
+     console.log(name)
+      rate = "$1/Hr"
      
-    //let usersRef =ref.child(i);
-    usersRef.update({ navigationURL: nav })
+    // let usersRef =ref.child(i);
+    // usersRef.update({ rate: rate })
 
       
     }
   }})//end of forEach
 }//End of initMap
+
+// async function initMap() {
+
+//   let myInfo = await makeQuery()
+//   console.log({ myInfo });
+
+//   console.log(typeof(myInfo))
+ 
+//   myInfo.forEach((item) => {
+//     let keys = Object.keys(myInfo)
+//     console.log(keys)  
+    
+
+//     for(let i=13; i<33; i++){
+//     let k = keys[i]
+//       console.log(k)
+//     let center = myInfo[k].center
+//     let lat = center.lat
+//     let lng = center.lng
+   
+    
+//     if (center !== 'NEED') {
+  
+//      let nav = encodeURI(`https://www.google.com/maps/dir/?api=1&destination=(${lat}),(${lng})`)
+     
+//     //let usersRef =ref.child(i);
+//     usersRef.update({ navigationURL: nav })
+
+      
+//     }
+//   }})//end of forEach
+// }//End of initMap
 
 
 
