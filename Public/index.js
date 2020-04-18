@@ -150,15 +150,15 @@ async function initMap() {
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
+    let image = './images/electric_vehicle.png'
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
     })
 
+
     //Adds charging station icons
-    let image = './images/electric_vehicle.png'
-    
-      let markerLayer = new google.maps.Marker({
+    let markerLayer = new google.maps.Marker({
       position: { lat: latitude, lng: longitude },
       icon: image,
     });
@@ -470,47 +470,55 @@ async function initMap() {
     }
   });
 
-  // set toggle function for Show Loading/Unloading Only button
-  toggleLoadingUnloadingOnly.addEventListener('click', function () {
-    if ((document.getElementById('toggleHandicap').checked) === true) {
+  // set toggle function for zoom display
+  function toggleOnZoom() {
+    if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
     }
-    if ((document.getElementById('toggleMunicipalGarages').checked) === true) {
+    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
       document.getElementById('toggleMunicipalGarages').click();
-      console.log('it is true')
     }
-    if ((document.getElementById('togglePrivateGarages').checked) === true) {
+    if ((document.getElementById('togglePrivateGarages').checked) === false) {
       document.getElementById('togglePrivateGarages').click();
     }
-    if ((document.getElementById('toggleSmartMeters').checked) === true) {
+    if ((document.getElementById('toggleSmartMeters').checked) === false) {
       document.getElementById('toggleSmartMeters').click();
     }
-    if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
+    if ((document.getElementById('toggleBlueTopMeters').checked) === false) {
       document.getElementById('toggleBlueTopMeters').click();
     }
-    if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
+    if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
       document.getElementById('toggleBrownTopMeters').click();
     }
-    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
+    if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
       document.getElementById('toggleYellowTopMeters').click();
     }
-    if ((document.getElementById('toggleEVCharge').checked) === true) {
+    if ((document.getElementById('toggleEVCharge').checked) === false) {
       document.getElementById('toggleEVCharge').click();
     }
-    if ((document.getElementById('toggleMotorcycle').checked) === true) {
+    if ((document.getElementById('toggleMotorcycle').checked) === false) {
       document.getElementById('toggleMotorcycle').click();
     }
-    if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
+    if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
       document.getElementById('toggleBusLargeVehicle').click();
     }
-    if ((document.getElementById('toggleResidential').checked) === true) {
+    if ((document.getElementById('toggleResidential').checked) === false) {
       document.getElementById('toggleResidential').click();
     }
     if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
       document.getElementById('toggleLoadingUnloading').click();
     }
 
-  });
+  };
+
+  // ********Zoom functions******************************************************************
+  function toggleZoomFeaturesOn() {
+    if (map.zoom >= 17.1) {
+      toggleOnZoom()
+      console.log('zoom In')
+    } 
+  }
+
 
   //******************************************************************************************* */
   //Create info window cards and add click listeners to each parking asset
@@ -542,7 +550,7 @@ async function initMap() {
   // Limit autocomplete results to within a 2 mile (3218.688 meter) circle of downtown Burlington.
   autocomplete.setBounds(circle.getBounds());
   autocomplete.setOptions({ strictBounds: true });
-  
+
   // Set the data fields to return when the user selects a place.
   autocomplete.setFields(
     ['address_components', 'geometry', 'icon', 'name']);
@@ -553,6 +561,7 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
     
+
 
   });
 
@@ -567,18 +576,30 @@ async function initMap() {
       return;
     }
 
+
+
+
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
-      map.setZoom(18);  //about 1 block
-      console.log(place.geometry.viewport)
-      console.log('set zoom 18')
+      map.setZoom(17.7);  //about 1 block
+      toggleZoomFeaturesOn()
+      let walkCircle = new google.maps.Circle({
+      strokeColor: '#FF0000',
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+    
+      fillOpacity: 0.0,
+      map: map,
+      center: map.center,
+      radius: 95
+      })
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
       console.log('set zoom 17')
     }
-    
+
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
 
