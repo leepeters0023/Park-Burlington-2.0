@@ -150,13 +150,14 @@ async function initMap() {
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
+    let image = './images/electric_vehicle.png'
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
     })
 
+
     //Adds charging station icons
-    let image = './images/electric_vehicle.png'
     let markerLayer = new google.maps.Marker({
       position: { lat: latitude, lng: longitude },
       icon: image,
@@ -508,9 +509,13 @@ async function initMap() {
 
   };
 
-  // ****************************************************************************************
-
-
+  // ********Zoom functions******************************************************************
+  function toggleZoomFeaturesOn() {
+    if (map.zoom >= 17.1) {
+      toggleOnZoom()
+      console.log('zoom In')
+    } 
+  }
 
 
   //******************************************************************************************* */
@@ -568,14 +573,14 @@ async function initMap() {
       return;
     }
 
+
+
+
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18);  //about 1 block
-      if (map.zoom >= 17.1) { 
-        toggleOnZoom()
-        console.log('zoom up') }
-
+      toggleZoomFeaturesOn()
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
