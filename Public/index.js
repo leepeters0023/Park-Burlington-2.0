@@ -220,7 +220,16 @@ async function initMap() {
       activeWindow = infowindow;
     });
 
-
+    function showSmallIcons() {
+      if (center.lat) {
+        let priceIcon = new google.maps.InfoWindow({
+          content: rate,
+          position: center,
+        })
+        priceIcon.open(map)
+      }
+    }
+    showSmallIcons()
 
     // ******controls and filters*****************************************************************************************************
 
@@ -370,18 +379,10 @@ async function initMap() {
 
 
 
-    function showSmallIcons() {
-      if (center.lat) {
-        let priceIcon = new google.maps.InfoWindow({
-          content: rate,
-          position: center,
-        })
-        priceIcon.open(map)
-      }
-    }
+
 
   })
-
+//  **************end of forEach Loop ****************************************************************
 
   //turn off residential and loading/unloading to start
   function startCondition() {
@@ -514,7 +515,7 @@ async function initMap() {
   function toggleZoomFeaturesOn() {
     if (map.zoom >= 17.1) {
       toggleOnZoom()
-      showSmallIcons()
+      // showSmallIcons()
 
       console.log('zoom In')
     }
