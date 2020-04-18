@@ -147,6 +147,8 @@ async function initMap() {
     let name = item.name
     let latitude = item.latitude
     let longitude = item.longitude
+    let center = item.center
+    let rate = item.rate
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
@@ -363,6 +365,16 @@ async function initMap() {
       toggleLoadingUnloading()
     });
 
+    let centerArray = center.split(",")
+    let iconAnchor = {lat: Number(centerArray[0]), lng: Number(centerArray[1])}
+    console.log(iconAnchor)
+    if(iconAnchor.lat){
+    let priceIcon = new google.maps.InfoWindow({
+      content: rate,
+      position: iconAnchor,
+
+    })
+    priceIcon.open(map)}
 
 
 
@@ -480,21 +492,6 @@ async function initMap() {
   });
 
   //******************************************************************************************* */
-  //Create info window cards and add click listeners to each parking asset
-  var infowindow = new google.maps.InfoWindow({
-    content: ""
-  });
-  map.data.addListener('click', function (event) {
-    let name = event.feature.getProperty('name');
-    let description = event.feature.getProperty('description');
-    let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
-    infowindow.setContent(html); // show the html variable in the infowindow
-    infowindow.setPosition(event.latLng);
-    infowindow.setOptions({
-      pixelOffset: new google.maps.Size(0, 0)
-    }); // move the infowindow up slightly to the top of the marker icon
-    infowindow.open(map);
-  });
 
   //Get searchbox element and fix it to top left of screen
   var card = document.getElementById('pac-card');
