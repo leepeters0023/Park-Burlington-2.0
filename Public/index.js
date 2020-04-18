@@ -181,7 +181,10 @@ async function initMap() {
       content: ""
     });
 
-
+    let priceIcon = new google.maps.InfoWindow({
+      content: rate,
+      position: center,
+    })
 
     polygonLayer.addListener('click', function (event) {
       if (activeWindow != null) {
@@ -220,16 +223,7 @@ async function initMap() {
       activeWindow = infowindow;
     });
 
-    function showSmallIcons() {
-      if (center.lat) {
-        let priceIcon = new google.maps.InfoWindow({
-          content: rate,
-          position: center,
-        })
-        priceIcon.open(map)
-      }
-    }
-    showSmallIcons()
+
 
     // ******controls and filters*****************************************************************************************************
 
@@ -253,6 +247,15 @@ async function initMap() {
 
     // ***** Toggle display of parking assets **********************************************************
 
+    function showSmallIcons(theLayer) {
+      if (theLayer.checked === false) {
+        priceIcon.open()
+      } else if (theLayer.checked === true) {
+        priceIcon.open(map)
+      }
+    }
+
+
     // function to toggle specific types of parking asset on or off
     function toggleLayer(theLayer) {
       if (theLayer.checked === false) {
@@ -267,42 +270,63 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleMunicipalGarages() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function togglePrivateGarages() {
       if (ownership === 'private') {
         let theLayer = togglePrivateGaragesLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleSmartMeters() {
       if (name === 'Smart Meters') {
         let theLayer = toggleSmartMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleBlueTopMeters() {
       if (name === 'Blue Top Meters') {
         let theLayer = toggleBlueTopMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleBrownTopMeters() {
       if (name === 'Brown Top Meters') {
         let theLayer = toggleBrownTopMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleYellowTopMeters() {
       if (name === 'Yellow Top Meters') {
         let theLayer = toggleYellowTopMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleEVCharge() {
@@ -318,24 +342,36 @@ async function initMap() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleResidential() {
       if (name === 'Residential Parking') {
         let theLayer = toggleResidentialLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
     function toggleLoadingUnloading() {
       if (name === 'Loading/Unloading Only') {
         let theLayer = toggleLoadingUnloadingLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
       }
     }
 
@@ -382,7 +418,7 @@ async function initMap() {
 
 
   })
-//  **************end of forEach Loop ****************************************************************
+  //  **************end of forEach Loop ****************************************************************
 
   //turn off residential and loading/unloading to start
   function startCondition() {
