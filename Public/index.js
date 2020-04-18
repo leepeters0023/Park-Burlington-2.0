@@ -157,12 +157,13 @@ async function initMap() {
 
     //Adds charging station icons
     let image = './images/electric_vehicle.png'
-    if(latitude){
+    
       let markerLayer = new google.maps.Marker({
       position: { lat: latitude, lng: longitude },
       icon: image,
     });
-  }
+    
+  
 
     let polygonLayer = new google.maps.Polygon({
       paths: newPath,
