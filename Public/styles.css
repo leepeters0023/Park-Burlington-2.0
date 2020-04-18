@@ -125,22 +125,21 @@ width: 90vw;
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
+  background: transparent;
   z-index: 1; /* Sit on top */
   bottom: 0;
-  width: 100%; /* Full width */
+  width: 100vw; /* Full width */
   height: 100%; /* Full height */
-  overflow: hidden; /* Enable scroll if needed */
+  overflow: wrap;
 }
 /* Modal Content/Box */
 .modal-content {
   position: fixed;
   height: 50%;
+  width:100vw;
   background-color: #fefefe;
   margin: 55vh auto; /* 55% from the top and centered */
-  padding: 20px;
   border: 2px solid #20346a;
-  border-radius: 5px;
-  width: 80%; /* Could be more or less, depending on screen size */
   font-family: Roboto;
   font-weight: bold;
   color: rgb(54, 54, 54);
@@ -148,9 +147,21 @@ width: 90vw;
 .menu {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: relative;
   overflow: scroll;
-  height: 50%;
+  height: 85%;
+  padding: 20px 20px 20px 20px;
+}
+.menu::-webkit-scrollbar {
+  width: 2em;
+}
+.menu::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.menu::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
 }
 
 /* The Close Button */
@@ -201,6 +212,22 @@ width: 90vw;
   animation-duration: 0.4s;
   border-radius: 5px;
 }
+#toggleLoadingUnloadingOnly {
+  display: flex;
+  background-color: #20346a; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: Roboto, Courier;
+  font-weight: 900;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
@@ -241,9 +268,8 @@ width: 90vw;
 }
 
 h2 {
-  margin: 10px 0;
+  margin-left: 10px;
 }
-
 .disclaimer-body {
   padding: 1% 10% 5% 10%;
   font-size: .8rem;
@@ -260,22 +286,31 @@ h2 {
 /* The switch - the box around the slider */
 .switch {
   position: relative;
+  right: 0;
   display: inline-block;
-  width: 60px;
-  height: 34px;
-  margin: 10px;
+  width: 100%;
+  text-align: right;
+  font-size: 15px;
+  margin: 15px;
+  padding-right: 15px;
+  -webkit-box-shadow: 0 6px 6px -6px #777;
+	   -moz-box-shadow: 0 6px 6px -6px #777;
+	        box-shadow: 0 6px 6px -6px #777;
 }
-
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
-
+.input {
+  text-align: right;
+}
 /* The slider */
 .slider {
   position: absolute;
+  width: 60px;
+  height: 34px;
   cursor: pointer;
   top: 0;
   left: 0;
@@ -285,7 +320,6 @@ h2 {
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 .slider:before {
   position: absolute;
   content: "";
@@ -301,7 +335,6 @@ h2 {
 .label {
   text-align: center;
 }
-
 input:checked + .slider {
   background-color: #2196F3;
 }
@@ -319,6 +352,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+
 }
 
 .slider.round:before {

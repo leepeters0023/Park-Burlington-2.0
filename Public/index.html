@@ -34,6 +34,66 @@
   <div class="pac-card" id="pac-card">
     <input id="pac-input" type="text" placeholder="Destination">
   </div>
+  <!-- The Modal -->
+    <span class="close">&times;</span>
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="myModal" class="modal"></div>
+      <div class="menu">
+      <label class="switch">
+        <input class ='input' type='checkbox' checked='true' id='toggleHandicap'>Handicap<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleMunicipalGarages'>Municipal Garages<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleBlueTopMeters'>Blue Top Meters - 3 hrs max<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleBrownTopMeters'>Brown Top Meters - 9 hrs max<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleYellowTopMeters'>Yellow Top Meters - 30 min max<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleEVCharge'>EV Charge Stations<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleResidential'>Residential<span
+          class="slider round"></span></input>
+      </label>
+      <label class="switch">
+        <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading<span
+          class="slider round"></span></input>
+      </label>
+      <label>
+        <button id="toggleLoadingUnloadingOnly">Show Loading/Unloading Only</button>
+      </label>
+      </div>
+    </div>
+  </div>
   <div id="map-and-controls-container">
     <div id="map"></div>
     
@@ -50,68 +110,6 @@
         <label class="filter-ui-label">
           <button id="toggleFilters" class="filter-ui-button">Filters</button>
         </label>
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <div class="menu">
-            <span class="close">&times;</span>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleHandicap'>Handicap<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleMunicipalGarages'>Municipal Garages<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleBlueTopMeters'>Blue Top Meters - 3 hours max<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleBrownTopMeters'>Brown Top Meters - 9 hours max<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleYellowTopMeters'>Yellow Top Meters - 30 min max<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleEVCharge'>EV Charge Stations<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleResidential'>Residential<span
-                class="slider round"></span></input>
-            </label>
-            <label class="switch">
-              <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading<span
-                class="slider round"></span></input>
-            </label>
-            <label>
-              <button id="toggleLoadingUnloadingOnly">Show Loading/Unloading Only</button>
-            </label>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
