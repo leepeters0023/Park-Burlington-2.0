@@ -43,14 +43,14 @@ async function initMap() {
   myInfo.forEach((item) => {
     let keys = Object.keys(myInfo)
     // console.log(keys)
-    for(let i=136; i<170; i++){
+    for(let i=0; i<249; i++){
     let k = keys[i]
     // let center = myInfo[k].center
     let name = myInfo[k].name
     
     let rate = myInfo[k].rate
    
-    if (name === "Yellow Top Meters") {
+    if (name === "Blue Top Meters") {
      console.log(name)
       rate = "$1/Hr"
      
