@@ -467,47 +467,51 @@ async function initMap() {
     }
   });
 
-  // set toggle function for Show Loading/Unloading Only button
-  toggleLoadingUnloadingOnly.addEventListener('click', function () {
-    if ((document.getElementById('toggleHandicap').checked) === true) {
+  // set toggle function for zoom display
+  function toggleOnZoom() {
+    if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
     }
-    if ((document.getElementById('toggleMunicipalGarages').checked) === true) {
+    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
       document.getElementById('toggleMunicipalGarages').click();
-      console.log('it is true')
     }
-    if ((document.getElementById('togglePrivateGarages').checked) === true) {
+    if ((document.getElementById('togglePrivateGarages').checked) === false) {
       document.getElementById('togglePrivateGarages').click();
     }
-    if ((document.getElementById('toggleSmartMeters').checked) === true) {
+    if ((document.getElementById('toggleSmartMeters').checked) === false) {
       document.getElementById('toggleSmartMeters').click();
     }
-    if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
+    if ((document.getElementById('toggleBlueTopMeters').checked) === false) {
       document.getElementById('toggleBlueTopMeters').click();
     }
-    if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
+    if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
       document.getElementById('toggleBrownTopMeters').click();
     }
-    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
+    if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
       document.getElementById('toggleYellowTopMeters').click();
     }
-    if ((document.getElementById('toggleEVCharge').checked) === true) {
+    if ((document.getElementById('toggleEVCharge').checked) === false) {
       document.getElementById('toggleEVCharge').click();
     }
-    if ((document.getElementById('toggleMotorcycle').checked) === true) {
+    if ((document.getElementById('toggleMotorcycle').checked) === false) {
       document.getElementById('toggleMotorcycle').click();
     }
-    if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
+    if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
       document.getElementById('toggleBusLargeVehicle').click();
     }
-    if ((document.getElementById('toggleResidential').checked) === true) {
+    if ((document.getElementById('toggleResidential').checked) === false) {
       document.getElementById('toggleResidential').click();
     }
     if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
       document.getElementById('toggleLoadingUnloading').click();
     }
 
-  });
+  };
+
+  // ****************************************************************************************
+
+
+
 
   //******************************************************************************************* */
   //Create info window cards and add click listeners to each parking asset
@@ -539,7 +543,7 @@ async function initMap() {
   // Limit autocomplete results to within a 2 mile (3218.688 meter) circle of downtown Burlington.
   autocomplete.setBounds(circle.getBounds());
   autocomplete.setOptions({ strictBounds: true });
-  
+
   // Set the data fields to return when the user selects a place.
   autocomplete.setFields(
     ['address_components', 'geometry', 'icon', 'name']);
@@ -549,7 +553,7 @@ async function initMap() {
   let marker = new google.maps.Marker({
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
-    
+
 
   });
 
@@ -568,14 +572,16 @@ async function initMap() {
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18);  //about 1 block
-      console.log(place.geometry.viewport)
-      console.log('set zoom 18')
+      if (map.zoom >= 17.1) { 
+        toggleOnZoom()
+        console.log('zoom up') }
+
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
       console.log('set zoom 17')
     }
-    
+
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
 
