@@ -153,7 +153,7 @@ async function initMap() {
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
-    let parkMarker = './images/arrowtransparet.png'
+    let parkMarker = './images/arrowtransparent.png'
     let image = './images/electric_vehicle.png'
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
