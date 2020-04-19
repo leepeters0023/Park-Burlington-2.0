@@ -348,7 +348,7 @@ async function initMap() {
         if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
-    function toggleEVCharge() {
+    function toggleEVCharge() {  // note complexity is due to charge stations having multiple names plus most are geometry: Point while 2 are linestrings
       if (geometry === 'Point' || name === 'Charging Station North EV' || name === 'Charging Station') {
         if (toggleEVChargeLayer.checked === false) {
           markerLayer.setMap()
@@ -357,7 +357,13 @@ async function initMap() {
         }
         // small icons not shown on this type
       }
+      if (name === 'Charging Station North EV' || name === 'Charging Station') {
+        let theLayer = toggleEVChargeLayer
+        toggleLayer(theLayer)
+        // small icons not shown on this type
+      }
     }
+
     function toggleMotorcycle() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
@@ -726,7 +732,11 @@ let span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn.onclick = function () {
   modal.style.display = "block";
+  // setTimeout(closeModal, 1000)
 }
+// function closeModal() {
+//   modal.style.display = "none"
+// }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
