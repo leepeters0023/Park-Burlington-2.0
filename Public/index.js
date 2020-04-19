@@ -161,11 +161,16 @@ async function initMap() {
     })
 
 
+
     //Adds charging station icons
     let markerLayer = new google.maps.Marker({
-      position: { lat: latitude, lng: longitude },
+      
       icon: image,
     });
+
+    if (latitude && longitude){
+      markerLayer.position.setContent({lat: latitude, lng: longitude })
+    }
 
 
     // adds garages and lots - polygons and linestrings - parking meters
