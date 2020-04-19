@@ -349,7 +349,7 @@ async function initMap() {
       }
     }
     function toggleEVCharge() {
-      if (geometry === 'Point') {
+      if (geometry === 'Point' || name === 'Charging Station North EV' || name === 'Charging Station') {
         if (toggleEVChargeLayer.checked === false) {
           markerLayer.setMap()
         } else if (toggleEVChargeLayer.checked === true) {
