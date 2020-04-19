@@ -50,12 +50,12 @@ async function initMap() {
     
     let rate = myInfo[k].rate
    
-    if (name === "Residential Parking") {
+    if (name === "Handicapped Parking") {
      console.log(name)
-      rate = "Residential Permit"
+      rate = '<img src="images/handicapped-parking.png" alt="handicapped-parking" height="30" width="30">'
      
-    let usersRef =ref.child(i);
-    usersRef.update({ rate: rate })
+    // let usersRef =ref.child(i);
+    // usersRef.update({ rate: rate })
 
       
     }
