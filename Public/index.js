@@ -1,5 +1,4 @@
 //***********Firebase Configuration ****************************************************************
-
 const config = {
   apiKey: "AIzaSyCJ_q627N1dryTYbcSjE4d-4jfsJJg5VcY",
   authDomain: "park-burlington.firebaseapp.com",
