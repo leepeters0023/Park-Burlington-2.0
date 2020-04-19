@@ -164,11 +164,11 @@ async function initMap() {
 
     //Adds charging station icons
     let markerLayer = new google.maps.Marker({
-      
+      position: null,
       icon: image,
     });
 
-    if (latitude && longitude){
+    if (latitude == true){
       markerLayer.position.setContent({lat: latitude, lng: longitude })
     }
 
