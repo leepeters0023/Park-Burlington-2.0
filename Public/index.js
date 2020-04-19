@@ -136,7 +136,7 @@ async function initMap() {
   // call database query and bring into initmap function *****************************************
   let myInfo = await makeQuery()
   let activeWindow = null
-  console.log({ myInfo });
+
 
   myInfo.forEach((item) => {
     let path = item.coordinates.split(',0,')
@@ -225,7 +225,6 @@ async function initMap() {
       }
       let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
       infowindow.setContent(html)
-      console.log(description)
 
       infowindow.setPosition(event.latLng);
       infowindow.setOptions({
