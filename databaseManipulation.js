@@ -52,7 +52,7 @@ async function initMap() {
    
     if (name === "Handicapped Parking") {
      console.log(name)
-      rate = '<img src="images/handicapped-parking.png" alt="handicapped-parking" height="30" width="30">'
+      rate = 'Handicapped'
      
     // let usersRef =ref.child(i);
     // usersRef.update({ rate: rate })
