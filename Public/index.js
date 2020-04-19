@@ -274,7 +274,10 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        // small icons not shown on this type
+        if (map.zoom > 17) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
@@ -365,7 +368,10 @@ async function initMap() {
       if (name === 'Residential Parking') {
         let theLayer = toggleResidentialLayer
         toggleLayer(theLayer)
-        // small icons not shown on this type
+        if (map.zoom > 17) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleLoadingUnloading() {
