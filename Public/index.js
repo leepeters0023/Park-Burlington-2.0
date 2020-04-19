@@ -137,7 +137,6 @@ async function initMap() {
   let myInfo = await makeQuery()
   let activeWindow = null
 
-
   myInfo.forEach((item) => {
     let path = item.coordinates.split(',0,')
     let stroke = item.stroke
@@ -194,9 +193,15 @@ async function initMap() {
     let priceIcon = new google.maps.Marker({
       position: null,
       label: rate,
-      icon: parkMarker,
-
+      icon: null,
     });
+
+    if (icon != ""){
+      console.log(icon)
+      priceIcon.setIcon(icon)
+    } else {
+      priceIcon.setIcon(parkMarker)
+    }
 
     if (center != 'NEED'){
     priceIcon.setPosition(center)
