@@ -69,6 +69,7 @@ async function initMap() {
   let map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
     zoom: 15.3,
+    gestureHandling: "greedy",
     fullscreenControl: false,
     mapTypeControl: false,
     restriction: {
