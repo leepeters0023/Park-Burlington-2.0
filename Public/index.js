@@ -192,12 +192,15 @@ async function initMap() {
 
     // create small icons for show price on zoom in
     let priceIcon = new google.maps.Marker({
-      position: center,
+      position: null,
       label: rate,
       icon: parkMarker,
 
     });
 
+    if (center != 'NEED'){
+    priceIcon.setPosition(center)
+  }
     // make parking assets 'clickable' and popup and populate infowindow
     polygonLayer.addListener('click', function (event) {
       if (activeWindow != null) {
