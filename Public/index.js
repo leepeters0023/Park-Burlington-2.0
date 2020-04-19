@@ -147,9 +147,12 @@ async function initMap() {
     let name = item.name
     let latitude = item.latitude
     let longitude = item.longitude
+    let center = item.center
+    let rate = item.rate
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
+    let parkMarker = './images/arrowtransparet.png'
     let image = './images/electric_vehicle.png'
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
@@ -181,7 +184,22 @@ async function initMap() {
       content: ""
     });
 
+    let priceIcon = new google.maps.Marker({
+      position: center,
+      label: rate,
+      icon: parkMarker,
+    
+    });
 
+    // let priceIcon = new google.maps.InfoWindow({
+    //   content: rate,
+    //   position: center,
+    //   // strokeColor: '#20346a',
+    //   // strokeOpacity: 0.0,
+    //   // strokeWeight: 0,
+    //   // fillOpacity: 0.0,
+
+    // })
 
     polygonLayer.addListener('click', function (event) {
       if (activeWindow != null) {
@@ -243,6 +261,14 @@ async function initMap() {
     let toggleLoadingUnloadingLayer = document.getElementById('toggleLoadingUnloading')
 
     // ***** Toggle display of parking assets **********************************************************
+    // toggle small icons on or off
+    function showSmallIcons(theLayer) {
+      if (theLayer.checked === false) {
+        priceIcon.setMap()
+      } else if (theLayer.checked === true) {
+        priceIcon.setMap(map)
+      }
+    }
 
     // function to toggle specific types of parking asset on or off
     function toggleLayer(theLayer) {
@@ -253,47 +279,75 @@ async function initMap() {
       }
     }
 
-    //Toggle specific types of parking asset
+    //Toggle specific types of parking asset plus small icons 
     function toggleHandicap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function togglePrivateGarages() {
       if (ownership === 'private') {
         let theLayer = togglePrivateGaragesLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleSmartMeters() {
       if (name === 'Smart Meters') {
         let theLayer = toggleSmartMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleBlueTopMeters() {
       if (name === 'Blue Top Meters') {
         let theLayer = toggleBlueTopMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleBrownTopMeters() {
       if (name === 'Brown Top Meters') {
         let theLayer = toggleBrownTopMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleYellowTopMeters() {
       if (name === 'Yellow Top Meters') {
         let theLayer = toggleYellowTopMetersLayer
         toggleLayer(theLayer)
+        if (map.zoom > 17.9) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleEVCharge() {
@@ -303,30 +357,47 @@ async function initMap() {
         } else if (toggleEVChargeLayer.checked === true) {
           markerLayer.setMap(map)
         }
+        // if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleMotorcycle() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
         toggleLayer(theLayer)
+        // if (map.zoom > 17.9) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer
         toggleLayer(theLayer)
+        // if (map.zoom > 17.9) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleResidential() {
       if (name === 'Residential Parking') {
         let theLayer = toggleResidentialLayer
         toggleLayer(theLayer)
+        // if (map.zoom > 17.9) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
     function toggleLoadingUnloading() {
       if (name === 'Loading/Unloading Only') {
         let theLayer = toggleLoadingUnloadingLayer
         toggleLayer(theLayer)
+        // if (map.zoom > 17.5) {
+        //   showSmallIcons(theLayer)
+        // }
+        // if (map.zoom <= 17.5) { priceIcon.setMap() }
       }
     }
 
@@ -368,25 +439,57 @@ async function initMap() {
       toggleLoadingUnloading()
     });
 
+    map.addListener('zoom_changed', function () {
+      if (map.zoom <= 18) { priceIcon.setMap() }
+    });
+
+
 
 
   })
+  //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
+
 
 
   //turn off residential and loading/unloading to start
   function startCondition() {
-    document.getElementById('toggleHandicap').click();
-    // document.getElementById('toggleMunicipalGarages').click();
-    // document.getElementById('togglePrivateGarages').click();
-    document.getElementById('toggleSmartMeters').click();
-    document.getElementById('toggleBlueTopMeters').click();
-    document.getElementById('toggleBrownTopMeters').click();
-    document.getElementById('toggleYellowTopMeters').click();
-    document.getElementById('toggleEVCharge').click();
-    document.getElementById('toggleMotorcycle').click();
-    document.getElementById('toggleBusLargeVehicle').click();
-    document.getElementById('toggleResidential').click();
-    document.getElementById('toggleLoadingUnloading').click();
+    if ((document.getElementById('toggleHandicap').checked) === true) {
+      document.getElementById('toggleHandicap').click();
+    }
+    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
+      document.getElementById('toggleMunicipalGarages').click();
+      console.log('it is true')
+    }
+    if ((document.getElementById('togglePrivateGarages').checked) === false) {
+      document.getElementById('togglePrivateGarages').click();
+    }
+    if ((document.getElementById('toggleSmartMeters').checked) === true) {
+      document.getElementById('toggleSmartMeters').click();
+    }
+    if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
+      document.getElementById('toggleBlueTopMeters').click();
+    }
+    if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
+      document.getElementById('toggleBrownTopMeters').click();
+    }
+    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
+      document.getElementById('toggleYellowTopMeters').click();
+    }
+    if ((document.getElementById('toggleEVCharge').checked) === true) {
+      document.getElementById('toggleEVCharge').click();
+    }
+    if ((document.getElementById('toggleMotorcycle').checked) === true) {
+      document.getElementById('toggleMotorcycle').click();
+    }
+    if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
+      document.getElementById('toggleBusLargeVehicle').click();
+    }
+    if ((document.getElementById('toggleResidential').checked) === true) {
+      document.getElementById('toggleResidential').click();
+    }
+    if ((document.getElementById('toggleLoadingUnloading').checked) === true) {
+      document.getElementById('toggleLoadingUnloading').click();
+    }
   }
   startCondition()
 
@@ -431,46 +534,10 @@ async function initMap() {
   });
 
   toggleOffStreetOnly.addEventListener('click', function () {
-    if ((document.getElementById('toggleHandicap').checked) === true) {
-      document.getElementById('toggleHandicap').click();
-    }
-    if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
-      document.getElementById('toggleMunicipalGarages').click();
-      console.log('it is true')
-    }
-    if ((document.getElementById('togglePrivateGarages').checked) === false) {
-      document.getElementById('togglePrivateGarages').click();
-    }
-    if ((document.getElementById('toggleSmartMeters').checked) === true) {
-      document.getElementById('toggleSmartMeters').click();
-    }
-    if ((document.getElementById('toggleBlueTopMeters').checked) === true) {
-      document.getElementById('toggleBlueTopMeters').click();
-    }
-    if ((document.getElementById('toggleBrownTopMeters').checked) === true) {
-      document.getElementById('toggleBrownTopMeters').click();
-    }
-    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
-      document.getElementById('toggleYellowTopMeters').click();
-    }
-    if ((document.getElementById('toggleEVCharge').checked) === true) {
-      document.getElementById('toggleEVCharge').click();
-    }
-    if ((document.getElementById('toggleMotorcycle').checked) === true) {
-      document.getElementById('toggleMotorcycle').click();
-    }
-    if ((document.getElementById('toggleBusLargeVehicle').checked) === true) {
-      document.getElementById('toggleBusLargeVehicle').click();
-    }
-    if ((document.getElementById('toggleResidential').checked) === true) {
-      document.getElementById('toggleResidential').click();
-    }
-    if ((document.getElementById('toggleLoadingUnloading').checked) === true) {
-      document.getElementById('toggleLoadingUnloading').click();
-    }
+    startCondition()
   });
 
-  // set toggle function for zoom display
+  // show all parking when zoomed in from search bar
   function toggleOnZoom() {
     if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
@@ -515,27 +582,11 @@ async function initMap() {
   function toggleZoomFeaturesOn() {
     if (map.zoom >= 17.1) {
       toggleOnZoom()
-      console.log('zoom In')
-    } 
+    }
   }
 
 
   //******************************************************************************************* */
-  //Create info window cards and add click listeners to each parking asset
-  var infowindow = new google.maps.InfoWindow({
-    content: ""
-  });
-  map.data.addListener('click', function (event) {
-    let name = event.feature.getProperty('name');
-    let description = event.feature.getProperty('description');
-    let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
-    infowindow.setContent(html); // show the html variable in the infowindow
-    infowindow.setPosition(event.latLng);
-    infowindow.setOptions({
-      pixelOffset: new google.maps.Size(0, 0)
-    }); // move the infowindow up slightly to the top of the marker icon
-    infowindow.open(map);
-  });
 
 
   // *************************************************************************************
@@ -560,7 +611,7 @@ async function initMap() {
   let marker = new google.maps.Marker({
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
-    
+
 
 
   });
@@ -582,17 +633,16 @@ async function initMap() {
     // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
-      map.setZoom(17.7);  //about 1 block
+      map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
       let walkCircle = new google.maps.Circle({
-      strokeColor: '#FF0000',
-      strokeOpacity: 0.8,
-      strokeWeight: 2,
-    
-      fillOpacity: 0.0,
-      map: map,
-      center: map.center,
-      radius: 95
+        strokeColor: '#20346a',
+        strokeOpacity: 0.8,
+        strokeWeight: 3,
+        fillOpacity: 0.0,
+        map: map,
+        center: map.center,
+        radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
       })
     } else {
       map.setCenter(place.geometry.location);
