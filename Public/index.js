@@ -683,10 +683,11 @@ async function initMap() {
         center: map.center,
         radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
       })
+
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
-      console.log('set zoom 17')
+     
     }
 
     marker.setPosition(place.geometry.location);
