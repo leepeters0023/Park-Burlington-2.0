@@ -6,7 +6,7 @@ require('dotenv').config()
 
 app.use(express.static(path.join(__dirname, '/public'))); // sets up a static directory from which our files are served and prevents people seeing sensitive code 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '/public/index.html'));
+  res.sendFile(path.join(__dirname, '/Public/index.html'));
 }) // * means 'any path' - __dirname joins our current directory to the following string 
 app.get('/apikey', (req, res) => {
   res.send(process.env.API_KEY)
