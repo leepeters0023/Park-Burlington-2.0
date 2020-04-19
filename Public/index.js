@@ -1,4 +1,4 @@
-//Firebase Configuration
+//***********Firebase Configuration ****************************************************************
 
 const config = {
   apiKey: "AIzaSyCJ_q627N1dryTYbcSjE4d-4jfsJJg5VcY",
@@ -43,7 +43,7 @@ function errData(data) {
   console.log(err)
 }
 
-//------------------------------------------------------------
+//-----------------------create base map------------------------
 
 async function initMap() {
 
@@ -132,7 +132,8 @@ async function initMap() {
 
   });
 
-  // call database query and bring into initmap function
+
+  // call database query and bring into initmap function *****************************************
   let myInfo = await makeQuery()
   let activeWindow = null
   console.log({ myInfo });
@@ -167,7 +168,7 @@ async function initMap() {
     });
 
 
-
+    // adds garages and lots - polygons and linestrings - parking meters
     let polygonLayer = new google.maps.Polygon({
       paths: newPath,
       strokeColor: stroke,
@@ -179,11 +180,12 @@ async function initMap() {
     polygonLayer.setMap(map);
     markerLayer.setMap(map);
 
-
+    // create info-window for use when clicking parking asset
     let infowindow = new google.maps.InfoWindow({
       content: ""
     });
 
+    // create small icons for show price on zoom in
     let priceIcon = new google.maps.Marker({
       position: center,
       label: rate,
@@ -191,16 +193,7 @@ async function initMap() {
 
     });
 
-    // let priceIcon = new google.maps.InfoWindow({
-    //   content: rate,
-    //   position: center,
-    //   // strokeColor: '#20346a',
-    //   // strokeOpacity: 0.0,
-    //   // strokeWeight: 0,
-    //   // fillOpacity: 0.0,
-
-    // })
-
+    // make parking assets 'clickable' and popup and populate infowindow
     polygonLayer.addListener('click', function (event) {
       if (activeWindow != null) {
         activeWindow.close()
@@ -217,10 +210,7 @@ async function initMap() {
       activeWindow = infowindow;
     });
 
-
-
-
-
+    // make charge stations 'clickable' and popup and populate infowindow
     markerLayer.addListener('click', function (event) {
       if (activeWindow != null) {
         activeWindow.close()
@@ -243,9 +233,9 @@ async function initMap() {
     // ******controls and filters*****************************************************************************************************
 
     // set variables for layer controls
-    let toggleHandicapOnly = document.getElementById('toggleHandicapOnly')
+
     let toggleShowAll = document.getElementById('toggleShowAll')
-    let toggleLoadingUnloadingOnly = document.getElementById('toggleLoadingUnloadingOnly')
+
 
     let toggleHandicapLayer = document.getElementById('toggleHandicap')
     let toggleMunicipalGaragesLayer = document.getElementById('toggleMunicipalGarages')
@@ -260,7 +250,7 @@ async function initMap() {
     let toggleResidentialLayer = document.getElementById('toggleResidential')
     let toggleLoadingUnloadingLayer = document.getElementById('toggleLoadingUnloading')
 
-    // ***** Toggle display of parking assets **********************************************************
+    // ***** Toggle display of map overlay components **********************************************************
     // toggle small icons on or off
     function showSmallIcons(theLayer) {
       if (theLayer.checked === false) {
@@ -284,7 +274,7 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        
+        // small icons not shown on this type
       }
     }
     function toggleMunicipalGarages() {
@@ -354,51 +344,39 @@ async function initMap() {
         } else if (toggleEVChargeLayer.checked === true) {
           markerLayer.setMap(map)
         }
-        // if (map.zoom <= 17) { priceIcon.setMap() }
+        // small icons not shown on this type
       }
     }
     function toggleMotorcycle() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
         toggleLayer(theLayer)
-        // if (map.zoom > 17) {
-        //   showSmallIcons(theLayer)
-        // }
-        // if (map.zoom <= 17) { priceIcon.setMap() }
+        // small icons not shown on this type
       }
     }
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer
         toggleLayer(theLayer)
-        // if (map.zoom > 17) {
-        //   showSmallIcons(theLayer)
-        // }
-        // if (map.zoom <= 17) { priceIcon.setMap() }
+        // small icons not shown on this type
       }
     }
     function toggleResidential() {
       if (name === 'Residential Parking') {
         let theLayer = toggleResidentialLayer
         toggleLayer(theLayer)
-        // if (map.zoom > 17) {
-        //   showSmallIcons(theLayer)
-        // }
-        // if (map.zoom <= 17) { priceIcon.setMap() }
+        // small icons not shown on this type
       }
     }
     function toggleLoadingUnloading() {
       if (name === 'Loading/Unloading Only') {
         let theLayer = toggleLoadingUnloadingLayer
         toggleLayer(theLayer)
-        // if (map.zoom > 17) {
-        //   showSmallIcons(theLayer)
-        // }
-        // if (map.zoom <= 17) { priceIcon.setMap() }
+        // small icons not shown on this type
       }
     }
 
-    // **************create toggle event on click triggers
+    // **************create toggle event on click of dom element
     toggleHandicapLayer.addEventListener('click', function () {
       toggleHandicap()
     });
@@ -436,7 +414,7 @@ async function initMap() {
       toggleLoadingUnloading()
     });
 
-
+// make small icons visible or not depending on zoom level
     map.addListener('zoom_changed', function () {
       if (map.zoom <= 17) {
         priceIcon.setMap()
@@ -477,7 +455,6 @@ async function initMap() {
           let theLayer = toggleYellowTopMetersLayer
           showSmallIcons(theLayer)
         }
-
 
         if (name === 'Motorcycle Parking') {
           let theLayer = toggleMotorcycleLayer
@@ -552,6 +529,7 @@ async function initMap() {
   }
   startCondition()
 
+// turn all parking assets on - visible regardless of prior visibility
   toggleShowAll.addEventListener('click', function () {
     if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
@@ -592,6 +570,7 @@ async function initMap() {
     }
   });
 
+  // tur on oly off street parking (reset map to startup condition)
   toggleOffStreetOnly.addEventListener('click', function () {
     startCondition()
   });
@@ -637,18 +616,14 @@ async function initMap() {
 
   };
 
-  // ********Zoom functions******************************************************************
-  function toggleZoomFeaturesOn() {
+    function toggleZoomFeaturesOn() {
     if (map.zoom >= 17.1) {
       toggleOnZoom()
     }
   }
 
 
-  //******************************************************************************************* */
-
-
-  // *************************************************************************************
+   // *********** search box ************************************************************
   //Get searchbox element and fix it to top left of screen
   let card = document.getElementById('pac-card');
   let input = document.getElementById('pac-input');
@@ -670,9 +645,6 @@ async function initMap() {
   let marker = new google.maps.Marker({
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
-
-
-
   });
 
   autocomplete.addListener('place_changed', function () {
@@ -686,15 +658,12 @@ async function initMap() {
       return;
     }
 
-
-
-
-    // If the place has a geometry, then present it on a map.
+    // If the place has a geometry, then present it on a map plus add 2 minute walk circle.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
-      let walkCircle = new google.maps.Circle({
+      let walkCircle = new google.maps.Circle({ // create walk circle
         strokeColor: '#20346a',
         strokeOpacity: 0.8,
         strokeWeight: 3,
