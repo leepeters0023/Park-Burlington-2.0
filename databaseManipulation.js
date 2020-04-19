@@ -50,12 +50,12 @@ async function initMap() {
     
     let rate = myInfo[k].rate
    
-    if (name === "Blue Top Meters") {
+    if (name === "Residential Parking") {
      console.log(name)
-      rate = "$1/Hr"
+      rate = "Residential Permit"
      
-    // let usersRef =ref.child(i);
-    // usersRef.update({ rate: rate })
+    let usersRef =ref.child(i);
+    usersRef.update({ rate: rate })
 
       
     }
