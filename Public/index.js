@@ -562,14 +562,14 @@ async function initMap() {
     }
   });
 
-  // tur on oly off street parking (reset map to startup condition)
+  // turn on only off street parking (reset map to startup condition)
   toggleOffStreetOnly.addEventListener('click', function () {
     startCondition()
   });
 
   // show all parking when zoomed in from search bar
   function toggleOnZoom() {
-    if ((document.getElementById('toggleHandicap').checked) === false) {
+    if ((document.getElementById('toggleHandicap').checked) === true) {
       document.getElementById('toggleHandicap').click();
     }
     if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
@@ -587,22 +587,22 @@ async function initMap() {
     if ((document.getElementById('toggleBrownTopMeters').checked) === false) {
       document.getElementById('toggleBrownTopMeters').click();
     }
-    if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
+    if ((document.getElementById('toggleYellowTopMeters').checked) === true) {
       document.getElementById('toggleYellowTopMeters').click();
     }
-    if ((document.getElementById('toggleEVCharge').checked) === false) {
+    if ((document.getElementById('toggleEVCharge').checked) === true) {
       document.getElementById('toggleEVCharge').click();
     }
-    if ((document.getElementById('toggleMotorcycle').checked) === false) {
+    if ((document.getElementById('toggleMotorcycle').checked) === true) {
       document.getElementById('toggleMotorcycle').click();
     }
     if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
       document.getElementById('toggleBusLargeVehicle').click();
     }
-    if ((document.getElementById('toggleResidential').checked) === false) {
+    if ((document.getElementById('toggleResidential').checked) === true) {
       document.getElementById('toggleResidential').click();
     }
-    if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
+    if ((document.getElementById('toggleLoadingUnloading').checked) === true) {
       document.getElementById('toggleLoadingUnloading').click();
     }
 
