@@ -73,7 +73,7 @@ async function initMap() {
     rotateControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-      position: google.maps.ControlPosition.BOTTOM_RIGHT
+      position: google.maps.ControlPosition.RIGHT_BOTTOM
     },
     restriction: {
       latLngBounds: viewLimit,
