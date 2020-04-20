@@ -70,7 +70,10 @@ async function initMap() {
     zoom: 15.3,
     gestureHandling: "greedy",
     fullscreenControl: false,
-    mapTypeControl: false,
+    mapTypeControlOptions: {
+      style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+      position: google.maps.ControlPosition.TOP_RIGHT
+    },
     restriction: {
       latLngBounds: viewLimit,
       strictBounds: false,
@@ -132,6 +135,10 @@ async function initMap() {
 
   });
 
+  //Get searchbox element and fix it to top left of screen
+  let card = document.getElementById('pac-card');
+  let input = document.getElementById('pac-input');
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
   // call database query and bring into initmap function *****************************************
   let myInfo = await makeQuery()
@@ -202,9 +209,9 @@ async function initMap() {
     }
 
     if (icon != ""){
-      priceIcon.setIcon(icon)
+      priceIcon.setIcon({url: icon, anchor: {x:15,y:15}})
     } else {
-      priceIcon.setIcon("images/text-background.png")
+      priceIcon.setIcon({url: "images/text-background.png", anchor: {x:30,y:15}})
     }
 
     if (center != 'NEED'){
@@ -290,20 +297,20 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 15) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 15) { priceIcon.setMap() }
       }
     }
     function togglePrivateGarages() {
@@ -320,40 +327,40 @@ async function initMap() {
       if (name === 'Smart Meters') {
         let theLayer = toggleSmartMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleBlueTopMeters() {
       if (name === 'Blue Top Meters') {
         let theLayer = toggleBlueTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleBrownTopMeters() {
       if (name === 'Brown Top Meters') {
         let theLayer = toggleBrownTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleYellowTopMeters() {
       if (name === 'Yellow Top Meters') {
         let theLayer = toggleYellowTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 19) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
     function toggleEVCharge() {
@@ -363,21 +370,26 @@ async function initMap() {
         } else if (toggleEVChargeLayer.checked === true) {
           markerLayer.setMap(map)
         }
-        // small icons not shown on this type
       }
     }
     function toggleMotorcycle() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
         toggleLayer(theLayer)
-        // small icons not shown on this type
+        if (map.zoom > 19) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer
         toggleLayer(theLayer)
-        // small icons not shown on this type
+        if (map.zoom > 19) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
     function toggleResidential() {
@@ -438,73 +450,20 @@ async function initMap() {
 
 // make small icons visible or not depending on zoom level
     map.addListener('zoom_changed', function () {
-      if (map.zoom <= 17) {
-        priceIcon.setMap()
-      }
-      if (map.zoom > 17) {
-
-        if (name === 'Handicapped' || name === 'Handicapped Parking') {
-          let theLayer = toggleHandicapLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (ownership === 'municipal') {
-          let theLayer = toggleMunicipalGaragesLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (ownership === 'private') {
-          let theLayer = togglePrivateGaragesLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Smart Meters') {
-          let theLayer = toggleSmartMetersLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Blue Top Meters') {
-          let theLayer = toggleBlueTopMetersLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Brown Top Meters') {
-          let theLayer = toggleBrownTopMetersLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Yellow Top Meters') {
-          let theLayer = toggleYellowTopMetersLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Motorcycle Parking') {
-          let theLayer = toggleMotorcycleLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Bus Parking') {
-          let theLayer = toggleBusLargeVehicleLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Residential Parking') {
-          let theLayer = toggleResidentialLayer
-          showSmallIcons(theLayer)
-        }
-
-        if (name === 'Loading/Unloading Only') {
-          let theLayer = toggleLoadingUnloadingLayer
-          showSmallIcons(theLayer)
-        }
-      }
-    })
-
-
-
-
-
+      toggleHandicap()
+toggleMunicipalGarages()
+togglePrivateGarages()
+toggleSmartMeters()
+toggleBlueTopMeters()
+toggleBrownTopMeters()
+toggleYellowTopMeters()
+toggleEVCharge()
+toggleMotorcycle()
+toggleBusLargeVehicle()
+toggleResidential()
+toggleLoadingUnloading()
   })
+})
   //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
 
 
@@ -646,10 +605,7 @@ async function initMap() {
 
 
    // *********** search box ************************************************************
-  //Get searchbox element and fix it to top left of screen
-  let card = document.getElementById('pac-card');
-  let input = document.getElementById('pac-input');
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
+  
 
   //Initialize autocomplete function in the searchbar
   let autocomplete = new google.maps.places.Autocomplete(input);
