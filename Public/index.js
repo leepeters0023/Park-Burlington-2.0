@@ -140,6 +140,7 @@ async function initMap() {
   //Get searchbox element and fix it to top left of screen
   let card = document.getElementById('pac-card');
   let input = document.getElementById('pac-input');
+  let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
   // call database query and bring into initmap function *****************************************
@@ -625,8 +626,8 @@ async function initMap() {
   autocomplete.setOptions({ strictBounds: true });
 
   // Set the data fields to return when the user selects a place.
-  autocomplete.setFields(
-    ['address_components', 'geometry', 'icon', 'name']);
+  autocomplete.setFields(['address_components', 'geometry', 'icon', 'name']);
+
   let addressinfowindow = new google.maps.InfoWindow();
   let infowindowContent = document.getElementById('infowindow-content');
   addressinfowindow.setContent(infowindowContent);
@@ -634,6 +635,15 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
+  // create walk circle
+  let walkCircle = new google.maps.Circle({ 
+    strokeColor: '#20346a',
+    strokeOpacity: 0.8,
+    strokeWeight: 3,
+    fillOpacity: 0.0,
+    center: map.center,
+    radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+  })
 
   autocomplete.addListener('place_changed', function () {
     addressinfowindow.close();
@@ -646,27 +656,38 @@ async function initMap() {
       return;
     }
 
+
     // If the place has a geometry, then present it on a map plus add 2 minute walk circle.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
-      let walkCircle = new google.maps.Circle({ // create walk circle
-        strokeColor: '#20346a',
-        strokeOpacity: 0.8,
-        strokeWeight: 3,
-        fillOpacity: 0.0,
-        map: map,
-        center: map.center,
-        radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
-      })
-
+      addWalkCircle()
+      console.log(place.geometry.viewport)
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
-
     }
 
+    // add walk circle
+    function addWalkCircle() {
+      walkCircle.center = map.center
+      walkCircle.setMap(map)
+    }
+
+    // reset search bar - pin - info window - walk circle
+    function resetSearch() {
+      addressinfowindow.close();
+      marker.setVisible(false);
+      walkCircle.setMap(null);
+      document.getElementById('pac-input').value = "";
+    }
+
+    reset.addEventListener('click', function () {
+      resetSearch()
+    })
+
+    //set marker on map from search bar
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
 
