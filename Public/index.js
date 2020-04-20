@@ -646,11 +646,6 @@ async function initMap() {
       return;
     }
 
-    function resetSearch() {
-      addressinfowindow.close();
-      marker.setVisible(false);
-      walkCircle.setMap(map)
-    }
 
     // If the place has a geometry, then present it on a map plus add 2 minute walk circle.
     if (place.geometry.viewport) {
@@ -672,6 +667,17 @@ async function initMap() {
       map.setZoom(17);  // Why 17? Because it looks good.
 
     }
+
+
+    function resetSearch() {
+      addressinfowindow.close();
+      marker.setVisible(false);
+      walkCircle.setMap()
+    }
+
+    reset.addEventListener('click', function () {
+      resetSearch()
+    })
 
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
