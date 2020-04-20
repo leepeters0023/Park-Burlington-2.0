@@ -205,7 +205,7 @@ async function initMap() {
 
     if (rate != ""){
       let dynamicFontSize = (17 - (rate.length * .55)).toString() + 'px'
-      priceIcon.setLabel({text: rate, fontSize: dynamicFontSize, fontWeight: "bold"})
+      priceIcon.setLabel({text: rate, fontSize: dynamicFontSize, color: "white", fontWeight: "bold"})
     }
 
     if (icon != ""){
