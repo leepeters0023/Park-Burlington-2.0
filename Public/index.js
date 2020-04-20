@@ -204,7 +204,7 @@ async function initMap() {
     });
 
     if (rate != ""){
-      let dynamicFontSize = (17 - (rate.length * .55)).toString() + 'px'
+      let dynamicFontSize = (17 - (rate.length * .65)).toString() + 'px'
       priceIcon.setLabel({text: rate, fontSize: dynamicFontSize, color: "white", fontWeight: "bold"})
     }
 
@@ -412,7 +412,10 @@ async function initMap() {
       if (name === 'Loading/Unloading Only') {
         let theLayer = toggleLoadingUnloadingLayer
         toggleLayer(theLayer)
-        // small icons not shown on this type
+        if (map.zoom > 19) {
+          showSmallIcons(theLayer)
+        }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
 
