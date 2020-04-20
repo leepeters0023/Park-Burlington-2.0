@@ -70,6 +70,7 @@ async function initMap() {
     zoom: 15.3,
     gestureHandling: "greedy",
     fullscreenControl: false,
+    rotateControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
       position: google.maps.ControlPosition.TOP_RIGHT
@@ -173,9 +174,9 @@ async function initMap() {
       position: null,
       icon: image,
     });
-   
-    if (latitude != undefined){
-      markerLayer.setPosition({lat: latitude, lng: longitude })
+
+    if (latitude != undefined) {
+      markerLayer.setPosition({ lat: latitude, lng: longitude })
     }
 
 
@@ -200,23 +201,22 @@ async function initMap() {
     let priceIcon = new google.maps.Marker({
       position: null,
       icon: null,
-      
     });
 
-    if (rate != ""){
+    if (rate != "") {
       let dynamicFontSize = (17 - (rate.length * .65)).toString() + 'px'
-      priceIcon.setLabel({text: rate, fontSize: dynamicFontSize, color: "white", fontWeight: "bold"})
+      priceIcon.setLabel({ text: rate, fontSize: dynamicFontSize, color: "white", fontWeight: "bold" })
     }
 
-    if (icon != ""){
-      priceIcon.setIcon({url: icon, anchor: {x:15,y:15}})
+    if (icon != "") {
+      priceIcon.setIcon({ url: icon, anchor: { x: 15, y: 15 } })
     } else {
-      priceIcon.setIcon({url: "images/text-background.png", anchor: {x:30,y:15}})
+      priceIcon.setIcon({ url: "images/text-background.png", anchor: { x: 30, y: 15 } })
     }
 
-    if (center != 'NEED'){
-    priceIcon.setPosition(center)
-  }
+    if (center != 'NEED') {
+      priceIcon.setPosition(center)
+    }
     // make parking assets 'clickable' and popup and populate infowindow
     polygonLayer.addListener('click', function (event) {
       if (activeWindow != null) {
@@ -457,22 +457,22 @@ async function initMap() {
       toggleLoadingUnloading()
     });
 
-// make small icons visible or not depending on zoom level
+    // make small icons visible or not depending on zoom level
     map.addListener('zoom_changed', function () {
       toggleHandicap()
-toggleMunicipalGarages()
-togglePrivateGarages()
-toggleSmartMeters()
-toggleBlueTopMeters()
-toggleBrownTopMeters()
-toggleYellowTopMeters()
-toggleEVCharge()
-toggleMotorcycle()
-toggleBusLargeVehicle()
-toggleResidential()
-toggleLoadingUnloading()
+      toggleMunicipalGarages()
+      togglePrivateGarages()
+      toggleSmartMeters()
+      toggleBlueTopMeters()
+      toggleBrownTopMeters()
+      toggleYellowTopMeters()
+      toggleEVCharge()
+      toggleMotorcycle()
+      toggleBusLargeVehicle()
+      toggleResidential()
+      toggleLoadingUnloading()
+    })
   })
-})
   //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
 
 
@@ -519,7 +519,7 @@ toggleLoadingUnloading()
   }
   startCondition()
 
-// turn all parking assets on - visible regardless of prior visibility
+  // turn all parking assets on - visible regardless of prior visibility
   toggleShowAll.addEventListener('click', function () {
     if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
@@ -606,15 +606,15 @@ toggleLoadingUnloading()
 
   };
 
-    function toggleZoomFeaturesOn() {
+  function toggleZoomFeaturesOn() {
     if (map.zoom >= 17.1) {
       toggleOnZoom()
     }
   }
 
 
-   // *********** search box ************************************************************
-  
+  // *********** search box ************************************************************
+
 
   //Initialize autocomplete function in the searchbar
   let autocomplete = new google.maps.places.Autocomplete(input);
@@ -663,7 +663,7 @@ toggleLoadingUnloading()
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
-     
+
     }
 
     marker.setPosition(place.geometry.location);
