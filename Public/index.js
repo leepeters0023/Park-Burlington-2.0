@@ -1,3 +1,11 @@
+//Set Window Height
+// function resizeWindow(){
+//   let windowHeight = window.innerHeight
+//     document.body.setAttribute("style", `height: ${windowHeight}`)
+// }
+// window.addEventListener("resize", resizeWindow)
+
+// resizeWindow()
 //***********Firebase Configuration ****************************************************************
 const config = {
   apiKey: "AIzaSyCJ_q627N1dryTYbcSjE4d-4jfsJJg5VcY",
@@ -74,7 +82,7 @@ async function initMap() {
     scaleControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-      position: google.maps.ControlPosition.RIGHT_BOTTOM
+      position: google.maps.ControlPosition.RIGHT_TOP
     },
     restriction: {
       latLngBounds: viewLimit,

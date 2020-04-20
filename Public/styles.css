@@ -1,6 +1,5 @@
 
 html, body {
-  height: 100%;
   margin: 0;
   padding: 0;
   background-color: #20346a;
@@ -9,7 +8,7 @@ html, body {
 
 /* Header styles */
 #header {
-  height: 80px;
+  height: 10vh;
   background-color: #20346a;
   display: flex;
   align-items: center;
@@ -40,7 +39,7 @@ html, body {
 
 /* Map container */
 #map {
-  height: calc(90vh - 80px);
+  height: 80vh;
 }
 
 /* Info window */
