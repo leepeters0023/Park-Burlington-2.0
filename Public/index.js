@@ -139,7 +139,6 @@ async function initMap() {
   //Get searchbox element and fix it to top left of screen
   let card = document.getElementById('pac-card');
   let input = document.getElementById('pac-input');
-  let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
   // call database query and bring into initmap function *****************************************
