@@ -78,6 +78,9 @@ html, body {
   max-width: 400px;
 }
 
+#btnReset {
+  margin-right: 5px;
+}
 
 /* ******************************************************** */
 #ui-container {
