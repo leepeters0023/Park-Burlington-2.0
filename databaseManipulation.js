@@ -17,47 +17,47 @@ let data;
 
 
 
-async function makeQuery() {
-  let myVar = await ref.once('value')
-    .then(function (dataSnapshot) {
-      let info = dataSnapshot.val()
-      let keys = Object.keys(info)
-      for (let i = 0; i < keys.length; i++) {
-        let k = keys[i]
-        let name = info[k].name
-        let coords = info[k].coordinates
-        let descrip = info[k].description
-      }
-      return dataSnapshot.val()
-    })
-  return myVar
-}
-async function initMap() {
-  let myInfo = await makeQuery()
-  console.log(typeof(myInfo))
+// async function makeQuery() {
+//   let myVar = await ref.once('value')
+//     .then(function (dataSnapshot) {
+//       let info = dataSnapshot.val()
+//       let keys = Object.keys(info)
+//       for (let i = 0; i < keys.length; i++) {
+//         let k = keys[i]
+//         let name = info[k].name
+//         let coords = info[k].coordinates
+//         let descrip = info[k].description
+//       }
+//       return dataSnapshot.val()
+//     })
+//   return myVar
+// }
+// async function initMap() {
+//   let myInfo = await makeQuery()
+//   console.log(typeof(myInfo))
  
-  myInfo.forEach((item) => {
-    let keys = Object.keys(myInfo)
-    console.log(keys)
-    for(i=0; i<248; i++){
-    let k = keys[i]
-    console.log(k)
-    // console.log(k)
-    // let center = myInfo[k].center
-    let name = myInfo[k].name
-    let rate = myInfo[k].rate
-    if (name === "Motorcycle Parking") {
-     console.log(rate)
-      rate = "Motorcycle"
-    // let usersRef =ref.child(i);
-    // usersRef.update({ rate: rate })
+//   myInfo.forEach((item) => {
+//     let keys = Object.keys(myInfo)
+//     console.log(keys)
+//     for(i=0; i<248; i++){
+//     let k = keys[i]
+//     console.log(k)
+//     // console.log(k)
+//     // let center = myInfo[k].center
+//     let name = myInfo[k].name
+//     let rate = myInfo[k].rate
+//     if (name === "Motorcycle Parking") {
+//      console.log(rate)
+//       rate = "Motorcycle"
+//     // let usersRef =ref.child(i);
+//     // usersRef.update({ rate: rate })
 
-    }
-    }
-  // })
-})//end of forEach
-}//End of initMap
-}//
+//     }
+//     }
+//   // })
+// })//end of forEach
+// }//End of initMap
+// }//
 
 // // async function initMap() {
 
@@ -99,13 +99,31 @@ async function initMap() {
 
 
 
-// // fetch("./BurlingtonParkingMap.geojson")
-// //   .then((response) => {
-// //     return response.json();
-// //   })
-// //   .then((data) => {
-// //     for (let i in data) {
-// //       for (i = 33; i < 249; i++){
+fetch("./newBurlington.geojson")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    for (let i in data) {
+      for (i = 206; i < 207; i++){
+            let descrip = data.features[i].properties.description
+           
+            let splitOne = descrip.split('<br>')
+            let splitTwo = splitOne[0]
+            let sliceTwo2 = splitTwo.slice(0,5)
+            let sliceTwo3 = splitTwo.slice(6,1000)
+            let splitThree = splitOne[1]
+            let sliceThree3 = splitThree.slice(0,8)
+            let sliceThree4 = splitThree.slice(9,1000)
+            let splitFour = splitOne[2]
+            let sliceFour4 = splitFour.slice(0,18)
+            let sliceFour5 = splitFour.slice(19,1000)
+            //console.log(sliceTwo3, sliceThree4, sliceFour5)
+            console.log(sliceTwo2.bold() + sliceTwo3 + '\n'+sliceThree3.bold() + sliceThree4 + '\n'+sliceFour4.bold() + sliceFour5)
+        let usersRef = ref.child(i);
+        //usersRef.update({description: sliceTwo2.bold() + sliceTwo3 + '\n'+sliceThree3.bold() + sliceThree4 + '\n'+sliceFour4.bold() + sliceFour5})
+      //usersRef.update({description: descrip })         
+
 // //       let coords = data.features[i].geometry.coordinates
 // //       if (coords.length === 2) {
 // //       let coordsSpliced = coords[0].splice(0, 2)
@@ -117,10 +135,10 @@ async function initMap() {
 // //       let usersRef = ref.child(i);
 // //       usersRef.update({center: midPoint(coordsRev, coordsRev2)})
       
-// //       }
-// //       }
-// //     }
-// //   })
+      }
+      }
+    }
+  )
 // //   function midPoint( [latitude1, longitude1], [ latitude2, longitude2 ]) {
 // //     var DEG_TO_RAD = Math.PI / 180;     // To convert degrees to radians.
   
