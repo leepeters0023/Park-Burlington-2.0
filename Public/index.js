@@ -192,15 +192,19 @@ async function initMap() {
     // create small icons for show price on zoom in
     let priceIcon = new google.maps.Marker({
       position: null,
-      label: rate,
       icon: null,
+      
     });
 
+    if (rate != ""){
+      let dynamicFontSize = (17 - (rate.length * .55)).toString() + 'px'
+      priceIcon.setLabel({text: rate, fontSize: dynamicFontSize, fontWeight: "bold"})
+    }
+
     if (icon != ""){
-      console.log(icon)
       priceIcon.setIcon(icon)
     } else {
-      priceIcon.setIcon(parkMarker)
+      priceIcon.setIcon("images/text-background.png")
     }
 
     if (center != 'NEED'){
