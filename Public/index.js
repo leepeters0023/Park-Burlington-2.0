@@ -634,7 +634,14 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
- 
+  let walkCircle = new google.maps.Circle({ // create walk circle
+    strokeColor: '#20346a',
+    strokeOpacity: 0.8,
+    strokeWeight: 3,
+    fillOpacity: 0.0,
+    center: map.center,
+    radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+  })
 
 
   autocomplete.addListener('place_changed', function () {
@@ -655,30 +662,31 @@ async function initMap() {
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
       addWalkCircle()
-      
+      console.log(place.geometry.viewport)
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
     }
 
-    let walkCircle = new google.maps.Circle({ // create walk circle
-      strokeColor: '#20346a',
-      strokeOpacity: 0.8,
-      strokeWeight: 3,
-      fillOpacity: 0.0,
-      center: (place.geometry.location),
-      radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
-    })
-    
+    // let walkCircle = new google.maps.Circle({ // create walk circle
+    //   strokeColor: '#20346a',
+    //   strokeOpacity: 0.8,
+    //   strokeWeight: 3,
+    //   fillOpacity: 0.0,
+    //   center: map.center,
+    //   radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+    // })
+
     function addWalkCircle() {
-      let newWalkCircle = walkCircle
-           newWalkCircle.setMap(map)
+      walkCircle.center = map.center
+      walkCircle.setMap(map)
     }
 
     function resetSearch() {
       addressinfowindow.close();
       marker.setVisible(false);
-      walkCircle.setMap()
+      walkCircle.setMap(null);
+      document.getElementById('pac-input').value = "";
     }
 
     reset.addEventListener('click', function () {
