@@ -634,7 +634,8 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
-  let walkCircle = new google.maps.Circle({ // create walk circle
+  // create walk circle
+  let walkCircle = new google.maps.Circle({ 
     strokeColor: '#20346a',
     strokeOpacity: 0.8,
     strokeWeight: 3,
@@ -642,7 +643,6 @@ async function initMap() {
     center: map.center,
     radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
   })
-
 
   autocomplete.addListener('place_changed', function () {
     addressinfowindow.close();
@@ -668,20 +668,13 @@ async function initMap() {
       map.setZoom(17);  // Why 17? Because it looks good.
     }
 
-    // let walkCircle = new google.maps.Circle({ // create walk circle
-    //   strokeColor: '#20346a',
-    //   strokeOpacity: 0.8,
-    //   strokeWeight: 3,
-    //   fillOpacity: 0.0,
-    //   center: map.center,
-    //   radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
-    // })
-
+    // add walk circle
     function addWalkCircle() {
       walkCircle.center = map.center
       walkCircle.setMap(map)
     }
 
+    // reset search bar - pin - info window - walk circle
     function resetSearch() {
       addressinfowindow.close();
       marker.setVisible(false);
@@ -693,6 +686,7 @@ async function initMap() {
       resetSearch()
     })
 
+    //set marker on map from search bar
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
 
