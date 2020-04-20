@@ -43,12 +43,12 @@ async function initMap() {
     // console.log(k)
     // let center = myInfo[k].center
     let name = myInfo[k].name
-    let icon = myInfo[k].icon
-    if (name === "Handicapped Parking") {
+    let rate = myInfo[k].rate
+    if (name === "Motorcycle Parking") {
      console.log(rate)
-      icon = "images/handicapped-parking.png"
-    let usersRef =ref.child(i);
-    usersRef.update({ icon: icon })
+      rate = "Motorcycle"
+    // let usersRef =ref.child(i);
+    // usersRef.update({ rate: rate })
     }
     }
   // })
