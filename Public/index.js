@@ -73,7 +73,7 @@ async function initMap() {
     rotateControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-      position: google.maps.ControlPosition.TOP_RIGHT
+      position: google.maps.ControlPosition.BOTTOM_RIGHT
     },
     restriction: {
       latLngBounds: viewLimit,
@@ -625,8 +625,8 @@ async function initMap() {
   autocomplete.setOptions({ strictBounds: true });
 
   // Set the data fields to return when the user selects a place.
-  autocomplete.setFields(
-    ['address_components', 'geometry', 'icon', 'name']);
+  autocomplete.setFields(['address_components', 'geometry', 'icon', 'name']);
+
   let addressinfowindow = new google.maps.InfoWindow();
   let infowindowContent = document.getElementById('infowindow-content');
   addressinfowindow.setContent(infowindowContent);
@@ -634,6 +634,8 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
+ 
+
 
   autocomplete.addListener('place_changed', function () {
     addressinfowindow.close();
@@ -652,20 +654,11 @@ async function initMap() {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
-      // let walkCircle = new google.maps.Circle({ // create walk circle
-      //   strokeColor: '#20346a',
-      //   strokeOpacity: 0.8,
-      //   strokeWeight: 3,
-      //   fillOpacity: 0.0,
-      //   center: map.center,
-      //   radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
-      // })
-      // walkCircle.setMap(map)
       addWalkCircle()
+      
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
-
     }
 
     let walkCircle = new google.maps.Circle({ // create walk circle
@@ -673,13 +666,13 @@ async function initMap() {
       strokeOpacity: 0.8,
       strokeWeight: 3,
       fillOpacity: 0.0,
-      center: map.center,
+      center: (place.geometry.location),
       radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
     })
-
+    
     function addWalkCircle() {
-      
-      walkCircle.setMap(map)
+      let newWalkCircle = walkCircle
+           newWalkCircle.setMap(map)
     }
 
     function resetSearch() {
