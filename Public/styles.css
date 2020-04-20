@@ -13,6 +13,14 @@ html, body {
   background-color: #20346a;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+#logo-home-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
   color: #fff;
 }
 
@@ -23,6 +31,11 @@ html, body {
 
 #logo-text {
   height: 25%;
+}
+
+#about-image {
+  height: 33%;
+  margin-right: 4vh;
 }
 
 /* Map container */

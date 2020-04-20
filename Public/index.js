@@ -71,9 +71,10 @@ async function initMap() {
     gestureHandling: "greedy",
     fullscreenControl: false,
     rotateControl: true,
+    scaleControl: true,
     mapTypeControlOptions: {
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-      position: google.maps.ControlPosition.TOP_RIGHT
+      position: google.maps.ControlPosition.RIGHT_BOTTOM
     },
     restriction: {
       latLngBounds: viewLimit,
@@ -204,7 +205,7 @@ async function initMap() {
     });
 
     if (rate != "") {
-      let dynamicFontSize = (17 - (rate.length * .65)).toString() + 'px'
+      let dynamicFontSize = (24 - (rate.length * 1.2)).toString() + 'px'
       priceIcon.setLabel({ text: rate, fontSize: dynamicFontSize, color: "white", fontWeight: "bold" })
     }
 
