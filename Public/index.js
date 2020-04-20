@@ -652,22 +652,35 @@ async function initMap() {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
-      let walkCircle = new google.maps.Circle({ // create walk circle
-        strokeColor: '#20346a',
-        strokeOpacity: 0.8,
-        strokeWeight: 3,
-        fillOpacity: 0.0,
-        center: map.center,
-        radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
-      })
-      walkCircle.setMap(map)
-
+      // let walkCircle = new google.maps.Circle({ // create walk circle
+      //   strokeColor: '#20346a',
+      //   strokeOpacity: 0.8,
+      //   strokeWeight: 3,
+      //   fillOpacity: 0.0,
+      //   center: map.center,
+      //   radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+      // })
+      // walkCircle.setMap(map)
+      addWalkCircle()
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
 
     }
 
+    let walkCircle = new google.maps.Circle({ // create walk circle
+      strokeColor: '#20346a',
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      fillOpacity: 0.0,
+      center: map.center,
+      radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+    })
+
+    function addWalkCircle() {
+      
+      walkCircle.setMap(map)
+    }
 
     function resetSearch() {
       addressinfowindow.close();
