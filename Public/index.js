@@ -140,7 +140,6 @@ async function initMap() {
   //Get searchbox element and fix it to top left of screen
   let card = document.getElementById('pac-card');
   let input = document.getElementById('pac-input');
-  let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
   // call database query and bring into initmap function *****************************************
@@ -213,7 +212,7 @@ async function initMap() {
     if (icon != "") {
       priceIcon.setIcon({ url: icon, anchor: { x: 15, y: 15 } })
     } else {
-      priceIcon.setIcon({ url: "images/text-background5020.png", anchor: { x: 30, y: 15 } })
+      priceIcon.setIcon({ url: "images/text-background.png", anchor: { x: 30, y: 15 } })
     }
 
     if (center != 'NEED') {
@@ -309,60 +308,60 @@ async function initMap() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 15) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 15) { priceIcon.setMap() }
       }
     }
     function togglePrivateGarages() {
       if (ownership === 'private') {
         let theLayer = togglePrivateGaragesLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 17) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 17) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleSmartMeters() {
       if (name === 'Smart Meters') {
         let theLayer = toggleSmartMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 18) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 18) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleBlueTopMeters() {
       if (name === 'Blue Top Meters') {
         let theLayer = toggleBlueTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 18) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 18) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleBrownTopMeters() {
       if (name === 'Brown Top Meters') {
         let theLayer = toggleBrownTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 18) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 18) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleYellowTopMeters() {
       if (name === 'Yellow Top Meters') {
         let theLayer = toggleYellowTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 18) {
+        if (map.zoom > 19) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 18) { priceIcon.setMap() }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
     function toggleEVCharge() {  // note complexity is due to charge stations having multiple names plus most are geometry: Point while 2 are linestrings
@@ -384,40 +383,40 @@ async function initMap() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 18) {
+        if (map.zoom > 19) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 18) { priceIcon.setMap() }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 18) {
+        if (map.zoom > 19) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 18) { priceIcon.setMap() }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
     function toggleResidential() {
       if (name === 'Residential Parking') {
         let theLayer = toggleResidentialLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 17) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 17) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleLoadingUnloading() {
       if (name === 'Loading/Unloading Only') {
         let theLayer = toggleLoadingUnloadingLayer
         toggleLayer(theLayer)
-        if (map.zoom >= 18) {
+        if (map.zoom > 19) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom < 18) { priceIcon.setMap() }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
 
@@ -569,7 +568,7 @@ async function initMap() {
 
   // show all parking when zoomed in from search bar
   function toggleOnZoom() {
-    if ((document.getElementById('toggleHandicap').checked) === true) {
+    if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
     }
     if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
@@ -590,19 +589,19 @@ async function initMap() {
     if ((document.getElementById('toggleYellowTopMeters').checked) === false) {
       document.getElementById('toggleYellowTopMeters').click();
     }
-    if ((document.getElementById('toggleEVCharge').checked) === true) {
+    if ((document.getElementById('toggleEVCharge').checked) === false) {
       document.getElementById('toggleEVCharge').click();
     }
-    if ((document.getElementById('toggleMotorcycle').checked) === true) {
+    if ((document.getElementById('toggleMotorcycle').checked) === false) {
       document.getElementById('toggleMotorcycle').click();
     }
     if ((document.getElementById('toggleBusLargeVehicle').checked) === false) {
       document.getElementById('toggleBusLargeVehicle').click();
     }
-    if ((document.getElementById('toggleResidential').checked) === true) {
+    if ((document.getElementById('toggleResidential').checked) === false) {
       document.getElementById('toggleResidential').click();
     }
-    if ((document.getElementById('toggleLoadingUnloading').checked) === true) {
+    if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
       document.getElementById('toggleLoadingUnloading').click();
     }
 
@@ -626,8 +625,8 @@ async function initMap() {
   autocomplete.setOptions({ strictBounds: true });
 
   // Set the data fields to return when the user selects a place.
-  autocomplete.setFields(['address_components', 'geometry', 'icon', 'name']);
-
+  autocomplete.setFields(
+    ['address_components', 'geometry', 'icon', 'name']);
   let addressinfowindow = new google.maps.InfoWindow();
   let infowindowContent = document.getElementById('infowindow-content');
   addressinfowindow.setContent(infowindowContent);
@@ -635,15 +634,6 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
-  // create walk circle
-  let walkCircle = new google.maps.Circle({ 
-    strokeColor: '#20346a',
-    strokeOpacity: 0.8,
-    strokeWeight: 3,
-    fillOpacity: 0.0,
-    center: map.center,
-    radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
-  })
 
   autocomplete.addListener('place_changed', function () {
     addressinfowindow.close();
@@ -656,38 +646,27 @@ async function initMap() {
       return;
     }
 
-
     // If the place has a geometry, then present it on a map plus add 2 minute walk circle.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
-      addWalkCircle()
-      console.log(place.geometry.viewport)
+      let walkCircle = new google.maps.Circle({ // create walk circle
+        strokeColor: '#20346a',
+        strokeOpacity: 0.8,
+        strokeWeight: 3,
+        fillOpacity: 0.0,
+        map: map,
+        center: map.center,
+        radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+      })
+
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
+
     }
 
-    // add walk circle
-    function addWalkCircle() {
-      walkCircle.center = map.center
-      walkCircle.setMap(map)
-    }
-
-    // reset search bar - pin - info window - walk circle
-    function resetSearch() {
-      addressinfowindow.close();
-      marker.setVisible(false);
-      walkCircle.setMap(null);
-      document.getElementById('pac-input').value = "";
-    }
-
-    reset.addEventListener('click', function () {
-      resetSearch()
-    })
-
-    //set marker on map from search bar
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
 
