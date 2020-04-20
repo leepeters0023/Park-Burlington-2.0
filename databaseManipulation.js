@@ -43,10 +43,12 @@ async function initMap() {
 
   console.log(typeof(myInfo))
  
-  Object.keys(myInfo).forEach((item) => {
   myInfo.forEach((item) => {
-    // console.log(keys)
+    let keys = Object.keys(myInfo)
+    console.log(keys)
+    for(i=0; i<248; i++){
     let k = keys[i]
+    console.log(k)
     // let center = myInfo[k].center
     let name = myInfo[k].name
     
@@ -59,9 +61,10 @@ async function initMap() {
     // let usersRef =ref.child(i);
     // usersRef.update({ rate: rate })
 
-      
     }
-  }})//end of forEach
+    }
+  // })
+})//end of forEach
 }//End of initMap
 
 // async function initMap() {
