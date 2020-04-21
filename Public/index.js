@@ -714,7 +714,7 @@ async function initMap() {
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
       addWalkCircle()
-      console.log(place.geometry.viewport)
+    
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
@@ -755,6 +755,8 @@ async function initMap() {
     infowindowContent.children['place-name'].textContent = place.name;
     // infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
+
+    setTimeout(function() {addressinfowindow.close(); console.log('NOW')}, 4000)
   });
 
 }
