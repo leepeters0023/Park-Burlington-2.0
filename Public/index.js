@@ -189,7 +189,6 @@ async function initMap() {
       position: null,
       icon: image,
     });
-
     if (latitude != undefined) {
       markerLayer.setPosition({ lat: latitude, lng: longitude })
     }
@@ -200,7 +199,6 @@ async function initMap() {
       strokeWeight: 2,
       strokeOpacity: strokeOpacity
     })
-
     if (polyline === 'yes') {
       polyLineLayer.setPath(newPath)
     }
@@ -213,7 +211,6 @@ async function initMap() {
       fillColor: fill,
       fillOpacity: fillOpacity,
     });
-
     if (polyline === undefined && latitude === undefined) {
       polygonLayer.setPath(newPath)
     }
