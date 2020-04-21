@@ -194,6 +194,7 @@ async function initMap() {
       markerLayer.setPosition({ lat: latitude, lng: longitude })
     }
 
+    //add any polyline meter rows
     let polyLineLayer = new google.maps.Polyline({
       strokeColor: stroke,
       strokeWeight: 2,
@@ -213,11 +214,11 @@ async function initMap() {
       fillOpacity: fillOpacity,
     });
 
-    if (polyline === undefined) {
+    if (polyline === undefined && latitude === undefined) {
       polygonLayer.setPath(newPath)
     }
 
- 
+    //set all layers on the map
     polygonLayer.setMap(map);
     markerLayer.setMap(map);
     polyLineLayer.setMap(map);
