@@ -756,7 +756,7 @@ async function initMap() {
     // infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
 
-    setTimeout(function() {addressinfowindow.close(); console.log('NOW')}, 4000)
+    setTimeout(function() {addressinfowindow.close(); console.log('NOW')}, 6000)
   });
 
 }

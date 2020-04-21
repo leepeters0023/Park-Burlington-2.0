@@ -62,11 +62,12 @@ html, body {
 #map #infowindow-content {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
 }
 
 #walk-label {
-  font-size: 1rem;
+  font-size: .8rem;
+  font-weight: lighter;
 }
 
 /* Searchbar */
