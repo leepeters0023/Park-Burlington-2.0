@@ -1,4 +1,3 @@
-
 html, body {
   margin: 0;
   padding: 0;
@@ -7,6 +6,7 @@ html, body {
 }
 
 /* Header styles */
+
 #header {
   height: 10vh;
   background-color: #20346a;
@@ -38,11 +38,13 @@ html, body {
 }
 
 /* Map container */
+
 #map {
   height: 80vh;
 }
 
 /* Info window */
+
 #description {
   font-family: Roboto;
   font-size: 15px;
@@ -55,7 +57,6 @@ html, body {
 
 #infowindow-content {
   display: none;
-  
 }
 
 #map #infowindow-content {
@@ -65,16 +66,17 @@ html, body {
 }
 
 #walk-label {
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Searchbar */
+
 .pac-card {
-  margin: 10px  0 0 10px;
+  margin: 10px 0 0 10px;
   padding: 8px 0;
   border: solid #20346ab9;
   border-width: 2px;
-  border-radius:5px ;
+  border-radius: 5px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   outline: none;
@@ -83,7 +85,6 @@ font-size: 1rem;
 }
 
 #pac-input {
-  
   border-style: none;
   background-color: #fff;
   font-family: Roboto;
@@ -99,34 +100,34 @@ font-size: 1rem;
 
 #btnReset {
   margin-right: 5px;
-  border: solid 1px #20346a;
-   color: rgb(10, 10, 10);
+  font-size: large;
+  border: none;
+  color: rgb(139, 137, 137);
+  font-weight: 700;
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0);
 }
 
 /* ******************************************************** */
+
 #ui-container {
   background-color: #20346a;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-#filter-ui {
-width: 90vw;
- height: 10vh;
- display: grid;
 
- grid-template-columns: 1fr 1fr 1fr;
+#filter-ui {
+  width: 90vw;
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3vw;
- align-items: center;
+  align-items: center;
   justify-items: space-around;
-  
 }
 
 .filter-ui-label {
-  
   height: 60%;
   min-height: 35px;
   width: 100%;
@@ -144,34 +145,43 @@ width: 90vw;
   height: 100%;
   width: 100%;
   max-width: 250px;
-  font-size:20px;
+  font-size: 20px;
   -webkit-appearance: none
 }
 
-
 /* The Modal (background) */
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
   background: transparent;
-  z-index: 1; /* Sit on top */
+  z-index: 1;
+  /* Sit on top */
   bottom: 0;
-  width: 100vw; /* Full width */
-  height: 100%; /* Full height */
+  width: 100vw;
+  /* Full width */
+  height: 100%;
+  /* Full height */
   overflow: hidden;
 }
+
 /* Modal Content/Box */
+
 .modal-content {
   position: fixed;
   height: 50%;
-  width:100vw;
+  width: 100vw;
   background-color: #fefefe;
-  margin: 55vh auto; /* 55% from the top and centered */
+  margin: 55vh auto;
+  /* 55% from the top and centered */
   border: 2px solid #20346a;
   font-family: Roboto;
   font-weight: bold;
   color: rgb(54, 54, 54);
 }
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -181,18 +191,22 @@ width: 90vw;
   height: 85%;
   padding: 20px 20px 20px 20px;
 }
+
 .menu::-webkit-scrollbar {
   width: 2em;
 }
+
 .menu::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
+
 .menu::-webkit-scrollbar-thumb {
-background-color: darkgrey;
-outline: 1px solid slategrey;
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
 /* The Close Button */
+
 .close {
   color: #aaa;
   padding-left: 5px;
@@ -201,30 +215,41 @@ outline: 1px solid slategrey;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
+
 /* *********************************************** */
+
 /* Disclaimer modal */
+
 .disclaimer {
   display: block;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 20vh; /* Location of the box */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 20vh;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Modal Content */
+
 .disclaimer-content {
   position: relative;
   background-color: #20346a;
@@ -234,28 +259,43 @@ outline: 1px solid slategrey;
   width: 75%;
   max-width: 500px;
   min-width: 160px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
   border-radius: 5px;
 }
+
 /* Add Animation */
+
 @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 /* The Close Button */
+
 .disclaimer-accept {
   width: 80px;
-  padding:5px 0;
+  padding: 5px 0;
   background-color: #20346a25;
   font-size: 18px;
   font-weight: bold;
@@ -264,8 +304,7 @@ outline: 1px solid slategrey;
   border: solid 1px gray;
 }
 
-.disclaimer-accept:hover,
-.disclaimer-accept:focus {
+.disclaimer-accept:hover, .disclaimer-accept:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -282,6 +321,7 @@ outline: 1px solid slategrey;
 h2 {
   margin-left: 10px;
 }
+
 .disclaimer-body {
   padding: 1% 10% 5% 10%;
   font-size: .8rem;
@@ -296,6 +336,7 @@ h2 {
 }
 
 /* The switch - the box around the slider */
+
 .switch {
   position: relative;
   right: 0;
@@ -306,19 +347,24 @@ h2 {
   margin: 15px;
   padding-right: 15px;
   -webkit-box-shadow: 0 6px 6px -6px #777;
-	   -moz-box-shadow: 0 6px 6px -6px #777;
-	        box-shadow: 0 6px 6px -6px #777;
+  -moz-box-shadow: 0 6px 6px -6px #777;
+  box-shadow: 0 6px 6px -6px #777;
 }
+
 /* Hide default HTML checkbox */
+
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
+
 .input {
   text-align: right;
 }
+
 /* The slider */
+
 .slider {
   position: absolute;
   width: 60px;
@@ -332,6 +378,7 @@ h2 {
   -webkit-transition: .4s;
   transition: .4s;
 }
+
 .slider:before {
   position: absolute;
   content: "";
@@ -347,24 +394,25 @@ h2 {
 .label {
   text-align: center;
 }
-input:checked + .slider {
+
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 
 /* Rounded sliders */
+
 .slider.round {
   border-radius: 34px;
-
 }
 
 .slider.round:before {
