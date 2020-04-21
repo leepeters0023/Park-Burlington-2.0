@@ -154,7 +154,7 @@ async function initMap() {
   let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
-  // call database query and bring into initmap function *****************************************
+  // call database query and bring into initmap function ***************************************************************************
   let myInfo = await makeQuery()
   let activeWindow = null
   console.log(myInfo)
@@ -697,9 +697,9 @@ async function initMap() {
   })
 
   autocomplete.addListener('place_changed', function () {
-    // addressinfowindow.close();
-    // marker.setVisible(false);
-    resetSearch()
+    addressinfowindow.close();
+    marker.setVisible(false);
+   
     let place = autocomplete.getPlace();
     if (!place.geometry) {
       // User entered the name of a Place that was not suggested and
@@ -708,12 +708,15 @@ async function initMap() {
       return;
     }
 
+
     // If the place has a geometry, then present it on a map plus add 2 minute walk circle.
     if (place.geometry.viewport) {
+     
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
       addWalkCircle()
+    
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
@@ -731,6 +734,7 @@ async function initMap() {
       marker.setVisible(false);
       walkCircle.setMap(null);
       document.getElementById('pac-input').value = "";
+      map.setZoom(15)
     }
 
     reset.addEventListener('click', function () {
@@ -755,7 +759,7 @@ async function initMap() {
     // infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
 
-    setTimeout(function () { addressinfowindow.close(); }, 6000)
+    setTimeout(function() {addressinfowindow.close();}, 6000)
   });
 
 }
