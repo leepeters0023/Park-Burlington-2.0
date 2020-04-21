@@ -189,7 +189,7 @@ async function initMap() {
       position: null,
       icon: image,
     });
-    if (latitude != undefined) {
+    if (latitude !== undefined) {
       markerLayer.setPosition({ lat: latitude, lng: longitude })
     }
 
