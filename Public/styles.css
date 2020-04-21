@@ -55,10 +55,17 @@ html, body {
 
 #infowindow-content {
   display: none;
+  
 }
 
 #map #infowindow-content {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#walk-label {
+font-size: .7rem;
 }
 
 /* Searchbar */
@@ -92,6 +99,10 @@ html, body {
 
 #btnReset {
   margin-right: 5px;
+  border: none;
+  color: rgb(172, 172, 172);
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /* ******************************************************** */

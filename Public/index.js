@@ -1,11 +1,14 @@
-//Set Window Height
+// Set Window Height
 // function resizeWindow(){
 //   let windowHeight = window.innerHeight
-//     document.body.setAttribute("style", `height: ${windowHeight}`)
+//   document.getElementById("header").style= `height: calc(${windowHeight}px * .1)`
+//   document.getElementById("map").style = `height: calc(${windowHeight}px * .8)`
+//   document.getElementById("ui-container").style = `height: calc(${windowHeight}px * .1)`
+   
 // }
 // window.addEventListener("resize", resizeWindow)
 
-// resizeWindow()
+
 //***********Firebase Configuration ****************************************************************
 const config = {
   apiKey: "AIzaSyCJ_q627N1dryTYbcSjE4d-4jfsJJg5VcY",
@@ -78,12 +81,12 @@ async function initMap() {
     zoom: 15.3,
     gestureHandling: "greedy",
     fullscreenControl: false,
-    rotateControl: true,
+    rotateControl: false,
     scaleControl: true,
-    mapTypeControlOptions: {
-      style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-      position: google.maps.ControlPosition.RIGHT_TOP
-    },
+    mapTypeControl: false,
+    // mapTypeControlOptions: {
+    //   position: google.maps.ControlPosition.BOTTOM_CENTER,
+    // },
     restriction: {
       latLngBounds: viewLimit,
       strictBounds: false,
@@ -699,23 +702,23 @@ async function initMap() {
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
 
-    let address = '';
-    if (place.address_components) {
-      address = [
-        (place.address_components[0] && place.address_components[0].short_name || ''),
-        (place.address_components[1] && place.address_components[1].short_name || ''),
-        (place.address_components[2] && place.address_components[2].short_name || '')
-      ].join(' ');
-    }
+    // let address = '';
+    // if (place.address_components) {
+    //   address = [
+    //     (place.address_components[0] && place.address_components[0].short_name || ''),
+    //     (place.address_components[1] && place.address_components[1].short_name || ''),
+    //     (place.address_components[2] && place.address_components[2].short_name || '')
+    //   ].join(' ');
+    // }
 
-    infowindowContent.children['place-icon'].src = place.icon;
+    // infowindowContent.children['place-icon'].src = place.icon;
     infowindowContent.children['place-name'].textContent = place.name;
-    infowindowContent.children['place-address'].textContent = address;
+    // infowindowContent.children['place-address'].textContent = address;
     addressinfowindow.open(map, marker);
   });
 
 }
-
+// resizeWindow()
 //******* Modal window for Filters ************************************************************* */
 // Get the modal
 let modal = document.getElementById("myModal");

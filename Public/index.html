@@ -37,7 +37,7 @@
 
   <div class="pac-card" id="pac-card">
     <input id="pac-input" type="text" placeholder="Destination">
-    <button id='btnReset'>Reset</button>
+    <button id='btnReset'>X</button>
   </div>
 
   <!-- The Modal -->
@@ -118,11 +118,10 @@
   </div>
 
   <div id="infowindow-content">
-    <img src="" width="16" height="16" id="place-icon">
+    <!-- <img src="" width="16" height="16" id="place-icon"> -->
     <span id="place-name" class="title"></span><br>
-    <span id="place-address"></span><br>
-    <span class="title">Circle = approx. 2 minute walk</span><br>
-    <span class="title">to destination</span>
+    <span id="walk-label">Circle ≈ 2 min 🚶</span>
+   
   </div>
   <!-- The Firebase scripts MUST be before the src for index.js -->
   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
