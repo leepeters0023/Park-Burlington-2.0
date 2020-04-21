@@ -4,7 +4,7 @@
 //   document.getElementById("header").style= `height: calc(${windowHeight}px * .1)`
 //   document.getElementById("map").style = `height: calc(${windowHeight}px * .8)`
 //   document.getElementById("ui-container").style = `height: calc(${windowHeight}px * .1)`
-   
+
 // }
 // window.addEventListener("resize", resizeWindow)
 
@@ -157,6 +157,7 @@ async function initMap() {
   // call database query and bring into initmap function *****************************************
   let myInfo = await makeQuery()
   let activeWindow = null
+  console.log(myInfo)
 
   myInfo.forEach((item) => {
     let path = item.coordinates.split(',0,')
@@ -173,6 +174,7 @@ async function initMap() {
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
+    let polyline = item.polyline
     let parkMarker = './images/arrowtransparent.png'
     let image = './images/electric_vehicle.png'
     let newPath = path.map((item) => {
@@ -192,18 +194,33 @@ async function initMap() {
       markerLayer.setPosition({ lat: latitude, lng: longitude })
     }
 
+    let polyLineLayer = new google.maps.Polyline({
+      strokeColor: stroke,
+      strokeWeight: 2,
+      strokeOpacity: strokeOpacity
+    })
+
+    if (polyline === 'yes') {
+      polyLineLayer.setPath(newPath)
+    }
 
     // adds garages and lots - polygons and linestrings - parking meters
     let polygonLayer = new google.maps.Polygon({
-      paths: newPath,
+      paths: null,
       strokeColor: stroke,
       strokeWeight: 2,
       fillColor: fill,
       fillOpacity: fillOpacity,
     });
 
+    if (polyline === undefined) {
+      polygonLayer.setPath(newPath)
+    }
+
+ 
     polygonLayer.setMap(map);
     markerLayer.setMap(map);
+    polyLineLayer.setMap(map);
 
     // create info-window for use when clicking parking asset
     let infowindow = new google.maps.InfoWindow({
@@ -264,6 +281,22 @@ async function initMap() {
       activeWindow = infowindow;
     });
 
+    // make polylines 'clickable' and popup and populate infowindow
+    polyLineLayer.addListener('click', function (event) {
+      if (activeWindow != null) {
+        activeWindow.close()
+      }
+      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+      infowindow.setContent(html)
+
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+      { passive: true }
+      activeWindow = infowindow;
+    });
 
 
     // ******controls and filters*****************************************************************************************************
@@ -302,6 +335,14 @@ async function initMap() {
         polygonLayer.setVisible(false)
       } else if (theLayer.checked === true) {
         polygonLayer.setVisible(true)
+      }
+    }
+
+    function togglePolyLineLayer(theLayer) {
+      if (theLayer.checked === false) {
+        polyLineLayer.setVisible(false)
+      } else if (theLayer.checked === true) {
+        polyLineLayer.setVisible(true)
       }
     }
 
@@ -350,6 +391,7 @@ async function initMap() {
       if (name === 'Blue Top Meters') {
         let theLayer = toggleBlueTopMetersLayer
         toggleLayer(theLayer)
+        togglePolyLineLayer(theLayer)
         if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
@@ -647,7 +689,7 @@ async function initMap() {
     anchorPoint: new google.maps.Point(0, -29)
   });
   // create walk circle
-  let walkCircle = new google.maps.Circle({ 
+  let walkCircle = new google.maps.Circle({
     strokeColor: '#20346a',
     strokeOpacity: 0.8,
     strokeWeight: 3,
