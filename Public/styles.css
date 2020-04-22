@@ -5,10 +5,12 @@ html, body {
   font-family: Roboto, sans-serif;
 }
 
+
 /* Header styles */
 
 #header {
   height: 10vh;
+  height: calc(var(--vh, 1vh) * 10);
   background-color: #20346a;
   display: flex;
   align-items: center;
@@ -40,7 +42,8 @@ html, body {
 /* Map container */
 
 #map {
-  height: 80vh;
+  height: 78vh;
+  height: calc(var(--vh, 1vh) * 78);
 }
 
 /* Info window */
@@ -83,6 +86,12 @@ html, body {
   outline: none;
   background-color: #fff;
   font-family: Roboto;
+  position: absolute;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
 }
 
 #pac-input {
@@ -97,16 +106,25 @@ html, body {
   outline: none;
   min-width: 75px;
   max-width: 400px;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 
 #btnReset {
   margin-right: 5px;
-  font-size: large;
+  font-size: 1.2rem;
   border: none;
   color: rgb(139, 137, 137);
   font-weight: 700;
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0);
+}
+
+#btnReset:focus {
+  outline: none;
 }
 
 /* ******************************************************** */
@@ -120,7 +138,8 @@ html, body {
 
 #filter-ui {
   width: 90vw;
-  height: 10vh;
+  height: 12vh;
+  height: calc(var(--vh, 1vh) * 12);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3vw;
@@ -166,21 +185,25 @@ html, body {
   height: 100%;
   /* Full height */
   overflow: hidden;
+  
 }
 
 /* Modal Content/Box */
 
 .modal-content {
   position: fixed;
-  height: 50%;
-  width: 100vw;
+  height: 40%;
+  width: calc(100vw - 4px);
+  max-width: 600px;
   background-color: #fefefe;
-  margin: 55vh auto;
+  bottom: 12vh;
+  right: 0;
   /* 55% from the top and centered */
   border: 2px solid #20346a;
   font-family: Roboto;
   font-weight: bold;
   color: rgb(54, 54, 54);
+  border-radius: 7px 7px 0 0;
 }
 
 .menu {
@@ -327,8 +350,8 @@ h2 {
   padding: 1% 10% 5% 10%;
   font-size: .8rem;
   font-weight: bolder;
-  line-height: 2.2rem;
-  letter-spacing: .03rem;
+  line-height: 1.4rem;
+  letter-spacing: .01rem;
   border-radius: 0 0 5px 5px;
   display: flex;
   flex-direction: column;
@@ -418,4 +441,66 @@ input:checked+.slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* Fade Animations */
+img[src="images/text-background.png"] {
+  animation: fadeIn ease .5s;
+  -webkit-animation: fadeIn ease .5s;
+  -moz-animation: fadeIn ease .5s;
+  -o-animation: fadeIn ease .5s;
+  -ms-animation: fadeIn ease .5s;
+}
+
+#header, #map, #ui-container {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
 }

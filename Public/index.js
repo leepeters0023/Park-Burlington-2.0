@@ -1,13 +1,15 @@
 // Set Window Height
-// function resizeWindow(){
-//   let windowHeight = window.innerHeight
-//   document.getElementById("header").style= `height: calc(${windowHeight}px * .1)`
-//   document.getElementById("map").style = `height: calc(${windowHeight}px * .8)`
-//   document.getElementById("ui-container").style = `height: calc(${windowHeight}px * .1)`
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-// }
-// window.addEventListener("resize", resizeWindow)
-
+// We listen to the resize event
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
 
 //***********Firebase Configuration ****************************************************************
 const config = {
@@ -229,6 +231,7 @@ async function initMap() {
     let priceIcon = new google.maps.Marker({
       position: null,
       icon: null,
+      optimized: false,
     });
 
     if (rate != "") {
