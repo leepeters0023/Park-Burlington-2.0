@@ -548,11 +548,7 @@ async function initMap() {
   })
   //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
 
-if (map.zoom) {
-  console.log(map.zoom)
-}
-
-  //turn off residential and loading/unloading to start
+   //turn off residential and loading/unloading to start
   function startCondition() {
     if ((document.getElementById('toggleHandicap').checked) === true) {
       document.getElementById('toggleHandicap').click();
@@ -595,7 +591,7 @@ if (map.zoom) {
   startCondition()
 
   // turn all parking assets on - visible regardless of prior visibility
-  toggleShowAll.addEventListener('click', function () {
+  function showAll() {
     if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
     }
@@ -633,12 +629,21 @@ if (map.zoom) {
     if ((document.getElementById('toggleLoadingUnloading').checked) === false) {
       document.getElementById('toggleLoadingUnloading').click();
     }
-  });
+  };
 
   // turn on only off street parking (reset map to startup condition)
-  toggleOffStreetOnly.addEventListener('click', function () {
-    startCondition()
+  let onOff = 'off'
+  toggleShowAll.addEventListener('click', function () {
+    if (onOff === 'off') {
+      showAll()
+      onOff = 'On'
+    } else {
+      startCondition()
+      onOff = 'off'
+    }
   });
+
+
 
   // show all parking when zoomed in from search bar
   function toggleOnZoom() {
@@ -714,11 +719,13 @@ if (map.zoom) {
   })
 
   autocomplete.addListener('place_changed', function () {
-    addressinfowindow.close();
-    marker.setVisible(false);
+
+    // addressinfowindow.close();
+    // marker.setVisible(false);
     let place = autocomplete.getPlace();
     // If the place has a geometry, then present it on a map plus add 3 minute walk circle.
     if (place.geometry.viewport) {
+     
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
@@ -748,12 +755,13 @@ if (map.zoom) {
       addressinfowindow.close();
       marker.setVisible(false);
       walkCircle.setMap(null);
-      document.getElementById('pac-input').value = "";
+     
       map.setCenter({ lat: 44.478081, lng: -73.215 });
       map.setZoom(15)
       startCondition()
     }
     document.getElementById("pac-card").addEventListener('click', function () {
+      document.getElementById('pac-input').value = "";
       resetSearch()
     })
 

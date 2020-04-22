@@ -405,6 +405,85 @@ h2 {
   text-align: center;
 }
 
+/* key sliders to legend*/
+
+/* input:checked+#slideHc { background-color:  }
+   
+input:checked+#slideMg { background-color:  }
+    
+ input:checked+#slidePg { background-color:  }
+    
+input:checked+#slideSm { background-color:  }
+   
+ input:checked+#slideBl { background-color:  }
+   
+input:checked+#slideBr { background-color:  }
+  
+ input:checked+#slideYl { background-color:  }
+    
+input:checked+#slideEv { background-color:  }
+   
+ input:checked+#slideMc { background-color:  }
+   
+ input:checked+#slideBu { background-color:  }
+
+input:checked+#slideRe { background-color:  }
+   
+ input:checked+#slideLu { background-color:  }
+
+
+
+ input:focus+#slideHc { background-color:  }
+    
+input:focus+#slideMg { background-color:  }
+    
+ input:focus+#slidePg { background-color:  }
+    
+input:focus+#slideSm { background-color:  }
+   
+ input:focus+#slideBl { background-color:  }
+   
+input:focus+#slideBr { background-color:  }
+  
+ input:focus+#slideYl { background-color:  }
+    
+input:focus+#slideEv { background-color:  }
+   
+ input:focus+#slideMc { background-color:  }
+   
+ input:focus+#slideBu { background-color:  }
+
+input:focus+#slideRe { background-color:  }
+   
+ input:focus+#slideLu { background-color:  }
+
+ 
+   
+ #toggleHandicap { color:  }
+   
+ #toggleMunicipalGarages { color:  }
+    
+  #togglePrivateGarages { color:  }
+    
+ #toggleSmartMeters { color:  }
+   
+ #toggleBlueTopMeters { color:  }
+   
+ #toggleBrownTopMeters { color:  }
+  
+ #toggleYellowTopMeters { color:  }
+    
+ #toggleEVCharge { color:  }
+   
+ #toggleMotorcycle { color:  }
+   
+#toggleBusLargeVehicle { color:  }
+
+ #toggleResidential { color:  }
+   
+ #toggleLoadingUnloading { color:  } */
+   
+
 input:checked+.slider {
   background-color: #2196F3;
 }
