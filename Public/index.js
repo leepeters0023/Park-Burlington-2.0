@@ -734,7 +734,8 @@ async function initMap() {
       marker.setVisible(false);
       walkCircle.setMap(null);
       document.getElementById('pac-input').value = "";
-      map.setZoom(15)
+      map.setZoom(15.5)
+      startCondition()
     }
 
     reset.addEventListener('click', function () {
