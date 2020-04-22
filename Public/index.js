@@ -626,7 +626,7 @@ if (map.zoom) {
 
   // show all parking when zoomed in from search bar
   function toggleOnZoom() {
-    if ((document.getElementById('toggleHandicap').checked) === true) {
+    if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
     }
     if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
