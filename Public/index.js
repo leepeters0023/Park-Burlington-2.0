@@ -362,10 +362,10 @@ async function initMap() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
-        if (map.zoom > 15) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 15) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function togglePrivateGarages() {
@@ -531,7 +531,9 @@ async function initMap() {
   })
   //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
 
-
+if (map.zoom) {
+  console.log(map.zoom)
+}
 
   //turn off residential and loading/unloading to start
   function startCondition() {
