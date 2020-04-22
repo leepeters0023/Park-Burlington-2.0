@@ -693,7 +693,7 @@ async function initMap() {
     strokeWeight: 3,
     fillOpacity: 0.0,
     center: map.center,
-    radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+    radius: 95  //the average person can walk in a minute: 40-50 metres at a slow pace
   })
 
   autocomplete.addListener('place_changed', function () {
