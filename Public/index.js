@@ -694,10 +694,8 @@ async function initMap() {
   autocomplete.addListener('place_changed', function () {
     addressinfowindow.close();
     marker.setVisible(false);
-    console.log('place changed')
     let place = autocomplete.getPlace();
-
-    // If the place has a geometry, then present it on a map plus add 2 minute walk circle.
+    // If the place has a geometry, then present it on a map plus add 3 minute walk circle.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
@@ -708,6 +706,7 @@ async function initMap() {
       map.setZoom(17);  // Why 17? Because it looks good.
     }
     //set marker on map from search bar
+    map.setZoom(18.0);  //about 1 block
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
     // add place name to infowindow
@@ -728,7 +727,8 @@ async function initMap() {
       marker.setVisible(false);
       walkCircle.setMap(null);
       document.getElementById('pac-input').value = "";
-      map.setZoom(16)
+      map.setCenter({ lat: 44.478081, lng: -73.215 });
+      map.setZoom(15)
       startCondition()
     }
     document.getElementById("pac-card").addEventListener('click', function () {
