@@ -531,11 +531,7 @@ async function initMap() {
   })
   //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
 
-  if (map.zoom) {
-    console.log(map.zoom)
-  }
-
-  //turn off residential and loading/unloading to start
+   //turn off residential and loading/unloading to start
   function startCondition() {
     if ((document.getElementById('toggleHandicap').checked) === true) {
       document.getElementById('toggleHandicap').click();
@@ -628,7 +624,6 @@ async function initMap() {
       startCondition()
       onOff = 'off'
     }
-
   });
 
 
@@ -713,7 +708,7 @@ async function initMap() {
     let place = autocomplete.getPlace();
     // If the place has a geometry, then present it on a map plus add 3 minute walk circle.
     if (place.geometry.viewport) {
-      resetSearch()
+     
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
@@ -743,12 +738,13 @@ async function initMap() {
       addressinfowindow.close();
       marker.setVisible(false);
       walkCircle.setMap(null);
-      document.getElementById('pac-input').value = "";
+     
       map.setCenter({ lat: 44.478081, lng: -73.215 });
       map.setZoom(15)
       startCondition()
     }
     document.getElementById("pac-card").addEventListener('click', function () {
+      document.getElementById('pac-input').value = "";
       resetSearch()
     })
 
