@@ -238,6 +238,21 @@ async function initMap() {
       icon: null,
       optimized: false,
     });
+    priceIcon.addListener('click', function (event) {
+      if (activeWindow != null) {
+        activeWindow.close()
+      }
+      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+      infowindow.setContent(html)
+
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+      { passive: true }
+      activeWindow = infowindow;
+    });
 
     if (rate != "") {
       let dynamicFontSize = (24 - (rate.length * 1.2)).toString() + 'px'
