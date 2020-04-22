@@ -444,7 +444,7 @@ input:checked+.slider:before {
   max-width: 300px;
   margin: 0;
   transition-property: all;
-	transition-duration: 1s;
+	transition-duration: .6s;
 	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
@@ -462,7 +462,9 @@ input:checked+.slider:before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  transition-property: all;
+	transition-duration: .6s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
 #legend-header-text {
@@ -498,18 +500,19 @@ input:checked+.slider:before {
   
   display: flex;
   align-items: center;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .legend-item-polygon {
   width: 15px;
   height: 15px;
+  padding-right: 10%;
 }
 
 .legend-item-line {
   width: 15px;
   height: 3px;
-  
+  padding-right: 10%;
 }
 
 #garages-icon {

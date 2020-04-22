@@ -820,8 +820,10 @@ legendToggle.addEventListener("click", function() {
    
     if (legend.style.display === "block") {
       legend.style.display = "none";
+      legend.style.height = "0"
     } else {
       legend.style.display = "block";
+      legend.style.height = "auto"
     }
   });
 
