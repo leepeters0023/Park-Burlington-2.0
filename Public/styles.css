@@ -113,11 +113,6 @@ html, body {
   -ms-animation: fadeIn ease 2s;
 }
 
-
-#btnReset:focus {
-  outline: none;
-}
-
 /* ******************************************************** */
 
 #ui-container {
