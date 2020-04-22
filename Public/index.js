@@ -156,7 +156,7 @@ async function initMap() {
   let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
-  // call database query and bring into initmap function *****************************************
+  // call database query and bring into initmap function ***************************************************************************
   let myInfo = await makeQuery()
   let activeWindow = null
   console.log(myInfo)
@@ -670,18 +670,13 @@ async function initMap() {
 
 
   // *********** search box ************************************************************
-
-
   //Initialize autocomplete function in the searchbar
   let autocomplete = new google.maps.places.Autocomplete(input);
-
   // Limit autocomplete results to within a 2 mile (3218.688 meter) circle of downtown Burlington.
   autocomplete.setBounds(circle.getBounds());
   autocomplete.setOptions({ strictBounds: true });
-
   // Set the data fields to return when the user selects a place.
   autocomplete.setFields(['address_components', 'geometry', 'icon', 'name']);
-
   let addressinfowindow = new google.maps.InfoWindow();
   let infowindowContent = document.getElementById('infowindow-content');
   addressinfowindow.setContent(infowindowContent);
@@ -696,36 +691,36 @@ async function initMap() {
     strokeWeight: 3,
     fillOpacity: 0.0,
     center: map.center,
-    radius: 80  //the average person can walk in a minute: 40-50 metres at a slow pace
+    radius: 95  //the average person can walk in a minute: 40-50 metres at a slow pace
   })
 
   autocomplete.addListener('place_changed', function () {
     addressinfowindow.close();
     marker.setVisible(false);
     let place = autocomplete.getPlace();
-    if (!place.geometry) {
-      // User entered the name of a Place that was not suggested and
-      // pressed the Enter key, or the Place Details request failed.
-      //   window.alert("No details available for input: '" + place.name + "'");
-      return;
-    }
-
-
-    // If the place has a geometry, then present it on a map plus add 2 minute walk circle.
+    // If the place has a geometry, then present it on a map plus add 3 minute walk circle.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
       addWalkCircle()
-    
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
     }
+    //set marker on map from search bar
+    map.setZoom(18.0);  //about 1 block
+    marker.setPosition(place.geometry.location);
+    marker.setVisible(true);
+    // add place name to infowindow
+    infowindowContent.children['place-name'].textContent = place.name;
+    // set infowindow on map and close after 6 seconds
+    addressinfowindow.open(map, marker);
+    setTimeout(function () { addressinfowindow.close(); }, 4500)
 
-    // add walk circle
+    // add walk circle function
     function addWalkCircle() {
-      walkCircle.center = map.center
+      walkCircle.center = place.geometry.location
       walkCircle.setMap(map)
     }
 
@@ -735,31 +730,14 @@ async function initMap() {
       marker.setVisible(false);
       walkCircle.setMap(null);
       document.getElementById('pac-input').value = "";
+      map.setCenter({ lat: 44.478081, lng: -73.215 });
+      map.setZoom(15)
+      startCondition()
     }
-
-    reset.addEventListener('click', function () {
+    document.getElementById("pac-card").addEventListener('click', function () {
       resetSearch()
     })
 
-    //set marker on map from search bar
-    marker.setPosition(place.geometry.location);
-    marker.setVisible(true);
-
-    // let address = '';
-    // if (place.address_components) {
-    //   address = [
-    //     (place.address_components[0] && place.address_components[0].short_name || ''),
-    //     (place.address_components[1] && place.address_components[1].short_name || ''),
-    //     (place.address_components[2] && place.address_components[2].short_name || '')
-    //   ].join(' ');
-    // }
-
-    // infowindowContent.children['place-icon'].src = place.icon;
-    infowindowContent.children['place-name'].textContent = place.name;
-    // infowindowContent.children['place-address'].textContent = address;
-    addressinfowindow.open(map, marker);
-
-    setTimeout(function() {addressinfowindow.close(); console.log('NOW')}, 6000)
   });
 
 }
