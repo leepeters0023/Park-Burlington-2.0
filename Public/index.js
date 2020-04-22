@@ -156,6 +156,7 @@ async function initMap() {
   let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
+
   // call database query and bring into initmap function ***************************************************************************
   let myInfo = await makeQuery()
   let activeWindow = null
@@ -686,6 +687,7 @@ if (map.zoom) {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
+  let circleCount = 0;
   // create walk circle
   let walkCircle = new google.maps.Circle({
     strokeColor: '#20346a',
@@ -714,12 +716,15 @@ if (map.zoom) {
     map.setZoom(18.0);  //about 1 block
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
+    
     // add place name to infowindow
-    infowindowContent.children['place-name'].textContent = place.name;
+    // infowindowContent.children['place-name'].textContent = place.name;
     // set infowindow on map and close after 6 seconds
-    addressinfowindow.open(map, marker);
+    if (circleCount < 1) {
+      addressinfowindow.open(map, marker);
     setTimeout(function () { addressinfowindow.close(); }, 4500)
-
+    circleCount += 1;
+    }
     // add walk circle function
     function addWalkCircle() {
       walkCircle.center = place.geometry.location
