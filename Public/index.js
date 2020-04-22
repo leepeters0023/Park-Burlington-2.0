@@ -715,7 +715,8 @@ async function initMap() {
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
-      addWalkCircle()
+      setTimeout(function() {addWalkCircle()}, 200)
+      //addWalkCircle()
     
     } else {
       map.setCenter(place.geometry.location);
@@ -724,7 +725,7 @@ async function initMap() {
 
     // add walk circle
     function addWalkCircle() {
-      walkCircle.center = map.center
+      walkCircle.center = place.geometry.location
       walkCircle.setMap(map)
     }
 
