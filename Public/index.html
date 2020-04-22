@@ -27,14 +27,9 @@
         <h2>Welcome to Park Burlington!</h2>
       </div>
       <div class="disclaimer-body">
-        <p>
-          Please note – this map should be used for reference purposes only. Refer to parking signage for official policy and regulations. 
-          </p>
-          <p>
-          Parking rates are listed in $ per hour unless otherwise noted. 
-          </p>
-          <p>
-          Please submit questions or comments at ParkBurlington.com. </p>
+        <p>Please note – this map should be used for reference purposes only. Refer to parking signage for official policy and regulations.</p>
+        <p>Parking rates are listed in $ per hour unless otherwise noted.</p>
+        <p>Please submit questions or comments at ParkBurlington.com.</p>
         <button class="disclaimer-accept">Okay</button>
       </div>
     </div>
@@ -52,7 +47,7 @@
       <span class="close">&times;</span>
       <div class='menu'>
         <label class="switch">
-          <input type='checkbox' checked='true' id='toggleHandicap'>Handicap<span class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleHandicap'>Handicapped<span class="slider round"></span></input>
         </label>
         <label class="switch">
           <input type='checkbox' checked='true' id='toggleMunicipalGarages'>Municipal Garages<span
@@ -109,7 +104,7 @@
   <div id=ui-container>
     <div id="filter-ui">
       <label class="filter-ui-label">
-        <button id='toggleOffStreetOnly' class="filter-ui-button">Off-Street Only</button>
+        <button id='toggle-key' class="filter-ui-button">Map Key</button>
       </label>
 
       <label class="filter-ui-label">
@@ -119,6 +114,40 @@
       <label class="filter-ui-label">
         <button id="toggleFilters" class="filter-ui-button">Filters</button>
       </label>
+    </div>
+  </div>
+
+  <div id="map-legend" style="display: block;">
+    <div id="legend-header">
+      <span id="legend-header-text">Key</span>
+      <btn id="legend-close">x</btn>
+    </div> 
+    <div id="legend-content">
+      <div class="legend-item">
+        <span class="legend-item-name">Garages</span><div class="legend-item-polygon" id="garages-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Lots</span><div class="legend-item-polygon" id="lots-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Handicapped</span><div class="legend-item-icon" id="handicapped-icon"><img src="images/handicapped-parking.png" alt="handicapped-parking-icon" height= "15px"; width="15px;"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Smart Meters</span><div class="legend-item-line" id="smart-meters-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Blue Meters</span><div class="legend-item-line" id="blue-top-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Brown Meters</span><div class="legend-item-line" id="brown-top-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Yellow Meters</span><div class="legend-item-line" id="yellow-top-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Residential Permit</span><div class="legend-item-line" id="residential-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Motorcycle</span><div class="legend-item-line" id="motorcycle-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">Bus/Large Vehicle</span><div class="legend-item-line" id="bus-icon"></div></div>
+        <div class="legend-item">
+          <span class="legend-item-name">Loading Zone</span><div class="legend-item-line" id="loading-icon"></div></div>
+        <div class="legend-item">
+        <span class="legend-item-name">EV Charge Stations</span><div class="legend-item-icon" id="EV-icon"><img src="images/electric_vehicle.png" alt="electric-vehicle-icon" height= "15px" width="15px;"></div></div>
+      
     </div>
   </div>
 
