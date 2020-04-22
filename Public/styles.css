@@ -102,7 +102,7 @@ html, body {
   font-weight: 300;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
-  width: 60vw;
+  width: 55vw;
   outline: none;
   min-width: 75px;
   max-width: 400px;
@@ -427,6 +427,129 @@ input:checked+.slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* Map Legend */
+
+#map-legend {
+  display: block;
+  border-radius: 5px;
+  padding: 0 10px 0 5px;
+  position: absolute;
+  bottom: 16vh;
+  bottom: calc(var(--vh, 1vh) * 16);
+  left: 1vw;
+  width: 20vw;
+  min-width: 150px;
+  max-width: 300px;
+  margin: 0;
+  transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+
+#legend-header {
+  position: fixed;
+  width: 20vw;
+  min-width: 150px;
+  max-width: 300px;
+  color: white;
+  background-color: #20346a;
+  margin: 0;
+  padding: 5px 0;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#legend-header-text {
+  padding: 0 0 0 40%;
+  font-size: .9rem;
+}
+
+#legend-close {
+  justify-self: right;
+  margin-right: 5%;
+  padding: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#legend-content {
+  background-color: rgba(255, 255, 255, 0.822);
+  padding-top: 35px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.legend-item {
+  display: grid;
+  grid-template-columns: 1fr 25px;
+  padding: 4px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.legend-item-name {
+  color: black;
+  
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.legend-item-polygon {
+  width: 15px;
+  height: 15px;
+}
+
+.legend-item-line {
+  width: 15px;
+  height: 3px;
+  
+}
+
+#garages-icon {
+  background-color: #7cb342;
+}
+
+#lots-icon {
+  background-color: #01579b;
+}
+
+#smart-meters-icon {
+  background-color: #9c27b0;
+}
+
+#blue-top-icon {
+  background-color: #0288d1;
+}
+
+#brown-top-icon {
+  background-color: #795548;
+}
+
+#yellow-top-icon {
+  background-color: #ffea00;
+}
+
+#residential-icon {
+  background-color: #ffaa00;
+}
+
+#motorcycle-icon {
+  background-color: #828282;
+}
+
+#loading-icon {
+  background-color: #ac2c1b;
+}
+
+#bus-icon {
+  background-color: #afb42b;
 }
 
 /* Fade Animations */

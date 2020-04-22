@@ -156,6 +156,11 @@ async function initMap() {
   let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
+  //Get map legend and fix it to bottom left of screen
+  // let legend = document.getElementById("map-legend")
+  // map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
+
+
   // call database query and bring into initmap function ***************************************************************************
   let myInfo = await makeQuery()
   let activeWindow = null
@@ -788,3 +793,21 @@ var disclaimerSpan = document.getElementsByClassName("disclaimer-accept")[0];
 disclaimerSpan.onclick = function () {
   disclaimerModal.style.display = "none";
 }
+
+// Legend open/close
+var legendToggle = document.getElementById("toggle-key");
+let legend = document.getElementById("map-legend")
+let legendClose = document.getElementById("legend-close")
+
+legendToggle.addEventListener("click", function() {
+   
+    if (legend.style.display === "block") {
+      legend.style.display = "none";
+    } else {
+      legend.style.display = "block";
+    }
+  });
+
+  legendClose.addEventListener("click", function() { 
+      legend.style.display = "none";
+  });
