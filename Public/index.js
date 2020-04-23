@@ -54,7 +54,7 @@ function errData(data) {
   console.log('Error!')
   console.log(err)
 }
-
+let circleCount = 1;
 //-----------------------create base map------------------------
 
 async function initMap() {
@@ -551,7 +551,7 @@ async function initMap() {
   })
   //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
 
-   //turn off residential and loading/unloading to start
+  //turn off residential and loading/unloading to start
   function startCondition() {
     if ((document.getElementById('toggleHandicap').checked) === true) {
       document.getElementById('toggleHandicap').click();
@@ -711,6 +711,7 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
+  
   // create walk circle
   let walkCircle = new google.maps.Circle({
     strokeColor: '#20346a',
@@ -728,11 +729,12 @@ async function initMap() {
     let place = autocomplete.getPlace();
     // If the place has a geometry, then present it on a map plus add 3 minute walk circle.
     if (place.geometry.viewport) {
-     
+
       map.fitBounds(place.geometry.viewport);
       map.setZoom(18.0);  //about 1 block
       toggleZoomFeaturesOn()
       addWalkCircle()
+      console.log(circleCount)
     } else {
       map.setCenter(place.geometry.location);
       map.setZoom(17);  // Why 17? Because it looks good.
@@ -744,9 +746,14 @@ async function initMap() {
     // add place name to infowindow
     infowindowContent.children['place-name'].textContent = place.name;
     // set infowindow on map and close after 6 seconds
-    addressinfowindow.open(map, marker);
+    // addressinfowindow.open(map, marker);
     setTimeout(function () { addressinfowindow.close(); }, 4500)
 
+    if (circleCount <= 1) {
+      addressinfowindow.open(map, marker);
+      setTimeout(function () { addressinfowindow.close(); }, 4500)
+      circleCount += 1;
+    }
     // add walk circle function
     function addWalkCircle() {
       walkCircle.center = place.geometry.location
@@ -758,7 +765,7 @@ async function initMap() {
       addressinfowindow.close();
       marker.setVisible(false);
       walkCircle.setMap(null);
-     
+
       map.setCenter({ lat: 44.478081, lng: -73.215 });
       map.setZoom(15)
       startCondition()
@@ -823,35 +830,34 @@ let legend = document.getElementById("map-legend")
 let legendClose = document.getElementById("legend-close")
 // let modalContent = document.getElementById("myModal")
 
-legendToggle.addEventListener("click", function() {
-   
-    if (legend.style.display === "block") {
-      legend.style.left = "-250px"
-      setTimeout(() => {
-        legend.style.display = "none";
-      }, 200);
-    } else {
-      legend.style.display = "block";
-      legend.style.left = "1vh"
-    }
-  });
+legendToggle.addEventListener("click", function () {
 
-  // modalContent.addEventListener("click", function() {
-   
-  //   if (modalContent.style.display === "block") {
-  //     modalContent.style.bottom = "-55vh"
-  //     setTimeout(() => {
-  //       modalContent.style.display = "none";
-  //     }, 200);
-  //   } else {
-  //     modalContent.style.display = "block";
-  //     modalContent.style.bottom = "12vh"
-  //   }
-  // });
-
-
-  legendClose.addEventListener("click", function() { 
+  if (legend.style.display === "block") {
+    legend.style.left = "-250px"
+    setTimeout(() => {
       legend.style.display = "none";
-  });
+    }, 200);
+  } else {
+    legend.style.display = "block";
+    legend.style.left = "1vh"
+  }
+});
 
-  
+// modalContent.addEventListener("click", function() {
+
+//   if (modalContent.style.display === "block") {
+//     modalContent.style.bottom = "-55vh"
+//     setTimeout(() => {
+//       modalContent.style.display = "none";
+//     }, 200);
+//   } else {
+//     modalContent.style.display = "block";
+//     modalContent.style.bottom = "12vh"
+//   }
+// });
+
+
+legendClose.addEventListener("click", function () {
+  legend.style.display = "none";
+});
+
