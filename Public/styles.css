@@ -179,7 +179,7 @@ button {
   color: rgb(44, 44, 44);
   border: rgb(126, 126, 126) solid 1px;
   background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(173, 173, 173) 100%);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(173, 173, 173) 100%);
   border-radius: 25px;
   height: 100%;
   width: 100%;
@@ -187,7 +187,8 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(173, 173, 173) 1
   font-size: 15px;
   -webkit-appearance: none;
   transition-duration: .3s;
-  outline:none
+  outline:none;
+ 
 }
 
 .filter-ui-button:hover {
@@ -196,6 +197,7 @@ background: radial-gradient(circle, rgb(218, 218, 218) 0%, rgb(148, 148, 148) 10
 transition-duration: .3s;
 -webkit-box-shadow: 0px 6px 15px 7px rgba(0,0,0,0.4), inset 0px -5px 14px -2px rgba(0,0,0,0.4); 
 box-shadow: 0px 6px 15px 7px rgba(0,0,0,0.4), inset 0px -5px 14px -2px rgba(0,0,0,0.4);
+cursor: pointer;
 }
 
 #toggleFilters {
@@ -343,6 +345,14 @@ align-items: center;
 
 
 /* The Close Button */
+#disclaimer-accept {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 .disclaimer-accept {
   width: 80px;
@@ -386,7 +396,7 @@ h2 {
   border-radius: 0 0 5px 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   background-color: #fefefe;
 }
 
