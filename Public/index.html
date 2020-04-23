@@ -108,19 +108,20 @@
       </label>
 
       <label class="filter-ui-label">
-        <button id="toggleShowAll" class="filter-ui-button">Show/Hide Street</button>
+        <button id="toggleShowAll" class="filter-ui-button">Show All</button>
       </label>
       <!-- Trigger/Open The Modal -->
       <label class="filter-ui-label">
-        <button id="toggleFilters" class="filter-ui-button">Filters</button>
+        <div id="toggleFilters" class="filter-ui-button"><img id="filter-icon" src="images/filter_icon.png" alt="filter-icon" height="60%"></div>
+        
       </label>
     </div>
   </div>
 
-  <div id="map-legend" style="display: block;">
+  <div id="map-legend">
     <div id="legend-header">
       <span id="legend-header-text">Key</span>
-      <btn id="legend-close">x</btn>
+      <span id="legend-close" class="close">&times;</span>
     </div> 
     <div id="legend-content">
       <div class="legend-item">
@@ -128,7 +129,7 @@
         <div class="legend-item">
         <span class="legend-item-name">Lots</span><div class="legend-item-polygon" id="lots-icon"></div></div>
         <div class="legend-item">
-        <span class="legend-item-name">Handicapped</span><div class="legend-item-icon" id="handicapped-icon"><img src="images/handicapped-parking.png" alt="handicapped-parking-icon" height= "15px"; width="15px;"></div></div>
+        <span class="legend-item-name">Handicapped</span><div class="legend-item-icon" id="handicapped-icon"><img src="images/handicapped-parking.png" alt="handicapped-parking-icon" height= "20px"; width="20px;"></div></div>
         <div class="legend-item">
         <span class="legend-item-name">Smart Meters</span><div class="legend-item-line" id="smart-meters-icon"></div></div>
         <div class="legend-item">
@@ -146,7 +147,7 @@
         <div class="legend-item">
           <span class="legend-item-name">Loading Zone</span><div class="legend-item-line" id="loading-icon"></div></div>
         <div class="legend-item">
-        <span class="legend-item-name">EV Charge Stations</span><div class="legend-item-icon" id="EV-icon"><img src="images/electric_vehicle.png" alt="electric-vehicle-icon" height= "15px" width="15px;"></div></div>
+        <span class="legend-item-name">EV Charge Stations</span><div class="legend-item-icon" id="EV-icon"><img src="images/electric_vehicle.png" alt="electric-vehicle-icon" height= "20px" width="20px;"></div></div>
       
     </div>
   </div>

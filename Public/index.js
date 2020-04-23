@@ -374,20 +374,20 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        if (map.zoom > 18) {
+        if (map.zoom > 19) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 18) { priceIcon.setMap() }
+        if (map.zoom <= 19) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 15) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 15) { priceIcon.setMap() }
       }
     }
     function togglePrivateGarages() {
@@ -823,18 +823,37 @@ disclaimerSpan.onclick = function () {
 var legendToggle = document.getElementById("toggle-key");
 let legend = document.getElementById("map-legend")
 let legendClose = document.getElementById("legend-close")
+// let modalContent = document.getElementById("myModal")
 
 legendToggle.addEventListener("click", function() {
    
     if (legend.style.display === "block") {
-      legend.style.display = "none";
-      legend.style.height = "0"
+      legend.style.left = "-250px"
+      setTimeout(() => {
+        legend.style.display = "none";
+      }, 200);
     } else {
       legend.style.display = "block";
-      legend.style.height = "auto"
+      legend.style.left = "1vh"
     }
   });
+
+  // modalContent.addEventListener("click", function() {
+   
+  //   if (modalContent.style.display === "block") {
+  //     modalContent.style.bottom = "-55vh"
+  //     setTimeout(() => {
+  //       modalContent.style.display = "none";
+  //     }, 200);
+  //   } else {
+  //     modalContent.style.display = "block";
+  //     modalContent.style.bottom = "12vh"
+  //   }
+  // });
+
 
   legendClose.addEventListener("click", function() { 
       legend.style.display = "none";
   });
+
+  
