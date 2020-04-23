@@ -82,9 +82,22 @@ button {
   align-items: center;
 }
 
+/* #walk-span {
+  dis
+} */
+
+#place-name {
+
+}
+
 #walk-label {
-  font-size: .8rem;
+  font-size: 1.2rem;
   font-weight: lighter;
+}
+
+#walk-emoji {
+  display: inline;
+  font-size: 1.3rem;
 }
 
 /* Searchbar */
