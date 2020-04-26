@@ -262,7 +262,7 @@ async function initMap() {
     if (icon != "") {
       priceIcon.setIcon({ url: icon, anchor: { x: 15, y: 15 } })
     } else {
-      priceIcon.setIcon({ url: "images/text-background.png", anchor: { x: 30, y: 15 } })
+      priceIcon.setIcon({ url: "images/text-background5020.png", anchor: { x: 30, y: 15 } })
     }
 
     if (center != 'NEED') {
@@ -372,20 +372,20 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        if (map.zoom > 19) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 19) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
-        if (map.zoom > 15) {
+        if (map.zoom > 16) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 15) { priceIcon.setMap() }
+        if (map.zoom <= 16) { priceIcon.setMap() }
       }
     }
     function togglePrivateGarages() {
@@ -402,10 +402,10 @@ async function initMap() {
       if (name === 'Smart Meters') {
         let theLayer = toggleSmartMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 18) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 18) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleBlueTopMeters() {
@@ -413,30 +413,30 @@ async function initMap() {
         let theLayer = toggleBlueTopMetersLayer
         toggleLayer(theLayer)
         togglePolyLineLayer(theLayer)
-        if (map.zoom > 18) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 18) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleBrownTopMeters() {
       if (name === 'Brown Top Meters') {
         let theLayer = toggleBrownTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 18) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 18) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleYellowTopMeters() {
       if (name === 'Yellow Top Meters') {
         let theLayer = toggleYellowTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 19) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 19) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleEVCharge() {  // note complexity is due to charge stations having multiple names plus most are geometry: Point while 2 are linestrings
@@ -458,40 +458,40 @@ async function initMap() {
       if (name === 'Motorcycle Parking') {
         let theLayer = toggleMotorcycleLayer
         toggleLayer(theLayer)
-        if (map.zoom > 19) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 19) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer
         toggleLayer(theLayer)
-        if (map.zoom > 19) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 19) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleResidential() {
       if (name === 'Residential Parking') {
         let theLayer = toggleResidentialLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
     function toggleLoadingUnloading() {
       if (name === 'Loading/Unloading Only') {
         let theLayer = toggleLoadingUnloadingLayer
         toggleLayer(theLayer)
-        if (map.zoom > 19) {
+        if (map.zoom > 18) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 19) { priceIcon.setMap() }
+        if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
 
@@ -650,7 +650,7 @@ async function initMap() {
 
   // show all parking when zoomed in from search bar
   function toggleOnZoom() {
-    if ((document.getElementById('toggleHandicap').checked) === true) {
+    if ((document.getElementById('toggleHandicap').checked) === false) {
       document.getElementById('toggleHandicap').click();
     }
     if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
