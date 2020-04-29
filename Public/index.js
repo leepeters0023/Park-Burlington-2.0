@@ -178,6 +178,7 @@ async function initMap() {
     let longitude = item.longitude
     let center = item.center
     let rate = item.rate
+    let shortRate =  item.rate.split('/')[0]
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
@@ -189,8 +190,7 @@ async function initMap() {
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
     })
 
-
-
+   
     //Adds charging station icons
     let markerLayer = new google.maps.Marker({
       position: null,
@@ -349,6 +349,15 @@ async function initMap() {
         priceIcon.setMap(map)
       }
     }
+
+    function showShortRate(theLayer) {
+      if (theLayer.checked === false) {
+        priceIcon.setMap()
+      } else if (theLayer.checked === true) {
+        priceIcon.setMap(map)
+      }
+    }
+
 
     // function to toggle specific types of parking asset on or off
     function toggleLayer(theLayer) {
@@ -711,7 +720,7 @@ async function initMap() {
     map: map,
     anchorPoint: new google.maps.Point(0, -29)
   });
-  
+
   // create walk circle
   let walkCircle = new google.maps.Circle({
     strokeColor: '#20346a',
