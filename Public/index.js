@@ -178,7 +178,7 @@ async function initMap() {
     let longitude = item.longitude
     let center = item.center
     let rate = item.rate
-    let shortRate =  item.rate.split('/')[0]
+    let shortRate = item.rate.split('/')[0]
     let description = item.description
     let ownership = item.ownership
     let geometry = item.geometry
@@ -190,7 +190,7 @@ async function initMap() {
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
     })
 
-   
+
     //Adds charging station icons
     let markerLayer = new google.maps.Marker({
       position: null,
@@ -235,9 +235,10 @@ async function initMap() {
     // create small icons for show price on zoom in
 
     let shortRateIcon = new google.maps.Marker({
-      position: null,
-      icon: null,
+      position: center,
+      icon: "images/text-background3520.png",
       optimized: false,
+      label: { text: shortRate, color: "white", fontWeight: "bold" }
     });
     shortRateIcon.addListener('click', function (event) {
       if (activeWindow != null) {
@@ -284,7 +285,7 @@ async function initMap() {
     if (icon != "") {
       priceIcon.setIcon({ url: icon, anchor: { x: 15, y: 15 } })
     } else {
-      priceIcon.setIcon({ url: "images/text-background5020.png", anchor: { x: 30, y: 15 } })
+      priceIcon.setIcon({ url: "images/text-background.png", anchor: { x: 30, y: 15 } })
     }
 
     if (center != 'NEED') {
@@ -382,7 +383,7 @@ async function initMap() {
       }
     }
 
- 
+
     // function to toggle specific types of parking asset on or off
     function toggleLayer(theLayer) {
       if (theLayer.checked === false) {
@@ -435,43 +436,67 @@ async function initMap() {
       if (name === 'Smart Meters') {
         let theLayer = toggleSmartMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom >= 17 && map.zoom < 18.5) {
+          priceIcon.setMap()
+          showShortRate(theLayer)
+        }
+        if (map.zoom >= 18.5) {
+          shortRateIcon.setMap()
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom < 17) { priceIcon.setMap(); shortRateIcon.setMap() }
       }
     }
+
     function toggleBlueTopMeters() {
       if (name === 'Blue Top Meters') {
         let theLayer = toggleBlueTopMetersLayer
         toggleLayer(theLayer)
         togglePolyLineLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom >= 17 && map.zoom < 18.5) {
+          priceIcon.setMap()
+          showShortRate(theLayer)
+        }
+        if (map.zoom >= 18.5) {
+          shortRateIcon.setMap()
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom < 17) { priceIcon.setMap(); shortRateIcon.setMap() }
       }
     }
+
     function toggleBrownTopMeters() {
       if (name === 'Brown Top Meters') {
         let theLayer = toggleBrownTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom >= 17 && map.zoom < 18.5) {
+          priceIcon.setMap()
+          showShortRate(theLayer)
+        }
+        if (map.zoom >= 18.5) {
+          shortRateIcon.setMap()
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom < 17) { priceIcon.setMap(); shortRateIcon.setMap() }
       }
     }
+
     function toggleYellowTopMeters() {
       if (name === 'Yellow Top Meters') {
         let theLayer = toggleYellowTopMetersLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom >= 17 && map.zoom < 18.5) {
+          priceIcon.setMap()
+          showShortRate(theLayer)
+        }
+        if (map.zoom >= 18.5) {
+          shortRateIcon.setMap()
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom < 17) { priceIcon.setMap(); shortRateIcon.setMap() }
       }
     }
+
     function toggleEVCharge() {  // note complexity is due to charge stations having multiple names plus most are geometry: Point while 2 are linestrings
       if (geometry === 'Point' || name === 'Charging Station North EV' || name === 'Charging Station') {
         if (toggleEVChargeLayer.checked === false) {
