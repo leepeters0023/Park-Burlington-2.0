@@ -233,6 +233,28 @@ async function initMap() {
     });
 
     // create small icons for show price on zoom in
+
+    let shortRateIcon = new google.maps.Marker({
+      position: null,
+      icon: null,
+      optimized: false,
+    });
+    shortRateIcon.addListener('click', function (event) {
+      if (activeWindow != null) {
+        activeWindow.close()
+      }
+      let html = '<strong>' + name + '</strong>' + '<br><br>' + description;
+      infowindow.setContent(html)
+      infowindow.setPosition(event.latLng);
+      infowindow.setOptions({
+        pixelOffset: new google.maps.Size(0, 0)
+      }); // move the infowindow up slightly to the top of the marker icon
+      infowindow.open(map);
+      { passive: true }
+      activeWindow = infowindow;
+    });
+
+
     let priceIcon = new google.maps.Marker({
       position: null,
       icon: null,
@@ -342,6 +364,16 @@ async function initMap() {
 
     // ***** Toggle display of map overlay components **********************************************************
     // toggle small icons on or off
+
+    function showShortRate(theLayer) {
+      if (theLayer.checked === false) {
+        shortRateIcon.setMap()
+      } else if (theLayer.checked === true) {
+        shortRateIcon.setMap(map)
+      }
+    }
+
+
     function showSmallIcons(theLayer) {
       if (theLayer.checked === false) {
         priceIcon.setMap()
@@ -350,15 +382,7 @@ async function initMap() {
       }
     }
 
-    function showShortRate(theLayer) {
-      if (theLayer.checked === false) {
-        priceIcon.setMap()
-      } else if (theLayer.checked === true) {
-        priceIcon.setMap(map)
-      }
-    }
-
-
+ 
     // function to toggle specific types of parking asset on or off
     function toggleLayer(theLayer) {
       if (theLayer.checked === false) {
@@ -381,10 +405,10 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        if (map.zoom > 17) {
+        if (map.zoom > 16) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 17) { priceIcon.setMap() }
+        if (map.zoom <= 16) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
