@@ -224,7 +224,7 @@ align-items: center;
   width: calc(100vw - 4px);
   max-width: 500px;
   background-color: #fefefe;
-  bottom: 12vh;
+  bottom: calc(var(--vh, 1vh) * 12);
   right: 0;
   /* 55% from the top and centered */
   border: 4px solid #20346a;
@@ -233,7 +233,8 @@ align-items: center;
   color: rgb(54, 54, 54);
   border-radius: 7px 7px 0 0;
   overflow-x: hidden;
-  padding-bottom: 20px;
+  overflow-y: hidden;
+  padding-bottom: 10px;
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 0.2s;
   animation-name: animatebottom;
@@ -251,10 +252,6 @@ align-items: center;
   height: 95%;
   padding: 20px 20px 0 20px;
   z-index: 1;
-}
-
-.toggle-label {
-  margin-left: 75px;
 }
 
 .menu::-webkit-scrollbar {
@@ -342,7 +339,7 @@ align-items: center;
 }
 
 .disclaimer-content::-webkit-scrollbar {
-  width: auto;
+  width: .7rem;
 }
 
 .disclaimer-content::-webkit-scrollbar-track {

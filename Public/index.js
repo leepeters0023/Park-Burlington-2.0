@@ -368,10 +368,10 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        if (map.zoom > 19) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 19) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
