@@ -150,17 +150,13 @@ async function initMap() {
 
   });
 
-  //Get searchbox element and fix it to top left of screen
-  let card = document.getElementById('pac-card');
-  let input = document.getElementById('pac-input');
+  //Get searchbar element and fix it to top left of screen
+  let card = document.getElementById('searchbar-container');
+  let input = document.getElementById('searchbar-input');
   let reset = document.getElementById('btnReset')
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
-  //Get map legend and fix it to bottom left of screen
-  // let legend = document.getElementById("map-legend")
-  // map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
-
-
+  
   // call database query and bring into initmap function ***************************************************************************
   let myInfo = await makeQuery()
   let activeWindow = null
@@ -770,8 +766,8 @@ async function initMap() {
       map.setZoom(15)
       startCondition()
     }
-    document.getElementById("pac-card").addEventListener('click', function () {
-      document.getElementById('pac-input').value = "";
+    document.getElementById("searchbar-container").addEventListener('click', function () {
+      document.getElementById('searchbar-input').value = "";
       resetSearch()
     })
 
@@ -781,13 +777,13 @@ async function initMap() {
 // resizeWindow()
 //******* Modal window for Filters ************************************************************* */
 // Get the modal
-let modal = document.getElementById("myModal");
+let modal = document.getElementById("filterListModal");
 
 // Get the button that opens the modal
 let btn = document.getElementById("toggleFilters");
 
 // Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[1];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function () {
