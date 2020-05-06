@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <!-- Page Header -->
   <div id='header'>
     <a href="https://parkburlington.com" id="logo-home-link">
       <img id="logo" src="./images/logo-secondary.png" alt="park-burlington-logo"></img>
@@ -18,152 +19,212 @@
       <img id="about-image" src="images/about.png" alt="about">
     </a>
   </div>
-  <div id="disclaimerModal" class="disclaimer">
 
-    <!-- Modal content -->
+  <!-- Autocomplete Searchbar Container -->
+  <div class="searchbar-container" id="searchbar-container">
+    <input id="searchbar-input" type="text" placeholder="Destination">
+  </div>
+
+  <!-- Google Maps Container -->
+  <div id="map"></div>
+  </div>
+
+  <!-- Page Footer -->
+  <div id=footer>
+    <div id="footer-buttons-container">
+
+      <!-- Trigger/Open Map Key -->
+      <label class="footer-button-label">
+        <button id='toggle-key' class="footer-button">Map Key</button>
+      </label>
+
+      <!-- Display All Map Information -->
+      <label class="footer-button-label">
+        <button id="toggleShowAll" class="footer-button">Show All</button>
+      </label>
+
+      <!-- Trigger/Open Filter List -->
+      <label class="footer-button-label">
+        <div id="toggleFilters" class="footer-button"><img id="filter-icon" src="images/filter_icon.png"
+            alt="filter-icon" height="60%"></div>
+      </label>
+    </div>
+  </div>
+
+  <!-- Disclaimer Window -->
+  <div id="disclaimerModal" class="disclaimer">
     <div class="disclaimer-content">
       <div class="disclaimer-header">
 
         <h2>Welcome to Park Burlington!</h2>
       </div>
       <div class="disclaimer-body">
-        <p>Please note – this map should be used for reference purposes only. Refer to parking signage for official policy and regulations.</p>
+        <p>Please note – this map should be used for reference purposes only. Refer to parking signage for official
+          policy and regulations.</p>
         <p>Parking rates are listed in $ per hour unless otherwise noted.</p>
         <p>Please submit questions or comments at ParkBurlington.com.</p>
         <div id="disclaimer-accept"><button class="disclaimer-accept">Okay</button></div>
       </div>
-      
     </div>
-
   </div>
 
-  <div class="pac-card" id="pac-card">
-    <input id="pac-input" type="text" placeholder="Destination">
+
+
+  <!-- Map Legend Window -->
+  <div id="map-legend">
+    <div id="legend-header">
+      <span id="legend-header-text">Key</span>
+      <span id="legend-close" class="close">&times;</span>
+    </div>
+    <div id="legend-content">
+      <div class="legend-item">
+        <span class="legend-item-name">Garages</span>
+        <div class="legend-item-polygon" id="garages-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Lots</span>
+        <div class="legend-item-polygon" id="lots-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Handicapped</span>
+        <div class="legend-item-icon" id="handicapped-icon"><img src="images/handicapped-parking.png"
+            alt="handicapped-parking-icon" height="20px" ; width="20px;"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Smart Meters</span>
+        <div class="legend-item-line" id="smart-meters-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Blue Meters</span>
+        <div class="legend-item-line" id="blue-top-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Brown Meters</span>
+        <div class="legend-item-line" id="brown-top-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Yellow Meters</span>
+        <div class="legend-item-line" id="yellow-top-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Residential Permit</span>
+        <div class="legend-item-line" id="residential-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Motorcycle</span>
+        <div class="legend-item-line" id="motorcycle-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Bus/Large Vehicle</span>
+        <div class="legend-item-line" id="bus-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">Loading Zone</span>
+        <div class="legend-item-line" id="loading-icon"></div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-item-name">EV Charge Stations</span>
+        <div class="legend-item-icon" id="EV-icon"><img src="images/electric_vehicle.png" alt="electric-vehicle-icon"
+            height="20px" width="20px;"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- The Modal -->
-  <div id="myModal" class="modal">
-    <!-- Modal content -->
+  <!-- Filter List Window -->
+  <div id="filterListModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
       <div class='menu'>
         <label class="switch" id='slideHc'>
-          <input type='checkbox' checked='true' id='toggleHandicap'>Handicapped<span class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleHandicap'>
+          Handicapped
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideMg'>
-          <input type='checkbox' checked='true' id='toggleMunicipalGarages'>Municipal Garages<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleMunicipalGarages'>
+          Municipal Garages
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slidePg'>
-          <input type='checkbox' checked='true' id='togglePrivateGarages'>Private Garages<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='togglePrivateGarages'>
+          Private Garages
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideSm'>
-          <input type='checkbox' checked='true' id='toggleSmartMeters'>Smart Meters<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleSmartMeters'>
+          Smart Meters
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideBl'>
-          <input type='checkbox' checked='true' id='toggleBlueTopMeters'>Blue Top Meters - 3 hours max<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleBlueTopMeters'>
+          Blue Top Meters - 3 hours max
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideBr'>
-          <input type='checkbox' checked='true' id='toggleBrownTopMeters'>Brown Top Meters - 9 hours max<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleBrownTopMeters'>
+          Brown Top Meters - 9 hours max
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideYl'>
-          <input type='checkbox' checked='true' id='toggleYellowTopMeters'>Yellow Top Meters - 30 min max<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleYellowTopMeters'>
+         Yellow Top Meters - 30 min max
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideEv'>
-          <input type='checkbox' checked='true' id='toggleEVCharge'>Electric Vehicle Charge Stations<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleEVCharge'>
+          Electric Vehicle Charge Stations
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideMc'>
-          <input type='checkbox' checked='true' id='toggleMotorcycle'>Motorcycle<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleMotorcycle'>
+          Motorcycle
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideBu'>
-          <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>Bus & Large Vehicle<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleBusLargeVehicle'>
+          Bus & Large Vehicle
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideRe'>
-          <input type='checkbox' checked='true' id='toggleResidential'>Residential<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleResidential'>
+          Residential
+          <span class="slider round"></span>
+          </input>
         </label>
         <label class="switch" id='slideLu'>
-          <input type='checkbox' checked='true' id='toggleLoadingUnloading'>Loading/Unloading<span
-            class="slider round"></span></input>
+          <input type='checkbox' checked='true' id='toggleLoadingUnloading'>
+          Loading/Unloading
+          <span class="slider round"></span>
+          </input>
         </label>
       </div>
     </div>
   </div>
 
 
-  <div id="map-and-controls-container">
-    <div id="map"></div>
-  </div>
-  <div id=ui-container>
-    <div id="filter-ui">
-      <label class="filter-ui-label">
-        <button id='toggle-key' class="filter-ui-button">Map Key</button>
-      </label>
-
-      <label class="filter-ui-label">
-        <button id="toggleShowAll" class="filter-ui-button">Show All</button>
-      </label>
-      <!-- Trigger/Open The Modal -->
-      <label class="filter-ui-label">
-        <div id="toggleFilters" class="filter-ui-button"><img id="filter-icon" src="images/filter_icon.png" alt="filter-icon" height="60%"></div>
-        
-      </label>
-    </div>
-  </div>
-
-  <div id="map-legend">
-    <div id="legend-header">
-      <span id="legend-header-text">Key</span>
-      <span id="legend-close" class="close">&times;</span>
-    </div> 
-    <div id="legend-content">
-      <div class="legend-item">
-        <span class="legend-item-name">Garages</span><div class="legend-item-polygon" id="garages-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Lots</span><div class="legend-item-polygon" id="lots-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Handicapped</span><div class="legend-item-icon" id="handicapped-icon"><img src="images/handicapped-parking.png" alt="handicapped-parking-icon" height= "20px"; width="20px;"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Smart Meters</span><div class="legend-item-line" id="smart-meters-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Blue Meters</span><div class="legend-item-line" id="blue-top-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Brown Meters</span><div class="legend-item-line" id="brown-top-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Yellow Meters</span><div class="legend-item-line" id="yellow-top-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Residential Permit</span><div class="legend-item-line" id="residential-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Motorcycle</span><div class="legend-item-line" id="motorcycle-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">Bus/Large Vehicle</span><div class="legend-item-line" id="bus-icon"></div></div>
-        <div class="legend-item">
-          <span class="legend-item-name">Loading Zone</span><div class="legend-item-line" id="loading-icon"></div></div>
-        <div class="legend-item">
-        <span class="legend-item-name">EV Charge Stations</span><div class="legend-item-icon" id="EV-icon"><img src="images/electric_vehicle.png" alt="electric-vehicle-icon" height= "20px" width="20px;"></div></div>
-      
-    </div>
-  </div>
-
+  <!-- Map Element Info Window Popup -->
   <div id="infowindow-content">
-    <!-- <img src="" width="16" height="16" id="place-icon"> -->
     <span id="place-name" class="title"></span><br>
     <div id=walk-span><span id="walk-label">Circle ≈ 3 min </span><span id="walk-emoji">🚶</span></div>
   </div>
+
+
   <!-- The Firebase scripts MUST be before the src for index.js -->
   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
 
   <script src='./index.js'></script>
-  <!-- // This example requires the Places library. Include the libraries=places
+  <!-- // This map requires the Places library. Include the libraries=places
   // parameter when you first load the API. For example: -->
   <script src='./api.js'>
 
