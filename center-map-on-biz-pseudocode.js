@@ -1,11 +1,8 @@
-// get string from current URL like this
-let params = new URLSearchParams(location.search);
-params.get('name') # => "n1"
-params.getAll('name') # => ["n1", "n2"]
-// or like this
+// get string from current URL 
 function getUrlName() {
   let params = window.location.hostname.split('.');
-  return params[1]
+  console.log(params[1])
+  return params[1].toString()
 }
 
 // pass host name to a text search request in order to re center map
@@ -35,6 +32,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 // center map based on user's current location
+/*
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(function (position) {
     var pos = {
@@ -61,3 +59,4 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     'Error: Your browser doesn\'t support geolocation.');
   infoWindow.open(map);
 }
+*/

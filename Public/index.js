@@ -76,7 +76,6 @@ async function initMap() {
     east: -69.151240,
   }
 
-
   // some controls disabled
   let map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
