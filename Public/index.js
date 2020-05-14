@@ -184,7 +184,7 @@ async function initMap() {
     let geometry = item.geometry
     let polyline = item.polyline
     let parkMarker = './images/arrowtransparent.png'
-    let image = './images/electric_vehicle.png'
+    let evIcon = './images/electric_vehicle.png'
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
@@ -194,7 +194,7 @@ async function initMap() {
     //Adds charging station icons
     let markerLayer = new google.maps.Marker({
       position: null,
-      icon: image,
+      icon: evIcon,
     });
     if (latitude !== undefined) {
       markerLayer.setPosition({ lat: latitude, lng: longitude })
