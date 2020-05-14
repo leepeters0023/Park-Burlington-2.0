@@ -185,6 +185,7 @@ async function initMap() {
     let polyline = item.polyline
     let parkMarker = './images/arrowtransparent.png'
     let evIcon = './images/electric_vehicle.png'
+    let motorcycleIcon = './motorcycling.png'
     let newPath = path.map((item) => {
       let coordPair = item.split(',')
       return { lat: Number(coordPair[1]), lng: Number(coordPair[0]) }
@@ -192,12 +193,21 @@ async function initMap() {
 
 
     //Adds charging station icons
-    let markerLayer = new google.maps.Marker({
+    let evStationLayer = new google.maps.Marker({
       position: null,
       icon: evIcon,
     });
     if (latitude !== undefined) {
-      markerLayer.setPosition({ lat: latitude, lng: longitude })
+      evStationLayer.setPosition({ lat: latitude, lng: longitude })
+    }
+
+    //Adds motorcycle icons
+    let motorcycleParkingLayer = new google.maps.Marker({
+      position: null,
+      icon: evIcon,
+    });
+    if (latitude !== undefined) {
+      motorcycleParkingLayer.setPosition({center})
     }
 
     //add any polyline meter rows
@@ -224,8 +234,9 @@ async function initMap() {
 
     //set all layers on the map
     polygonLayer.setMap(map);
-    markerLayer.setMap(map);
+    evStationLayer.setMap(map);
     polyLineLayer.setMap(map);
+    motorcycleParkingLayer.setMap(map);
 
     // create info-window for use when clicking parking asset
     let infowindow = new google.maps.InfoWindow({
@@ -309,7 +320,7 @@ async function initMap() {
     });
 
     // make charge stations 'clickable' and popup and populate infowindow
-    markerLayer.addListener('click', function (event) {
+    evStationLayer.addListener('click', function (event) {
       if (activeWindow != null) {
         activeWindow.close()
       }
@@ -500,9 +511,9 @@ async function initMap() {
     function toggleEVCharge() {  // note complexity is due to charge stations having multiple names plus most are geometry: Point while 2 are linestrings
       if (geometry === 'Point' || name === 'Charging Station North EV' || name === 'Charging Station') {
         if (toggleEVChargeLayer.checked === false) {
-          markerLayer.setMap()
+          evStationLayer.setMap()
         } else if (toggleEVChargeLayer.checked === true) {
-          markerLayer.setMap(map)
+          evStationLayer.setMap(map)
         }
       }
       if (name === 'Charging Station North EV' || name === 'Charging Station') {
@@ -522,6 +533,7 @@ async function initMap() {
         if (map.zoom <= 18) { priceIcon.setMap() }
       }
     }
+    
     function toggleBusLargeVehicle() {
       if (name === 'Bus Parking') {
         let theLayer = toggleBusLargeVehicleLayer

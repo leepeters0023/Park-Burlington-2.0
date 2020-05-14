@@ -683,9 +683,9 @@ input:checked+.slider:before {
   background-color: #ffaa00;
 }
 
-#motorcycle-icon {
+/* #motorcycle-icon {
   background-color: #828282;
-}
+} */
 
 #loading-icon {
   background-color: #ac2c1b;
