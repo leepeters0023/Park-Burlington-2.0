@@ -80,7 +80,7 @@ async function initMap() {
   // some controls disabled
   let map = new google.maps.Map(document.getElementById('map'), {
     center: burlingtonCenter,
-    zoom: 15.3,
+    zoom: 16,
     gestureHandling: "greedy",
     fullscreenControl: false,
     rotateControl: false,
@@ -417,20 +417,20 @@ async function initMap() {
       if (name === 'Handicapped' || name === 'Handicapped Parking') {
         let theLayer = toggleHandicapLayer
         toggleLayer(theLayer)
-        if (map.zoom > 16) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 16) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function toggleMunicipalGarages() {
       if (ownership === 'municipal') {
         let theLayer = toggleMunicipalGaragesLayer
         toggleLayer(theLayer)
-        if (map.zoom > 16) {
+        if (map.zoom > 17) {
           showSmallIcons(theLayer)
         }
-        if (map.zoom <= 16) { priceIcon.setMap() }
+        if (map.zoom <= 17) { priceIcon.setMap() }
       }
     }
     function togglePrivateGarages() {
@@ -620,6 +620,8 @@ async function initMap() {
     })
   })
   //  **************end of forEach Loop ***********************************************end of forEach Loop*****************
+
+console.log(map.zoom)
 
   //turn off residential and loading/unloading to start
   function startCondition() {
