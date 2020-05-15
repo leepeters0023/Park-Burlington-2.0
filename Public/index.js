@@ -670,7 +670,6 @@ async function initMap() {
     }
     if ((document.getElementById('toggleMunicipalGarages').checked) === false) {
       document.getElementById('toggleMunicipalGarages').click();
-      console.log('it is true')
     }
     if ((document.getElementById('togglePrivateGarages').checked) === false) {
       document.getElementById('togglePrivateGarages').click();
